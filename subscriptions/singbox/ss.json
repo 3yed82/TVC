@@ -1,0 +1,600 @@
+//profile-title: base64:VFZDIHwgc3MgfDNZRUQ=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://github.com/3yed-61
+
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "🇵🇱PL | ss | 3YED | 5",
+                "🇫🇷FR | ss | 3YED | 15",
+                "🇵🇱PL | ss | 3YED | 16",
+                "🇩🇪DE | ss | 3YED | 0",
+                "🇩🇪DE | ss | 3YED | 3",
+                "🇩🇪DE | ss | 3YED | 4",
+                "🇩🇪DE | ss | 3YED | 5",
+                "🇧🇭BH | ss | 3YED | 9",
+                "🇵🇱PL | ss | 3YED | 0",
+                "🇳🇱NL | ss | 3YED | 1",
+                "🇯🇵JP | ss | 3YED | 2",
+                "🇮🇳IN | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 4",
+                "🇫🇷FR | ss | 3YED | 5",
+                "🇫🇮FI | ss | 3YED | 6",
+                "🇩🇪DE | ss | 3YED | 7",
+                "🇨🇦CA | ss | 3YED | 8",
+                "🇦🇹AT | ss | 3YED | 9",
+                "🇺🇸US | ss | 3YED | 10",
+                "🇷🇺RU | ss | 3YED | 11",
+                "🇵🇱PL | ss | 3YED | 12",
+                "🇳🇱NL | ss | 3YED | 13",
+                "🇮🇳IN | ss | 3YED | 14",
+                "🇸🇬SG | ss | 3YED | 15",
+                "🇮🇱IL | ss | 3YED | 16",
+                "🇯🇵JP | ss | 3YED | 17",
+                "🇺🇸US | ss | 3YED | 18",
+                "🇮🇪IE | ss | 3YED | 19",
+                "🇩🇪DE | ss | 3YED | 0",
+                "🇧🇷BR | ss | 3YED | 4",
+                "🇫🇮FI | ss | 3YED | 11",
+                "🇦🇪AE | ss | 3YED | 0",
+                "🏳️XX | ss | 3YED | 3"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "🇵🇱PL | ss | 3YED | 5",
+                "🇫🇷FR | ss | 3YED | 15",
+                "🇵🇱PL | ss | 3YED | 16",
+                "🇩🇪DE | ss | 3YED | 0",
+                "🇩🇪DE | ss | 3YED | 3",
+                "🇩🇪DE | ss | 3YED | 4",
+                "🇩🇪DE | ss | 3YED | 5",
+                "🇧🇭BH | ss | 3YED | 9",
+                "🇵🇱PL | ss | 3YED | 0",
+                "🇳🇱NL | ss | 3YED | 1",
+                "🇯🇵JP | ss | 3YED | 2",
+                "🇮🇳IN | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 4",
+                "🇫🇷FR | ss | 3YED | 5",
+                "🇫🇮FI | ss | 3YED | 6",
+                "🇩🇪DE | ss | 3YED | 7",
+                "🇨🇦CA | ss | 3YED | 8",
+                "🇦🇹AT | ss | 3YED | 9",
+                "🇺🇸US | ss | 3YED | 10",
+                "🇷🇺RU | ss | 3YED | 11",
+                "🇵🇱PL | ss | 3YED | 12",
+                "🇳🇱NL | ss | 3YED | 13",
+                "🇮🇳IN | ss | 3YED | 14",
+                "🇸🇬SG | ss | 3YED | 15",
+                "🇮🇱IL | ss | 3YED | 16",
+                "🇯🇵JP | ss | 3YED | 17",
+                "🇺🇸US | ss | 3YED | 18",
+                "🇮🇪IE | ss | 3YED | 19",
+                "🇩🇪DE | ss | 3YED | 0",
+                "🇧🇷BR | ss | 3YED | 4",
+                "🇫🇮FI | ss | 3YED | 11",
+                "🇦🇪AE | ss | 3YED | 0",
+                "🏳️XX | ss | 3YED | 3"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "🇵🇱PL | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 8090,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | 3YED | 15",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇱PL | ss | 3YED | 16",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 9102,
+            "method": "aes-256-gcm",
+            "password": "e4FCWrgpkji3QY",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "3.70.18.26",
+            "server_port": 2087,
+            "method": "chacha20-ietf-poly1305",
+            "password": "LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 3",
+            "type": "shadowsocks",
+            "server": "18.185.59.146",
+            "server_port": 2087,
+            "method": "chacha20-ietf-poly1305",
+            "password": "\/Ty5rY3O4szP4YT7kDDRa9zck7j\/dpgQ1aepGq+dViQ=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 4",
+            "type": "shadowsocks",
+            "server": "3.68.104.129",
+            "server_port": 2082,
+            "method": "chacha20-ietf-poly1305",
+            "password": "gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "3.127.145.66",
+            "server_port": 2087,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZBMv8ME+6NyoFNl1\/aieDcpKb4sTaWpLaopaJ3IlKn4=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | 3YED | 9",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇱PL | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 5000,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | 3YED | 1",
+            "type": "shadowsocks",
+            "server": "89.19.216.18",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇯🇵JP | ss | 3YED | 2",
+            "type": "shadowsocks",
+            "server": "185.172.113.182",
+            "server_port": 801,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇳IN | ss | 3YED | 3",
+            "type": "shadowsocks",
+            "server": "103.125.147.226",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lpelmZXgfhGGMu5iXyfZ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | 3YED | 4",
+            "type": "shadowsocks",
+            "server": "51.68.206.229",
+            "server_port": 8118,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8091,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇮FI | ss | 3YED | 6",
+            "type": "shadowsocks",
+            "server": "95.164.113.64",
+            "server_port": 7150,
+            "method": "chacha20-ietf-poly1305",
+            "password": "btzmpL7aOs7YbcLS4In6YX",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 7",
+            "type": "shadowsocks",
+            "server": "217.182.198.219",
+            "server_port": 2375,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | 3YED | 8",
+            "type": "shadowsocks",
+            "server": "134.195.196.178",
+            "server_port": 807,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇹AT | ss | 3YED | 9",
+            "type": "shadowsocks",
+            "server": "95.164.9.144",
+            "server_port": 2927,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ug4Fu79SEREdFGlt2sUyT4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | 3YED | 10",
+            "type": "shadowsocks",
+            "server": "38.68.134.9",
+            "server_port": 7001,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | 3YED | 11",
+            "type": "shadowsocks",
+            "server": "62.113.115.180",
+            "server_port": 21309,
+            "method": "aes-256-gcm",
+            "password": "mpKoYQtkF4Xz3TrZ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇱PL | ss | 3YED | 12",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 9101,
+            "method": "aes-256-gcm",
+            "password": "e4FCWrgpkji3QY",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | 3YED | 13",
+            "type": "shadowsocks",
+            "server": "51.158.146.180",
+            "server_port": 8881,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇳IN | ss | 3YED | 14",
+            "type": "shadowsocks",
+            "server": "64.227.166.149",
+            "server_port": 14039,
+            "method": "aes-256-gcm",
+            "password": "FLNST4fohNDqJ4Ec",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇬SG | ss | 3YED | 15",
+            "type": "shadowsocks",
+            "server": "91.192.81.21",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇱IL | ss | 3YED | 16",
+            "type": "shadowsocks",
+            "server": "195.20.17.224",
+            "server_port": 34282,
+            "method": "aes-256-gcm",
+            "password": "fVdovvKBlC06pO7s",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇯🇵JP | ss | 3YED | 17",
+            "type": "shadowsocks",
+            "server": "185.172.113.182",
+            "server_port": 800,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | 3YED | 18",
+            "type": "shadowsocks",
+            "server": "38.75.136.135",
+            "server_port": 7001,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇪IE | ss | 3YED | 19",
+            "type": "shadowsocks",
+            "server": "52.178.209.160",
+            "server_port": 2606,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zh7ETDQRvHCsIIPIrSHwHa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "159.100.6.163",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5FIoTHfZhN4p7qv2Zc7eKK",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇷BR | ss | 3YED | 4",
+            "type": "shadowsocks",
+            "server": "fell.dogsvpn.top",
+            "server_port": 7702,
+            "method": "aes-256-gcm",
+            "password": "8339446a-30e7-43a0-a25d-dfe59d47fa9f",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇮FI | ss | 3YED | 11",
+            "type": "shadowsocks",
+            "server": "139.28.220.18",
+            "server_port": 5700,
+            "method": "chacha20-ietf-poly1305",
+            "password": "UXoGWyjwDVZIl1WMuHtxSi",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏳️XX | ss | 3YED | 3",
+            "type": "shadowsocks",
+            "server": "[2a12:5940:5237::2]",
+            "server_port": 7261,
+            "method": "chacha20-ietf-poly1305",
+            "password": "pZvwP17Nlz2z6jsYnVgZgf",
+            "plugin": "",
+            "plugin_opts": ""
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ads"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
+    }
+}
