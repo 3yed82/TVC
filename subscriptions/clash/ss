@@ -1,0 +1,285 @@
+mixed-port: 7890
+allow-lan: true
+tcp-concurrent: true
+enable-process: true
+find-process-mode: always
+mode: rule
+log-level: error
+ipv6: true
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  tracing: true
+hosts:
+  "localhost": 127.0.0.1
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  sniff:
+    http: { ports: [1-442, 444-8442, 8444-65535], override-destination: true }
+    tls: { ports: [1-79, 81-8079, 8081-65535], override-destination: true }
+  force-domain:
+      - "+.v2ex.com"
+      - www.google.com
+      - google.com
+  skip-domain:
+      - Mijia Cloud
+      - dlg.io.mi.com
+  sniffing:
+    - tls
+    - http
+  port-whitelist:
+    - "80"
+    - "443"
+
+tun:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  stack: gvisor
+  dns-hijack:
+     - "any:53"
+     - "tcp://any:53"
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - '1.1.1.1'
+    - '8.8.8.8'
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - '*.lan'
+    - '+.msftncsi.com'
+    - msftconnecttest.com
+    - 'time?.*.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.apple.com'
+    - time-ios.apple.com
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp?.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '+.pool.ntp.org'
+    - '+.ipv6.microsoft.com'
+    - speedtest.cros.wr.pvp.net
+    - network-test.debian.org
+    - detectportal.firefox.com
+    - cable.auth.com
+    - miwifi.com
+    - routerlogin.com
+    - routerlogin.net
+    - tendawifi.com
+    - tendawifi.net
+    - tplinklogin.net
+    - tplinkwifi.net
+    - '*.xiami.com'
+    - tplinkrepeater.net
+    - router.asus.com
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - '*.openwrt.pool.ntp.org'
+    - resolver1.opendns.com
+    - 'GC._msDCS.*.*'
+    - 'DC._msDCS.*.*'
+    - 'PDC._msDCS.*.*'
+  use-hosts: true
+  nameserver:
+    - '8.8.4.4'
+    - '1.0.0.1'
+    - "https://1.0.0.1/dns-query"
+    - "https://8.8.4.4/dns-query"
+
+proxies:
+  - {"name":"🇵🇱PL | ss | 3YED | 5","type":"ss","server":"54.36.174.181","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | 3YED | 15","type":"ss","server":"149.202.82.172","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL | ss | 3YED | 16","type":"ss","server":"54.36.174.181","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪DE | ss | 3YED | 0","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 3","type":"ss","server":"18.185.59.146","port":2087,"password":"/Ty5rY3O4szP4YT7kDDRa9zck7j/dpgQ1aepGq+dViQ=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 4","type":"ss","server":"3.68.104.129","port":2082,"password":"gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 5","type":"ss","server":"3.127.145.66","port":2087,"password":"ZBMv8ME+6NyoFNl1/aieDcpKb4sTaWpLaopaJ3IlKn4=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭BH | ss | 3YED | 9","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | ss | 3YED | 0","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | ss | 3YED | 1","type":"ss","server":"89.19.216.18","port":8388,"password":"NC7jORVNrruV/+3+PwOJrnnOeG7n75X1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP | ss | 3YED | 2","type":"ss","server":"185.172.113.182","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳IN | ss | 3YED | 3","type":"ss","server":"103.125.147.226","port":51348,"password":"lpelmZXgfhGGMu5iXyfZ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | 3YED | 4","type":"ss","server":"51.68.206.229","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | 3YED | 5","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇮FI | ss | 3YED | 6","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 7","type":"ss","server":"217.182.198.219","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA | ss | 3YED | 8","type":"ss","server":"134.195.196.178","port":807,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | ss | 3YED | 9","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | 3YED | 10","type":"ss","server":"38.68.134.9","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺RU | ss | 3YED | 11","type":"ss","server":"62.113.115.180","port":21309,"password":"mpKoYQtkF4Xz3TrZ","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL | ss | 3YED | 12","type":"ss","server":"51.77.53.200","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | ss | 3YED | 13","type":"ss","server":"51.158.146.180","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇳IN | ss | 3YED | 14","type":"ss","server":"64.227.166.149","port":14039,"password":"FLNST4fohNDqJ4Ec","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬SG | ss | 3YED | 15","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇱IL | ss | 3YED | 16","type":"ss","server":"195.20.17.224","port":34282,"password":"fVdovvKBlC06pO7s","cipher":"aes-256-gcm"}
+  - {"name":"🇯🇵JP | ss | 3YED | 17","type":"ss","server":"185.172.113.182","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | 3YED | 18","type":"ss","server":"38.75.136.135","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇪IE | ss | 3YED | 19","type":"ss","server":"52.178.209.160","port":2606,"password":"zh7ETDQRvHCsIIPIrSHwHa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 0","type":"ss","server":"159.100.6.163","port":443,"password":"5FIoTHfZhN4p7qv2Zc7eKK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇷BR | ss | 3YED | 4","type":"ss","server":"fell.dogsvpn.top","port":7702,"password":"8339446a-30e7-43a0-a25d-dfe59d47fa9f","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇮FI | ss | 3YED | 11","type":"ss","server":"139.28.220.18","port":5700,"password":"UXoGWyjwDVZIl1WMuHtxSi","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | 3YED | 0","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | 3YED | 3","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
+proxy-groups:
+  - name: MANUAL
+    type: select
+    proxies:
+      - URL-TEST
+      - FALLBACK
+      - '🇵🇱PL | ss | 3YED | 5'
+      - '🇫🇷FR | ss | 3YED | 15'
+      - '🇵🇱PL | ss | 3YED | 16'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇩🇪DE | ss | 3YED | 3'
+      - '🇩🇪DE | ss | 3YED | 4'
+      - '🇩🇪DE | ss | 3YED | 5'
+      - '🇧🇭BH | ss | 3YED | 9'
+      - '🇵🇱PL | ss | 3YED | 0'
+      - '🇳🇱NL | ss | 3YED | 1'
+      - '🇯🇵JP | ss | 3YED | 2'
+      - '🇮🇳IN | ss | 3YED | 3'
+      - '🇬🇧GB | ss | 3YED | 4'
+      - '🇫🇷FR | ss | 3YED | 5'
+      - '🇫🇮FI | ss | 3YED | 6'
+      - '🇩🇪DE | ss | 3YED | 7'
+      - '🇨🇦CA | ss | 3YED | 8'
+      - '🇦🇹AT | ss | 3YED | 9'
+      - '🇺🇸US | ss | 3YED | 10'
+      - '🇷🇺RU | ss | 3YED | 11'
+      - '🇵🇱PL | ss | 3YED | 12'
+      - '🇳🇱NL | ss | 3YED | 13'
+      - '🇮🇳IN | ss | 3YED | 14'
+      - '🇸🇬SG | ss | 3YED | 15'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇯🇵JP | ss | 3YED | 17'
+      - '🇺🇸US | ss | 3YED | 18'
+      - '🇮🇪IE | ss | 3YED | 19'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇧🇷BR | ss | 3YED | 4'
+      - '🇫🇮FI | ss | 3YED | 11'
+      - '🇦🇪AE | ss | 3YED | 0'
+      - '🏳️XX | ss | 3YED | 3'
+  - name: URL-TEST
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    tolerance: 50
+    proxies:
+      - '🇵🇱PL | ss | 3YED | 5'
+      - '🇫🇷FR | ss | 3YED | 15'
+      - '🇵🇱PL | ss | 3YED | 16'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇩🇪DE | ss | 3YED | 3'
+      - '🇩🇪DE | ss | 3YED | 4'
+      - '🇩🇪DE | ss | 3YED | 5'
+      - '🇧🇭BH | ss | 3YED | 9'
+      - '🇵🇱PL | ss | 3YED | 0'
+      - '🇳🇱NL | ss | 3YED | 1'
+      - '🇯🇵JP | ss | 3YED | 2'
+      - '🇮🇳IN | ss | 3YED | 3'
+      - '🇬🇧GB | ss | 3YED | 4'
+      - '🇫🇷FR | ss | 3YED | 5'
+      - '🇫🇮FI | ss | 3YED | 6'
+      - '🇩🇪DE | ss | 3YED | 7'
+      - '🇨🇦CA | ss | 3YED | 8'
+      - '🇦🇹AT | ss | 3YED | 9'
+      - '🇺🇸US | ss | 3YED | 10'
+      - '🇷🇺RU | ss | 3YED | 11'
+      - '🇵🇱PL | ss | 3YED | 12'
+      - '🇳🇱NL | ss | 3YED | 13'
+      - '🇮🇳IN | ss | 3YED | 14'
+      - '🇸🇬SG | ss | 3YED | 15'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇯🇵JP | ss | 3YED | 17'
+      - '🇺🇸US | ss | 3YED | 18'
+      - '🇮🇪IE | ss | 3YED | 19'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇧🇷BR | ss | 3YED | 4'
+      - '🇫🇮FI | ss | 3YED | 11'
+      - '🇦🇪AE | ss | 3YED | 0'
+      - '🏳️XX | ss | 3YED | 3'
+  - name: FALLBACK
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    proxies:
+      - '🇵🇱PL | ss | 3YED | 5'
+      - '🇫🇷FR | ss | 3YED | 15'
+      - '🇵🇱PL | ss | 3YED | 16'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇩🇪DE | ss | 3YED | 3'
+      - '🇩🇪DE | ss | 3YED | 4'
+      - '🇩🇪DE | ss | 3YED | 5'
+      - '🇧🇭BH | ss | 3YED | 9'
+      - '🇵🇱PL | ss | 3YED | 0'
+      - '🇳🇱NL | ss | 3YED | 1'
+      - '🇯🇵JP | ss | 3YED | 2'
+      - '🇮🇳IN | ss | 3YED | 3'
+      - '🇬🇧GB | ss | 3YED | 4'
+      - '🇫🇷FR | ss | 3YED | 5'
+      - '🇫🇮FI | ss | 3YED | 6'
+      - '🇩🇪DE | ss | 3YED | 7'
+      - '🇨🇦CA | ss | 3YED | 8'
+      - '🇦🇹AT | ss | 3YED | 9'
+      - '🇺🇸US | ss | 3YED | 10'
+      - '🇷🇺RU | ss | 3YED | 11'
+      - '🇵🇱PL | ss | 3YED | 12'
+      - '🇳🇱NL | ss | 3YED | 13'
+      - '🇮🇳IN | ss | 3YED | 14'
+      - '🇸🇬SG | ss | 3YED | 15'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇯🇵JP | ss | 3YED | 17'
+      - '🇺🇸US | ss | 3YED | 18'
+      - '🇮🇪IE | ss | 3YED | 19'
+      - '🇩🇪DE | ss | 3YED | 0'
+      - '🇧🇷BR | ss | 3YED | 4'
+      - '🇫🇮FI | ss | 3YED | 11'
+      - '🇦🇪AE | ss | 3YED | 0'
+      - '🏳️XX | ss | 3YED | 3'
+rules:
+  - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
+  - IP-CIDR,28.0.0.1/8,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
+  - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN,yacd.metacubex.one,DIRECT
+  - DOMAIN,clash.metacubex.one,DIRECT
+  - MATCH,MANUAL
