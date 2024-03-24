@@ -1,0 +1,546 @@
+//profile-title: base64:VFZDIHwgVk1FU1M=
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+https://github.com/3yed-61
+
+
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "tcp:\/\/185.228.168.9",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @customv2ray | 14",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 41",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @vless_vmess | 9",
+                "🇨🇳CN | vmess | @yaney_01 | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇵🇱PL | vmess | @v2Line | 10"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @customv2ray | 14",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 41",
+                "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @vless_vmess | 9",
+                "🇨🇳CN | vmess | @yaney_01 | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇵🇱PL | vmess | @v2Line | 10"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
+            "type": "vmess",
+            "server": "inna.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "inna.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+            "type": "vmess",
+            "server": "146.59.147.250",
+            "server_port": 29776,
+            "uuid": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "type": "vmess",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "9a557d02-12ff-4da8-8669-1824cfdefe1f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/VDXcaM7r",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | vmess | @oneclickvpnkeys | 11",
+            "type": "vmess",
+            "server": "146.59.17.58",
+            "server_port": 12960,
+            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @customv2ray | 14",
+            "type": "vmess",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 41",
+            "type": "vmess",
+            "server": "104.21.90.218",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "31.14.118.164",
+            "server_port": 20883,
+            "uuid": "3120381d-eb39-4a5c-b4bc-4e220757d2b8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 9",
+            "type": "vmess",
+            "server": "hms04.xmivideo.cfd",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @yaney_01 | 1",
+            "type": "vmess",
+            "server": "221.131.165.179",
+            "server_port": 18048,
+            "uuid": "01b094d8-68f4-317c-99b9-ccd867603120",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/soda",
+                "headers": {
+                    "Host": "221.131.165.179"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "104.21.12.173",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | vmess | @v2Line | 10",
+            "type": "vmess",
+            "server": "pl2-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "18c6b542-e6f8-4476-872a-d3955f45d9f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ads"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
+    }
+}

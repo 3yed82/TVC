@@ -1,0 +1,22 @@
+#!MANAGED-CONFIG  interval=60 strict=false
+
+[General]
+loglevel = notify
+interface = 127.0.0.1
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+exclude-simple-hostnames = true
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.49.205.90, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 18.171.3.252, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+[Proxy Group]
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,MANUAL
