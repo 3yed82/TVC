@@ -17,7 +17,7 @@
 
 To use this project, simply import the subscription links into your preferred client. Ensure that your client supports at least SHADOWSOCKS, VLESS, VMESS, TROJAN, TUIC and HYSTERIA2.
 
-You can access the project's subscription links through our Telegram bot: [TVC BOT](https://t.me/V2rayCollectorBot) or use Tables bellow.
+ use Tables bellow.
 
 | Core | Mix |
 | --- | --- | 
@@ -41,11 +41,9 @@ You can access the project's subscription links through our Telegram bot: [TVC B
 
 This project currently utilizes Channels as the source of v2ray nodes.
 
-You can access the Channels list through our Telegram bot: [TVC BOT](https://t.me/V2rayCollectorBot).
 
-## Contribution
 
-If you have a Channel and you want to add it to this project or you know Channels that can be used in this project, you can ask for addition in the Issues section or in our [Telegram group](https://t.me/V2rayCollectorGroup).
+
 
 ## License
 
