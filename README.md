@@ -43,8 +43,6 @@ This project currently utilizes Channels as the source of v2ray nodes.
 
 
 
-
-
 ## License
 
 This project is licensed under the AGPL-3.0 license - see the LICENSE file for details.
