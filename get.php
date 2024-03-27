@@ -148,3 +148,4 @@ foreach ($locationBased as $location => $configs) {
 file_put_contents("config.txt", implode("\n", $finalOutput));
 
 echo "\nGetting Configs Done!\n";
+
