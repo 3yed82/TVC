@@ -108,12 +108,13 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 46",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 2"
             ]
         },
         {
@@ -122,12 +123,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 46",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10"
+                "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @FAKEOFTVC | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,11 +186,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "154.62.185.162",
-            "server_port": 35816,
-            "uuid": "6cebbdaa-74ce-43ce-dfe2-1cecba9cecb4",
+            "server": "503.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +200,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
+                }
             }
         },
         {
@@ -327,6 +346,40 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kittiy.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @FAKEOFTVC | 2",
+            "type": "vmess",
+            "server": "googlecloud.onflashdrive.app",
+            "server_port": 443,
+            "uuid": "956b4ae0-59da-44b0-adf8-3f6f3bed3471",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "server1.googlecloud.onflashdrive.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "server1.googlecloud.onflashdrive.app"
                 }
             }
         }
