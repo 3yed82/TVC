@@ -118,8 +118,9 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇪AE | ss | 3YED | 17","type":"ss","server":"51.112.30.145","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪AE | ss | 3YED | 2","type":"ss","server":"account.emofid.co","port":443,"password":"e6QAeE5R24iFZKLG","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | 3YED | 12","type":"ss","server":"217.182.198.219","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇱IL | ss | 3YED | 16","type":"ss","server":"195.20.17.224","port":34282,"password":"fVdovvKBlC06pO7s","cipher":"aes-256-gcm"}
+  - {"name":"🇦🇪AE | ss | 3YED | 3","type":"ss","server":"account.emofid.co","port":443,"password":"e6QAeE5R24iFZKLG","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | 3YED | 0","type":"ss","server":"3.71.96.0","port":2087,"password":"kWgUvxfU4aBraNmLTY8Btg0JPuU9YDgC6avvnf6XQOs=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | 3YED | 1","type":"ss","server":"18.159.252.71","port":2087,"password":"VeU08K3XooFPKyaszR2k+vL8clIlwuctf5SaDabfvIo=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | 3YED | 3","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
@@ -140,6 +141,8 @@ proxies:
   - {"name":"🇬🇧GB | ss | 3YED | 11","type":"ss","server":"51.68.206.229","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR | ss | 3YED | 12","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇫🇮FI | ss | 3YED | 13","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR | ss | 3YED | 2","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"P5STy6cQ6O3TDU0bdv02jI","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | 3YED | 11","type":"ss","server":"account-mec.emofid.co","port":443,"password":"goBk19aChEH2xXqI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | 3YED | 0","type":"ss","server":"185.77.217.121","port":443,"password":"X7eoEBrARWsBUiVfchVEdH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | 3YED | 4","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -148,8 +151,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇪AE | ss | 3YED | 17'
-      - '🇦🇪AE | ss | 3YED | 2'
+      - '🇩🇪DE | ss | 3YED | 12'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇦🇪AE | ss | 3YED | 3'
       - '🇩🇪DE | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇩🇪DE | ss | 3YED | 3'
@@ -170,6 +174,8 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇷FR | ss | 3YED | 12'
       - '🇫🇮FI | ss | 3YED | 13'
+      - '🇫🇷FR | ss | 3YED | 2'
+      - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇮FI | ss | 3YED | 0'
       - '🏳️XX | ss | 3YED | 4'
   - name: URL-TEST
@@ -178,8 +184,9 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇪AE | ss | 3YED | 17'
-      - '🇦🇪AE | ss | 3YED | 2'
+      - '🇩🇪DE | ss | 3YED | 12'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇦🇪AE | ss | 3YED | 3'
       - '🇩🇪DE | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇩🇪DE | ss | 3YED | 3'
@@ -200,6 +207,8 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇷FR | ss | 3YED | 12'
       - '🇫🇮FI | ss | 3YED | 13'
+      - '🇫🇷FR | ss | 3YED | 2'
+      - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇮FI | ss | 3YED | 0'
       - '🏳️XX | ss | 3YED | 4'
   - name: FALLBACK
@@ -207,8 +216,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇪AE | ss | 3YED | 17'
-      - '🇦🇪AE | ss | 3YED | 2'
+      - '🇩🇪DE | ss | 3YED | 12'
+      - '🇮🇱IL | ss | 3YED | 16'
+      - '🇦🇪AE | ss | 3YED | 3'
       - '🇩🇪DE | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇩🇪DE | ss | 3YED | 3'
@@ -229,6 +239,8 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇷FR | ss | 3YED | 12'
       - '🇫🇮FI | ss | 3YED | 13'
+      - '🇫🇷FR | ss | 3YED | 2'
+      - '🇬🇧GB | ss | 3YED | 11'
       - '🇫🇮FI | ss | 3YED | 0'
       - '🏳️XX | ss | 3YED | 4'
 rules:
