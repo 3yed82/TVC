@@ -106,22 +106,24 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @GozargahVPN | 11",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇺🇸US | vless | @TVCminer | 21"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+                "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🏳️XX | vless | @GozargahVPN | 11",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇺🇸US | vless | @TVCminer | 21"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -144,7 +146,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
+            "tag": "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
             "type": "vless",
             "server": "shiatv.net",
             "server_port": 2096,
@@ -291,6 +293,30 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @TVCminer | 21",
+            "type": "vless",
+            "server": "45.66.249.114",
+            "server_port": 443,
+            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lsa.jarviskit.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
