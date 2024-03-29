@@ -105,8 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | 3YED | 7",
-                "🇺🇸US | ss | 3YED | 8",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 4",
                 "🇩🇪DE | ss | 3YED | 5",
@@ -132,7 +130,10 @@
                 "🇫🇮FI | ss | 3YED | 16",
                 "🇩🇪DE | ss | 3YED | 17",
                 "🇨🇦CA | ss | 3YED | 18",
-                "🇷🇺RU | ss | 3YED | 14",
+                "🇩🇪DE | ss | 3YED | 2",
+                "🇳🇱NL | ss | 3YED | 3",
+                "🇰🇿KZ | ss | 3YED | 12",
+                "🇧🇭BH | ss | 3YED | 13",
                 "🏳️XX | ss | 3YED | 4"
             ]
         },
@@ -140,8 +141,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | 3YED | 7",
-                "🇺🇸US | ss | 3YED | 8",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 4",
                 "🇩🇪DE | ss | 3YED | 5",
@@ -167,7 +166,10 @@
                 "🇫🇮FI | ss | 3YED | 16",
                 "🇩🇪DE | ss | 3YED | 17",
                 "🇨🇦CA | ss | 3YED | 18",
-                "🇷🇺RU | ss | 3YED | 14",
+                "🇩🇪DE | ss | 3YED | 2",
+                "🇳🇱NL | ss | 3YED | 3",
+                "🇰🇿KZ | ss | 3YED | 12",
+                "🇧🇭BH | ss | 3YED | 13",
                 "🏳️XX | ss | 3YED | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -189,26 +191,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | ss | 3YED | 7",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 9102,
-            "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | ss | 3YED | 8",
-            "type": "shadowsocks",
-            "server": "205.134.180.145",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "hgLCgfLRgB6d",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | ss | 3YED | 0",
@@ -461,12 +443,42 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | ss | 3YED | 14",
+            "tag": "🇩🇪DE | ss | 3YED | 2",
             "type": "shadowsocks",
-            "server": "moscow.telegavpn.com",
-            "server_port": 60422,
+            "server": "18.156.119.199",
+            "server_port": 2087,
             "method": "chacha20-ietf-poly1305",
-            "password": "xVAGhRjWU5nkqbOAHeI5As",
+            "password": "XrESZI3++9Bcq9SyzJIxNcTh4\/2tRVjf4sGSPDYLaXk=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | 3YED | 3",
+            "type": "shadowsocks",
+            "server": "88.210.6.98",
+            "server_port": 60869,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lPT3Mi25IXYP3iWzPJaryQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇰🇿KZ | ss | 3YED | 12",
+            "type": "shadowsocks",
+            "server": "kz.telegavpn.com",
+            "server_port": 35152,
+            "method": "chacha20-ietf-poly1305",
+            "password": "jNqiJV5yJCkd4FrfpwZWR2",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | 3YED | 13",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
             "plugin": "",
             "plugin_opts": ""
         },
