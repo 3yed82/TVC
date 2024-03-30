@@ -115,11 +115,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
                 "🇺🇸US | vmess | @ShadowProxy66 | 74",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -138,11 +139,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
                 "🇺🇸US | vmess | @ShadowProxy66 | 74",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -232,7 +234,7 @@ https://github.com/3yed-61
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.36.16.45",
+            "server": "35.181.254.177",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -376,38 +378,14 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
+            "tag": "🇩🇪DE | ss | @VmessProtocol | 15",
+            "type": "shadowsocks",
+            "server": "3.127.145.66",
+            "server_port": 2087,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ZBMv8ME+6NyoFNl1\/aieDcpKb4sTaWpLaopaJ3IlKn4=",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
@@ -499,6 +477,23 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "janett.click"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "max-ip.hiroman5445.ir",
+            "server_port": 3586,
+            "uuid": "f61875ea-a167-4c9f-9d2e-2ae3d104c267",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
