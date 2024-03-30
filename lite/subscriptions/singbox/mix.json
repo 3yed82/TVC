@@ -120,10 +120,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇦🇪AE | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @TVCminer | 21"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ]
         },
         {
@@ -144,10 +144,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇦🇪AE | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @TVCminer | 21"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -504,14 +504,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "104.21.75.244",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "janett.click"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @GozargahVPN | 11",
@@ -572,12 +596,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 21",
+            "tag": "🇨🇦CA | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "45.66.249.114",
+            "server": "104.21.51.208",
             "server_port": 443,
-            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
-            "flow": "xtls-rprx-vision",
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -586,12 +610,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lsa.jarviskit.com",
+                "server_name": "watashi.free.de.mnhacker.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net-Telegram:@V2rayi_net\/",
+                "headers": {
+                    "Host": "watashi.free.de.mnhacker.eu.org"
                 }
             }
         }
