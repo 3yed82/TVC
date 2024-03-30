@@ -108,19 +108,19 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @ShadowProxy66 | 74",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -132,19 +132,19 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @ShadowProxy66 | 74",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🏳️XX | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -232,9 +232,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "35.181.254.177",
+            "server": "18.170.172.72",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -361,11 +361,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 74",
+            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 67",
             "type": "vmess",
-            "server": "140.82.4.81",
-            "server_port": 45970,
-            "uuid": "eb6340dd-9c48-427f-ebda-b548c4b7942b",
+            "server": "213.32.63.176",
+            "server_port": 3586,
+            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -480,11 +480,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "max-ip.hiroman5445.ir",
-            "server_port": 3586,
-            "uuid": "f61875ea-a167-4c9f-9d2e-2ae3d104c267",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -494,6 +494,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
