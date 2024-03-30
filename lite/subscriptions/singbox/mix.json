@@ -108,11 +108,11 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
@@ -130,11 +130,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇵🇱PL | ss | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
@@ -228,9 +228,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.196.43.1",
+            "server": "15.236.11.168",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -306,14 +306,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 5500,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "v2ray.ibgfw.top",
+            "server_port": 2053,
+            "uuid": "5a5aadc2-8834-4e7b-895b-74ad155fbf24",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray.ibgfw.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vVNUJOgb\/",
+                "headers": {
+                    "Host": "v2ray.ibgfw.top"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
