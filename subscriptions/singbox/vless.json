@@ -118,13 +118,14 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 20",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 27",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 20",
-                "🇳🇴NO | vless | 3YED | 133",
+                "🇳🇴NO | vless | 3YED | 144",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -140,8 +141,8 @@
                 "🇺🇸US | vless | 3YED | 2",
                 "🇨🇷CR | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 10"
             ]
@@ -163,13 +164,14 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 20",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 27",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 20",
-                "🇳🇴NO | vless | 3YED | 133",
+                "🇳🇴NO | vless | 3YED | 144",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -185,8 +187,8 @@
                 "🇺🇸US | vless | 3YED | 2",
                 "🇨🇷CR | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 10"
             ],
@@ -604,6 +606,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "shiatv.net",
+            "server_port": 2096,
+            "uuid": "a755aec8-94a1-4cf4-a125-642086f2d016",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "channel.v2bamdad.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | 3YED | 20",
             "type": "vless",
             "server": "shiatv.net",
@@ -783,7 +816,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | 3YED | 133",
+            "tag": "🇳🇴NO | vless | 3YED | 144",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -1258,7 +1291,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 6",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "104.21.51.208",
             "server_port": 443,
@@ -1289,7 +1322,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇨🇦CA | vless | 3YED | 7",
             "type": "vless",
             "server": "104.21.46.106",
             "server_port": 443,
