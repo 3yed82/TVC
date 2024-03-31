@@ -106,12 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
@@ -130,12 +129,11 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
@@ -170,9 +168,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.130.53.144",
+            "server": "52.209.252.83",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -192,9 +190,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "46.137.40.192",
+            "server": "99.79.91.58",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -248,41 +246,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "obdii.cfd",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
             "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
