@@ -108,12 +108,13 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
             ]
         },
         {
@@ -122,12 +123,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,11 +186,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "meroiy.icu",
+            "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "36cc4baf-8abf-4b98-91bb-79a5cd12ad29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -201,7 +203,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "ftp-localcdn.kiava-cloud.us.to",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -211,9 +213,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/linkiava",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "ftp-localcdn.kiava-cloud.us.to"
                 }
             }
         },
@@ -223,23 +225,6 @@ https://github.com/3yed-61
             "server": "146.59.17.58",
             "server_port": 12960,
             "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 67",
-            "type": "vmess",
-            "server": "213.32.63.176",
-            "server_port": 3586,
-            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -328,6 +313,64 @@ https://github.com/3yed-61
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 13",
+            "type": "vmess",
+            "server": "104.16.216.241",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 0",
+            "type": "vmess",
+            "server": "104.21.229.45",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳 @WangCai08",
                 "headers": {
                     "Host": ""
                 }
