@@ -106,12 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
-                "🇵🇱PL | vmess | @prrofile_purple | 169",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
+                "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
@@ -119,22 +121,23 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
-                "🇦🇪AE | ss | @proxy_mtm | 2",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @TVCminer | 13"
+                "🇺🇸US | vless | @TVCminer | 10"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
-                "🇵🇱PL | vmess | @prrofile_purple | 169",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
+                "🇵🇱PL | vmess | @prrofile_purple | 178",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 15",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
@@ -142,10 +145,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
-                "🇦🇪AE | ss | @proxy_mtm | 2",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vless | @TVCminer | 13"
+                "🇺🇸US | vless | @TVCminer | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -168,9 +170,40 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
+            "type": "vless",
+            "server": "shiatv.net",
+            "server_port": 2096,
+            "uuid": "4290cc7d-a20d-4cd4-8c7b-8f7f488d9b77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "channel.v2bamdad.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "52.209.252.83",
+            "server": "63.34.84.223",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,9 +223,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "99.79.91.58",
+            "server": "3.21.30.152",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -246,7 +279,41 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 13",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "nina.bond",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
             "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
@@ -280,7 +347,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @prrofile_purple | 169",
+            "tag": "🇵🇱PL | vmess | @prrofile_purple | 178",
             "type": "vmess",
             "server": "146.59.17.58",
             "server_port": 12960,
@@ -447,16 +514,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @proxy_mtm | 2",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 10",
             "type": "vless",
             "server": "45.32.157.52",
@@ -515,12 +572,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @TVCminer | 13",
+            "tag": "🇺🇸US | vless | @TVCminer | 10",
             "type": "vless",
-            "server": "172.67.160.70",
+            "server": "45.66.249.114",
             "server_port": 443,
-            "uuid": "6822284b-66f0-448d-bab9-d294fa649ed5",
-            "flow": "",
+            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -529,19 +586,12 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "PpAL03.TOd-SChUppe-iv.woRKerS.DeV",
+                "server_name": "lsa.jarviskit.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/JKzcqHbRjVt4oP-c",
-                "headers": {
-                    "Host": "PpAL03.TOd-SChUppe-iv.woRKerS.DeV"
                 }
             }
         }
