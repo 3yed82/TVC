@@ -108,12 +108,13 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇺🇸US | vmess | @ShadowProxy66 | 30",
+                "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 11"
             ]
         },
         {
@@ -122,12 +123,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇵🇱PL | vmess | @prrofile_purple | 169",
-                "🇺🇸US | vmess | @ShadowProxy66 | 30",
+                "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,7 +186,41 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "obdii.cfd",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "ftp-localcdn.kiava-cloud.us.to",
             "server_port": 443,
@@ -235,11 +271,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 30",
+            "tag": "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
             "type": "vmess",
-            "server": "23.224.33.23",
-            "server_port": 20259,
-            "uuid": "c001cb39-162c-491c-8a76-8d2e15236b6f",
+            "server": "94.131.97.127",
+            "server_port": 80,
+            "uuid": "3669d547-ee0c-477d-8e47-c4400965db74",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -249,6 +285,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -300,7 +343,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
             "server": "104.16.216.241",
             "server_port": 443,
