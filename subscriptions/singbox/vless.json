@@ -122,7 +122,8 @@
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 20",
+                "🏳️XX | vless | 3YED | 27",
+                "🇮🇷IR | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -131,6 +132,7 @@
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5"
@@ -157,7 +159,8 @@
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 20",
+                "🏳️XX | vless | 3YED | 27",
+                "🇮🇷IR | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -166,6 +169,7 @@
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5"
@@ -701,7 +705,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 20",
+            "tag": "🏳️XX | vless | 3YED | 27",
             "type": "vless",
             "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
             "server_port": 443,
@@ -728,6 +732,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | 3YED | 0",
+            "type": "vless",
+            "server": "er.maghzkadehturky.com.tr",
+            "server_port": 2096,
+            "uuid": "cc4d3871-e0ac-4024-b31c-18e630894016",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
@@ -968,6 +1001,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "watashi.free.de.mnhacker.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "kitab.fun",
+            "server_port": 2096,
+            "uuid": "498a38ae-09f0-45f8-a0d7-06ed9d0c302e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "skdjfsklhfgd7fgy493toksjfog.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@alpha_v2ray_fazayi\/",
+                "headers": {
+                    "Host": "skdjfsklhfgd7fgy493toksjfog.pages.dev"
                 }
             }
         },
