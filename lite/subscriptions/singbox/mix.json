@@ -118,6 +118,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -140,6 +141,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -417,6 +419,40 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
                 }
             }
         },
