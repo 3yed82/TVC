@@ -122,16 +122,18 @@
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 26",
+                "🏳️XX | vless | 3YED | 25",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇳🇱NL | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5"
@@ -158,16 +160,18 @@
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 26",
+                "🏳️XX | vless | 3YED | 25",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇳🇱NL | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5"
@@ -703,7 +707,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 26",
+            "tag": "🏳️XX | vless | 3YED | 25",
             "type": "vless",
             "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
             "server_port": 443,
@@ -759,6 +763,35 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 1",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },
@@ -910,7 +943,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "172.66.44.197",
+            "server_port": 443,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hagh.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Hagh.PaGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 1",
             "type": "vless",
             "server": "104.31.16.65",
             "server_port": 443,
@@ -941,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "172.64.80.150",
             "server_port": 443,
@@ -972,7 +1036,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇨🇦CA | vless | 3YED | 5",
             "type": "vless",
             "server": "104.21.51.208",
             "server_port": 443,
