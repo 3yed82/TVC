@@ -106,6 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11"
@@ -115,6 +117,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11"
@@ -138,6 +142,68 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "watashi.free.de.mnhacker.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "172.66.44.197",
+            "server_port": 443,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hagh.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Hagh.PaGes.DEv"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 11",

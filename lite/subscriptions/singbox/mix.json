@@ -110,13 +110,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11",
@@ -131,13 +133,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11",
@@ -242,9 +246,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "172.67.168.34",
+            "server": "198.41.202.5",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -259,7 +263,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "marien.motorcycles",
+                "server_name": "kittiy.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -271,7 +275,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "marien.motorcycles"
+                    "Host": "kittiy.sbs"
                 }
             }
         },
@@ -337,11 +341,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "66.135.28.252",
-            "server_port": 41414,
-            "uuid": "06709c48-9843-4940-a536-cdf909285efc",
+            "server": "192.177.98.110",
+            "server_port": 30285,
+            "uuid": "3f38ae13-44bb-4d1e-ae1a-1ce782c83640",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,6 +355,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -384,6 +395,68 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "watashi.free.de.mnhacker.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "172.66.44.197",
+            "server_port": 443,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hagh.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },
