@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11"
@@ -118,7 +117,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11"
@@ -171,37 +169,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "watashi.free.de.mnhacker.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "172.66.44.197",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },

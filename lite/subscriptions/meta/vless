@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | vless | @FreakConfig | 5","type":"vless","server":"104.21.51.208","port":443,"udp":false,"uuid":"ffffffff-eeae-4311-b37c-b2a67847fed2","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"watashi.free.de.mnhacker.eu.org","ws-opts":{"path":"/","headers":{"host":"watashi.free.de.mnhacker.eu.org"}}}
-  - {"name":"🇨🇦CA | vless | @forwardv2ray | 17","type":"vless","server":"172.66.44.197","port":443,"udp":false,"uuid":"d3a12e79-ef42-4268-b367-42eeb3494e60","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Hagh.PaGes.DEv","ws-opts":{"path":"/","headers":{"host":"Hagh.PaGes.DEv"}}}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
   - {"name":"🇺🇸US | vless | @TVCminer | 11","type":"vless","server":"45.66.249.114","port":443,"udp":false,"uuid":"09e02255-eb34-4665-979f-ee448d4446ab","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"lsa.jarviskit.com","flow":"xtls-rprx-vision"}
 proxy-groups:
@@ -131,7 +130,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | vless | @FreakConfig | 5'
-      - '🇨🇦CA | vless | @forwardv2ray | 17'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇺🇸US | vless | @TVCminer | 11'
   - name: URL-TEST
@@ -141,7 +139,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | vless | @FreakConfig | 5'
-      - '🇨🇦CA | vless | @forwardv2ray | 17'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇺🇸US | vless | @TVCminer | 11'
   - name: FALLBACK
@@ -150,7 +147,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇦CA | vless | @FreakConfig | 5'
-      - '🇨🇦CA | vless | @forwardv2ray | 17'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
       - '🇺🇸US | vless | @TVCminer | 11'
 rule-providers:
