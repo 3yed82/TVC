@@ -110,15 +110,14 @@ https://github.com/3yed-61
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -132,15 +131,14 @@ https://github.com/3yed-61
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | ss | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -242,6 +240,16 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 13",
+            "type": "shadowsocks",
+            "server": "67.220.86.148",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
@@ -346,11 +354,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "207.246.125.165",
-            "server_port": 34102,
-            "uuid": "307e4f69-7b73-4ed1-e1fe-d687c324e025",
+            "server": "172.67.173.199",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -360,6 +368,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jader.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "jader.fun"
+                }
             }
         },
         {
@@ -393,61 +418,6 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 3",
-            "type": "vless",
-            "server": "toto.rangine.shop",
-            "server_port": 53424,
-            "uuid": "8722dafa-b14d-43b8-9b99-90aa1840ad93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "toto.rangine.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

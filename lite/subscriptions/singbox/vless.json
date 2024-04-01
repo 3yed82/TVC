@@ -106,8 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -117,8 +115,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @FreakConfig | 5",
-                "🇩🇪DE | vless | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -142,61 +138,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸US | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "172.64.80.150",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 3",
-            "type": "vless",
-            "server": "toto.rangine.shop",
-            "server_port": 53424,
-            "uuid": "8722dafa-b14d-43b8-9b99-90aa1840ad93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "toto.rangine.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 10",
