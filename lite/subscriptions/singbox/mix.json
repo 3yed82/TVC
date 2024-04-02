@@ -110,9 +110,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
-                "🏳️XX | vless | @v2ray_swhil | 28",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -132,9 +132,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
-                "🏳️XX | vless | @v2ray_swhil | 28",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -251,6 +251,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "bolder-metal-comma.glitch.me",
+            "server_port": 443,
+            "uuid": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bolder-metal-comma.glitch.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
+                "headers": {
+                    "Host": "bolder-metal-comma.glitch.me"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "104.21.32.223",
@@ -302,37 +336,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2ray_swhil | 28",
-            "type": "vless",
-            "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
-            "server_port": 443,
-            "uuid": "fbff132d-376f-43d8-a806-40cbbe1672a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | ss | @VmessProtocol | 16",
             "type": "shadowsocks",
             "server": "3.70.18.26",
@@ -379,9 +382,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.238.133.112",
-            "server_port": 34120,
-            "uuid": "cf8de0e9-fc3c-46ab-eda1-b5b12913aa07",
+            "server": "149.28.228.215",
+            "server_port": 22195,
+            "uuid": "f865bc43-b129-443e-d00a-7d303b25c4a2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
