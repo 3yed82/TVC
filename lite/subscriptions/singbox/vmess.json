@@ -113,6 +113,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇲🇴MO | vmess | @forwardv2ray | 6",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -127,6 +128,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇲🇴MO | vmess | @forwardv2ray | 6",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -261,9 +263,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "149.28.233.73",
-            "server_port": 25487,
-            "uuid": "352970a3-41c2-4d57-925f-452d76ba6d23",
+            "server": "162.159.1.33",
+            "server_port": 8080,
+            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -273,6 +275,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -304,6 +313,30 @@ https://github.com/3yed-61
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇲🇴MO | vmess | @forwardv2ray | 6",
+            "type": "vmess",
+            "server": "27.109.160.174",
+            "server_port": 54866,
+            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/免费节点分享TG频道@WSBVPN",
                 "headers": {
                     "Host": ""
                 }
