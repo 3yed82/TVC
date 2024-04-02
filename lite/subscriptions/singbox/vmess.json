@@ -113,7 +113,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -128,7 +127,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -263,9 +261,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.21.69.44",
-            "server_port": 8443,
-            "uuid": "616eaf5d-72b1-4dc8-8c58-b800b8d9f8fe",
+            "server": "onea.flha.ru",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,22 +274,12 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment.karop.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "VPNHOMES",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -325,30 +313,6 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "172.64.107.100",
-            "server_port": 2082,
-            "uuid": "d4a530d5-9755-4ff9-a9ed-5a058cf0038b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/CuTy87zAzV\/",
-                "headers": {
-                    "Host": "172.64.107.100"
                 }
             }
         },
