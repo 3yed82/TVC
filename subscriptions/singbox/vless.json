@@ -125,17 +125,18 @@
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 28",
-                "🇮🇷IR | vless | 3YED | 1",
-                "🇫🇮FI | vless | 3YED | 111",
-                "🇩🇪DE | vless | 3YED | 112",
+                "🇮🇷IR | vless | 3YED | 2",
+                "🇫🇮FI | vless | 3YED | 116",
+                "🇩🇪DE | vless | 3YED | 117",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -165,17 +166,18 @@
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 28",
-                "🇮🇷IR | vless | 3YED | 1",
-                "🇫🇮FI | vless | 3YED | 111",
-                "🇩🇪DE | vless | 3YED | 112",
+                "🇮🇷IR | vless | 3YED | 2",
+                "🇫🇮FI | vless | 3YED | 116",
+                "🇩🇪DE | vless | 3YED | 117",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -802,7 +804,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 1",
+            "tag": "🇮🇷IR | vless | 3YED | 2",
             "type": "vless",
             "server": "er.maghzkadehturky.com.tr",
             "server_port": 2096,
@@ -831,7 +833,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 111",
+            "tag": "🇫🇮FI | vless | 3YED | 116",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -867,7 +869,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 112",
+            "tag": "🇩🇪DE | vless | 3YED | 117",
             "type": "vless",
             "server": "91.107.137.131",
             "server_port": 443,
@@ -1050,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇨🇦CA | vless | 3YED | 0",
             "type": "vless",
             "server": "172.67.182.110",
             "server_port": 443,
@@ -1081,7 +1083,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 1",
             "type": "vless",
             "server": "172.66.44.197",
             "server_port": 443,
@@ -1139,6 +1141,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 3",
+            "type": "vless",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "438471e8-19db-41c5-8e4f-271c21e9b239",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-sho-falcunargo-cz.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "join-sho-falcunargo-cz.falcunar.uk.eu.org"
                 }
             }
         },
