@@ -106,20 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @TVCminer | 10"
+                "🇺🇸US | vless | @TVCminer | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vless | @TVCminer | 10"
+                "🇺🇸US | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,37 +138,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🏳️XX | vless | @v2ray_swhil | 32",
-            "type": "vless",
-            "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
-            "server_port": 443,
-            "uuid": "fbff132d-376f-43d8-a806-40cbbe1672a1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
@@ -231,7 +198,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vless | @TVCminer | 10",
+            "tag": "🇺🇸US | vless | @TVCminer | 12",
             "type": "vless",
             "server": "45.66.249.114",
             "server_port": 443,
