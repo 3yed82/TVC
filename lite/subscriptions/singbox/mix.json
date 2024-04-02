@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -118,7 +118,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @FreakConfig | 5",
-                "🇧🇭BH | ss | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
@@ -128,7 +128,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -140,7 +140,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @FreakConfig | 5",
-                "🇧🇭BH | ss | @forwardv2ray | 19",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.43.179.63",
+            "server": "108.128.23.238",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -348,9 +348,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "slime-rhinestone-spy.glitch.me",
-            "server_port": 443,
-            "uuid": "83a5c82d-a047-418e-9ad9-6ce8c5aaba59",
+            "server": "23.94.104.164",
+            "server_port": 60222,
+            "uuid": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -361,21 +361,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "slime-rhinestone-spy.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "slime-rhinestone-spy.glitch.me"
+                    "Host": ""
                 }
             }
         },
@@ -445,14 +435,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "15.185.47.234",
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.161.77",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
