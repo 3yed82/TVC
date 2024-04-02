@@ -132,8 +132,9 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -170,8 +171,9 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -945,6 +947,37 @@
         {
             "tag": "🇨🇦CA | vless | 3YED | 0",
             "type": "vless",
+            "server": "172.67.182.110",
+            "server_port": 443,
+            "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w2.sylarsun.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w2.sylarsun.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "172.66.44.197",
             "server_port": 443,
             "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
@@ -974,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "104.31.16.65",
             "server_port": 443,
@@ -1005,7 +1038,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "172.64.80.150",
             "server_port": 443,
@@ -1036,11 +1069,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "438471e8-19db-41c5-8e4f-271c21e9b239",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1050,7 +1083,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "watashi.free.de.mnhacker.eu.org",
+                "server_name": "join-sho-falcunargo-cz.falcunar.uk.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1062,7 +1095,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "watashi.free.de.mnhacker.eu.org"
+                    "Host": "join-sho-falcunargo-cz.falcunar.uk.eu.org"
                 }
             }
         },
