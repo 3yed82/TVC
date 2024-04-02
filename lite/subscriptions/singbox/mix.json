@@ -106,20 +106,20 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 10",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -128,20 +128,20 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 10",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "35.181.114.131",
+            "server": "18.135.54.78",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "15.222.195.193",
+            "server": "18.218.139.92",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -247,40 +247,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "bolder-metal-comma.glitch.me",
-            "server_port": 443,
-            "uuid": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bolder-metal-comma.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
-                "headers": {
-                    "Host": "bolder-metal-comma.glitch.me"
                 }
             }
         },
@@ -380,11 +346,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "149.28.228.215",
-            "server_port": 22195,
-            "uuid": "f865bc43-b129-443e-d00a-7d303b25c4a2",
+            "server": "95.216.205.109",
+            "server_port": 11359,
+            "uuid": "8f24fd40-9cac-49a9-8a1b-b4c35a1236ad",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -485,6 +451,40 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 8",
+            "type": "vmess",
+            "server": "104.26.9.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         },
