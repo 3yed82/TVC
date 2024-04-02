@@ -118,6 +118,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
@@ -132,11 +133,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -159,6 +158,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 31",
@@ -173,11 +173,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 10"
@@ -592,6 +590,37 @@
                     "enabled": true,
                     "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -1021,7 +1050,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
             "server": "172.67.182.110",
             "server_port": 443,
@@ -1052,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "172.66.44.197",
             "server_port": 443,
@@ -1079,37 +1108,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
-            "server": "104.31.16.65",
-            "server_port": 443,
-            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "filTer-1tg.pAges.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "filTer-1tg.pAges.DeV"
                 }
             }
         },
@@ -1141,37 +1139,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 12",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "438471e8-19db-41c5-8e4f-271c21e9b239",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-cz.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join-sho-falcunargo-cz.falcunar.uk.eu.org"
                 }
             }
         },
