@@ -111,11 +111,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -127,11 +126,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -270,11 +268,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "172.67.116.48",
-            "server_port": 80,
-            "uuid": "22a13aa2-4854-44cb-e090-ec71ab84b1ff",
+            "server": "152.42.180.59",
+            "server_port": 54511,
+            "uuid": "8672d4e3-8281-42b1-ba9a-d9a398f5ff3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -285,11 +283,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "m.linkedin.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/free",
                 "headers": {
-                    "Host": ""
+                    "Host": "m.linkedin.com"
                 }
             }
         },
@@ -375,40 +383,6 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 0",
-            "type": "vmess",
-            "server": "hms182.glweidf.sbs",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
