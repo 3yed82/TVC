@@ -158,7 +158,6 @@ proxies:
   - {"name":"🇩🇪DE | trojan | 3YED | 17","type":"trojan","server":"3.127.186.151","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | 3YED | 18","type":"trojan","server":"3.67.57.153","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | 3YED | 19","type":"trojan","server":"13.50.220.245","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇬SG | trojan | 3YED | 18","type":"trojan","server":"18.142.180.43","port":20230,"udp":false,"password":"d2382a15-ae45-40ab-8925-84792b584bd8","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"421421.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -205,7 +204,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | 3YED | 17'
       - '🇩🇪DE | trojan | 3YED | 18'
       - '🇸🇪SE | trojan | 3YED | 19'
-      - '🇸🇬SG | trojan | 3YED | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -252,7 +250,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | 3YED | 17'
       - '🇩🇪DE | trojan | 3YED | 18'
       - '🇸🇪SE | trojan | 3YED | 19'
-      - '🇸🇬SG | trojan | 3YED | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -298,7 +295,6 @@ proxy-groups:
       - '🇩🇪DE | trojan | 3YED | 17'
       - '🇩🇪DE | trojan | 3YED | 18'
       - '🇸🇪SE | trojan | 3YED | 19'
-      - '🇸🇬SG | trojan | 3YED | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
