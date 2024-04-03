@@ -111,16 +111,18 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @prrofile_purple | 170",
+                "🏳️XX | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 12"
             ]
         },
@@ -133,16 +135,18 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇮🇷IR | vmess | @prrofile_purple | 170",
+                "🏳️XX | vless | @v2ray_swhil | 32",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 15",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -278,6 +282,61 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @prrofile_purple | 170",
+            "type": "vmess",
+            "server": "62.60.135.13",
+            "server_port": 8080,
+            "uuid": "4dba618a-a752-40b5-a583-8b0ed0724009",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @v2ray_swhil | 32",
+            "type": "vless",
+            "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
+            "server_port": 443,
+            "uuid": "fbff132d-376f-43d8-a806-40cbbe1672a1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | ss | @VmessProtocol | 16",
             "type": "shadowsocks",
             "server": "3.70.18.26",
@@ -332,7 +391,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "172.67.116.48",
             "server_port": 80,
@@ -421,40 +480,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 15",
-            "type": "vmess",
-            "server": "104.26.9.202",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
             "type": "vless",
             "server": "45.32.157.52",
@@ -526,6 +551,40 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 8",
+            "type": "vmess",
+            "server": "104.26.9.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         },
