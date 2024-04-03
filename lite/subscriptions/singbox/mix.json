@@ -110,6 +110,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 16",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🏳️XX | vless | @v2ray_swhil | 31",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -117,7 +118,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
@@ -133,6 +133,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇵🇱PL | ss | @DeamNet_Proxy | 16",
                 "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🏳️XX | vless | @v2ray_swhil | 31",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
@@ -140,7 +141,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
@@ -251,6 +251,16 @@ https://github.com/3yed-61
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇵🇱PL | ss | @DeamNet_Proxy | 16",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | vmess | @oneclickvpnkeys | 12",
@@ -392,40 +402,6 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "inna.cfd",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "inna.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "inna.cfd"
                 }
             }
         },
