@@ -112,8 +112,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -128,8 +129,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -304,11 +306,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "cf.iepl.live",
-            "server_port": 2086,
-            "uuid": "3960f128-1163-40a3-8dd7-7c91176e14a5",
+            "server": "107.172.25.132",
+            "server_port": 18117,
+            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,13 +320,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -358,6 +353,40 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.32.223",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "muriel.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "muriel.makeup"
                 }
             }
         },
