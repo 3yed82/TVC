@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 19",
@@ -116,11 +116,11 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 17",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇭🇰HK | trojan | @forwardv2ray | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 12",
@@ -131,8 +131,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇱PL | ss | @DeamNet_Proxy | 19",
@@ -141,11 +141,11 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 17",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
-                "🇩🇪DE | vless | @GozargahVPN | 11",
+                "🇭🇰HK | trojan | @forwardv2ray | 11",
+                "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇺🇸US | vless | @TVCminer | 12",
@@ -172,9 +172,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "16.171.89.111",
+            "server": "3.68.247.128",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -194,9 +194,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.50.220.245",
+            "server": "3.127.186.151",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -359,11 +359,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇲🇴MO | vmess | @Hope_Net | 17",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "27.109.160.174",
-            "server_port": 54866,
-            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
+            "server": "91.220.202.206",
+            "server_port": 48269,
+            "uuid": "daf42d30-54db-4ef4-ac73-e06ce69850bd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -373,13 +373,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/免费节点分享TG频道@WSBVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -448,16 +441,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "172.67.166.31",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇭🇰HK | trojan | @forwardv2ray | 11",
+            "type": "trojan",
+            "server": "china2.one.edu.kg",
+            "server_port": 12025,
+            "password": "9d9e1051-aa4f-44ce-86b8-912d993fa4e2",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -465,24 +453,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "inna.cfd",
+                "server_name": "cdn.alibaba.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "inna.cfd"
-                }
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
+            "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
             "type": "vless",
             "server": "45.32.157.52",
             "server_port": 443,
