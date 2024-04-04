@@ -106,17 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇱AL | vless | @azadi_az_inja_migzare | 1",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @customv2ray | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇸🇪SE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇳🇱NL | vless | @FreakConfig | 6",
                 "🇩🇪DE | ss | @forwardv2ray | 17",
@@ -132,17 +130,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇱AL | vless | @azadi_az_inja_migzare | 1",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
-                "🇨🇦CA | vmess | @customv2ray | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇸🇪SE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇳🇱NL | vless | @FreakConfig | 6",
                 "🇩🇪DE | ss | @forwardv2ray | 17",
@@ -172,35 +168,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇦🇱AL | vless | @azadi_az_inja_migzare | 1",
-            "type": "vless",
-            "server": "zerocool.cheshmsabz.toP",
-            "server_port": 45102,
-            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
-                    "short_id": "9f935adfaf516589"
-                }
-            }
         },
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
@@ -281,9 +248,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "190.93.247.155",
+            "server": "auth.speedtest.net",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -298,7 +265,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "marien.motorcycles",
+                "server_name": "nelly.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -310,41 +277,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "marien.motorcycles"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 11",
-            "type": "vmess",
-            "server": "muriel.makeup",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "muriel.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "muriel.makeup"
+                    "Host": "nelly.homes"
                 }
             }
         },
@@ -403,11 +336,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "185.146.173.59",
-            "server_port": 2083,
-            "uuid": "587fe4b8-5ed8-46a1-8ae4-0a07efd35855",
+            "server": "roozdl1.ir",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -420,7 +353,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "doolboor.nintendodns.shop",
+                "server_name": "Rockp.Blanku.Me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -429,11 +362,11 @@ https://github.com/3yed-61
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "2083vmess",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
+                }
             }
         },
         {
