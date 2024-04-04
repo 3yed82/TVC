@@ -123,9 +123,9 @@
                 "🇫🇮FI | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 21",
+                "🇮🇷IR | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
-                "🇮🇷IR | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -133,7 +133,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 12",
@@ -163,9 +163,9 @@
                 "🇫🇮FI | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 21",
+                "🇮🇷IR | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
-                "🇮🇷IR | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -173,7 +173,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 12",
@@ -752,6 +752,35 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vless | 3YED | 2",
+            "type": "vless",
+            "server": "93.113.237.83",
+            "server_port": 2079,
+            "uuid": "0795a365-a3bc-445d-9961-4949cec7770b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hiztesti-ist.codit.com.tr.prod.hosts.ooklaserver.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 0",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -801,35 +830,6 @@
                     "enabled": true,
                     "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
                     "short_id": "bfde1c85a6a4112a"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 17",
-            "type": "vless",
-            "server": "er.maghzkadehturky.com.tr",
-            "server_port": 2096,
-            "uuid": "cc4d3871-e0ac-4024-b31c-18e630894016",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
             }
         },
@@ -1043,7 +1043,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
