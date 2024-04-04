@@ -130,11 +130,11 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 4",
+                "🇳🇱NL | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1",
@@ -170,11 +170,11 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 4",
+                "🇳🇱NL | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1",
@@ -952,7 +952,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.22.32.78",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -983,7 +1014,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1014,7 +1045,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
+            "tag": "🇨🇦CA | vless | 3YED | 4",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1045,7 +1076,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇳🇱NL | vless | 3YED | 5",
             "type": "vless",
             "server": "188.114.97.46",
             "server_port": 2053,
@@ -1076,7 +1107,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇨🇦CA | vless | 3YED | 6",
             "type": "vless",
             "server": "172.67.182.110",
             "server_port": 443,
@@ -1103,37 +1134,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "w2.sylarsun.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 6",
-            "type": "vless",
-            "server": "172.66.44.197",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },
