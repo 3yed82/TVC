@@ -116,7 +116,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -140,7 +140,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -384,11 +384,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "ying.appleid.bf",
+            "server_port": 2082,
+            "uuid": "9972e893-335f-49d5-a7a1-d520826e58ac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -399,21 +399,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": ""
                 }
             }
         },
