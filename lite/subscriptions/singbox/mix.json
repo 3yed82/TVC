@@ -114,16 +114,15 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 13",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -138,16 +137,15 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
                 "🇨🇦CA | vmess | @customv2ray | 12",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 13",
+                "🇺🇸US | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇺🇸US | vless | @TVCminer | 12"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -340,12 +338,12 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 14",
             "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 5000,
+            "server": "38.121.43.248",
+            "server_port": 8882,
             "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
+            "password": "kDWvXYZoTBcGkC4",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -384,11 +382,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 13",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "svt63.topnetvip.com",
-            "server_port": 11796,
-            "uuid": "5575f601-353e-4b56-87af-2b6a9e55fcc0",
+            "server": "172.67.152.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -399,20 +397,30 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "meroiy.icu"
                 }
             }
         },
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
-            "server": "104.21.224.1",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "6d9911b0-4e14-44fb-8883-52d14f550cca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -423,11 +431,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "be2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai_8",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": ""
+                    "Host": "be2-vmess.sshmax.xyz"
                 }
             }
         },
@@ -568,30 +586,6 @@ https://github.com/3yed-61
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @TVCminer | 12",
-            "type": "vless",
-            "server": "45.66.249.114",
-            "server_port": 443,
-            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lsa.jarviskit.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
