@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇳🇱NL | ss | 3YED | 3","type":"ss","server":"141.11.189.239","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | 3YED | 0","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | 3YED | 4","type":"ss","server":"104.167.197.23","port":57456,"password":"3fbeb668f48414f6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | 3YED | 8","type":"ss","server":"3.66.227.110","port":2087,"password":"Egg72YWdOlaZQHvNCa6pTsw0Tdk8/PyDvPIH0skd7Sw=","cipher":"chacha20-ietf-poly1305"}
@@ -152,6 +153,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇳🇱NL | ss | 3YED | 3'
       - '🇦🇪AE | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 4'
       - '🇩🇪DE | ss | 3YED | 8'
@@ -186,6 +188,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇳🇱NL | ss | 3YED | 3'
       - '🇦🇪AE | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 4'
       - '🇩🇪DE | ss | 3YED | 8'
@@ -219,6 +222,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇳🇱NL | ss | 3YED | 3'
       - '🇦🇪AE | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 4'
       - '🇩🇪DE | ss | 3YED | 8'
