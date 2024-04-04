@@ -116,10 +116,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇫🇷FR | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇫🇮FI | ss | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -141,10 +141,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇫🇷FR | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇫🇮FI | ss | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -386,13 +386,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "ying.appleid.bf",
-            "server_port": 2082,
-            "uuid": "9972e893-335f-49d5-a7a1-d520826e58ac",
+            "server": "94.131.118.246",
+            "server_port": 80,
+            "uuid": "48bc6709-06c0-4e77-81a6-8c908999ca1e",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 23379904,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -403,9 +403,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": ""
+                    "Host": "94.131.118.246"
                 }
             }
         },
@@ -475,14 +475,28 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "139.28.220.18",
-            "server_port": 5700,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UXoGWyjwDVZIl1WMuHtxSi",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "aacbabc-bcaa-aacb-adcb-acaaccbbabcb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 12",
