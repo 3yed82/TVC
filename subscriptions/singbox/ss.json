@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | ss | 3YED | 3",
+                "🇮🇳IN | ss | 3YED | 1",
+                "🇳🇱NL | ss | 3YED | 7",
                 "🇦🇪AE | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇩🇪DE | ss | 3YED | 8",
@@ -113,7 +114,6 @@
                 "🇩🇪DE | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 0",
                 "🇳🇱NL | ss | 3YED | 1",
-                "🇮🇳IN | ss | 3YED | 3",
                 "🇮🇱IL | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 5",
                 "🇫🇷FR | ss | 3YED | 6",
@@ -140,7 +140,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | ss | 3YED | 3",
+                "🇮🇳IN | ss | 3YED | 1",
+                "🇳🇱NL | ss | 3YED | 7",
                 "🇦🇪AE | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇩🇪DE | ss | 3YED | 8",
@@ -148,7 +149,6 @@
                 "🇩🇪DE | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 0",
                 "🇳🇱NL | ss | 3YED | 1",
-                "🇮🇳IN | ss | 3YED | 3",
                 "🇮🇱IL | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 5",
                 "🇫🇷FR | ss | 3YED | 6",
@@ -191,7 +191,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | ss | 3YED | 3",
+            "tag": "🇮🇳IN | ss | 3YED | 1",
+            "type": "shadowsocks",
+            "server": "209.182.232.30",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | 3YED | 7",
             "type": "shadowsocks",
             "server": "141.11.189.239",
             "server_port": 8080,
@@ -267,16 +277,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇳IN | ss | 3YED | 3",
-            "type": "shadowsocks",
-            "server": "209.182.232.30",
-            "server_port": 51348,
-            "method": "chacha20-ietf-poly1305",
-            "password": "9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5",
             "plugin": "",
             "plugin_opts": ""
         },
