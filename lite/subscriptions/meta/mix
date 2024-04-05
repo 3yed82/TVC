@@ -124,10 +124,12 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 19","type":"trojan","server":"13.53.102.208","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮FI | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"77.91.103.47","port":"80","cipher":"auto","uuid":"09e35fe0-2efd-44c1-96fb-46b7b3cc28eb","alterId":9,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"77.91.103.47"}}}
   - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP | ss | @OutlineVpnOfficial | 18","type":"ss","server":"185.172.113.182","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 16","type":"vmess","server":"205.234.233.68","port":"445","cipher":"auto","uuid":"ff982b62-2d2e-4ebe-befc-6e3d5177857c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱NL | vmess | @ConfigsHUB | 17","type":"vmess","server":"89.110.67.33","port":"17390","cipher":"auto","uuid":"42c6b98e-e450-49bc-9aa3-3785de2b1c7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 16","type":"vmess","server":"104.16.219.230","port":"443","cipher":"auto","uuid":"3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss49406","headers":{"host":"Tree.Blanku.Me"}}}
   - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 5","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
 proxy-groups:
@@ -140,10 +142,12 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇫🇮FI | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | vmess | @Hope_Net | 16'
+      - '🇳🇱NL | vmess | @ConfigsHUB | 17'
+      - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
   - name: URL-TEST
@@ -156,10 +160,12 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇫🇮FI | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | vmess | @Hope_Net | 16'
+      - '🇳🇱NL | vmess | @ConfigsHUB | 17'
+      - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
   - name: FALLBACK
@@ -171,10 +177,12 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇫🇮FI | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇯🇵JP | ss | @OutlineVpnOfficial | 18'
-      - '🇺🇸US | vmess | @Hope_Net | 16'
+      - '🇳🇱NL | vmess | @ConfigsHUB | 17'
+      - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇬🇧GB | ss | @FAKEOFTVC | 5'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
 rule-providers:
