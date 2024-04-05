@@ -108,8 +108,8 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
@@ -117,9 +117,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇬🇧GB | ss | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -135,8 +135,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
@@ -144,9 +144,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇩🇪DE | ss | @forwardv2ray | 17",
                 "🇬🇧GB | ss | @FAKEOFTVC | 3",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
@@ -241,9 +241,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.51.124.108",
+            "server": "3.124.238.248",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -263,9 +263,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "16.16.232.106",
+            "server": "52.59.140.49",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -441,13 +441,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "75.102.51.61",
-            "server_port": 12732,
-            "uuid": "191ba971-0f63-402e-bbc9-9e9eb2604b0c",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 9,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -455,6 +455,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
+                }
             }
         },
         {
@@ -492,7 +509,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "tag": "🇺🇸US | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
