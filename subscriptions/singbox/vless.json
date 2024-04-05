@@ -118,6 +118,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇫🇮FI | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 21",
@@ -131,7 +132,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 12",
@@ -156,6 +157,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇫🇮FI | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 21",
@@ -169,7 +171,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 12",
@@ -590,6 +592,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "type": "vless",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "5d8569a9-a8cb-4c5e-9ea9-cc40de873a35",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "filTer-1tg.pAges.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "filTer-1tg.pAges.DeV"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | 3YED | 9",
             "type": "vless",
             "server": "pub2.legendaryking.link",
@@ -977,7 +1010,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
