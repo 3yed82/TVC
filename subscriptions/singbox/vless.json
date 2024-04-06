@@ -122,17 +122,19 @@
                 "🇫🇮FI | vless | 3YED | 15",
                 "🇺🇸US | vless | 3YED | 20",
                 "🇺🇸US | vless | 3YED | 24",
+                "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 11",
-                "🇫🇮FI | vless | 3YED | 101",
-                "🇩🇪DE | vless | 3YED | 103",
+                "🇩🇪DE | vless | 3YED | 71",
+                "🇫🇮FI | vless | 3YED | 107",
+                "🇩🇪DE | vless | 3YED | 109",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -158,17 +160,19 @@
                 "🇫🇮FI | vless | 3YED | 15",
                 "🇺🇸US | vless | 3YED | 20",
                 "🇺🇸US | vless | 3YED | 24",
+                "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 11",
-                "🇫🇮FI | vless | 3YED | 101",
-                "🇩🇪DE | vless | 3YED | 103",
+                "🇩🇪DE | vless | 3YED | 71",
+                "🇫🇮FI | vless | 3YED | 107",
+                "🇩🇪DE | vless | 3YED | 109",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -715,6 +719,35 @@
             }
         },
         {
+            "tag": "🇮🇪IE | vless | 3YED | 1",
+            "type": "vless",
+            "server": "34.244.22.156",
+            "server_port": 443,
+            "uuid": "a56b225a-5f29-4c39-ad3e-e7e6de0c5df4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "znNeZYH7r1Jm5eVmangZGLkTXOYAyuDF11HF78Z7GTA",
+                    "short_id": "2e8844cc7a15beb6"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | 3YED | 25",
             "type": "vless",
             "server": "93.113.237.83",
@@ -797,7 +830,36 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 101",
+            "tag": "🇩🇪DE | vless | 3YED | 71",
+            "type": "vless",
+            "server": "116.203.6.151",
+            "server_port": 4080,
+            "uuid": "0fdfb7ba-12af-4a7e-821f-da567b1cf10f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "faassentuinendier.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uaeE5BY769chw_V0tWIz81TD-2BVhvcrA7c0ArXXITM",
+                    "short_id": "01199181"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | 3YED | 107",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -833,7 +895,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 103",
+            "tag": "🇩🇪DE | vless | 3YED | 109",
             "type": "vless",
             "server": "pub.legendaryking.link",
             "server_port": 443,
@@ -1016,7 +1078,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
+            "tag": "🇨🇦CA | vless | 3YED | 4",
             "type": "vless",
             "server": "104.22.32.78",
             "server_port": 443,
