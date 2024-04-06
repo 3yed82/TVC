@@ -113,7 +113,7 @@
                 "🇫🇮FI | vless | 3YED | 15",
                 "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
-                "🇳🇱NL | vless | 3YED | 12",
+                "🇳🇱NL | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 78",
                 "🇫🇮FI | vless | 3YED | 114",
                 "🇩🇪DE | vless | 3YED | 116",
@@ -121,6 +121,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -137,7 +138,7 @@
                 "🇫🇮FI | vless | 3YED | 15",
                 "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
-                "🇳🇱NL | vless | 3YED | 12",
+                "🇳🇱NL | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 78",
                 "🇫🇮FI | vless | 3YED | 114",
                 "🇩🇪DE | vless | 3YED | 116",
@@ -145,6 +146,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -408,7 +410,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | 3YED | 12",
+            "tag": "🇳🇱NL | vless | 3YED | 11",
             "type": "vless",
             "server": "allrevolt.r8volt.com",
             "server_port": 8443,
@@ -650,6 +652,35 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "88.198.129.113",
+            "server_port": 47649,
+            "uuid": "8c687c95-80c3-4fa3-94d6-c948c7f6ed51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vCeEZ5bq-2n7emJJaYn2RiUSAaZGOpTaEZ8w_Ii4ZRw",
+                    "short_id": "69c141de"
                 }
             }
         },
