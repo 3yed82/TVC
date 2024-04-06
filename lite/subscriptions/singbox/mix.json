@@ -113,7 +113,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | ss | @FAKEOFTVC | 7",
@@ -135,7 +135,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇫🇮FI | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | ss | @FAKEOFTVC | 7",
@@ -305,13 +305,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "107.172.25.132",
-            "server_port": 18117,
-            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
+            "server": "77.91.103.47",
+            "server_port": 80,
+            "uuid": "09e35fe0-2efd-44c1-96fb-46b7b3cc28eb",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": -1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -319,6 +319,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "77.91.103.47"
+                }
             }
         },
         {
