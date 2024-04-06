@@ -125,13 +125,15 @@
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -160,13 +162,15 @@
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -795,6 +799,68 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 6",
+            "type": "vless",
+            "server": "188.114.98.220",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test57.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freecodes",
+                "headers": {
+                    "Host": "test57.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 8",
+            "type": "vless",
+            "server": "104.21.76.11",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test57.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freecodes",
+                "headers": {
+                    "Host": "test57.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -973,7 +1039,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇨🇦CA | vless | 3YED | 4",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
