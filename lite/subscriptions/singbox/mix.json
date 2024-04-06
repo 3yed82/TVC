@@ -108,16 +108,17 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇸🇬SG | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | ss | @FAKEOFTVC | 6",
+                "🇺🇸US | ss | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -131,16 +132,17 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 2",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇸🇬SG | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | ss | @FAKEOFTVC | 6",
+                "🇺🇸US | ss | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -201,7 +203,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.170.23.188",
+            "server": "52.18.110.113",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -221,9 +223,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "44.236.25.176",
+            "server": "13.50.94.56",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -294,14 +296,48 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 5000,
+            "server": "38.121.43.248",
+            "server_port": 8882,
             "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
+            "password": "kDWvXYZoTBcGkC4",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "nelly.homes",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -338,11 +374,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "146.190.84.34",
+            "server_port": 26012,
+            "uuid": "695bc422-4dc8-4d8c-8457-26e18c2421b4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -353,21 +389,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },
@@ -437,12 +463,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | ss | @FAKEOFTVC | 6",
+            "tag": "🇺🇸US | ss | @FAKEOFTVC | 7",
             "type": "shadowsocks",
-            "server": "38.121.43.142",
-            "server_port": 4444,
+            "server": "167.88.62.62",
+            "server_port": 7307,
             "method": "aes-256-gcm",
-            "password": "pKEW8JPByTVTLtM",
+            "password": "FoOiGlkAA9yPEGP",
             "plugin": "",
             "plugin_opts": ""
         },
