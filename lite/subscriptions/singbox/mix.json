@@ -106,12 +106,12 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -126,12 +126,12 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
@@ -162,9 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.49.82.6",
+            "server": "35.157.223.82",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "51.20.165.233",
+            "server": "18.199.112.29",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -257,12 +257,12 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
-            "server": "212.113.106.243",
-            "server_port": 13022,
+            "server": "134.195.196.178",
+            "server_port": 805,
             "method": "chacha20-ietf-poly1305",
-            "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -303,9 +303,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "45.63.50.156",
-            "server_port": 31144,
-            "uuid": "462be427-720e-4379-9eb6-32671f21ce52",
+            "server": "172.67.150.173",
+            "server_port": 2053,
+            "uuid": "b322fde8-671f-4634-b985-e6ce50ee0647",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,12 +315,29 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "u16.tk3322.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/u16",
+                "headers": {
+                    "Host": "u16.tk3322.com"
+                }
             }
         },
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
-            "server": "104.26.9.202",
+            "server": "meroiy.icu",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -335,7 +352,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "meroiy.icu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -347,7 +364,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "meroiy.icu"
                 }
             }
         },
