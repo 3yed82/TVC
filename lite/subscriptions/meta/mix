@@ -120,12 +120,12 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 19","type":"trojan","server":"52.50.14.74","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 19","type":"trojan","server":"3.11.190.129","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 19","type":"trojan","server":"51.20.150.76","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 19","type":"trojan","server":"63.32.177.208","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 15","type":"ss","server":"134.195.196.178","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"172.67.229.34","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🇩🇪DE | vmess | @Hope_Net | 19","type":"vmess","server":"164.92.198.210","port":"6969","cipher":"auto","uuid":"1eb6aad5-993a-4bcb-a9c4-5c98ba01b963","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
 proxy-groups:
   - name: MANUAL
@@ -133,12 +133,12 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
   - name: URL-TEST
     type: url-test
@@ -146,24 +146,24 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
