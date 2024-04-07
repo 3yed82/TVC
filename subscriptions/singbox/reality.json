@@ -114,7 +114,9 @@
                 "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇳🇱NL | vless | 3YED | 11",
-                "🇩🇪DE | vless | 3YED | 88",
+                "🇫🇮FI | vless | 3YED | 64",
+                "🇩🇪DE | vless | 3YED | 65",
+                "🇩🇪DE | vless | 3YED | 97",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -136,7 +138,9 @@
                 "🇮🇪IE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇳🇱NL | vless | 3YED | 11",
-                "🇩🇪DE | vless | 3YED | 88",
+                "🇫🇮FI | vless | 3YED | 64",
+                "🇩🇪DE | vless | 3YED | 65",
+                "🇩🇪DE | vless | 3YED | 97",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -433,7 +437,79 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 88",
+            "tag": "🇫🇮FI | vless | 3YED | 64",
+            "type": "vless",
+            "server": "pub2.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "anandtech.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7ihdxqfI3SzKW-4Wy6dUEmWKdgSGRVtzndg88Fgyylw",
+                    "short_id": "0edb849a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 65",
+            "type": "vless",
+            "server": "pub.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Nzc_fcmtphvAV9Npq4WSPNc6MWnzt--778BEmWoFJkQ",
+                    "short_id": "cd688fdc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 97",
             "type": "vless",
             "server": "116.203.6.151",
             "server_port": 4080,
