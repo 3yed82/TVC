@@ -137,10 +137,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
         },
@@ -180,10 +179,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1166,7 +1164,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 443,
+            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1197,7 +1226,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "172.67.20.220",
             "server_port": 2096,
@@ -1224,66 +1253,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vpnxw.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 5",
-            "type": "vless",
-            "server": "Www.ZULA.iR",
-            "server_port": 8443,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 4",
-            "type": "vless",
-            "server": "88.198.129.113",
-            "server_port": 47649,
-            "uuid": "8c687c95-80c3-4fa3-94d6-c948c7f6ed51",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vCeEZ5bq-2n7emJJaYn2RiUSAaZGOpTaEZ8w_Ii4ZRw",
-                    "short_id": "69c141de"
                 }
             }
         },
