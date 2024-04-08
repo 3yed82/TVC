@@ -153,6 +153,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | 3YED | 0","type":"vless","server":"www.zula.ir","port":443,"udp":false,"uuid":"ffffffff-bf32-4282-b875-eca220008daf","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"f.auto.r.exit.e.e.watashi-java.ir","ws-opts":{"path":"/","headers":{"host":"f.auto.r.exit.e.e.watashi-java.ir"}}}
   - {"name":"🇺🇸US | vless | 3YED | 3","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"1da545b0-2395-4d5c-abe8-8aee6671c859","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"BPB-worKEr-paNel-aQX.paGES.DEV","ws-opts":{"path":"/","headers":{"host":"BpB-WOrkEr-panEl-aqx.paGES.Dev"}}}
   - {"name":"🇺🇸US | vless | 3YED | 5","type":"vless","server":"172.67.20.220","port":2096,"udp":false,"uuid":"77a571fb-4fd2-4b37-8596-2b7d9728bb5c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpnxw.pages.dev","ws-opts":{"path":"/","headers":{"host":"vpnxw.pages.dev"}}}
+  - {"name":"🇬🇧GB | vless | 3YED | 0","type":"vless","server":"51.195.157.103","port":45102,"udp":true,"uuid":"de85f08e-b381-4d54-931d-f8a24f49b3ed","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"icloud.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ","short-id":"9f935adfaf516589"}}
   - {"name":"🇮🇷IR | vless | 3YED | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
 proxy-groups:
   - name: MANUAL
@@ -193,6 +194,7 @@ proxy-groups:
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 5'
+      - '🇬🇧GB | vless | 3YED | 0'
       - '🇮🇷IR | vless | 3YED | 1'
   - name: URL-TEST
     type: url-test
@@ -233,6 +235,7 @@ proxy-groups:
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 5'
+      - '🇬🇧GB | vless | 3YED | 0'
       - '🇮🇷IR | vless | 3YED | 1'
   - name: FALLBACK
     type: fallback
@@ -272,6 +275,7 @@ proxy-groups:
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 5'
+      - '🇬🇧GB | vless | 3YED | 0'
       - '🇮🇷IR | vless | 3YED | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
