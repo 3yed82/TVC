@@ -115,6 +115,7 @@
                 "🏳️XX | vless | 3YED | 15",
                 "🇮🇪IE | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 12",
+                "🏳️XX | vless | 3YED | 72",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -137,6 +138,7 @@
                 "🏳️XX | vless | 3YED | 15",
                 "🇮🇪IE | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 12",
+                "🏳️XX | vless | 3YED | 72",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -459,6 +461,42 @@
                     "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
                     "short_id": "bfde1c85a6a4112a"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | 3YED | 72",
+            "type": "vless",
+            "server": "pub.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2D2pRTSMAf9u82txQA-EIGo_rhZgBzH8OT7CM9SpKVQ",
+                    "short_id": "ffcd8c78"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

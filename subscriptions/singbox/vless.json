@@ -126,14 +126,14 @@
                 "🇮🇪IE | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 12",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 8",
+                "🏳️XX | vless | 3YED | 72",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -164,14 +164,14 @@
                 "🇮🇪IE | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 12",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 8",
+                "🏳️XX | vless | 3YED | 72",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -828,7 +828,43 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🏳️XX | vless | 3YED | 72",
+            "type": "vless",
+            "server": "pub.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2D2pRTSMAf9u82txQA-EIGo_rhZgBzH8OT7CM9SpKVQ",
+                    "short_id": "ffcd8c78"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -855,37 +891,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "104.21.78.12",
-            "server_port": 443,
-            "uuid": "561bc9ae-9d67-4a67-cd72-e3d3f80dbed3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rammstein.tagnovolta.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/downloader\/59316",
-                "headers": {
-                    "Host": "rammstein.tagnovolta.workers.dev"
                 }
             }
         },
@@ -1037,7 +1042,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 1",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
