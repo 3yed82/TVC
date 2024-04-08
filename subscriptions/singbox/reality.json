@@ -113,7 +113,11 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 15",
-                "🇮🇪IE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇮🇪IE | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 12",
                 "🏳️XX | vless | 3YED | 72",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -136,7 +140,11 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 15",
-                "🇮🇪IE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇮🇪IE | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 12",
                 "🏳️XX | vless | 3YED | 72",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -406,7 +414,123 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | 3YED | 6",
+            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "type": "vless",
+            "server": "178.63.150.70",
+            "server_port": 2096,
+            "uuid": "5c61825d-2c36-4891-adb3-ccbd0d00f324",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zpIenNCQAKGQvOdoUvuhEf-JKotYa5UrP9j9XPodPD0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "type": "vless",
+            "server": "5.75.207.215",
+            "server_port": 49830,
+            "uuid": "2104b29c-130d-4138-b6e5-cda78a11ff79",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dqs9RsG4pc8GWjiOZ1TYEm7Xt33g8OhcYDgfgQzhwho",
+                    "short_id": "2980368d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "type": "vless",
+            "server": "91.107.171.107",
+            "server_port": 443,
+            "uuid": "61f57908-ab92-453c-8fb8-961d44b2c281",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "010101.peterwilbers.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fX78dtEUjdw_RmTf5BIyMvq9voW-qkb2pA9U8W7c0Q8",
+                    "short_id": "df5dbf32"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 4",
+            "type": "vless",
+            "server": "49.13.15.111",
+            "server_port": 443,
+            "uuid": "439a2841-fd39-4575-be43-9a94693c97f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6b6p11Zo46Hxp03EwMozI00F6j5O3kL6Aa22aejsNjI",
+                    "short_id": "42ba3bac"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪IE | vless | 3YED | 12",
             "type": "vless",
             "server": "34.244.22.156",
             "server_port": 443,
