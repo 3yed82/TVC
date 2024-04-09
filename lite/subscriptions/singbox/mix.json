@@ -107,10 +107,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -128,10 +129,11 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
@@ -193,9 +195,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.132.236.152",
+            "server": "52.48.240.196",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -215,9 +217,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.121.170.153",
+            "server": "13.49.130.240",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -268,6 +270,40 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+            "type": "vmess",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -341,9 +377,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "51.81.59.229",
-            "server_port": 13541,
-            "uuid": "280a2198-b720-4544-93b2-782880e74143",
+            "server": "207.246.108.107",
+            "server_port": 40193,
+            "uuid": "10979bca-b26b-42ae-801c-b2efbd1bf8b8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -472,7 +508,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
             "type": "vmess",
-            "server": "172.67.152.214",
+            "server": "198.41.202.5",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -487,7 +523,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "kittiy.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -499,7 +535,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "kittiy.sbs"
                 }
             }
         },
