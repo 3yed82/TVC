@@ -116,9 +116,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -140,9 +139,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @VmessProtocol | 14",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vless | @FreakConfig | 5",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -379,11 +377,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "1.64.14.1",
-            "server_port": 80,
-            "uuid": "f0d23e27-d3cf-4476-b75b-87552f9eee1a",
+            "server": "156.235.89.249",
+            "server_port": 59526,
+            "uuid": "9d940d04-9617-4e67-d458-161283255660",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -393,6 +391,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -426,37 +431,6 @@ https://github.com/3yed-61
                 "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
                 "headers": {
                     "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "172.67.20.220",
-            "server_port": 2096,
-            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnxw.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vpnxw.pages.dev"
                 }
             }
         },
