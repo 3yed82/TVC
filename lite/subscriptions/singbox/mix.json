@@ -113,9 +113,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
@@ -137,9 +138,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
@@ -318,6 +320,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 11",
+            "type": "vmess",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rohv2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
             "server": "186.233.118.171",
@@ -362,11 +388,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "66.42.102.129",
-            "server_port": 50086,
-            "uuid": "5546c857-6176-4677-ce46-5b7445b39d4c",
+            "server": "novia.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -376,6 +402,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
