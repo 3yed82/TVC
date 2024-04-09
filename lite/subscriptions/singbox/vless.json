@@ -106,7 +106,9 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
+                "🇧🇾BY | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -114,7 +116,9 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
+                "🇧🇾BY | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,7 +142,62 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @azadi_az_inja_migzare | 4",
+            "tag": "🇧🇾BY | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.251.38.172",
+            "server_port": 443,
+            "uuid": "48a5b05b-cf59-4a70-87fb-e685780f1991",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "by.jarviskit.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FAKEOFTVC | 4",
             "type": "vless",
             "server": "188.40.202.25",
             "server_port": 8443,
