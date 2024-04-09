@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇾BY | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -116,7 +115,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇾BY | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -140,30 +138,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇧🇾BY | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.251.38.172",
-            "server_port": 443,
-            "uuid": "48a5b05b-cf59-4a70-87fb-e685780f1991",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "by.jarviskit.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 5",
