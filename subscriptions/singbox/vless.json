@@ -138,6 +138,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -180,6 +181,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1182,6 +1184,37 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "type": "vless",
+            "server": "23.227.60.7",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test43.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test43.pages.dev"
                 }
             }
         },
