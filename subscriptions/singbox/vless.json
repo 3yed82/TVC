@@ -139,11 +139,10 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -186,11 +185,10 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -1196,7 +1194,7 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "104.22.33.78",
             "server_port": 443,
             "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
@@ -1225,9 +1223,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 1",
             "type": "vless",
-            "server": "172.67.24.121",
+            "server": "zula.ir",
             "server_port": 443,
             "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
@@ -1258,6 +1256,37 @@
         {
             "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 3",
+            "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
             "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
@@ -1287,38 +1316,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
-            "type": "vless",
-            "server": "104.22.33.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇨🇦CA | vless | 3YED | 5",
             "type": "vless",
             "server": "23.227.60.7",
             "server_port": 443,
@@ -1345,37 +1343,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "test43.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 5",
-            "type": "vless",
-            "server": "www.zula.ir",
-            "server_port": 443,
-            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
                 }
             }
         },
