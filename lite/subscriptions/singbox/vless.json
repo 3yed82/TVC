@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -115,6 +116,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,6 +167,35 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @FAKEOFTVC | 4",
+            "type": "vless",
+            "server": "51.195.157.103",
+            "server_port": 45102,
+            "uuid": "de85f08e-b381-4d54-931d-f8a24f49b3ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
                 }
             }
         },
