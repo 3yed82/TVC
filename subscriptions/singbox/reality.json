@@ -119,8 +119,10 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 13",
+                "🏳️XX | vless | 3YED | 116",
+                "🇩🇪DE | vless | 3YED | 118",
                 "🇩🇪DE | vless | 3YED | 120",
-                "🏳️XX | vless | 3YED | 130",
+                "🏳️XX | vless | 3YED | 136",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -147,8 +149,10 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 13",
+                "🏳️XX | vless | 3YED | 116",
+                "🇩🇪DE | vless | 3YED | 118",
                 "🇩🇪DE | vless | 3YED | 120",
-                "🏳️XX | vless | 3YED | 130",
+                "🏳️XX | vless | 3YED | 136",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -590,6 +594,64 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | 3YED | 116",
+            "type": "vless",
+            "server": "atlas.ne.theonevip.sbs",
+            "server_port": 3010,
+            "uuid": "9867a033-eee3-434d-91e5-0af741d634e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "98m4UxvbCz2Uu9twbXVDMiP3S6VSg0KFIOpUVsK9pwI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 118",
+            "type": "vless",
+            "server": "login.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendayking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "納豆.例.jp",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sgQXMDfpV2HqVUrst0FIeYVU0XPpBeXs1i5z-_3SGSI",
+                    "short_id": "f85c0ee0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 120",
             "type": "vless",
             "server": "login.legendaryking.link",
@@ -619,7 +681,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 130",
+            "tag": "🏳️XX | vless | 3YED | 136",
             "type": "vless",
             "server": "cdn.legendaryking.link",
             "server_port": 443,
