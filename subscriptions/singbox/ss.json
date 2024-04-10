@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 7",
                 "🇺🇸US | ss | 3YED | 11",
                 "🇩🇪DE | ss | 3YED | 0",
@@ -122,14 +123,14 @@
                 "🇩🇪DE | ss | 3YED | 14",
                 "🇧🇷BR | ss | 3YED | 15",
                 "🇨🇦CA | ss | 3YED | 16",
-                "🇦🇹AT | ss | 3YED | 17",
-                "🇧🇭BH | ss | 3YED | 8"
+                "🇦🇹AT | ss | 3YED | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 7",
                 "🇺🇸US | ss | 3YED | 11",
                 "🇩🇪DE | ss | 3YED | 0",
@@ -147,8 +148,7 @@
                 "🇩🇪DE | ss | 3YED | 14",
                 "🇧🇷BR | ss | 3YED | 15",
                 "🇨🇦CA | ss | 3YED | 16",
-                "🇦🇹AT | ss | 3YED | 17",
-                "🇧🇭BH | ss | 3YED | 8"
+                "🇦🇹AT | ss | 3YED | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,6 +169,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 4",
+            "type": "shadowsocks",
+            "server": "162.19.175.23",
+            "server_port": 50969,
+            "method": "aes-256-gcm",
+            "password": "KG5cJwcYQDIYdkqY",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | 3YED | 7",
@@ -347,16 +357,6 @@
             "server_port": 13022,
             "method": "chacha20-ietf-poly1305",
             "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇧🇭BH | ss | 3YED | 8",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2LVVFxxHJSBMdGdl",
             "plugin": "",
             "plugin_opts": ""
         }
