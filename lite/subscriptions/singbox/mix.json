@@ -112,11 +112,11 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
-                "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇦🇪AE | ss | @proxy_mtm | 13",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
-                "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
+                "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇦🇪AE | ss | @proxy_mtm | 13",
@@ -289,36 +289,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 11",
-            "type": "vmess",
-            "server": "79.175.151.112",
-            "server_port": 58271,
-            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rohv2ray",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇧🇷BR | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "186.233.118.171",
-            "server_port": 5600,
+            "server": "212.113.106.243",
+            "server_port": 13022,
             "method": "chacha20-ietf-poly1305",
-            "password": "30b5ZoERozKG4dr0Va3DXbCUUQxuUBjIZ9F80qqIvf0=",
+            "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -357,11 +333,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.21.82.183",
-            "server_port": 8880,
-            "uuid": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
+            "server": "152.69.197.74",
+            "server_port": 12345,
+            "uuid": "b8a6bf58-485a-4046-b386-b3661bf65eff",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -374,7 +350,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/bb",
                 "headers": {
                     "Host": ""
                 }
@@ -411,6 +387,37 @@ https://github.com/3yed-61
                 "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
                 "headers": {
                     "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
