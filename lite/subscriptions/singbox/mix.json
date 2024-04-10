@@ -106,10 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
@@ -122,17 +123,18 @@ https://github.com/3yed-61
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🇩🇪DE | vmess | @OpenSSTPVpn | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
@@ -145,7 +147,7 @@ https://github.com/3yed-61
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
+                "🇩🇪DE | vmess | @OpenSSTPVpn | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -168,9 +170,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.246.5.3",
+            "server": "13.49.160.120",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -192,7 +194,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "18.196.10.17",
+            "server": "18.153.136.1",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -249,6 +251,40 @@ https://github.com/3yed-61
                 "path": "\/video\/GQ2qE5Us9g",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸ES | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "185.18.250.33",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "r-wispy-meadow-9221.fosoka9932.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nina.bond\/linkvws",
+                "headers": {
+                    "Host": "r-wispy-meadow-9221.fosoka9932.workers.dev"
                 }
             }
         },
@@ -357,9 +393,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "192.18.135.250",
-            "server_port": 18091,
-            "uuid": "df208a40-27f1-4ff4-e54a-ee0c6782f019",
+            "server": "149.28.228.215",
+            "server_port": 22195,
+            "uuid": "f865bc43-b129-443e-d00a-7d303b25c4a2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -369,13 +405,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/er208a4028472",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -556,11 +585,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 5",
+            "tag": "🇩🇪DE | vmess | @OpenSSTPVpn | 3",
             "type": "vmess",
-            "server": "104.26.8.202",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "91.107.143.169",
+            "server_port": 26523,
+            "uuid": "c2aa1cce-5d89-43f2-eeb9-703507b1f5c3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -570,23 +599,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vip2323.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "vip2323.cfd"
-                }
             }
         }
     ],
