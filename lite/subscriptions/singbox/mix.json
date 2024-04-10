@@ -106,23 +106,23 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
-                "🇮🇷IR | vmess | @v2ray1_ng | 10",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇦🇪AE | ss | @proxy_mtm | 13",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🏳️XX | vmess | @OpenSSTPVpn | 5"
             ]
         },
@@ -130,23 +130,23 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
-                "🇮🇷IR | vmess | @v2ray1_ng | 10",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇦🇪AE | ss | @proxy_mtm | 13",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6",
                 "🏳️XX | vmess | @OpenSSTPVpn | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -170,9 +170,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.198.225.65",
+            "server": "15.188.192.33",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -192,9 +192,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "44.230.114.78",
+            "server": "51.21.18.123",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -231,11 +231,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "50022.baidu-cdn.top",
-            "server_port": 50022,
-            "uuid": "e80442e2-4577-4b33-8d9b-798d816974bd",
+            "server": "cfcdn1.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "8e0fc6e0-1313-4767-b51c-5506680d534e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -245,6 +245,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/GQ2qE5Us9g",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -252,7 +259,7 @@ https://github.com/3yed-61
             "type": "vmess",
             "server": "173.245.58.5",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,7 +282,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/nina.bond\/linkvws",
+                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
                 "headers": {
                     "Host": "cy-dew-1c7uwh.cojatoc291.workers.dev"
                 }
@@ -299,7 +306,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 10",
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 11",
             "type": "vmess",
             "server": "79.175.151.112",
             "server_port": 58271,
@@ -331,6 +338,40 @@ https://github.com/3yed-61
             "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
@@ -367,11 +408,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "91.107.143.169",
-            "server_port": 26523,
-            "uuid": "c2aa1cce-5d89-43f2-eeb9-703507b1f5c3",
+            "server": "66.42.118.37",
+            "server_port": 39742,
+            "uuid": "b85d11a6-9ce5-4c04-efb1-9f3b1ac2f255",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -533,40 +574,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
-            "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
                 }
             }
         },
