@@ -106,15 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
@@ -129,15 +130,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
+                "🇮🇷IR | vmess | @v2ray1_ng | 11",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇷FR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
@@ -168,9 +170,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.169.254.83",
+            "server": "63.32.131.226",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,9 +192,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.99.35.185",
+            "server": "3.130.40.83",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -294,6 +296,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 11",
+            "type": "vmess",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rohv2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "212.113.106.243",
@@ -338,11 +364,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "141.94.237.81",
-            "server_port": 8442,
-            "uuid": "60df4ec6-7506-407e-998e-b1539fc0630f",
+            "server": "64.176.219.193",
+            "server_port": 48895,
+            "uuid": "1dd70a5f-fbbb-4e58-9d29-a40415853c80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
