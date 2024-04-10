@@ -110,10 +110,12 @@ https://github.com/3yed-61
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇮🇷IR | vmess | @v2ray1_ng | 10",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @yaney_01 | 4",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
@@ -132,10 +134,12 @@ https://github.com/3yed-61
                 "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇮🇷IR | vmess | @v2ray1_ng | 10",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @yaney_01 | 4",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
@@ -168,7 +172,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.78.196.23",
+            "server": "18.198.225.65",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,7 +194,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.142.109.177",
+            "server": "44.230.114.78",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -244,6 +248,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "173.245.58.5",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cy-dew-1c7uwh.cojatoc291.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nina.bond\/linkvws",
+                "headers": {
+                    "Host": "cy-dew-1c7uwh.cojatoc291.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "51.81.59.229",
@@ -261,6 +299,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 10",
+            "type": "vmess",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rohv2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "212.113.106.243",
@@ -271,7 +333,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -305,11 +367,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.16.60.8",
-            "server_port": 2083,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "91.107.143.169",
+            "server_port": 26523,
+            "uuid": "c2aa1cce-5d89-43f2-eeb9-703507b1f5c3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,23 +381,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
-                "headers": {
-                    "Host": "worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"
-                }
             }
         },
         {
