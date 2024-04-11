@@ -114,16 +114,14 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇳CN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇩🇪DE | vmess | @OpenSSTPVpn | 0"
             ]
         },
@@ -139,16 +137,14 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇳CN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 7",
                 "🇩🇪DE | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -349,35 +345,6 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 9",
-            "type": "vless",
-            "server": "5.75.207.215",
-            "server_port": 49830,
-            "uuid": "2104b29c-130d-4138-b6e5-cda78a11ff79",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dqs9RsG4pc8GWjiOZ1TYEm7Xt33g8OhcYDgfgQzhwho",
-                    "short_id": "2980368d"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -412,13 +379,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "107.173.71.35",
-            "server_port": 27993,
-            "uuid": "c37004bc-7a39-45db-94c8-925e6b240c93",
+            "server": "47.104.186.133",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -426,13 +393,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/c766436b",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -606,40 +566,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 7",
-            "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
                 }
             }
         },
