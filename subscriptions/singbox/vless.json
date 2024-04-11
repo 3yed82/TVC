@@ -129,16 +129,17 @@
                 "🇩🇪DE | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
-                "🇰🇿KZ | vless | 3YED | 116",
+                "🇰🇿KZ | vless | 3YED | 126",
+                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -171,16 +172,17 @@
                 "🇩🇪DE | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
-                "🇰🇿KZ | vless | 3YED | 116",
+                "🇰🇿KZ | vless | 3YED | 126",
+                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -921,7 +923,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | vless | 3YED | 116",
+            "tag": "🇰🇿KZ | vless | 3YED | 126",
             "type": "vless",
             "server": "193.176.153.113",
             "server_port": 443,
@@ -954,6 +956,68 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "type": "vless",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test30.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test30.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
             }
         },
         {
@@ -1104,38 +1168,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 0",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "104.22.33.78",
             "server_port": 443,
@@ -1166,7 +1199,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1197,7 +1230,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "172.67.24.121",
             "server_port": 443,
