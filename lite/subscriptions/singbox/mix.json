@@ -111,11 +111,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇺🇸US | vmess | @ShadowProxy66 | 69",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
@@ -135,11 +136,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇺🇸US | vmess | @ShadowProxy66 | 69",
+                "🇮🇷IR | vmess | @ShadowProxy66 | 68",
                 "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
@@ -279,11 +281,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 69",
+            "tag": "🇮🇷IR | vmess | @ShadowProxy66 | 68",
             "type": "vmess",
-            "server": "135.148.62.165",
-            "server_port": 59988,
-            "uuid": "cfd7a05c-82cf-436d-abce-8b2245b76472",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "98a9ad2a-1966-4877-bed4-848b73f9ab34",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,6 +295,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rohv2ray",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -340,6 +349,35 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "5.75.207.215",
+            "server_port": 49830,
+            "uuid": "2104b29c-130d-4138-b6e5-cda78a11ff79",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dqs9RsG4pc8GWjiOZ1TYEm7Xt33g8OhcYDgfgQzhwho",
+                    "short_id": "2980368d"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -374,11 +412,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "151.101.65.57",
-            "server_port": 80,
-            "uuid": "66ccb11f-75a7-4282-8a60-31fed447401d",
+            "server": "107.173.71.35",
+            "server_port": 27993,
+            "uuid": "c37004bc-7a39-45db-94c8-925e6b240c93",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -391,7 +429,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/aries",
+                "path": "\/c766436b",
                 "headers": {
                     "Host": ""
                 }
