@@ -114,15 +114,15 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | ss | @VmessProtocol | 16",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇻🇳VN | vmess | @Hope_Net | 19",
+                "🇲🇾MY | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @FreakConfig | 5",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
         {
@@ -137,15 +137,15 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
                 "🇺🇸US | ss | @VmessProtocol | 16",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇻🇳VN | vmess | @Hope_Net | 19",
+                "🇲🇾MY | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vless | @FreakConfig | 5",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -324,28 +324,6 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "3.18.63.57",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -380,11 +358,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
+            "tag": "🇲🇾MY | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "103.173.254.106",
-            "server_port": 1850,
-            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
+            "server": "154.90.39.63",
+            "server_port": 45343,
+            "uuid": "08aa8499-d616-4ff1-d6ab-ce0c522824aa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -394,23 +372,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/zh-cn",
-                "headers": {
-                    "Host": "www.microsoft.com"
-                }
             }
         },
         {
@@ -579,6 +540,40 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
+            "type": "vmess",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
                 }
             }
         }
