@@ -121,6 +121,8 @@
                 "🇫🇮FI | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 135",
+                "🇳🇴NO | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -150,6 +152,8 @@
                 "🇫🇮FI | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 135",
+                "🇳🇴NO | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -654,6 +658,64 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇴NO | vless | 3YED | 10",
+            "type": "vless",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 13",
+            "type": "vless",
+            "server": "91.107.180.193",
+            "server_port": 42347,
+            "uuid": "a34a4b8f-88fe-48d0-956e-20f4c787dc5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nqKcqNNx-cICMs1R3MgspGDouK-UURFXxvBH_kob8mg",
+                    "short_id": "df"
+                }
             }
         },
         {
