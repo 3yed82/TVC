@@ -108,10 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -125,10 +125,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -197,11 +197,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 5244,
-            "uuid": "44ef4f92-58d9-41e0-9390-a40e153c6403",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -211,6 +211,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
             }
         },
         {
@@ -265,11 +282,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "205.234.233.68",
-            "server_port": 445,
-            "uuid": "ff982b62-2d2e-4ebe-befc-6e3d5177857c",
+            "server": "91.107.248.141",
+            "server_port": 18510,
+            "uuid": "22baa320-c2a8-465e-a99e-a9e76e541dd4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,6 +296,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
