@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -113,6 +114,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -134,6 +136,37 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
+            }
         },
         {
             "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
