@@ -106,17 +106,17 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇹🇼TW | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -127,17 +127,17 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇹🇼TW | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -164,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.75.145.173",
+            "server": "15.237.19.153",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.254.253.55",
+            "server": "54.77.3.1",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -293,6 +293,40 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "novia.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "novia.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "novia.makeup"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -327,11 +361,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇹🇼TW | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.76.18.197",
-            "server_port": 20703,
-            "uuid": "ae710bf3-229a-4f31-d990-971b831c8985",
+            "server": "103.159.206.35",
+            "server_port": 31945,
+            "uuid": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,6 +375,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -374,37 +415,6 @@ https://github.com/3yed-61
                 "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
                 "headers": {
                     "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
