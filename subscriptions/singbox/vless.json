@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 9",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -120,7 +120,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 21",
-                "🇺🇸US | vless | 3YED | 35",
                 "🇳🇱NL | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 16",
@@ -131,7 +130,6 @@
                 "🇩🇪DE | vless | 3YED | 29",
                 "🇫🇮FI | vless | 3YED | 30",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇱NL | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 118",
                 "🏳️XX | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
@@ -139,9 +137,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -150,7 +148,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 9",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -165,7 +163,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 21",
-                "🇺🇸US | vless | 3YED | 35",
                 "🇳🇱NL | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 16",
@@ -176,7 +173,6 @@
                 "🇩🇪DE | vless | 3YED | 29",
                 "🇫🇮FI | vless | 3YED | 30",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇱NL | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 118",
                 "🏳️XX | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
@@ -184,9 +180,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -211,7 +207,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 8",
+            "tag": "🇨🇦CA | vless | 3YED | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -671,37 +667,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 35",
-            "type": "vless",
-            "server": "66.235.200.145",
-            "server_port": 8443,
-            "uuid": "d262d1e7-4681-45dd-a10f-4ce75b7b2f39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vmessorg.xn--54qv00ez5ar77g.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | 3YED | 9",
             "type": "vless",
             "server": "152.42.135.21",
@@ -987,35 +952,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | 3YED | 15",
-            "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | 3YED | 118",
             "type": "vless",
             "server": "login.snapfooding.com",
@@ -1228,7 +1164,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
@@ -1259,7 +1195,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1290,7 +1226,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "www.discord.gg",
             "server_port": 443,
