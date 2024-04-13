@@ -115,9 +115,9 @@ https://github.com/3yed-61
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+                "🇷🇴RO | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -136,9 +136,9 @@ https://github.com/3yed-61
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+                "🇷🇴RO | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -202,7 +202,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.170.91.93",
+            "server": "52.210.102.21",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -224,7 +224,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.17.105.88",
+            "server": "3.18.63.57",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -363,11 +363,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "47.76.35.246",
-            "server_port": 24101,
-            "uuid": "2fbf5c4d-4748-4064-d02e-af9e5c6be060",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -378,11 +378,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/zh-cn",
                 "headers": {
-                    "Host": ""
+                    "Host": "www.microsoft.com"
                 }
             }
         },
@@ -421,7 +431,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+            "tag": "🇷🇴RO | vmess | @FAKEOFTVC | 4",
             "type": "vmess",
             "server": "89.213.174.227",
             "server_port": 3056,
