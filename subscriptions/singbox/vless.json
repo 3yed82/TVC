@@ -132,17 +132,18 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 135",
+                "🇩🇪DE | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 4",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -178,17 +179,18 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 135",
+                "🇩🇪DE | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 4",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -1025,6 +1027,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 14",
+            "type": "vless",
+            "server": "91.107.180.193",
+            "server_port": 42347,
+            "uuid": "a34a4b8f-88fe-48d0-956e-20f4c787dc5d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nqKcqNNx-cICMs1R3MgspGDouK-UURFXxvBH_kob8mg",
+                    "short_id": "df"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | 3YED | 0",
             "type": "vless",
             "server": "[2a01:4f8:c013:13bd:c6::1]",
@@ -1201,7 +1232,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
@@ -1263,7 +1294,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
             "server": "www.discord.gg",
             "server_port": 443,
@@ -1325,7 +1356,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "104.22.33.78",
             "server_port": 443,
