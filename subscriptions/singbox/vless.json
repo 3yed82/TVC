@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -131,8 +131,10 @@
                 "🇫🇮FI | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
-                "🏳️XX | vless | 3YED | 132",
                 "🏳️XX | vless | 3YED | 142",
+                "🏳️XX | vless | 3YED | 152",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -141,7 +143,6 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -151,7 +152,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -177,8 +178,10 @@
                 "🇫🇮FI | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 14",
-                "🏳️XX | vless | 3YED | 132",
                 "🏳️XX | vless | 3YED | 142",
+                "🏳️XX | vless | 3YED | 152",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -187,7 +190,6 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -213,7 +215,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "tag": "🇨🇦CA | vless | 3YED | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -989,7 +991,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 132",
+            "tag": "🏳️XX | vless | 3YED | 142",
             "type": "vless",
             "server": "[::ffff:74cb:2f80]",
             "server_port": 29253,
@@ -1018,7 +1020,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 142",
+            "tag": "🏳️XX | vless | 3YED | 152",
             "type": "vless",
             "server": "atlas.ne.theonevip.sbs",
             "server_port": 3010,
@@ -1043,6 +1045,68 @@
                     "enabled": true,
                     "public_key": "98m4UxvbCz2Uu9twbXVDMiP3S6VSg0KFIOpUVsK9pwI",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 8",
+            "type": "vless",
+            "server": "172.67.24.121",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 9",
+            "type": "vless",
+            "server": "www.discord.gg",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
@@ -1281,37 +1345,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
-            "type": "vless",
-            "server": "www.discord.gg",
-            "server_port": 443,
-            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
