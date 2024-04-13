@@ -108,11 +108,11 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇦🇺AU | vmess | @oneclickvpnkeys | 8",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
@@ -125,11 +125,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇦🇺AU | vmess | @oneclickvpnkeys | 8",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
-                "🇮🇷IR | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
@@ -197,11 +197,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇦🇺AU | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "103.169.142.160",
-            "server_port": 80,
-            "uuid": "88aa2549-0a4b-4c94-ac8e-0f65b00bb0da",
+            "server": "65.109.199.41",
+            "server_port": 3814,
+            "uuid": "5e49a8e6-519f-47c3-ab8f-49c1fe452f28",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -211,13 +211,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TG@dns68公益节点",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -238,11 +231,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "spirit.sajikhs.sbs",
-            "server_port": 24424,
-            "uuid": "fbec9952-1070-453d-88ad-9ec27b6e2344",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "44e35bf1-6e80-4dd0-88d4-ed90fcfd19ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,6 +245,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pt1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "pt1-vmess.sshmax.xyz"
+                }
             }
         },
         {
@@ -289,11 +299,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "40.160.6.81",
-            "server_port": 34535,
-            "uuid": "85c03e2c-b431-477c-e1d8-1bd56601abfe",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -303,6 +313,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/zh-cn",
+                "headers": {
+                    "Host": "www.microsoft.com"
+                }
             }
         },
         {
