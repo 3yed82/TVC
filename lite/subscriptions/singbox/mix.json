@@ -107,13 +107,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -128,13 +128,13 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 32",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -166,7 +166,7 @@ https://github.com/3yed-61
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "15.237.19.153",
+            "server": "13.39.88.125",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "54.77.3.1",
+            "server": "99.79.154.202",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -293,11 +293,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "44e35bf1-6e80-4dd0-88d4-ed90fcfd19ca",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,7 +310,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pt1-vmess.sshmax.xyz",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -320,9 +320,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "pt1-vmess.sshmax.xyz"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -363,9 +363,9 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "31.47.45.149",
-            "server_port": 54986,
-            "uuid": "4e97a39f-9918-4b37-bbcf-7bc7f2bb57fc",
+            "server": "79.175.151.112",
+            "server_port": 58271,
+            "uuid": "98a9ad2a-1966-4877-bed4-848b73f9ab34",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -375,6 +375,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rohv2ray",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
