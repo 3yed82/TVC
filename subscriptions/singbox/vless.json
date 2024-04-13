@@ -134,14 +134,15 @@
                 "🏳️XX | vless | 3YED | 123",
                 "🏳️XX | vless | 3YED | 133",
                 "🏳️XX | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -179,14 +180,15 @@
                 "🏳️XX | vless | 3YED | 123",
                 "🏳️XX | vless | 3YED | 133",
                 "🏳️XX | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -1074,7 +1076,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
@@ -1252,7 +1254,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
@@ -1286,6 +1288,37 @@
             "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "www.discord.gg",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
             "flow": "",
