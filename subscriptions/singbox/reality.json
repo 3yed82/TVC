@@ -110,11 +110,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 21",
                 "🇫🇷FR | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 26",
-                "🇩🇪DE | vless | 3YED | 29",
-                "🇫🇮FI | vless | 3YED | 30",
                 "🏳️XX | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -133,11 +129,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 21",
                 "🇫🇷FR | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 26",
-                "🇩🇪DE | vless | 3YED | 29",
-                "🇫🇮FI | vless | 3YED | 30",
                 "🏳️XX | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -312,42 +304,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 21",
-            "type": "vless",
-            "server": "pub2.legendaryking.link",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fortune.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8UMZ6q74yjStq0Gad3QhEVYUZW3traIgWx9QWHpYLBI",
-                    "short_id": "e1ac93f1"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇫🇷FR | vless | 3YED | 5",
             "type": "vless",
             "server": "51.91.140.55",
@@ -373,93 +329,6 @@
                     "enabled": true,
                     "public_key": "KrOQ6UIhM_AXIEJZ31FsIXRbtN7TtFBykqmnnFECkEM",
                     "short_id": "1d72e9f5ba"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 26",
-            "type": "vless",
-            "server": "95.164.68.37",
-            "server_port": 8443,
-            "uuid": "ce3f2a75-28fe-48f0-a35c-56166017f8d3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.21.70.42",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
-                    "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 29",
-            "type": "vless",
-            "server": "91.107.160.71",
-            "server_port": 32912,
-            "uuid": "6101d81f-4cf6-40e6-81ae-7d30dd1f7a4a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "github.io",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yDP19KgLJ0B8K73kObrTWo_N4pcFedyJ5MRuCdisHnk",
-                    "short_id": "6e4d5ce0"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | 3YED | 30",
-            "type": "vless",
-            "server": "65.109.188.83",
-            "server_port": 56888,
-            "uuid": "f6e218b3-e76c-43e5-93ca-1feb336e5c34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WsXvo3TM_RUNg529VtpsjyakG21eK65iOnvIuSvvGTA",
-                    "short_id": "bdfff48d"
                 }
             }
         },
