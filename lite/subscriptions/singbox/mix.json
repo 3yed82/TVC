@@ -107,17 +107,19 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @V2rayCollectorDonate | 21",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @v2ray1_ng | 2",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🏳️XX | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
@@ -127,17 +129,19 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @V2rayCollectorDonate | 21",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @v2ray1_ng | 2",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🏳️XX | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
@@ -198,9 +202,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "16.170.182.141",
+            "server": "3.68.140.21",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -220,9 +224,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "16.16.240.225",
+            "server": "18.192.154.136",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -283,7 +287,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "104.21.15.36",
             "server_port": 443,
@@ -317,6 +321,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 2",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "212.113.106.243",
@@ -325,6 +363,35 @@ https://github.com/3yed-61
             "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "143.47.241.46",
+            "server_port": 16097,
+            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
@@ -361,11 +428,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
+            "tag": "🏳️XX | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "183.181.36.194",
-            "server_port": 41597,
-            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcabaac-baca-abac-dcab-abcbccaacbab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -375,13 +442,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -450,11 +510,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @eliya_chiter0 | 0",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 1",
             "type": "vmess",
-            "server": "obgmfvcr28b1.clearbluesky.world",
-            "server_port": 30843,
-            "uuid": "fca67c91-3c04-4be0-baad-e7a2590901fc",
+            "server": "172.67.201.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -464,6 +524,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maggiy.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "maggiy.shop"
+                }
             }
         },
         {
