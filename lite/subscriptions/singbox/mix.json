@@ -106,8 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @ARv2ray | 18",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -115,8 +114,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
-                "🏳️XX | vless | @v2rayng_vpnrog | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -127,8 +126,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @ARv2ray | 18",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
@@ -136,8 +134,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
-                "🏳️XX | vless | @v2rayng_vpnrog | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -164,40 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lt.ArV2ray.host",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.9.244.180",
+            "server": "34.243.229.17",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -282,9 +249,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "novia.makeup",
+            "server": "us-b.sbyt01.shop",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "9c9afd21-e3cf-4e6b-a342-51e4eb52f227",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,7 +264,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "novia.makeup",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -307,9 +274,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/v2ray",
                 "headers": {
-                    "Host": "novia.makeup"
+                    "Host": ""
                 }
             }
         },
@@ -375,11 +342,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 4598,
-            "uuid": "5b68925d-4bb4-4ea1-e7a0-eb8dcff28b5d",
+            "server": "104.21.23.231",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -389,10 +356,17 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 5",
+            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 6",
             "type": "vless",
             "server": "[2a01:4f8:c013:13bd:c6::1]",
             "server_port": 2083,
