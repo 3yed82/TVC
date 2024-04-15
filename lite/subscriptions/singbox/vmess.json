@@ -112,7 +112,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ]
@@ -127,7 +127,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ],
@@ -297,9 +297,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.18.113.56",
-            "server_port": 2052,
-            "uuid": "e7bd848c-c1c9-40a4-b1d9-eba048a340c5",
+            "server": "104.21.80.53",
+            "server_port": 2053,
+            "uuid": "f674964e-7c38-41ac-9f06-3e7aedc51e30",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,16 +310,26 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "qin17.rong1104.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/9TfVEyku",
+                "path": "\/qin17",
                 "headers": {
-                    "Host": ""
+                    "Host": "qin17.rong1104.uk"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "tag": "🇺🇸US | vmess | @v2Line | 11",
             "type": "vmess",
             "server": "173.245.58.37",
             "server_port": 443,
