@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 18",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -119,18 +118,20 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇫🇷FR | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 15",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇨🇷CR | vless | 3YED | 0",
-                "🇳🇱NL | vless | 3YED | 1",
+                "🏳️XX | vless | 3YED | 94",
+                "🏳️XX | vless | 3YED | 95",
+                "🇩🇪DE | vless | 3YED | 98",
                 "🏳️XX | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -139,7 +140,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 18",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -153,18 +153,20 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇫🇷FR | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 15",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇨🇷CR | vless | 3YED | 0",
-                "🇳🇱NL | vless | 3YED | 1",
+                "🏳️XX | vless | 3YED | 94",
+                "🏳️XX | vless | 3YED | 95",
+                "🇩🇪DE | vless | 3YED | 98",
                 "🏳️XX | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -187,37 +189,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lt.ArV2ray.host",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇨🇦CA | vless | 3YED | 4",
@@ -613,7 +584,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇫🇷FR | vless | 3YED | 3",
             "type": "vless",
             "server": "194.116.214.187",
             "server_port": 888,
@@ -724,12 +695,12 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | 3YED | 0",
+            "tag": "🏳️XX | vless | 3YED | 94",
             "type": "vless",
-            "server": "190.93.247.247",
-            "server_port": 443,
-            "uuid": "Parsashonam-42",
-            "flow": "",
+            "server": "Eshterak-diamond",
+            "server_port": 1111,
+            "uuid": "3dde684f-774c-4790-894b-81abc57deb2b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -738,29 +709,27 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mail.offch.blog",
+                "server_name": "c",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mail.offch.blog"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | vless | 3YED | 1",
+            "tag": "🏳️XX | vless | 3YED | 95",
             "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
-            "flow": "",
+            "server": "atlas.ne.theonevip.sbs",
+            "server_port": 3010,
+            "uuid": "3dde684f-774c-4790-894b-81abc57deb2b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -769,20 +738,54 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
+                "server_name": "canva.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "98m4UxvbCz2Uu9twbXVDMiP3S6VSg0KFIOpUVsK9pwI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 98",
+            "type": "vless",
+            "server": "91.107.132.182",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oM6E65KOfc3KT7zaX3dX9MQ73foWOxaC5IEb-anN4gM",
+                    "short_id": "f58ed9db"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -815,7 +818,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
@@ -958,6 +961,37 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 0",
+            "type": "vless",
+            "server": "188.114.97.12",
+            "server_port": 443,
+            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VirgInIaVpn.PaGes.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VirgInIaVpn.PaGes.DeV"
                 }
             }
         },
