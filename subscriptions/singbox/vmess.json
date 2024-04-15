@@ -125,7 +125,8 @@
                 "🇨🇳CN | vmess | 3YED | 17",
                 "🇨🇳CN | vmess | 3YED | 18",
                 "🇨🇦CA | vmess | 3YED | 19",
-                "🇨🇦CA | vmess | 3YED | 5",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 7",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
@@ -136,6 +137,7 @@
                 "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇦CA | vmess | 3YED | 164",
                 "🇮🇷IR | vmess | 3YED | 184",
+                "🇫🇮FI | vmess | 3YED | 192",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇯🇵JP | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 3",
@@ -144,7 +146,7 @@
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇨🇦CA | vmess | 3YED | 10",
                 "🇨🇦CA | vmess | 3YED | 15",
-                "🇮🇷IR | vmess | 3YED | 4",
+                "🇮🇷IR | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 11",
                 "🇨🇦CA | vmess | 3YED | 7",
@@ -212,7 +214,8 @@
                 "🇨🇳CN | vmess | 3YED | 17",
                 "🇨🇳CN | vmess | 3YED | 18",
                 "🇨🇦CA | vmess | 3YED | 19",
-                "🇨🇦CA | vmess | 3YED | 5",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 7",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
@@ -223,6 +226,7 @@
                 "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇦CA | vmess | 3YED | 164",
                 "🇮🇷IR | vmess | 3YED | 184",
+                "🇫🇮FI | vmess | 3YED | 192",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇯🇵JP | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 3",
@@ -231,7 +235,7 @@
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇨🇦CA | vmess | 3YED | 10",
                 "🇨🇦CA | vmess | 3YED | 15",
-                "🇮🇷IR | vmess | 3YED | 4",
+                "🇮🇷IR | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 11",
                 "🇨🇦CA | vmess | 3YED | 7",
@@ -715,7 +719,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 5",
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "megaan.homes",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "megaan.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "megaan.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | 3YED | 7",
             "type": "vmess",
             "server": "sefarat24.com",
             "server_port": 443,
@@ -1032,6 +1070,23 @@
             }
         },
         {
+            "tag": "🇫🇮FI | vmess | 3YED | 192",
+            "type": "vmess",
+            "server": "77.221.159.224",
+            "server_port": 8081,
+            "uuid": "bfa9be17-9150-4231-95a9-1a048f6faa5d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
             "server": "205.234.232.191",
@@ -1233,7 +1288,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 4",
+            "tag": "🇮🇷IR | vmess | 3YED | 5",
             "type": "vmess",
             "server": "217.219.212.36",
             "server_port": 420,
