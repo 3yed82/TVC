@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -125,15 +125,16 @@
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇬🇧GB | vless | 3YED | 15",
+                "🇨🇷CR | vless | 3YED | 3",
+                "🇳🇱NL | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -142,7 +143,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -162,15 +163,16 @@
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇬🇧GB | vless | 3YED | 15",
+                "🇨🇷CR | vless | 3YED | 3",
+                "🇳🇱NL | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -195,7 +197,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 16",
+            "tag": "🇨🇦CA | vless | 3YED | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -788,11 +790,73 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | 3YED | 15",
+            "tag": "🇨🇷CR | vless | 3YED | 3",
             "type": "vless",
-            "server": "143.47.241.46",
-            "server_port": 16097,
-            "uuid": "378387d5-4370-4e38-9661-25796e8630ba",
+            "server": "190.93.247.247",
+            "server_port": 443,
+            "uuid": "Parsashonam-42",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.offch.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mail.offch.blog"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 5",
+            "type": "vless",
+            "server": "188.114.97.12",
+            "server_port": 443,
+            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VirgInIaVpn.PaGes.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VirgInIaVpn.PaGes.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 13",
+            "type": "vless",
+            "server": "login.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -802,7 +866,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.amazon.com",
+                "server_name": "wordpress.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -811,9 +875,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qMH_7IYKzR0mOLN35mnQijwzN8IiWdudhryTHaQzWS0",
-                    "short_id": ""
+                    "public_key": "mkE7SZ-tns7Z1COqGmzeiYauyhRbSErKXFin1jClT24",
+                    "short_id": "65f8cec9"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -993,38 +1064,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
