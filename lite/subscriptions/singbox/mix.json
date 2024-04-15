@@ -114,7 +114,7 @@ https://github.com/3yed-61
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -135,7 +135,7 @@ https://github.com/3yed-61
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -351,11 +351,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "174.136.205.46",
-            "server_port": 39027,
-            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
+            "server": "c7.610710.xyz",
+            "server_port": 8443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,6 +365,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "c7.610710.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "c7.610710.xyz"
+                }
             }
         },
         {
