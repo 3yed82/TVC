@@ -106,17 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 14",
-                "🇳🇱NL | vmess | @proxystore11 | 14",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🏳️XX | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,17 +129,18 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
-                "🇳🇱NL | vless | @ConfigsHUB | 14",
-                "🇳🇱NL | vmess | @proxystore11 | 14",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🏳️XX | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -166,9 +168,40 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
+            "tag": "🇨🇦CA | vless | @ARv2ray | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lt.ArV2ray.host",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.39.26.101",
+            "server": "13.36.81.72",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +221,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "51.20.38.197",
+            "server": "13.37.169.45",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -324,42 +357,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
+            "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
             "type": "vmess",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "vip.soheilsat.com",
+            "server_port": 7021,
+            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -369,23 +371,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxystore11.Eu.ORG",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gwdef.sbs\/linkws",
-                "headers": {
-                    "Host": "proxystore11.Eu.ORG"
-                }
             }
         },
         {
@@ -423,11 +408,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 3956,
-            "uuid": "436b8227-f8bf-4cd7-82e8-b1df3b472098",
+            "server": "104.207.133.131",
+            "server_port": 39729,
+            "uuid": "70d5375a-d4c2-4cdd-fd69-4f75572e0bcc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -437,6 +422,35 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 5",
+            "type": "vless",
+            "server": "[2a01:4f8:c013:13bd:c6::1]",
+            "server_port": 2083,
+            "uuid": "dc4b5be4-bec4-4524-8cf7-d4697dc15e57",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lastsecond.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
+                    "short_id": "456d9a391ac248"
+                }
             }
         },
         {
