@@ -125,13 +125,14 @@
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 16",
                 "🏳️XX | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -160,13 +161,14 @@
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 16",
                 "🏳️XX | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -784,6 +786,37 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 16",
+            "type": "vless",
+            "server": "3.76.153.83",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | 3YED | 4",
             "type": "vless",
             "server": "[2a01:4f8:c013:13bd:c6::1]",
@@ -813,7 +846,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇨🇦CA | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
@@ -960,7 +993,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 443,
