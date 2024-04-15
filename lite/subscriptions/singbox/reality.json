@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
+                "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -115,6 +116,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
+                "🇬🇧GB | vless | @FAKEOFTVC | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -163,6 +165,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @FAKEOFTVC | 2",
+            "type": "vless",
+            "server": "uk1.x2fast.net",
+            "server_port": 8443,
+            "uuid": "f3c85554-d957-4108-bf7e-a644ce7bc9d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DhQtiEuqmi3N0OAUFncUdSgV0WABfzS2wUHfmy7yViw",
+                    "short_id": "4cedd4c199a5b100"
                 }
             }
         },
