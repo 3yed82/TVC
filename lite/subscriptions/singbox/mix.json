@@ -107,15 +107,16 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 16",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇯🇵JP | vmess | @Hope_Net | 15",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,15 +129,16 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 16",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇯🇵JP | vmess | @Hope_Net | 15",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -166,7 +168,7 @@ https://github.com/3yed-61
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "15.236.184.78",
+            "server": "13.36.90.233",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "52.48.111.126",
+            "server": "99.79.22.158",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -249,7 +251,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "us-b.sbyt01.shop",
             "server_port": 443,
@@ -301,6 +303,40 @@ https://github.com/3yed-61
             "password": "XwWVRmO2kKu6qK1Xlih3Lfe6Lh3RRa9r",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "v2raxx1.hadiv2.shop",
+            "server_port": 2096,
+            "uuid": "V2rAXX",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2raxx.hadiv2.SHOP.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@V2RAXX @V2RAXX @V2RAXX @V2RAXX @V2RAXX @V2RAXX",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
@@ -371,11 +407,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "207.148.10.248",
-            "server_port": 47918,
-            "uuid": "232aeb1e-7d67-4a91-9379-4da1f4917691",
+            "server": "167.179.111.237",
+            "server_port": 14935,
+            "uuid": "e961894f-8e90-472f-98d3-09402e4be453",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
