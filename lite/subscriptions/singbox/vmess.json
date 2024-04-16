@@ -109,9 +109,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -124,9 +125,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -217,6 +219,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 9",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
             "type": "vmess",
             "server": "188.114.96.3",
@@ -285,11 +321,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "o4.610710.xyz",
+            "server": "jahfkjha.cfd",
             "server_port": 443,
-            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,7 +338,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "o4.610710.xyz",
+                "server_name": "jahfkjha.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -312,9 +348,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "o4.610710.xyz"
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
