@@ -112,6 +112,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -132,6 +133,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -284,6 +286,40 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.21.83.208",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -320,9 +356,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "c2.v2raybrasil.cloud",
-            "server_port": 2082,
-            "uuid": "009d320a-5960-49e6-99c3-301966ff6fea",
+            "server": "o4.610710.xyz",
+            "server_port": 443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,11 +369,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "o4.610710.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "c2.v2raybrasil.cloud"
+                    "Host": "o4.610710.xyz"
                 }
             }
         },
