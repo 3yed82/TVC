@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇳🇱NL | vmess | @proxystore11 | 14",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇻🇳VN | vmess | @v2Line | 11",
@@ -128,16 +128,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇳🇱NL | vmess | @proxystore11 | 14",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇻🇳VN | vmess | @v2Line | 11",
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "52.28.101.225",
+            "server": "15.236.34.93",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.50.6.37",
+            "server": "13.36.218.101",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -227,11 +227,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "3d840eb7-9400-4caf-a511-e4724a003ec4",
+            "server": "hkjcdn03.dorabbb.top",
+            "server_port": 44827,
+            "uuid": "40c58958-2432-4f60-9b5d-746f9cded85f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -241,13 +241,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/GQ2qE5Us9g",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -319,11 +312,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
+            "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
             "type": "vmess",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "vip.soheilsat.com",
+            "server_port": 7021,
+            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,23 +326,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxystore11.Eu.ORG",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gwdef.sbs\/linkws",
-                "headers": {
-                    "Host": "proxystore11.Eu.ORG"
-                }
             }
         },
         {
@@ -387,11 +363,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "jahfkjha.cfd",
+            "server": "sy4.610710.xyz",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -404,7 +380,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -414,9 +390,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": ""
                 }
             }
         },
