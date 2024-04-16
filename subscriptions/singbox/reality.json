@@ -110,9 +110,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇳🇱NL | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 29",
-                "🇨🇦CA | vless | 3YED | 118",
-                "🇨🇦CA | vless | 3YED | 137",
+                "🇨🇦CA | vless | 3YED | 110",
+                "🇨🇦CA | vless | 3YED | 128",
                 "🏳️XX | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -130,9 +132,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇳🇱NL | vless | 3YED | 19",
                 "🇫🇷FR | vless | 3YED | 29",
-                "🇨🇦CA | vless | 3YED | 118",
-                "🇨🇦CA | vless | 3YED | 137",
+                "🇨🇦CA | vless | 3YED | 110",
+                "🇨🇦CA | vless | 3YED | 128",
                 "🏳️XX | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -306,6 +310,64 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 7",
+            "type": "vless",
+            "server": "194.116.214.187",
+            "server_port": 888,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 19",
+            "type": "vless",
+            "server": "152.42.135.21",
+            "server_port": 443,
+            "uuid": "a5690a5b-0693-409d-ac88-9e9d6c56d004",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.paypal.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KysY09cPrQb0ErYZDToB3--vs1p5IqSSwVgyliSBjHA",
+                    "short_id": "d8"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷FR | vless | 3YED | 29",
             "type": "vless",
             "server": "51.91.140.55",
@@ -335,7 +397,43 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 118",
+            "tag": "🇨🇦CA | vless | 3YED | 110",
+            "type": "vless",
+            "server": "login.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vvjTgRNJbVRjxksrAhGZz63oG3dDddijr2b8hk332xw",
+                    "short_id": "3d5f12d0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 128",
             "type": "vless",
             "server": "login.snapfooding.com",
             "server_port": 443,
@@ -360,42 +458,6 @@
                     "enabled": true,
                     "public_key": "r3yk0aurtOQ0fz799uEP9Tn9tmbOqFagAX9NELrKglc",
                     "short_id": "ef80db30"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 137",
-            "type": "vless",
-            "server": "login.snapfooding.com",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z-JvcQnNLX6eJZjBLQyUPe0Ex-8N9cWy1EwLVJKsZSs",
-                    "short_id": "82896b75"
                 }
             },
             "transport": {
