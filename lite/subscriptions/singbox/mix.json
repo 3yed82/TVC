@@ -112,9 +112,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -133,9 +134,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -283,6 +285,42 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "www.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UmGQyKVfszWt9n_h-jXAXlh9xbaXpbvhgSL8YJ3yTSM",
+                    "short_id": "4a96ee77"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @proxystore11 | 14",
             "type": "vmess",
             "server": "188.114.96.3",
@@ -351,11 +389,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 16",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "47.242.22.171",
-            "server_port": 28681,
-            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
+            "server": "217.219.212.36",
+            "server_port": 420,
+            "uuid": "95c0dd17-eaa4-476e-8ecd-83a26cde7aa7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,13 +403,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
