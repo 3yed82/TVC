@@ -106,16 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 12",
-                "🏳️XX | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -128,16 +126,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 12",
-                "🏳️XX | vless | @v2rayng_vpnrog | 7",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -166,9 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.122.131.25",
+            "server": "35.181.162.41",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.126.93.183",
+            "server": "35.181.219.117",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -244,7 +240,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
             "server": "w.outline-vpn.cloud",
             "server_port": 2086,
@@ -276,30 +272,6 @@ https://github.com/3yed-61
             "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "31.14.123.194",
-            "server_port": 53300,
-            "uuid": "52d05d43-6eec-489b-8bcc-8eba9ec6e749",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/rohv2ray",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
@@ -336,11 +308,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 12",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "v3.ssrsub.com",
-            "server_port": 8443,
-            "uuid": "b7c70df3-f92f-4800-a8e1-67e6dc833256",
+            "server": "45.77.220.169",
+            "server_port": 41207,
+            "uuid": "dbbd0899-e302-4ad9-e224-c4aa258fb766",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -350,52 +322,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v3.ssrsub.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ssrsub",
-                "headers": {
-                    "Host": "v3.ssrsub.com"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @v2rayng_vpnrog | 7",
-            "type": "vless",
-            "server": "[2a01:4f8:c013:13bd:c6::1]",
-            "server_port": 2083,
-            "uuid": "dc4b5be4-bec4-4524-8cf7-d4697dc15e57",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lastsecond.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
-                    "short_id": "456d9a391ac248"
-                }
             }
         },
         {
