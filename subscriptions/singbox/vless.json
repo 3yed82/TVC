@@ -122,7 +122,8 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 129",
                 "🇨🇦CA | vless | 3YED | 152",
-                "🇨🇦CA | vless | 3YED | 14",
+                "🇨🇦CA | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🏳️XX | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -160,7 +161,8 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 129",
                 "🇨🇦CA | vless | 3YED | 152",
-                "🇨🇦CA | vless | 3YED | 14",
+                "🇨🇦CA | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🏳️XX | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -715,11 +717,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 14",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
-            "server": "104.21.84.22",
-            "server_port": 443,
-            "uuid": "375dd25d-0ec6-454c-be6f-ce67b196b23b",
+            "server": "104.20.254.143",
+            "server_port": 8443,
+            "uuid": "237e955f-ce71-4bc7-9ea6-cb2c815c711e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -729,7 +731,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "freedom11.fmnxmt.workers.dev",
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -741,8 +743,39 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "freedom11.fmnxmt.workers.dev"
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "type": "vless",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "uuid": "c9e40fff-5ac7-4469-9f17-bee19bce1b89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "help.melov2ray.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
