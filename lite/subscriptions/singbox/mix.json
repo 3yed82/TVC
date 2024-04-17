@@ -106,14 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -126,14 +128,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇺🇸US | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -162,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "35.176.46.151",
+            "server": "54.247.51.133",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "15.156.98.68",
+            "server": "3.132.116.81",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -240,6 +244,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "sefarat24.com",
+            "server_port": 443,
+            "uuid": "298cfba1-2f02-4e61-b689-e58adbf9de53",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ru1-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "172.67.222.164",
@@ -284,6 +322,23 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇮🇷IR | vmess | @proxystore11 | 13",
+            "type": "vmess",
+            "server": "vip.soheilsat.com",
+            "server_port": 7021,
+            "uuid": "a5e6f758-2f93-41f9-bc63-40f7efc58013",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -318,11 +373,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "38.46.1.235",
-            "server_port": 49828,
-            "uuid": "ef281126-77e1-44e6-aa83-159c488ce37f",
+            "server": "23.162.200.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,11 +388,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "23.162.200.227",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "23.162.200.227"
                 }
             }
         },
