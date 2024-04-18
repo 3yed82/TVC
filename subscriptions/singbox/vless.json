@@ -121,6 +121,7 @@
                 "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 121",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -160,6 +161,7 @@
                 "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 121",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -681,11 +683,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
-            "server": "104.25.8.61",
+            "server": "104.18.13.130",
             "server_port": 443,
-            "uuid": "9b4ce926-d6da-4459-86cb-4ca8205c653b",
+            "uuid": "09edca68-415b-48ad-b46f-ebc873595d73",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -695,7 +697,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kh.xpmobile.xyz",
+                "server_name": "lt.ArV2ray.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -704,11 +706,42 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "kh.xpmobile.xyz"
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 10",
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 2096,
+            "uuid": "c669f31b-8f73-45c9-872d-b83665563d64",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lan.protoeinpaitakht.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
