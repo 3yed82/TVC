@@ -108,12 +108,11 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @DailyV2RY | 108",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -124,12 +123,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
-                "🇨🇦CA | vmess | @DailyV2RY | 108",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -195,11 +193,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "65.109.199.41",
+            "server_port": 3363,
+            "uuid": "925b52b4-7fb2-48e8-9569-d1f953bdc632",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,27 +207,10 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -259,40 +240,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 108",
-            "type": "vmess",
-            "server": "hms02opi.fxiaomi.sbs",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
@@ -348,11 +295,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "ca-full.privateip.net",
+            "server": "us2-full.privateip.net",
             "server_port": 443,
-            "uuid": "03cd8171-7f94-4d36-8855-29b465cc8757",
+            "uuid": "70efb8a1-444f-4f4a-9420-c0fe2b34f05a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,7 +312,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ca-full.privateip.net",
+                "server_name": "us2-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -377,7 +324,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "ca-full.privateip.net"
+                    "Host": "us2-full.privateip.net"
                 }
             }
         },
