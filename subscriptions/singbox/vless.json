@@ -122,12 +122,14 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 93",
                 "🇩🇪DE | vless | 3YED | 110",
-                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -158,12 +160,14 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 93",
                 "🇩🇪DE | vless | 3YED | 110",
-                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -706,11 +710,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 11",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "server": "172.66.44.167",
+            "server_port": 2083,
+            "uuid": "b788032a-8e11-492b-bf70-6a1358a05629",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -720,7 +724,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "server_name": "paris.prsico.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -730,9 +734,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/whois",
                 "headers": {
-                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                    "Host": "paris.prsico.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 16",
+            "type": "vless",
+            "server": "162.159.137.232",
+            "server_port": 2096,
+            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "qopyz.oxnetirz11.oNflAsHDrIve.apP",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "qopyz.oxnetirz11.oNflAsHDrIve.apP"
                 }
             }
         },
@@ -880,6 +915,37 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
                 }
             }
         },
