@@ -119,10 +119,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
-                "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 80",
                 "🇩🇪DE | vless | 3YED | 98",
+                "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -157,10 +157,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
-                "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 80",
                 "🇩🇪DE | vless | 3YED | 98",
+                "🇺🇸US | vless | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -619,35 +619,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | 3YED | 29",
-            "type": "vless",
-            "server": "51.91.140.55",
-            "server_port": 443,
-            "uuid": "20cf1bfb-c5ad-4a5f-85bf-ec14e89b1406",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "duckduckgo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KrOQ6UIhM_AXIEJZ31FsIXRbtN7TtFBykqmnnFECkEM",
-                    "short_id": "1d72e9f5ba"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -741,6 +712,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 10",
+            "type": "vless",
+            "server": "104.21.56.202",
+            "server_port": 443,
+            "uuid": "ee187c79-7594-4a97-96bc-ff717c61a919",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yindunat.qaz.gay",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/a",
+                "headers": {
+                    "Host": "yindunat.qaz.gay"
+                }
             }
         },
         {
