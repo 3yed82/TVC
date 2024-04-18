@@ -120,9 +120,11 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 80",
-                "🇩🇪DE | vless | 3YED | 98",
-                "🇺🇸US | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 91",
+                "🇩🇪DE | vless | 3YED | 109",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -158,9 +160,11 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 80",
-                "🇩🇪DE | vless | 3YED | 98",
-                "🇺🇸US | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 91",
+                "🇩🇪DE | vless | 3YED | 109",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -643,7 +647,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 80",
+            "tag": "🇩🇪DE | vless | 3YED | 91",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -679,7 +683,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 98",
+            "tag": "🇩🇪DE | vless | 3YED | 109",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -715,11 +719,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
+            "tag": "🇺🇸US | vless | 3YED | 11",
             "type": "vless",
-            "server": "104.21.56.202",
+            "server": "zula.ir",
             "server_port": 443,
-            "uuid": "ee187c79-7594-4a97-96bc-ff717c61a919",
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -729,7 +733,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yindunat.qaz.gay",
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -739,9 +743,71 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/a",
+                "path": "\/",
                 "headers": {
-                    "Host": "yindunat.qaz.gay"
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 14",
+            "type": "vless",
+            "server": "1bdf3e45.mahdiserver-3kd.pages.dev",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 18",
+            "type": "vless",
+            "server": "104.25.107.32",
+            "server_port": 443,
+            "uuid": "4b68508e-456d-4949-96b5-113300640c05",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1eE61c3F.WYVERNFrEE.pAGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/powerdbyWyvern?ed=2560",
+                "headers": {
+                    "Host": "1eE61c3F.WYVERNFrEE.pAGES.DEV"
                 }
             }
         },
