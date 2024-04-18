@@ -112,7 +112,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇫🇷FR | vless | 3YED | 29",
-                "🇩🇪DE | vless | 3YED | 82",
+                "🇩🇪DE | vless | 3YED | 70",
+                "🇩🇪DE | vless | 3YED | 88",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -131,7 +132,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇫🇷FR | vless | 3YED | 29",
-                "🇩🇪DE | vless | 3YED | 82",
+                "🇩🇪DE | vless | 3YED | 70",
+                "🇩🇪DE | vless | 3YED | 88",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -362,7 +364,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 82",
+            "tag": "🇩🇪DE | vless | 3YED | 70",
+            "type": "vless",
+            "server": "www.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_hftPNkDBtDjGki8vHduh5LHf46Zsaum_Rv33U2Xwik",
+                    "short_id": "5b1f70be"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 88",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
