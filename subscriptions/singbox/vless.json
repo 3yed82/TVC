@@ -121,13 +121,14 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -157,13 +158,14 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -677,11 +679,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 9",
+            "tag": "🇺🇸US | vless | 3YED | 11",
             "type": "vless",
-            "server": "188.114.97.46",
-            "server_port": 2053,
-            "uuid": "0a0b9604-f2a9-4d73-a698-8e2641d692ae",
+            "server": "172.67.193.36",
+            "server_port": 2083,
+            "uuid": "8b099988-2d6c-47ed-b134-0e5d7d037088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -691,7 +693,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
+                "server_name": "v6a.bestvipbotirr.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -700,11 +702,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev"
-                }
+                "type": "grpc",
+                "service_name": "@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta@proxyforopeta",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -856,6 +858,37 @@
         },
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.22.2.79",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HETZNER-D.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
