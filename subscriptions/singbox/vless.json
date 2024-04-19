@@ -121,7 +121,9 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -158,7 +160,9 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -679,11 +683,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 9",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "server": "104.21.32.238",
+            "server_port": 443,
+            "uuid": "66dfb5f2-1c63-4d82-94a7-0915bedd93b9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -693,7 +697,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "server_name": "knocked.aurorainiceland.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -703,9 +707,71 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-V2ray_Alpha\/?ed",
+                "path": "\/nimws?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
                 "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                    "Host": "knocked.aurorainiceland.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 6",
+            "type": "vless",
+            "server": "162.159.134.234",
+            "server_port": 8443,
+            "uuid": "34462e1f-28f5-4db7-8020-ca15aa1e72fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v-2rey-channel.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Teleram:",
+                "headers": {
+                    "Host": "v-2rey-channel.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 7",
+            "type": "vless",
+            "server": "104.25.221.166",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "academivpn1-bo7.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
