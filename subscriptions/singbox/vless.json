@@ -121,7 +121,8 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇮🇷IR | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -158,7 +159,8 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇮🇷IR | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -679,11 +681,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 6",
+            "tag": "🇺🇸US | vless | 3YED | 13",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "104.26.15.85",
+            "server_port": 2053,
+            "uuid": "13d40b6e-aba2-4d95-a506-5f05b0582cea",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -693,12 +695,43 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
+                "server_name": "Tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 17",
+            "type": "vless",
+            "server": "104.22.2.79",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HETZNER-D.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
                 }
             }
         },
