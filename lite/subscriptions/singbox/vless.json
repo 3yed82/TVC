@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -116,6 +117,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇮🇷IR | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -167,6 +169,30 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "nl.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "rxopu1289.q.rxteam.ir",
+            "server_port": 57081,
+            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rxopu1289.q.rxteam.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
