@@ -120,8 +120,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 71",
-                "🇮🇷IR | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 79",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -158,8 +158,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 71",
-                "🇮🇷IR | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 79",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -643,7 +643,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 71",
+            "tag": "🇩🇪DE | vless | 3YED | 79",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -679,11 +679,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 18",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -693,12 +693,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
+                "server_name": "academivpn1-bo7.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-proxy_mtm\/",
+                "headers": {
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
