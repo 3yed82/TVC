@@ -112,7 +112,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -127,7 +127,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -319,11 +319,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🏳️XX | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "91.186.210.150",
-            "server_port": 60222,
-            "uuid": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+            "server": "novia.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -334,11 +334,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "novia.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "91.186.210.150"
+                    "Host": "novia.makeup"
                 }
             }
         },
