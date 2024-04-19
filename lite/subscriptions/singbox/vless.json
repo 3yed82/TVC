@@ -107,8 +107,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -117,8 +117,8 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -173,37 +173,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "104.21.7.27",
-            "server_port": 443,
-            "uuid": "0f5d860d-204e-48dc-a384-76043a34add7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "shaft.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/shaft",
-                "headers": {
-                    "Host": "shaft.footballlovernews.com"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -231,6 +200,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
                 }
             }
         },
