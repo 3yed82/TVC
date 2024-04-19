@@ -160,7 +160,6 @@ proxies:
   - {"name":"🇨🇦CA | trojan | 3YED | 17","type":"trojan","server":"3.97.76.182","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | 3YED | 18","type":"trojan","server":"3.97.137.194","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | trojan | 3YED | 19","type":"trojan","server":"79.125.63.157","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇰🇷KR | trojan | 3YED | 7","type":"trojan","server":"193.122.99.124","port":24852,"udp":false,"password":"904dd222-2514-4a68-9185-32f89113afd9","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kr01.freeflyingcloud.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -207,7 +206,6 @@ proxy-groups:
       - '🇨🇦CA | trojan | 3YED | 17'
       - '🇨🇦CA | trojan | 3YED | 18'
       - '🇮🇪IE | trojan | 3YED | 19'
-      - '🇰🇷KR | trojan | 3YED | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -254,7 +252,6 @@ proxy-groups:
       - '🇨🇦CA | trojan | 3YED | 17'
       - '🇨🇦CA | trojan | 3YED | 18'
       - '🇮🇪IE | trojan | 3YED | 19'
-      - '🇰🇷KR | trojan | 3YED | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -300,7 +297,6 @@ proxy-groups:
       - '🇨🇦CA | trojan | 3YED | 17'
       - '🇨🇦CA | trojan | 3YED | 18'
       - '🇮🇪IE | trojan | 3YED | 19'
-      - '🇰🇷KR | trojan | 3YED | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
