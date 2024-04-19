@@ -120,6 +120,7 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇮🇷IR | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -157,6 +158,7 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇮🇷IR | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -632,6 +634,30 @@
             "tls": {
                 "enabled": true,
                 "server_name": "overcommitment.footballlovernews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | 3YED | 7",
+            "type": "vless",
+            "server": "rxopu1289.q.rxteam.ir",
+            "server_port": 57081,
+            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rxopu1289.q.rxteam.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
