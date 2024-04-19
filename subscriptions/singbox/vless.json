@@ -119,9 +119,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇩🇪DE | vless | 3YED | 54",
+                "🇮🇷IR | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -156,9 +155,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇩🇪DE | vless | 3YED | 54",
+                "🇮🇷IR | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -612,7 +610,43 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 54",
+            "type": "vless",
+            "server": "www.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CPo_y1T_w2IAfg31IiKxtbOXwz9r5ETSTG_fXbPdukg",
+                    "short_id": "09a51424"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | 3YED | 3",
             "type": "vless",
             "server": "rxopu1289.q.rxteam.ir",
             "server_port": 57081,
@@ -632,68 +666,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 15",
-            "type": "vless",
-            "server": "104.16.29.8",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 16",
-            "type": "vless",
-            "server": "172.67.180.238",
-            "server_port": 8443,
-            "uuid": "25d0ee2d-4190-52be-b892-45811c6ba210",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "folani.iiipok.WorKERS.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "folani.iiipok.WorKERS.dEv"
                 }
             }
         },
