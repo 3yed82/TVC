@@ -111,13 +111,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🏳️XX | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -134,13 +134,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🏳️XX | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
@@ -223,7 +223,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "18.197.182.188",
+            "server": "3.77.247.138",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -284,7 +284,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "admin.arzonhost.ir",
             "server_port": 2086,
@@ -386,11 +386,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "104.21.7.27",
+            "server_port": 443,
+            "uuid": "0f5d860d-204e-48dc-a384-76043a34add7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -400,12 +400,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
+                "server_name": "shaft.footballlovernews.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/shaft",
+                "headers": {
+                    "Host": "shaft.footballlovernews.com"
                 }
             }
         },
@@ -444,11 +451,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "104.16.47.181",
-            "server_port": 443,
-            "uuid": "1e9be421-4135-4edb-9655-804042753442",
+            "server": "152.42.171.253",
+            "server_port": 80,
+            "uuid": "408705bb-2a17-46d6-daea-2ba30b300353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -458,23 +465,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.16.47.181",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/yorknodes-de1",
-                "headers": {
-                    "Host": "104.16.47.181"
-                }
             }
         },
         {

@@ -107,7 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -117,7 +117,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇮🇷IR | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -173,11 +173,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "rxopu1289.q.rxteam.ir",
-            "server_port": 57081,
-            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "server": "104.21.7.27",
+            "server_port": 443,
+            "uuid": "0f5d860d-204e-48dc-a384-76043a34add7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -187,12 +187,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rxopu1289.q.rxteam.ir",
+                "server_name": "shaft.footballlovernews.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/shaft",
+                "headers": {
+                    "Host": "shaft.footballlovernews.com"
                 }
             }
         },
