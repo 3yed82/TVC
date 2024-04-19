@@ -118,8 +118,10 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 71",
+                "🇮🇷IR | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -154,8 +156,10 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 71",
+                "🇮🇷IR | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -586,6 +590,35 @@
             }
         },
         {
+            "tag": "🇫🇷FR | vless | 3YED | 19",
+            "type": "vless",
+            "server": "194.116.214.187",
+            "server_port": 888,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -643,6 +676,30 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | 3YED | 8",
+            "type": "vless",
+            "server": "rxopu1289.q.rxteam.ir",
+            "server_port": 57081,
+            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rxopu1289.q.rxteam.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
