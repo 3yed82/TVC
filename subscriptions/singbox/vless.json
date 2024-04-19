@@ -121,7 +121,6 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -159,7 +158,6 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 93",
                 "🇺🇸US | vless | 3YED | 109",
-                "🇺🇸US | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -681,35 +679,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.26.15.85",
-            "server_port": 2053,
-            "uuid": "13d40b6e-aba2-4d95-a506-5f05b0582cea",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 17",
             "type": "vless",
-            "server": "104.22.2.79",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "server": "104.21.69.44",
+            "server_port": 2083,
+            "uuid": "c58a8f7d-e37a-4828-b82f-e14203a5fe8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -719,7 +693,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
+                "server_name": "dlqz.meysaam.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -728,11 +702,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
-                }
+                "type": "grpc",
+                "service_name": "@KILID_STOR @KILID_STOR",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
