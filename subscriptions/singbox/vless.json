@@ -129,6 +129,7 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -166,6 +167,7 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -913,6 +915,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "91.107.149.218",
+            "server_port": 12001,
+            "uuid": "efc3a9c4-d25e-4055-8652-1e5647aa4675",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "abantether.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GxcK6NW7KTRJGjVkrKYnk40tSzWdzVChUSo2Q4lfZ0w",
+                    "short_id": "590200dad638e1da"
                 }
             }
         },
