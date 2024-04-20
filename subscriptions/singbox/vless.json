@@ -118,9 +118,10 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇫🇮FI | vless | 3YED | 73",
-                "🇩🇪DE | vless | 3YED | 74",
+                "🇫🇮FI | vless | 3YED | 74",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -130,12 +131,15 @@
                 "🇺🇸US | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
-                "🏳️XX | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 10"
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 9",
+                "🏳️XX | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 14"
             ]
         },
         {
@@ -155,9 +159,10 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇫🇮FI | vless | 3YED | 73",
-                "🇩🇪DE | vless | 3YED | 74",
+                "🇫🇮FI | vless | 3YED | 74",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -167,12 +172,15 @@
                 "🇺🇸US | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
-                "🏳️XX | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 10"
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 9",
+                "🏳️XX | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -588,6 +596,35 @@
             }
         },
         {
+            "tag": "🇫🇷FR | vless | 3YED | 19",
+            "type": "vless",
+            "server": "194.116.214.187",
+            "server_port": 888,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -648,7 +685,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 74",
+            "tag": "🇫🇮FI | vless | 3YED | 74",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -951,7 +988,100 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.22.2.79",
+            "server_port": 443,
+            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HETZNER-D.pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HETZNER-D.pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
+            "server": "9052b030.joinmahdiserver-90p.pages.dev",
+            "server_port": 443,
+            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 2",
+            "type": "vless",
+            "server": "172.67.20.220",
+            "server_port": 2096,
+            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnxw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-V2ray_Alpha\/",
+                "headers": {
+                    "Host": "vpnxw.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "104.21.192.45",
             "server_port": 443,
@@ -982,7 +1112,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 443,
@@ -1013,7 +1143,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "172.66.44.194",
             "server_port": 443,
@@ -1044,7 +1174,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
             "server": "104.18.34.21",
             "server_port": 443,
@@ -1075,7 +1205,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 9",
+            "tag": "🏳️XX | vless | 3YED | 13",
             "type": "vless",
             "server": "161f5c4e.mahdiserver-cmr.pages.dev",
             "server_port": 443,
@@ -1106,7 +1236,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
             "server": "172.66.44.67",
             "server_port": 443,

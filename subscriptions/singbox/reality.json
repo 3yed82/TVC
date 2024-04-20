@@ -110,8 +110,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇫🇮FI | vless | 3YED | 73",
-                "🇩🇪DE | vless | 3YED | 74",
+                "🇫🇮FI | vless | 3YED | 74",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -129,8 +130,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
+                "🇫🇷FR | vless | 3YED | 19",
                 "🇫🇮FI | vless | 3YED | 73",
-                "🇩🇪DE | vless | 3YED | 74",
+                "🇫🇮FI | vless | 3YED | 74",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -304,6 +306,35 @@
             }
         },
         {
+            "tag": "🇫🇷FR | vless | 3YED | 19",
+            "type": "vless",
+            "server": "194.116.214.187",
+            "server_port": 888,
+            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
+                    "short_id": "c5010b9e"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | 3YED | 73",
             "type": "vless",
             "server": "cdn.morfin.bio",
@@ -340,7 +371,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 74",
+            "tag": "🇫🇮FI | vless | 3YED | 74",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
