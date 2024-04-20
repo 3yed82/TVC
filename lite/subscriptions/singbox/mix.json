@@ -107,17 +107,16 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇭🇰HK | ss | @DeamNet_Proxy | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @prrofile_purple | 185",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇯🇵JP | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -131,17 +130,16 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇭🇰HK | ss | @DeamNet_Proxy | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @prrofile_purple | 185",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇯🇵JP | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -201,9 +199,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.203.42.43",
+            "server": "51.21.121.78",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -225,7 +223,7 @@ https://github.com/3yed-61
         {
             "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "18.168.76.225",
+            "server": "18.135.18.138",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -279,38 +277,14 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "hms04.xmivideo.cfd",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
-                }
-            }
+            "tag": "🇭🇰HK | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "u2k3f8l6w4-fbnode-my05.6pzfwf.com",
+            "server_port": 56070,
+            "method": "chacha20-ietf-poly1305",
+            "password": "6YRXJP",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
@@ -381,40 +355,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-            "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl1-vmess.sshmax.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "nl1-vmess.sshmax.xyz"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺RU | ss | @OutlineVpnOfficial | 13",
             "type": "shadowsocks",
             "server": "45.139.24.63",
@@ -459,11 +399,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "cdn.vds-server.ir",
-            "server_port": 8880,
-            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
+            "server": "167.179.111.237",
+            "server_port": 14935,
+            "uuid": "e961894f-8e90-472f-98d3-09402e4be453",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -473,13 +413,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
