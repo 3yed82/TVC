@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 10",
@@ -121,7 +120,6 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -131,7 +129,6 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇩🇪DE | vless | 3YED | 7",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -148,7 +145,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 10",
@@ -164,7 +160,6 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -174,7 +169,6 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇩🇪DE | vless | 3YED | 7",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -205,37 +199,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 0",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | 3YED | 6",
@@ -679,42 +642,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 126",
-            "type": "vless",
-            "server": "www.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "apOhq9-NSceElh2mwS5XX5sRyiapHMZHr685Dk8mnGc",
-                    "short_id": "e00812f5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -982,35 +909,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
-            "type": "vless",
-            "server": "91.107.149.218",
-            "server_port": 12001,
-            "uuid": "efc3a9c4-d25e-4055-8652-1e5647aa4675",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "abantether.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GxcK6NW7KTRJGjVkrKYnk40tSzWdzVChUSo2Q4lfZ0w",
-                    "short_id": "590200dad638e1da"
                 }
             }
         },
