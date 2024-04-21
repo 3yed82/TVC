@@ -109,10 +109,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -124,10 +124,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @prrofile_purple | 195",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -171,9 +171,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "hkjcdn03.dorabbb.top",
-            "server_port": 44805,
-            "uuid": "1528295e-c497-43ac-a08d-c040662b9344",
+            "server": "hk.lianjianode.cc",
+            "server_port": 21032,
+            "uuid": "2e009a5a-5329-46cc-a69e-097b94323328",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -183,6 +183,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hongkong",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -200,40 +207,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @prrofile_purple | 195",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
             }
         },
         {
@@ -267,6 +240,40 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -305,11 +312,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "best-charm-pediatrician.glitch.me",
-            "server_port": 443,
-            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
+            "server": "199.247.3.99",
+            "server_port": 2672,
+            "uuid": "f7078a40-43cc-4cb7-f209-660686eabf1a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,23 +326,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "best-charm-pediatrician.glitch.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
-                "headers": {
-                    "Host": "best-charm-pediatrician.glitch.me"
-                }
             }
         },
         {
