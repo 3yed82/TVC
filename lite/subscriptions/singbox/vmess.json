@@ -108,14 +108,12 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇭🇰HK | vmess | @Hope_Net | 18",
+                "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
         {
@@ -124,14 +122,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 3"
+                "🇭🇰HK | vmess | @Hope_Net | 18",
+                "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -195,11 +191,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "205.234.200.104",
-            "server_port": 33164,
-            "uuid": "31e8f7b4-ba3e-440a-9f56-8241569c017a",
+            "server": "tel.hopev2ray.link",
+            "server_port": 443,
+            "uuid": "8d6abe4b-4b36-475a-8d97-f59d8e5b72af",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,29 +206,22 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "no2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/sd23dss",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "205.234.200.104"
+                    "Host": "no2-vmess.sshmax.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
-            "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 5109,
-            "uuid": "4e48f36c-2ac3-4e15-8c9c-6702477a61df",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -338,11 +327,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "75.102.51.45",
-            "server_port": 58701,
-            "uuid": "b72eda2c-7b68-4813-ef86-086c8afc8e57",
+            "server": "47.242.22.171",
+            "server_port": 28681,
+            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,6 +341,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -369,40 +365,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
-                }
             }
         }
     ],
