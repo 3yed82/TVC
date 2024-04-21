@@ -122,12 +122,13 @@
                 "🇩🇪DE | vless | 3YED | 102",
                 "🇫🇮FI | vless | 3YED | 118",
                 "🇩🇪DE | vless | 3YED | 119",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
@@ -164,12 +165,13 @@
                 "🇩🇪DE | vless | 3YED | 102",
                 "🇫🇮FI | vless | 3YED | 118",
                 "🇩🇪DE | vless | 3YED | 119",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
@@ -730,6 +732,68 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "ja.vivacello.org",
+            "server_port": 443,
+            "uuid": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xw.r4d.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "xw.r4d.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 3",
+            "type": "vless",
+            "server": "104.21.69.44",
+            "server_port": 2096,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -873,37 +937,6 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
                 }
             }
         },
