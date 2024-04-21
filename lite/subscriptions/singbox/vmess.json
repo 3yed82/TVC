@@ -108,9 +108,11 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇳🇱NL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
@@ -120,9 +122,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇳🇱NL | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -187,6 +191,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇳🇱NL | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "188.114.99.77",
+            "server_port": 443,
+            "uuid": "e74f58dc-bdfd-4d70-8c92-0f87c844c46f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "no2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "no2-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 34",
             "type": "vmess",
             "server": "172.67.170.13",
@@ -217,6 +255,40 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -255,11 +327,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 5939,
-            "uuid": "54b0a4c8-11d0-44e4-a98b-b218cbfa7192",
+            "server": "104.21.4.14",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -269,6 +341,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
