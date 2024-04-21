@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 10",
@@ -119,19 +120,18 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 102",
-                "🇫🇮FI | vless | 3YED | 118",
-                "🇩🇪DE | vless | 3YED | 119",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 109",
+                "🇫🇮FI | vless | 3YED | 125",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 8",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -148,6 +148,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 10",
@@ -162,19 +163,18 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 102",
-                "🇫🇮FI | vless | 3YED | 118",
-                "🇩🇪DE | vless | 3YED | 119",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 109",
+                "🇫🇮FI | vless | 3YED | 125",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 8",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -205,6 +205,37 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2096,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | 3YED | 6",
@@ -624,7 +655,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 102",
+            "tag": "🇩🇪DE | vless | 3YED | 109",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -660,7 +691,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 118",
+            "tag": "🇫🇮FI | vless | 3YED | 125",
             "type": "vless",
             "server": "api.morfin.bio",
             "server_port": 443,
@@ -696,7 +727,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 119",
+            "tag": "🇩🇪DE | vless | 3YED | 126",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
@@ -729,68 +760,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "ja.vivacello.org",
-            "server_port": 443,
-            "uuid": "77a571fb-4fd2-4b37-8596-1b7d9728bb5c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xw.r4d.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xw.r4d.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 3",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 2096,
-            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
-                }
             }
         },
         {
@@ -941,6 +910,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.21.69.44",
+            "server_port": 2096,
+            "uuid": "8721355e-96d5-4bb9-a99b-b6119d6b1cd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "104.18.158.102",
@@ -1003,7 +1003,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 8",
             "type": "vless",
             "server": "91.107.149.218",
             "server_port": 12001,
