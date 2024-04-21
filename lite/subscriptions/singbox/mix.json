@@ -108,10 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇩🇪DE | vless | @DailyV2RY | 126",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -128,10 +127,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇩🇪DE | vless | @DailyV2RY | 126",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -195,7 +193,7 @@ https://github.com/3yed-61
         {
             "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "15.236.127.233",
+            "server": "13.37.158.76",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -215,9 +213,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "99.81.72.28",
+            "server": "3.99.15.254",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -274,40 +272,6 @@ https://github.com/3yed-61
                 "path": "\/hongkong",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "hms04.xmivideo.cfd",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -418,9 +382,9 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "109.107.181.130",
-            "server_port": 56316,
-            "uuid": "9996c618-14dd-45c7-8e7d-0eee4fb0c34c",
+            "server": "199.247.3.99",
+            "server_port": 5939,
+            "uuid": "54b0a4c8-11d0-44e4-a98b-b218cbfa7192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -430,13 +394,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
