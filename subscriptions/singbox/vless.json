@@ -120,7 +120,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 119",
+                "🇦🇪AE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -162,7 +163,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 119",
+                "🇦🇪AE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -653,7 +655,31 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 119",
+            "tag": "🇦🇪AE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "5.44.42.121",
+            "server_port": 443,
+            "uuid": "a9a5c647-8f59-454c-a5b1-a1c198e4ac1e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amazon.oapdis.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 126",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
