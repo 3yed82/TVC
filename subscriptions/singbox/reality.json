@@ -110,8 +110,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇮FI | vless | 3YED | 92",
-                "🇩🇪DE | vless | 3YED | 93",
+                "🇩🇪DE | vless | 3YED | 81",
+                "🇫🇮FI | vless | 3YED | 102",
+                "🇩🇪DE | vless | 3YED | 103",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -128,8 +129,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇮FI | vless | 3YED | 92",
-                "🇩🇪DE | vless | 3YED | 93",
+                "🇩🇪DE | vless | 3YED | 81",
+                "🇫🇮FI | vless | 3YED | 102",
+                "🇩🇪DE | vless | 3YED | 103",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -302,7 +304,43 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 92",
+            "tag": "🇩🇪DE | vless | 3YED | 81",
+            "type": "vless",
+            "server": "dl.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m-lsR1q8bnIMVvz6uT0uje-cOTH682rXGkIq_SxuAC0",
+                    "short_id": "6272695d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | 3YED | 102",
             "type": "vless",
             "server": "form.morfin.bio",
             "server_port": 443,
@@ -338,7 +376,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 93",
+            "tag": "🇩🇪DE | vless | 3YED | 103",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
