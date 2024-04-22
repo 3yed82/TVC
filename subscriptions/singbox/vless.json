@@ -121,7 +121,7 @@
                 "🇫🇷FR | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇫🇮FI | vless | 3YED | 82",
+                "🇩🇪DE | vless | 3YED | 82",
                 "🇫🇮FI | vless | 3YED | 112",
                 "🇩🇪DE | vless | 3YED | 113",
                 "🇺🇸US | vless | 3YED | 6",
@@ -133,7 +133,7 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -166,7 +166,7 @@
                 "🇫🇷FR | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇫🇮FI | vless | 3YED | 82",
+                "🇩🇪DE | vless | 3YED | 82",
                 "🇫🇮FI | vless | 3YED | 112",
                 "🇩🇪DE | vless | 3YED | 113",
                 "🇺🇸US | vless | 3YED | 6",
@@ -178,7 +178,7 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -676,7 +676,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 82",
+            "tag": "🇩🇪DE | vless | 3YED | 82",
             "type": "vless",
             "server": "dl.snapfooding.com",
             "server_port": 443,
@@ -933,6 +933,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "104.18.158.102",
+            "server_port": 443,
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sALAm-wOrD.pagEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sALAm-wOrD.pagEs.deV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "tere.minusober.com",
             "server_port": 443,
             "uuid": "c49ad197-37b6-40a7-971d-05e6e8a0bdac",
@@ -962,7 +993,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -993,7 +1024,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "104.21.69.44",
             "server_port": 2096,
@@ -1024,38 +1055,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
-            "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "www.ZuLa.ir",
             "server_port": 2096,
