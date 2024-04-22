@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇺🇸US | ss | 3YED | 0","type":"ss","server":"23.134.94.175","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | 3YED | 0","type":"ss","server":"38.143.66.87","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | 3YED | 1","type":"ss","server":"142.202.48.99","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | ss | 3YED | 2","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
@@ -142,6 +143,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇺🇸US | ss | 3YED | 0'
+      - '🇺🇸US | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 1'
       - '🇸🇬SG | ss | 3YED | 2'
       - '🇷🇺RU | ss | 3YED | 3'
@@ -165,6 +167,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇺🇸US | ss | 3YED | 0'
+      - '🇺🇸US | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 1'
       - '🇸🇬SG | ss | 3YED | 2'
       - '🇷🇺RU | ss | 3YED | 3'
@@ -186,6 +189,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇺🇸US | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 1'
       - '🇸🇬SG | ss | 3YED | 2'

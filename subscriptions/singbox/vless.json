@@ -118,13 +118,12 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇷FR | vless | 3YED | 0",
+                "🇫🇷FR | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 92",
-                "🇫🇮FI | vless | 3YED | 122",
-                "🇩🇪DE | vless | 3YED | 123",
+                "🇫🇮FI | vless | 3YED | 95",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -164,13 +163,12 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇷FR | vless | 3YED | 0",
+                "🇫🇷FR | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 92",
-                "🇫🇮FI | vless | 3YED | 122",
-                "🇩🇪DE | vless | 3YED | 123",
+                "🇫🇮FI | vless | 3YED | 95",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -606,7 +604,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | 3YED | 0",
+            "tag": "🇫🇷FR | vless | 3YED | 2",
             "type": "vless",
             "server": "fr1.x2fast.net",
             "server_port": 443,
@@ -650,6 +648,35 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "type": "vless",
+            "server": "116.202.28.240",
+            "server_port": 777,
+            "uuid": "d7c2237c-92f5-45a2-b310-cfe22736726c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4pxcGlqn0FB5Wx71r7OkGxiGf2XJga2ZB9awcVW6_zg",
+                    "short_id": ""
                 }
             }
         },
@@ -702,7 +729,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 92",
+            "tag": "🇫🇮FI | vless | 3YED | 95",
             "type": "vless",
             "server": "dl.snapfooding.com",
             "server_port": 443,
@@ -727,78 +754,6 @@
                     "enabled": true,
                     "public_key": "m-lsR1q8bnIMVvz6uT0uje-cOTH682rXGkIq_SxuAC0",
                     "short_id": "6272695d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | 3YED | 122",
-            "type": "vless",
-            "server": "form.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fontserver.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GV3jmAodhgFC_GbUX7aHQf8CkXeqwgn8dj3eNrvV6Wo",
-                    "short_id": "4fa6e72c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 123",
-            "type": "vless",
-            "server": "www.morfin.bio",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eWuP3flkuVXsVpJzLDPOUDG1fJFC1fd3ouZPznMIShM",
-                    "short_id": "b157c54e"
                 }
             },
             "transport": {
