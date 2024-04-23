@@ -112,12 +112,12 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 15",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -137,12 +137,12 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇦🇪AE | ss | @DeamNet_Proxy | 15",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -298,45 +298,21 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "172.67.174.92",
-            "server_port": 2053,
-            "uuid": "869caccc-12af-4276-f458-366fa256f8a0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin15.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/qin15",
-                "headers": {
-                    "Host": "qin15.rong1104.uk"
-                }
-            }
+            "tag": "🇦🇪AE | ss | @DeamNet_Proxy | 15",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "hu2.xv2ray.net",
-            "server_port": 80,
-            "uuid": "149e424e-3c6d-40a1-910e-b4a120629526",
+            "server": "45.144.3.204",
+            "server_port": 11846,
+            "uuid": "299d5c3e-fc2c-4458-a2e4-3ee2bb053f80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -349,7 +325,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
@@ -417,11 +393,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "199.247.3.99",
-            "server_port": 5201,
-            "uuid": "8ca1dd07-ed4d-45ec-9891-622be7a66971",
+            "server": "172.67.204.84",
+            "server_port": 2096,
+            "uuid": "6a91ce2e-c570-4fa4-a497-c6386fb48a15",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -431,6 +407,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "nl1-vmess.sshmax.xyz"
+                }
             }
         },
         {
@@ -501,9 +494,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
-            "server": "tere.minusober.com",
+            "server": "104.18.158.102",
             "server_port": 443,
-            "uuid": "c49ad197-37b6-40a7-971d-05e6e8a0bdac",
+            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -513,7 +506,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tere.minusober.com",
+                "server_name": "sALAm-wOrD.pagEs.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -525,7 +518,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "tere.minusober.com"
+                    "Host": "sALAm-wOrD.pagEs.deV"
                 }
             }
         },
