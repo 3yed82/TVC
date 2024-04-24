@@ -120,8 +120,10 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 113",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -160,8 +162,10 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 113",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -642,6 +646,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "type": "vless",
+            "server": "116.202.28.240",
+            "server_port": 777,
+            "uuid": "d7c2237c-92f5-45a2-b310-cfe22736726c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4pxcGlqn0FB5Wx71r7OkGxiGf2XJga2ZB9awcVW6_zg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -686,6 +719,35 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 113",
+            "type": "vless",
+            "server": "23.88.38.184",
+            "server_port": 2096,
+            "uuid": "fe9195e9-04ac-4310-dccd-cf2d2b779715",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ajP1Rru1bbPArjvPZ5kEpbuoWyhHesYcooXEp9cSviQ",
+                    "short_id": "7b4d7885"
                 }
             }
         },
