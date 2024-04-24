@@ -117,10 +117,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vmess | @FreakConfig | 5",
+                "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -140,10 +141,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇨🇦CA | vmess | @FreakConfig | 5",
+                "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -406,11 +408,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "154.62.185.2",
-            "server_port": 18134,
-            "uuid": "0da00a40-7dc6-413f-f8dd-6ed42dd50c06",
+            "server": "174.136.205.46",
+            "server_port": 39027,
+            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -488,34 +490,44 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 443,
-            "uuid": "c2ec17cc-e5a9-4f4a-88dc-496e3215dbab",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @FreakConfig | 5",
+            "type": "vmess",
+            "server": "172.67.188.156",
+            "server_port": 8880,
+            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sALAm-wOrD.pagEs.deV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "sALAm-wOrD.pagEs.deV"
+                    "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @nofiltering2 | 1",
+            "type": "vmess",
+            "server": "178.239.150.170",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
