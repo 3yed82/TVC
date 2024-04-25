@@ -120,7 +120,7 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇮🇷IR | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇫🇮FI | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 136",
@@ -131,7 +131,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -163,7 +163,7 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 16",
                 "🇮🇷IR | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇫🇮FI | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇦🇪AE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 136",
@@ -174,7 +174,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
@@ -648,12 +648,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 6",
+            "tag": "🇫🇮FI | vless | 3YED | 2",
             "type": "vless",
-            "server": "116.202.28.240",
-            "server_port": 777,
-            "uuid": "d7c2237c-92f5-45a2-b310-cfe22736726c",
-            "flow": "xtls-rprx-vision",
+            "server": "65.21.52.239",
+            "server_port": 443,
+            "uuid": "tele-vpnowl-vpnowl-vpnowl",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -662,17 +662,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "arzdigital.com",
+                "server_name": "oWl.stRomectoLex.cOm.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4pxcGlqn0FB5Wx71r7OkGxiGf2XJga2ZB9awcVW6_zg",
-                    "short_id": ""
                 }
             }
         },
@@ -910,6 +905,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "104.24.95.58",
+            "server_port": 2096,
+            "uuid": "7b0cd783-4d2a-4d4a-a1bb-66a98e3a85cb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "0a6b0c0a.expressvpnfree021-4j0.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "0a6b0c0a.expressvpnfree021-4j0.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "pardazesh12.pages.dev",
             "server_port": 443,
             "uuid": "f22b09c9-5fa6-4ed7-992f-1dcbc4dba3ad",
@@ -939,7 +965,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "172.66.47.18",
             "server_port": 443,
@@ -966,37 +992,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "pardazesh14.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
-            "type": "vless",
-            "server": "104.24.95.58",
-            "server_port": 2096,
-            "uuid": "7b0cd783-4d2a-4d4a-a1bb-66a98e3a85cb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "0a6b0c0a.expressvpnfree021-4j0.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "0a6b0c0a.expressvpnfree021-4j0.pages.dev"
                 }
             }
         },
