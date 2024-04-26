@@ -110,8 +110,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 119",
+                "🇩🇪DE | vless | 3YED | 9",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -128,8 +129,9 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 119",
+                "🇩🇪DE | vless | 3YED | 9",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇩🇪DE | vless | 3YED | 126",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -302,7 +304,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "tag": "🇩🇪DE | vless | 3YED | 9",
+            "type": "vless",
+            "server": "116.202.28.240",
+            "server_port": 777,
+            "uuid": "d7c2237c-92f5-45a2-b310-cfe22736726c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arzdigital.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4pxcGlqn0FB5Wx71r7OkGxiGf2XJga2ZB9awcVW6_zg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 4",
             "type": "vless",
             "server": "23.88.38.184",
             "server_port": 2096,
@@ -331,7 +362,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 119",
+            "tag": "🇩🇪DE | vless | 3YED | 126",
             "type": "vless",
             "server": "dl.snapfooding.com",
             "server_port": 443,
