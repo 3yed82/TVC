@@ -105,9 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | 3YED | 0",
-                "🇫🇷FR | ss | 3YED | 1",
-                "🇷🇺RU | ss | 3YED | 2",
+                "🇺🇸US | ss | 3YED | 0",
+                "🇬🇧GB | ss | 3YED | 1",
+                "🇫🇷FR | ss | 3YED | 2",
+                "🇷🇺RU | ss | 3YED | 3",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇺🇸US | ss | 3YED | 10",
@@ -137,9 +138,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | 3YED | 0",
-                "🇫🇷FR | ss | 3YED | 1",
-                "🇷🇺RU | ss | 3YED | 2",
+                "🇺🇸US | ss | 3YED | 0",
+                "🇬🇧GB | ss | 3YED | 1",
+                "🇫🇷FR | ss | 3YED | 2",
+                "🇷🇺RU | ss | 3YED | 3",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇺🇸US | ss | 3YED | 10",
@@ -185,7 +187,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 0",
+            "tag": "🇺🇸US | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "23.154.136.37",
+            "server_port": 8118,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "89.185.84.30",
             "server_port": 20228,
@@ -195,7 +207,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | ss | 3YED | 1",
+            "tag": "🇫🇷FR | ss | 3YED | 2",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
@@ -205,7 +217,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | ss | 3YED | 2",
+            "tag": "🇷🇺RU | ss | 3YED | 3",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
