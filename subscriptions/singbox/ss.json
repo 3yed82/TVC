@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇷🇺RU | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 2",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 5",
@@ -134,6 +135,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇷🇺RU | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 2",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 5",
@@ -177,6 +179,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇷🇺RU | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "moscow.telegavpn.com",
+            "server_port": 60422,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qIwr0gh6nlnJCTlpDDsGw3",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | ss | 3YED | 2",
