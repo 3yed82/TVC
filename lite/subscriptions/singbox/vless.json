@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -117,6 +118,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇫🇷FR | vless | @V2rayNGn | 22",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -169,6 +171,30 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "nl.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @V2rayNGn | 22",
+            "type": "vless",
+            "server": "fr1.x2fast.net",
+            "server_port": 443,
+            "uuid": "1864cc59-416a-4f5c-a378-9cff18446d1e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr1.x2fast.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
