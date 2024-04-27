@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
+                "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -119,6 +120,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
+                "🇮🇷IR | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -190,6 +192,30 @@ https://github.com/3yed-61
             "tls": {
                 "enabled": true,
                 "server_name": "fr1.x2fast.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @Outline_Vpn | 17",
+            "type": "vless",
+            "server": "85.133.237.132",
+            "server_port": 57081,
+            "uuid": "662ad6b6-b1df-4376-98bb-679aeb645352",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rxopu1289.q.rxteam.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
