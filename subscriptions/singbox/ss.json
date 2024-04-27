@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | ss | 3YED | 0",
+                "🇫🇷FR | ss | 3YED | 0",
+                "🇷🇺RU | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 2",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 5",
@@ -135,7 +136,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | ss | 3YED | 0",
+                "🇫🇷FR | ss | 3YED | 0",
+                "🇷🇺RU | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 2",
                 "🇺🇸US | ss | 3YED | 4",
                 "🇦🇪AE | ss | 3YED | 5",
@@ -181,7 +183,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | ss | 3YED | 0",
+            "tag": "🇫🇷FR | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u1wq5c0I8FnQrhk51bGLHy",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
