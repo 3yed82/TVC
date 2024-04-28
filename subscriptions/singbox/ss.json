@@ -105,10 +105,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | 3YED | 0",
-                "🇬🇧GB | ss | 3YED | 1",
-                "🇫🇷FR | ss | 3YED | 2",
-                "🇷🇺RU | ss | 3YED | 3",
+                "🇫🇷FR | ss | 3YED | 0",
+                "🇺🇸US | ss | 3YED | 1",
+                "🇬🇧GB | ss | 3YED | 2",
+                "🇫🇷FR | ss | 3YED | 3",
+                "🇷🇺RU | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇺🇸US | ss | 3YED | 10",
@@ -137,10 +138,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | 3YED | 0",
-                "🇬🇧GB | ss | 3YED | 1",
-                "🇫🇷FR | ss | 3YED | 2",
-                "🇷🇺RU | ss | 3YED | 3",
+                "🇫🇷FR | ss | 3YED | 0",
+                "🇺🇸US | ss | 3YED | 1",
+                "🇬🇧GB | ss | 3YED | 2",
+                "🇫🇷FR | ss | 3YED | 3",
+                "🇷🇺RU | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇺🇸US | ss | 3YED | 10",
@@ -185,7 +187,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 0",
+            "tag": "🇫🇷FR | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "T2JH00UYT6uOHKvMfguapd",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "23.154.136.37",
             "server_port": 8118,
@@ -195,7 +207,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 1",
+            "tag": "🇬🇧GB | ss | 3YED | 2",
             "type": "shadowsocks",
             "server": "89.185.84.30",
             "server_port": 20228,
@@ -205,7 +217,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | ss | 3YED | 2",
+            "tag": "🇫🇷FR | ss | 3YED | 3",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
@@ -215,7 +227,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇷🇺RU | ss | 3YED | 3",
+            "tag": "🇷🇺RU | ss | 3YED | 4",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
