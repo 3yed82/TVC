@@ -106,9 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -117,9 +115,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇫🇷FR | vless | @V2rayNGn | 22",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -144,37 +140,6 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 20",
-            "type": "vless",
-            "server": "All.RxV2ray.online",
-            "server_port": 2053,
-            "uuid": "f4ac1c93-4936-4c60-bf7d-3936cb2e1b49",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.RxV2ray.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nl.RxV2ray.space"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷FR | vless | @V2rayNGn | 22",
             "type": "vless",
             "server": "fr1.x2fast.net",
@@ -195,35 +160,6 @@ https://github.com/3yed-61
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 17",
-            "type": "vless",
-            "server": "23.88.38.184",
-            "server_port": 2096,
-            "uuid": "fe9195e9-04ac-4310-dccd-cf2d2b779715",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ajP1Rru1bbPArjvPZ5kEpbuoWyhHesYcooXEp9cSviQ",
-                    "short_id": "7b4d7885"
                 }
             }
         },
