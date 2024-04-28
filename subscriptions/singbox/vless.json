@@ -124,21 +124,22 @@
                 "🇫🇮FI | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 17",
+                "🇩🇪DE | vless | 3YED | 107",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇮🇷IR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 9",
-                "🏳️XX | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 14"
+                "🇺🇸US | vless | 3YED | 10",
+                "🏳️XX | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 15"
             ]
         },
         {
@@ -164,21 +165,22 @@
                 "🇫🇮FI | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 17",
+                "🇩🇪DE | vless | 3YED | 107",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇮🇷IR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 9",
-                "🏳️XX | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 14"
+                "🇺🇸US | vless | 3YED | 10",
+                "🏳️XX | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -753,6 +755,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 107",
+            "type": "vless",
+            "server": "dl.snapfooding.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WaNuABQNLt0p7hL-HOG6_icU58Jx9Rmmx0B3o3NotSg",
+                    "short_id": "73c81a86"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -929,7 +967,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "104.22.2.79",
             "server_port": 443,
@@ -960,7 +998,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "9052b030.joinmahdiserver-90p.pages.dev",
             "server_port": 443,
@@ -991,7 +1029,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "172.67.20.220",
             "server_port": 2096,
@@ -1022,7 +1060,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 6",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
             "server": "104.21.192.45",
             "server_port": 443,
@@ -1053,7 +1091,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 443,
@@ -1084,7 +1122,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
             "server": "172.66.44.194",
             "server_port": 443,
@@ -1115,7 +1153,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 9",
+            "tag": "🇺🇸US | vless | 3YED | 10",
             "type": "vless",
             "server": "104.18.34.21",
             "server_port": 443,
@@ -1146,7 +1184,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 13",
+            "tag": "🏳️XX | vless | 3YED | 14",
             "type": "vless",
             "server": "161f5c4e.mahdiserver-cmr.pages.dev",
             "server_port": 443,
@@ -1177,7 +1215,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 14",
+            "tag": "🇺🇸US | vless | 3YED | 15",
             "type": "vless",
             "server": "172.66.44.67",
             "server_port": 443,
