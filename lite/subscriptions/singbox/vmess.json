@@ -109,6 +109,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @vless_vmess | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -123,6 +124,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @vless_vmess | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -215,6 +217,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 7",
+            "type": "vmess",
+            "server": "104.21.83.208",
+            "server_port": 443,
+            "uuid": "f92628e9-c245-4dca-be18-b4a3b8fdb511",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hayedeh.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hayedeh.top"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -251,9 +287,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "205.234.200.104",
-            "server_port": 33164,
-            "uuid": "31e8f7b4-ba3e-440a-9f56-8241569c017a",
+            "server": "172.64.150.8",
+            "server_port": 2052,
+            "uuid": "750cde0c-08fb-4a6c-ae68-c0dfa4b18564",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -266,7 +302,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sd23dss",
+                "path": "\/ws\/",
                 "headers": {
                     "Host": ""
                 }
