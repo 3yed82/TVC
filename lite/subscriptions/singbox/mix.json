@@ -107,10 +107,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
@@ -129,10 +130,11 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
@@ -197,9 +199,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.153.200.58",
+            "server": "13.36.96.46",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -219,9 +221,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.251.100.9",
+            "server": "35.182.131.200",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -278,6 +280,30 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.168.50.21",
+            "server_port": 60222,
+            "uuid": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "104.168.50.21"
                 }
             }
         },
