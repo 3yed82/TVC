@@ -107,16 +107,16 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -128,16 +128,16 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
-                "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇸🇪SE | trojan | @DirectVPN | 19",
+                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇩🇪DE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇬🇧GB | ss | @proxy_mtm | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -195,9 +195,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "16.16.34.69",
+            "server": "3.71.219.66",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -217,9 +217,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "16.16.37.95",
+            "server": "18.159.198.137",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -304,6 +304,16 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "type": "shadowsocks",
+            "server": "38.107.226.132",
+            "server_port": 2376,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -338,11 +348,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "154.62.185.2",
-            "server_port": 18134,
-            "uuid": "0da00a40-7dc6-413f-f8dd-6ed42dd50c06",
+            "server": "207.148.31.167",
+            "server_port": 30587,
+            "uuid": "55219214-9f2d-4914-fbaf-b1b444c85b0e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -388,9 +398,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @v2Line | 10",
             "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "66.42.100.187",
+            "server_port": 50131,
+            "uuid": "5afaa575-704c-43d2-a639-dd4b87cfd28a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -400,54 +410,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 1",
-            "type": "vless",
-            "server": "172.66.47.84",
-            "server_port": 443,
-            "uuid": "b75a978c-c07b-4ee7-babb-6347c7cec3be",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg11.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazeshvpn-tg11.pages.dev"
-                }
             }
         },
         {
