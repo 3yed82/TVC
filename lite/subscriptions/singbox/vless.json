@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
+                "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -116,6 +117,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
+                "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -167,6 +169,35 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "nl.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪IE | vless | @DailyV2RY | 139",
+            "type": "vless",
+            "server": "52.50.132.250",
+            "server_port": 443,
+            "uuid": "cf7cf81f-bd77-4507-ba6b-3a233b0c93ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UXJg8PBBMG9o_o4l6B_yq2ziTGLmtdRgTrybmtZmcDo",
+                    "short_id": "7a39ef36"
                 }
             }
         },
