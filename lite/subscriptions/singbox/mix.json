@@ -108,15 +108,16 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
+                "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -130,15 +131,16 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇵🇱PL | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
+                "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇮🇷IR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -199,7 +201,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.154.216.52",
+            "server": "52.17.76.175",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -219,9 +221,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "44.226.159.206",
+            "server": "16.170.181.7",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -350,6 +352,16 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 18",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
             "type": "shadowsocks",
             "server": "51.68.206.229",
@@ -394,11 +406,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "23.94.100.187",
-            "server_port": 48889,
-            "uuid": "ae62156c-16fc-4992-e957-0b46796254cf",
+            "server": "94.182.150.231",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -408,13 +420,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/awd",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
