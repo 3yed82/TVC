@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -114,6 +115,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 12",
                 "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -136,6 +138,35 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇮FI | vless | @v2rayNG_Matsuri | 12",
+            "type": "vless",
+            "server": "free.best-antiaging-reviews.com",
+            "server_port": 10559,
+            "uuid": "2c058d4f-0f6c-4802-9f53-bc319ef5fc7f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c",
+                    "short_id": "c5f1f156"
+                }
+            }
         },
         {
             "tag": "🇮🇪IE | vless | @DailyV2RY | 139",
