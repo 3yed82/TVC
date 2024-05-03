@@ -114,10 +114,9 @@ https://github.com/3yed-61
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
-                "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -137,10 +136,9 @@ https://github.com/3yed-61
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
-                "🇮🇪IE | vless | @DailyV2RY | 139",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -354,35 +352,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @DailyV2RY | 139",
-            "type": "vless",
-            "server": "52.50.132.250",
-            "server_port": 443,
-            "uuid": "cf7cf81f-bd77-4507-ba6b-3a233b0c93ed",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eset.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UXJg8PBBMG9o_o4l6B_yq2ziTGLmtdRgTrybmtZmcDo",
-                    "short_id": "7a39ef36"
-                }
-            }
-        },
-        {
             "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "95.164.9.144",
@@ -427,11 +396,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "156.253.5.63",
-            "server_port": 15843,
-            "uuid": "63d39605-332b-4e67-aa33-aa142d897730",
+            "server": "152.69.197.74",
+            "server_port": 12345,
+            "uuid": "b8a6bf58-485a-4046-b386-b3661bf65eff",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -441,6 +410,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bb",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
