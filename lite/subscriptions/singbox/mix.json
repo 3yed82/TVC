@@ -117,7 +117,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -140,7 +140,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | ss | @VmessProtocol | 18",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -423,11 +423,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "23.26.98.120",
-            "server_port": 998,
-            "uuid": "a9753cbd-8e34-49c5-be50-c4dbf55e2a12",
+            "server": "ip.sb",
+            "server_port": 2053,
+            "uuid": "b2aba745-50f4-45e0-b4c0-6e230b99fb2e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -437,6 +437,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "flat-reserves-stroke-guyana.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/argox-vm",
+                "headers": {
+                    "Host": "flat-reserves-stroke-guyana.trycloudflare.com"
+                }
             }
         },
         {
