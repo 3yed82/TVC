@@ -117,7 +117,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇮FI | vless | 3YED | 10",
+                "🇫🇮FI | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇬🇧GB | vless | 3YED | 138",
                 "🇺🇸US | vless | 3YED | 6",
@@ -156,7 +156,7 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇫🇮FI | vless | 3YED | 10",
+                "🇫🇮FI | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇬🇧GB | vless | 3YED | 138",
                 "🇺🇸US | vless | 3YED | 6",
@@ -561,7 +561,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 10",
+            "tag": "🇫🇮FI | vless | 3YED | 12",
             "type": "vless",
             "server": "65.21.52.239",
             "server_port": 443,
@@ -811,37 +811,6 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "104.19.12.170",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BIa-PaiN-baChE.pageS.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "BIa-PaiN-baChE.pageS.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 1",
-            "type": "vless",
             "server": "104.16.54.150",
             "server_port": 443,
             "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
@@ -867,6 +836,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "BIa-pAIN-bAche.PagEs.DeV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
+            "server": "104.19.12.170",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-PaiN-baChE.pageS.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BIa-PaiN-baChE.pageS.dev"
                 }
             }
         },
