@@ -115,11 +115,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇫🇮FI | vless | @ServerNett | 20",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇳🇱NL | ss | @kingofilter | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -138,11 +138,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 28",
                 "🇫🇮FI | vless | @ServerNett | 20",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇳🇱NL | ss | @kingofilter | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -383,16 +383,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-            "type": "shadowsocks",
-            "server": "51.68.206.229",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -427,11 +417,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "75.102.51.45",
-            "server_port": 58701,
-            "uuid": "b72eda2c-7b68-4813-ef86-086c8afc8e57",
+            "server": "146.190.84.34",
+            "server_port": 47390,
+            "uuid": "7c99b0a1-3fe6-40b6-95a6-40f33fe00bce",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -441,6 +431,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "146.190.84.34"
+                }
             }
         },
         {
@@ -475,7 +472,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "w.outline-vpn.cloud",
             "server_port": 2086,
@@ -495,6 +492,37 @@ https://github.com/3yed-61
                 "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "type": "vless",
+            "server": "104.16.54.150",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
                 }
             }
         },
