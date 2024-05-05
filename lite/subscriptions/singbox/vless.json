@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇫🇮FI | vless | @ServerNett | 20",
+                "🇸🇬SG | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -119,6 +120,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇫🇮FI | vless | @ServerNett | 20",
+                "🇸🇬SG | vless | @DailyV2RY | 152",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -195,6 +197,35 @@ https://github.com/3yed-61
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | @DailyV2RY | 152",
+            "type": "vless",
+            "server": "38.181.70.15",
+            "server_port": 443,
+            "uuid": "446df392-9de3-43f6-ebf0-8ba0f9d9f82f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "446df392.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4",
+                    "short_id": ""
                 }
             }
         },
