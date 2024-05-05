@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇮FI | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -125,6 +126,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇮FI | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -159,6 +161,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇮FI | vless | 3YED | 1",
+            "type": "vless",
+            "server": "37.27.34.238",
+            "server_port": 443,
+            "uuid": "---Parsashonam---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "androidcentral.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yQ9FEPZt1GCXQ_cPVBIYNpk7HE5Z1bnaP_SIY1iJHXs",
+                    "short_id": "73d7a721"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | 3YED | 2",
