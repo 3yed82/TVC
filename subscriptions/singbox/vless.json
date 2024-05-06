@@ -109,6 +109,8 @@
                 "🇨🇦CA | vless | 3YED | 9",
                 "🇨🇦CA | vless | 3YED | 12",
                 "🇨🇦CA | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -144,6 +146,8 @@
                 "🇨🇦CA | vless | 3YED | 9",
                 "🇨🇦CA | vless | 3YED | 12",
                 "🇨🇦CA | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -289,6 +293,68 @@
             "server": "All.RxV2ray.online",
             "server_port": 2053,
             "uuid": "603f7a2c-0262-4b17-a43d-bb379e670043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nm.RxV2ray.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nm.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 16",
+            "type": "vless",
+            "server": "All.RxV2ray.online",
+            "server_port": 2053,
+            "uuid": "2ab13129-3443-4544-b159-29a74b3ff443",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl.RxV2ray.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "nl.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 17",
+            "type": "vless",
+            "server": "All.RxV2ray.online",
+            "server_port": 2053,
+            "uuid": "2ab13129-3443-4544-b159-29a74b3ff443",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
