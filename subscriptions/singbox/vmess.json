@@ -159,8 +159,8 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇨🇳CN | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇨🇳CN | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇵🇱PL | vmess | 3YED | 1",
@@ -230,8 +230,8 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇨🇳CN | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇨🇳CN | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇵🇱PL | vmess | 3YED | 1",
@@ -1591,7 +1591,24 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "c23s801.jamjams.net",
+            "server_port": 61173,
+            "uuid": "9d1043a6-e87e-4bb7-8858-c1185e9c0c3b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | 3YED | 2",
             "type": "vmess",
             "server": "183.232.199.28",
             "server_port": 21006,
@@ -1605,30 +1622,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "104.21.8.157",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.8.157"
-                }
             }
         },
         {
