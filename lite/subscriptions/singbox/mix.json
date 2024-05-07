@@ -107,17 +107,17 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @ShadowProxy66 | 30",
                 "🇫🇮FI | vless | @ServerNett | 21",
                 "🇮🇷IR | vmess | @v2ray1_ng | 9",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇨🇳CN | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -131,17 +131,17 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇳🇱NL | vmess | @ShadowProxy66 | 30",
                 "🇫🇮FI | vless | @ServerNett | 21",
                 "🇮🇷IR | vmess | @v2ray1_ng | 9",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇨🇳CN | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -201,9 +201,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.171.64.87",
+            "server": "52.209.46.211",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -279,11 +279,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "162.251.62.115",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,6 +293,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
             }
         },
         {
@@ -415,7 +432,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 8",
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "4.game.speed.zz.001.oooooooooo.icu",
             "server_port": 25842,
