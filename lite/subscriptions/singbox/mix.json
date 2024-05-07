@@ -115,7 +115,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | vmess | @ShadowProxy66 | 22",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 2",
+                "🇳🇱NL | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -137,7 +137,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | vmess | @ShadowProxy66 | 22",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 2",
+                "🇳🇱NL | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -404,11 +404,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 2",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "183.232.199.28",
-            "server_port": 21006,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "188.114.99.77",
+            "server_port": 443,
+            "uuid": "e74f58dc-bdfd-4d70-8c92-0f87c844c46f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -418,6 +418,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "no2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "no2-vmess.sshmax.xyz"
+                }
             }
         },
         {
