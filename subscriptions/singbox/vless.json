@@ -119,6 +119,8 @@
                 "🇧🇾BY | vless | 3YED | 10",
                 "🇫🇮FI | vless | 3YED | 21",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 142",
+                "🇺🇸US | vless | 3YED | 143",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -128,7 +130,6 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇸🇪SE | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -159,6 +160,8 @@
                 "🇧🇾BY | vless | 3YED | 10",
                 "🇫🇮FI | vless | 3YED | 21",
                 "🇩🇪DE | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 142",
+                "🇺🇸US | vless | 3YED | 143",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -168,7 +171,6 @@
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇸🇪SE | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -609,6 +611,68 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 142",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 143",
+            "type": "vless",
+            "server": "104.26.15.16",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -852,37 +916,6 @@
             "tag": "🇸🇪SE | vless | 3YED | 4",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 5",
-            "type": "vless",
-            "server": "104.26.15.16",
             "server_port": 443,
             "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
