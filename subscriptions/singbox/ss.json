@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | ss | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 3",
+                "🇫🇷FR | ss | 3YED | 9",
                 "🇺🇸US | ss | 3YED | 0",
                 "🇨🇦CA | ss | 3YED | 1",
                 "🇫🇷FR | ss | 3YED | 2",
@@ -123,15 +124,15 @@
                 "🇺🇸US | ss | 3YED | 15",
                 "🇺🇸US | ss | 3YED | 16",
                 "🇸🇬SG | ss | 3YED | 17",
-                "🇷🇺RU | ss | 3YED | 18",
-                "🇬🇧GB | ss | 3YED | 0"
+                "🇷🇺RU | ss | 3YED | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | ss | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 3",
+                "🇫🇷FR | ss | 3YED | 9",
                 "🇺🇸US | ss | 3YED | 0",
                 "🇨🇦CA | ss | 3YED | 1",
                 "🇫🇷FR | ss | 3YED | 2",
@@ -149,8 +150,7 @@
                 "🇺🇸US | ss | 3YED | 15",
                 "🇺🇸US | ss | 3YED | 16",
                 "🇸🇬SG | ss | 3YED | 17",
-                "🇷🇺RU | ss | 3YED | 18",
-                "🇬🇧GB | ss | 3YED | 0"
+                "🇷🇺RU | ss | 3YED | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -173,7 +173,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | ss | 3YED | 5",
+            "tag": "🇬🇧GB | ss | 3YED | 3",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | 3YED | 9",
             "type": "shadowsocks",
             "server": "149.202.82.172",
             "server_port": 3389,
@@ -359,16 +369,6 @@
             "server_port": 51348,
             "method": "chacha20-ietf-poly1305",
             "password": "Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | ss | 3YED | 0",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
