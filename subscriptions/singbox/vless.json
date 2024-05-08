@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 10",
                 "🇨🇦CA | vless | 3YED | 11",
                 "🇨🇦CA | vless | 3YED | 14",
@@ -143,6 +144,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 10",
                 "🇨🇦CA | vless | 3YED | 11",
                 "🇨🇦CA | vless | 3YED | 14",
@@ -195,6 +197,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | vless | 3YED | 1",
+            "type": "vless",
+            "server": "86.104.74.224",
+            "server_port": 8443,
+            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | 3YED | 10",
@@ -699,6 +730,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "172.64.87.176",
+            "server_port": 443,
+            "uuid": "df4608a5-0ceb-4513-b991-596f541bccdb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfdy.yueuzi.dynv6.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cfdy.yueuzi.dynv6.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "172.66.47.88",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
@@ -728,7 +790,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "104.26.15.16",
             "server_port": 443,
@@ -759,7 +821,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "104.16.54.150",
             "server_port": 443,
@@ -790,40 +852,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
-            "type": "vless",
-            "server": "104.18.23.19",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
-            "server": "w3.org",
+            "server": "104.18.23.19",
             "server_port": 443,
             "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
             "flow": "",
