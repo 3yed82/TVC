@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -117,6 +118,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -198,6 +200,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "w3.org",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
                 }
             }
         },
