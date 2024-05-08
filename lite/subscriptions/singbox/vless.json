@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 18",
+                "🇧🇾BY | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -117,6 +118,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 18",
+                "🇧🇾BY | vless | @ShadowProxy66 | 28",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -169,6 +171,35 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "nl.RxV2ray.space"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇾BY | vless | @ShadowProxy66 | 28",
+            "type": "vless",
+            "server": "93.125.114.202",
+            "server_port": 443,
+            "uuid": "98d93e0a-4cf8-4ee3-afaf-3a0e64b76c76",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Uncdk8Sv8BfxzVilbQULDgfpDKqf4kIvTIeIIvPQgAA",
+                    "short_id": "d1ebc247"
                 }
             }
         },
