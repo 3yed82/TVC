@@ -105,14 +105,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | 3YED | 1",
+                "🇫🇷FR | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 3",
-                "🇩🇪DE | vless | 3YED | 89",
+                "🇩🇪DE | vless | 3YED | 92",
+                "🇩🇪DE | vless | 3YED | 97",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -124,14 +125,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | 3YED | 1",
+                "🇫🇷FR | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 3",
-                "🇩🇪DE | vless | 3YED | 89",
+                "🇩🇪DE | vless | 3YED | 92",
+                "🇩🇪DE | vless | 3YED | 97",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -159,7 +161,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | 3YED | 1",
+            "tag": "🇫🇷FR | vless | 3YED | 4",
             "type": "vless",
             "server": "86.104.74.224",
             "server_port": 8443,
@@ -362,7 +364,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 89",
+            "tag": "🇩🇪DE | vless | 3YED | 92",
+            "type": "vless",
+            "server": "91.107.179.3",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "app.hubspot.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FkVFNFcl6ewTWzMVo5nSVMxe_KfRRt5JEwwBrduTQBk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 97",
             "type": "vless",
             "server": "91.107.188.56",
             "server_port": 443,
