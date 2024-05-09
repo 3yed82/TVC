@@ -106,15 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇨🇦CA | vless | @rxv2ray | 16",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -127,15 +128,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇨🇦CA | vless | @rxv2ray | 16",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
@@ -162,6 +164,35 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | vless | @EliV2ray | 1",
+            "type": "vless",
+            "server": "86.104.74.224",
+            "server_port": 8443,
+            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @rxv2ray | 16",
@@ -195,9 +226,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "13.36.207.84",
+            "server": "18.171.78.6",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -217,9 +248,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "52.47.203.106",
+            "server": "35.176.117.194",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -280,7 +311,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -358,13 +389,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "20.24.77.204",
-            "server_port": 60031,
-            "uuid": "9d7fb490-f159-3b56-8e8a-614c45c299d1",
+            "server": "xa.ex306.buzz",
+            "server_port": 443,
+            "uuid": "E725D31D-BBBF-3330-7A40-C92DEEA3B1CF",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -373,11 +404,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xa.ex306.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ray",
                 "headers": {
-                    "Host": "20.24.77.204"
+                    "Host": "xa.ex306.buzz"
                 }
             }
         },
