@@ -108,14 +108,14 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -130,14 +130,14 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 16",
                 "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇩🇪DE | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -219,9 +219,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.73.13.206",
+            "server": "13.53.166.62",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -282,11 +282,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "172.67.199.185",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,11 +297,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/link",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
@@ -374,13 +384,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 16",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "20.24.77.204",
-            "server_port": 60028,
-            "uuid": "9d7fb490-f159-3b56-8e8a-614c45c299d1",
+            "server": "173.82.251.240",
+            "server_port": 2233,
+            "uuid": "1e3847e6-755a-4964-9845-4ac53e39b23c",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -393,7 +403,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "20.24.77.204"
+                    "Host": "173.82.251.240"
                 }
             }
         },
