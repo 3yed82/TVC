@@ -116,8 +116,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
-                "🇸🇪SE | vless | 3YED | 111",
-                "🇩🇪DE | vless | 3YED | 129",
+                "🇳🇱NL | vless | 3YED | 100",
+                "🇸🇪SE | vless | 3YED | 121",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -152,8 +152,8 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
-                "🇸🇪SE | vless | 3YED | 111",
-                "🇩🇪DE | vless | 3YED | 129",
+                "🇳🇱NL | vless | 3YED | 100",
+                "🇸🇪SE | vless | 3YED | 121",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -513,7 +513,38 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 111",
+            "tag": "🇳🇱NL | vless | 3YED | 100",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 121",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
@@ -540,35 +571,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "2.V2ray.debian.org.mp.debian.org.speedtest.net.らわなさらわ.Tech."
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 129",
-            "type": "vless",
-            "server": "91.107.179.3",
-            "server_port": 443,
-            "uuid": "ItsLegendaryking",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "app.hubspot.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FkVFNFcl6ewTWzMVo5nSVMxe_KfRRt5JEwwBrduTQBk",
-                    "short_id": ""
                 }
             }
         },
