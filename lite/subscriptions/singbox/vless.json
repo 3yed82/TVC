@@ -108,7 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @rxv2ray | 16",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -118,7 +120,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @rxv2ray | 16",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -202,6 +206,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 10",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -229,6 +262,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "172.66.47.88",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
                 }
             }
         },

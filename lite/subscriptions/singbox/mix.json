@@ -108,18 +108,19 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @rxv2ray | 16",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 5",
-                "🇨🇦CA | vmess | @kingofilter | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -130,18 +131,19 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @rxv2ray | 16",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
-                "🇮🇪IE | trojan | @DirectVPN | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
+                "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 5",
-                "🇨🇦CA | vmess | @kingofilter | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -226,9 +228,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "18.199.136.79",
+            "server": "13.39.39.48",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -248,9 +250,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.255.11.88",
+            "server": "15.222.214.194",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -345,6 +347,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 10",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
             "server": "134.195.196.178",
@@ -391,9 +422,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 443,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "server": "172.67.164.207",
+            "server_port": 8443,
+            "uuid": "fc0a3f44-adf4-4fd2-8023-46d4aa528892",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -406,7 +437,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "cdn.baraye-azadi-info.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -416,9 +447,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/us2ekjds3nay",
+                "path": "\/download",
                 "headers": {
-                    "Host": ""
+                    "Host": "cdn.baraye-azadi-info.com"
                 }
             }
         },
@@ -488,6 +519,37 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "172.66.47.88",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @nofiltering2 | 5",
             "type": "vmess",
             "server": "104.21.4.6",
@@ -518,40 +580,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @kingofilter | 4",
-            "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },

@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -115,6 +116,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -163,6 +165,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 10",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
             }
         },
