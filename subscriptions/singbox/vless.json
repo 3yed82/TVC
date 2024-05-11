@@ -113,10 +113,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 101",
-                "🇺🇸US | vless | 3YED | 125",
-                "🇺🇸US | vless | 3YED | 126",
+                "🇩🇪DE | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 112",
+                "🏳️XX | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -149,10 +148,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 101",
-                "🇺🇸US | vless | 3YED | 125",
-                "🇺🇸US | vless | 3YED | 126",
+                "🇩🇪DE | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 112",
+                "🏳️XX | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -422,7 +420,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 8",
+            "tag": "🇩🇪DE | vless | 3YED | 0",
             "type": "vless",
             "server": "141.95.75.212",
             "server_port": 443,
@@ -451,7 +449,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 101",
+            "tag": "🇺🇸US | vless | 3YED | 112",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -482,12 +480,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 125",
+            "tag": "🏳️XX | vless | 3YED | 1",
             "type": "vless",
-            "server": "104.18.41.138",
-            "server_port": 8443,
-            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
-            "flow": "",
+            "server": "[2a01:4f8:c013:361a::1]",
+            "server_port": 4585,
+            "uuid": "a9ea5094-e666-4dc0-9940-25e11d54c3fb",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -496,50 +494,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazesh-tgws.pages.dev",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazesh-tgws.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 126",
-            "type": "vless",
-            "server": "172.66.47.88",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "12148Df7.miKApaGE.PAgeS.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "12148Df7.miKApaGE.PAgeS.Dev"
+                    "public_key": "CNxW0v0QjOWucgPVbXIIa0MSvZMYchsJ2l_Ug960-Rk",
+                    "short_id": "de6908fb5f85d85b"
                 }
             }
         },
