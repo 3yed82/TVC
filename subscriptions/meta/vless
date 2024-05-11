@@ -120,7 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦CA | vless | 3YED | 13","type":"vless","server":"All.RxV2ray.online","port":2053,"udp":false,"uuid":"704e71a4-ded1-4704-82f1-b96ed6e93dcb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"nl.RxV2ray.space","ws-opts":{"path":"/","headers":{"host":"nl.RxV2ray.space"}}}
   - {"name":"🇩🇪DE | vless | 3YED | 2","type":"vless","server":"49.13.113.114","port":8443,"udp":true,"uuid":"8c8bb03a-0476-4f47-94c9-5f25f97f22ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"amazoon.namavaa.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇩🇪DE | vless | 3YED | 5","type":"vless","server":"94.130.183.41","port":1503,"udp":true,"uuid":"482931a4-fa81-4d82-a6fd-f5efa846b586","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"0first.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0"}}
   - {"name":"🇫🇮FI | vless | 3YED | 6","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
@@ -154,7 +153,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 5'
       - '🇫🇮FI | vless | 3YED | 6'
@@ -188,7 +186,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 5'
       - '🇫🇮FI | vless | 3YED | 6'
@@ -221,7 +218,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 5'
       - '🇫🇮FI | vless | 3YED | 6'

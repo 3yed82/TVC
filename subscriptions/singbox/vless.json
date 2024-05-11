@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -140,7 +139,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇫🇮FI | vless | 3YED | 6",
@@ -189,37 +187,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 13",
-            "type": "vless",
-            "server": "All.RxV2ray.online",
-            "server_port": 2053,
-            "uuid": "704e71a4-ded1-4704-82f1-b96ed6e93dcb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.RxV2ray.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nl.RxV2ray.space"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | 3YED | 2",
