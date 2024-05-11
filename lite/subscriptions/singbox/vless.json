@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -115,7 +114,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -138,37 +136,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 13",
-            "type": "vless",
-            "server": "All.RxV2ray.online",
-            "server_port": 2053,
-            "uuid": "704e71a4-ded1-4704-82f1-b96ed6e93dcb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.RxV2ray.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "nl.RxV2ray.space"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
