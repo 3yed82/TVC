@@ -106,8 +106,9 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -115,8 +116,9 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,6 +140,37 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 148",
+            "type": "vless",
+            "server": "104.16.54.150",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-pAIN-bAche.PagEs.DeV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BIa-pAIN-bAche.PagEs.DeV"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
@@ -171,11 +204,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "tag": "🇳🇱NL | vless | @FreakConfig | 3",
             "type": "vless",
-            "server": "104.18.23.19",
+            "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -185,7 +218,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bIA-paIn-bacHE.PAGeS.DEv",
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -197,7 +230,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "bIA-paIn-bacHE.PAGeS.DEv"
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
             }
         },
