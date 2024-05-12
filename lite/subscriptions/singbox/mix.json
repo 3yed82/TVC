@@ -111,13 +111,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇺🇸US | vless | @v2rayng_config_amin | 6",
+                "🇰🇷KR | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -132,13 +133,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇯🇵JP | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 19",
-                "🇺🇸US | vless | @v2rayng_config_amin | 6",
+                "🇰🇷KR | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 8",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 0",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -259,7 +261,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 4",
             "type": "vmess",
             "server": "hms24.ivideos.sbs",
             "server_port": 443,
@@ -337,11 +339,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 19",
+            "tag": "🇰🇷KR | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "213.176.2.83",
-            "server_port": 55222,
-            "uuid": "55f62edd-ca88-47f9-81e1-bc9816ea7f9a",
+            "server": "141.164.48.71",
+            "server_port": 80,
+            "uuid": "b39a02bc-dec0-4964-b861-d89ffe42558a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,10 +353,17 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "141.164.48.71"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 6",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
@@ -420,6 +429,40 @@ https://github.com/3yed-61
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "type": "vmess",
+            "server": "172.67.74.4",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
