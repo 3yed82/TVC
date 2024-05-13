@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -115,6 +116,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇳🇱NL | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -138,6 +140,37 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱NL | vless | @DailyV2RY | 154",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
