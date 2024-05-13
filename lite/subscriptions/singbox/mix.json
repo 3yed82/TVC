@@ -106,15 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -129,15 +128,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
-                "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇬🇧GB | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -168,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "15.236.6.231",
+            "server": "18.169.124.18",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.39.207.7",
+            "server": "3.10.80.103",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -280,37 +278,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 154",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
-                }
-            }
-        },
-        {
             "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "94.228.169.114",
@@ -355,11 +322,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "uk2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "36112366-6c82-43ce-92b0-1a442a1a7156",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "cbaabac-cbaa-cbaa-abdc-ccabbacabcab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -369,23 +336,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "uk2-full.privateip.net"
-                }
             }
         },
         {
