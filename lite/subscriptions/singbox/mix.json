@@ -116,12 +116,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇧🇭BH | ss | @kingofilter | 2",
+                "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -140,12 +140,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇵🇱PL | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇧🇭BH | ss | @kingofilter | 2",
+                "🇩🇪DE | vmess | @kingofilter | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -418,13 +418,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 16",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "77.83.141.171",
-            "server_port": 443,
-            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+            "server": "178.239.150.170",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
             "security": "auto",
-            "alter_id": 32,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -432,23 +432,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vc.fly.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vc",
-                "headers": {
-                    "Host": "vc.fly.dev"
-                }
             }
         },
         {
@@ -500,11 +483,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
             "type": "vless",
-            "server": "188.114.96.2",
+            "server": "104.18.202.232",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -514,7 +497,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "miumiUMadReKoSE.pAgES.dEv",
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -526,7 +509,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "miumiUMadReKoSE.pAgES.dEv"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
@@ -565,14 +548,21 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @kingofilter | 2",
-            "type": "shadowsocks",
-            "server": "series-a2-me.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇩🇪DE | vmess | @kingofilter | 3",
+            "type": "vmess",
+            "server": "5.75.202.76",
+            "server_port": 39523,
+            "uuid": "e7e75749-9a57-4471-a9a7-5472be0a0cda",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
