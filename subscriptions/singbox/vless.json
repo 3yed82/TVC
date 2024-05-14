@@ -121,6 +121,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -153,6 +154,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -622,6 +624,37 @@
         },
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "172.67.204.39",
+            "server_port": 443,
+            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "turkmenistan.armanibash.Shop.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "turkmenistan.armanibash.Shop."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "188.114.96.2",
             "server_port": 443,
