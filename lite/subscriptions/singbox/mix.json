@@ -106,12 +106,13 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -127,12 +128,13 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
@@ -164,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "108.129.60.6",
+            "server": "16.170.190.156",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -310,6 +312,37 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 143",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "217.182.198.219",
@@ -356,9 +389,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "15.156.226.178",
-            "server_port": 25996,
-            "uuid": "786c0e71-c2d4-4bdc-913f-5c75dd54721f",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -369,11 +402,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "15.156.226.178"
+                    "Host": "glweidf.sbs"
                 }
             }
         },

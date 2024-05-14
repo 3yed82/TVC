@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -114,6 +115,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @DailyV2RY | 143",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -136,6 +138,37 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 143",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 6",
