@@ -113,14 +113,15 @@
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 81",
+                "🇺🇸US | vless | 3YED | 68",
+                "🇺🇸US | vless | 3YED | 88",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -145,14 +146,15 @@
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 81",
+                "🇺🇸US | vless | 3YED | 68",
+                "🇺🇸US | vless | 3YED | 88",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -412,7 +414,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 81",
+            "tag": "🇺🇸US | vless | 3YED | 68",
+            "type": "vless",
+            "server": "172.67.204.39",
+            "server_port": 443,
+            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "turkmenistan.armanibash.Shop.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "turkmenistan.armanibash.Shop."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 88",
             "type": "vless",
             "server": "188.114.96.2",
             "server_port": 443,
@@ -592,6 +625,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh-tgws.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "104.18.202.232",
             "server_port": 443,
             "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
@@ -617,37 +681,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
-            "server": "172.67.204.39",
-            "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
                 }
             }
         },
