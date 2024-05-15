@@ -114,10 +114,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇧🇭BH | ss | @kingofilter | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -136,10 +136,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | vless | @v2ray1_ng | 6",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇧🇭BH | ss | @kingofilter | 2",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -351,11 +351,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "162.251.62.115",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "104.21.80.53",
+            "server_port": 2053,
+            "uuid": "869caccc-12af-4276-f458-366fa256f8a0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,6 +365,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "qin15.rong1104.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/qin15",
+                "headers": {
+                    "Host": "qin15.rong1104.uk"
+                }
             }
         },
         {
@@ -433,7 +450,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "188.114.96.2",
             "server_port": 443,
