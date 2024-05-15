@@ -165,11 +165,12 @@
                 "🇩🇪DE | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
+                "🇨🇦CA | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇨🇦CA | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 6",
@@ -230,9 +231,6 @@
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇬🇧GB | ss | 3YED | 0",
-                "🇳🇱NL | ss | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 2",
@@ -311,11 +309,12 @@
                 "🇩🇪DE | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
+                "🇨🇦CA | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇨🇦CA | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 6",
@@ -376,9 +375,6 @@
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇬🇧GB | ss | 3YED | 0",
-                "🇳🇱NL | ss | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 2",
@@ -1792,7 +1788,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇨🇦CA | vmess | 3YED | 4",
             "type": "vmess",
             "server": "c1.v2raybrasil.cloud",
             "server_port": 2095,
@@ -1850,7 +1846,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 6",
+            "tag": "🇺🇸US | vmess | 3YED | 6",
             "type": "vmess",
             "server": "172.67.174.42",
             "server_port": 443,
@@ -1918,7 +1914,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 11",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -1948,6 +1944,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "172.67.74.4",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -3201,60 +3231,6 @@
                     "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
-            "type": "vmess",
-            "server": "172.67.74.4",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | ss | 3YED | 0",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | ss | 3YED | 1",
-            "type": "shadowsocks",
-            "server": "beedoost.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇮🇷IR | vless | 3YED | 1",
