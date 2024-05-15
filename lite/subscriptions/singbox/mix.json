@@ -106,14 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🇫🇷FR | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -126,14 +127,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇩🇪DE | vless | @v2ray1_ng | 7",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 11",
+                "🇫🇷FR | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -162,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.9.218.185",
+            "server": "54.195.171.39",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -274,6 +276,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "23.162.200.181",
@@ -318,13 +349,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 11",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "107.148.192.148",
-            "server_port": 41911,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "162.19.25.207",
+            "server_port": 44513,
+            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
