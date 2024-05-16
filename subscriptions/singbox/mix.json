@@ -209,8 +209,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇸🇪SE | vmess | 3YED | 0",
-                "🏳️XX | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇸🇪SE | vmess | 3YED | 1",
+                "🏳️XX | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -352,8 +353,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇸🇪SE | vmess | 3YED | 0",
-                "🏳️XX | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇸🇪SE | vmess | 3YED | 1",
+                "🏳️XX | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -2632,7 +2634,31 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "go.alipay.ovh",
+            "server_port": 8080,
+            "uuid": "4f1f8f1e-926c-4edb-a398-8627110973f1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vmess | 3YED | 1",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
             "server_port": 10000,
@@ -2656,7 +2682,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 1",
+            "tag": "🏳️XX | vmess | 3YED | 2",
             "type": "vmess",
             "server": "zzcm07.bdate.xyz",
             "server_port": 1260,
