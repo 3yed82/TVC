@@ -109,14 +109,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 5",
+                "🇸🇪SE | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vless | @FreakConfig | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
@@ -128,14 +129,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 5",
+                "🇸🇪SE | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vless | @FreakConfig | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
@@ -221,13 +223,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇭🇰HK | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.237.20.158",
-            "server_port": 41242,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "n1709457297.aaigefm.cn",
+            "server_port": 443,
+            "uuid": "4cbaa418-9762-41d4-b144-835922d2deba",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -235,10 +237,27 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "n1709457297.aaigefm.cn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "n1709457297.aaigefm.cn"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
@@ -316,7 +335,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 5",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
             "server_port": 10000,
@@ -405,7 +424,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 1",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
