@@ -122,6 +122,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -155,6 +156,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
@@ -679,6 +681,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "miumiUMadReKoSE.pAgES.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 0",
+            "type": "vless",
+            "server": "GozargahVPN.anten.cloud",
+            "server_port": 443,
+            "uuid": "541f5c7b-9f58-4724-f0bc-8d671fb01c29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
+                    "short_id": "e0"
                 }
             }
         },

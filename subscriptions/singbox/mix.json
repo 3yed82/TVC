@@ -209,12 +209,12 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🏳️XX | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 6",
+                "🇸🇪SE | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🏳️XX | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🇸🇪SE | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -233,6 +233,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 2",
@@ -355,12 +356,12 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🏳️XX | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 6",
+                "🇸🇪SE | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🏳️XX | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🇸🇪SE | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -379,6 +380,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 2",
@@ -2638,7 +2640,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇸🇪SE | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "se1.vpnjantit.com",
+            "server_port": 10000,
+            "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vpnjantit",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "104.26.7.65",
             "server_port": 443,
@@ -2672,7 +2698,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 2",
+            "tag": "🏳️XX | vmess | 3YED | 4",
             "type": "vmess",
             "server": "us2407.cloudmatrix.xyz",
             "server_port": 2407,
@@ -2696,7 +2722,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.19.45.88",
             "server_port": 2095,
@@ -2720,7 +2746,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 6",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
             "server": "us-21.hihu.net",
             "server_port": 80,
@@ -2744,7 +2770,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 8",
+            "tag": "🇺🇸US | vmess | 3YED | 10",
             "type": "vmess",
             "server": "104.19.52.255",
             "server_port": 80,
@@ -2762,30 +2788,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/&Telegram🇨🇳 @WangCai_8",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "se1.vpnjantit.com",
-            "server_port": 10000,
-            "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vpnjantit",
                 "headers": {
                     "Host": ""
                 }
@@ -3293,6 +3295,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "miumiUMadReKoSE.pAgES.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 0",
+            "type": "vless",
+            "server": "GozargahVPN.anten.cloud",
+            "server_port": 443,
+            "uuid": "541f5c7b-9f58-4724-f0bc-8d671fb01c29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
+                    "short_id": "e0"
                 }
             }
         },
