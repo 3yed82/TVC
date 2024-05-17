@@ -108,16 +108,17 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 15",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 18",
+                "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 6",
+                "🇸🇪SE | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇯🇵JP | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
@@ -128,16 +129,17 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 15",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
-                "🇨🇦CA | trojan | @DirectVPN | 18",
+                "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 6",
+                "🇸🇪SE | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇯🇵JP | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
+                "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
@@ -213,9 +215,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "15.156.223.216",
+            "server": "3.131.72.49",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -269,11 +271,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "172.67.74.4",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -286,7 +288,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -296,9 +298,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -347,7 +349,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -453,6 +455,40 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "miumiUMadReKoSE.pAgES.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "type": "vmess",
+            "server": "172.67.74.4",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
