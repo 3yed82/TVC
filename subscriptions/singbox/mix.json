@@ -183,6 +183,7 @@
                 "🇮🇷IR | vmess | 3YED | 17",
                 "🇦🇪AE | ss | 3YED | 11",
                 "🇨🇦CA | ss | 3YED | 12",
+                "🇨🇷CR | vless | 3YED | 97",
                 "🇮🇷IR | vless | 3YED | 106",
                 "🇬🇧GB | ss | 3YED | 1",
                 "🇫🇷FR | ss | 3YED | 2",
@@ -209,7 +210,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -325,6 +326,7 @@
                 "🇮🇷IR | vmess | 3YED | 17",
                 "🇦🇪AE | ss | 3YED | 11",
                 "🇨🇦CA | ss | 3YED | 12",
+                "🇨🇷CR | vless | 3YED | 97",
                 "🇮🇷IR | vless | 3YED | 106",
                 "🇬🇧GB | ss | 3YED | 1",
                 "🇫🇷FR | ss | 3YED | 2",
@@ -351,7 +353,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -2187,6 +2189,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇷CR | vless | 3YED | 97",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "0ead4cc4-555b-4ebb-bd84-55c224e5d928",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "x1.morfin.bio.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | 3YED | 106",
             "type": "vless",
             "server": "185.4.28.114",
@@ -2543,30 +2576,6 @@
         {
             "tag": "🏳️XX | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "cm.mj-cn.cyou",
-            "server_port": 16627,
-            "uuid": "9e7ebd39-189f-489c-8b7e-c47ee4c530dc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cm.mj-cn.cyou"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | 3YED | 1",
-            "type": "vmess",
             "server": "zzcm09.bdate.xyz",
             "server_port": 1510,
             "uuid": "b9ecdb44-236b-30a7-94f2-f464993d84cf",
@@ -2589,7 +2598,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🏳️XX | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "cm.mj-cn.cyou",
+            "server_port": 16627,
+            "uuid": "9e7ebd39-189f-489c-8b7e-c47ee4c530dc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cm.mj-cn.cyou"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "172.67.170.103",
             "server_port": 443,
