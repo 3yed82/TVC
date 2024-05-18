@@ -106,14 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 18"
+                "🇫🇮FI | 🟢 | ss | 3YED | 17",
+                "🇩🇪DE | 🟢 | ss | 3YED | 18",
+                "🇦🇪AE | 🟢 | ss | 3YED | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 18"
+                "🇫🇮FI | 🟢 | ss | 3YED | 17",
+                "🇩🇪DE | 🟢 | ss | 3YED | 18",
+                "🇦🇪AE | 🟢 | ss | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +140,32 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇫🇮FI | 🟢 | ss | 3YED | 17",
+            "type": "shadowsocks",
+            "server": "185.174.137.72",
+            "server_port": 57262,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WrszSP43UAOcFljDkb8vAL",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | ss | 3YED | 18",
             "type": "shadowsocks",
             "server": "159.100.14.58",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WRORkymIVzJrtFcQLjgSrp",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | ss | 3YED | 1",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
