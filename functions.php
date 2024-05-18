@@ -10,8 +10,47 @@ function is_ip($string)
     }
 }
 
+function convertToJson($input) {
+    // Split the input string by newline
+    $lines = explode("\n", $input);
+
+    // Initialize an empty array to store the key-value pairs
+    $data = [];
+
+    // Loop through each line
+    foreach ($lines as $line) {
+        // Split the line by the equals sign
+        $parts = explode("=", $line);
+
+        // If the line has an equals sign and is not empty
+        if (count($parts) == 2 && !empty($parts[0]) && !empty($parts[1])) {
+            // Trim any whitespace from the key and value
+            $key = trim($parts[0]);
+            $value = trim($parts[1]);
+
+            // Add the key-value pair to the data array
+            $data[$key] = $value;
+        }
+    }
+
+    // Convert the data array to a JSON string
+    $json = json_encode($data);
+
+    return $json;
+}
+
 function ip_info($ip)
 {
+    // Check if the IP is from Cloudflare
+    if (is_cloudflare_ip($ip)) {
+        $traceUrl = "http://$ip/cdn-cgi/trace";
+        $traceData = convertToJson(file_get_contents($traceUrl));
+        $country = $traceData['loc'] ?? "CF";
+        return (object) [
+            "country" => $country,
+        ];
+    }
+
     if (is_ip($ip) === false) {
         $ip_address_array = dns_get_record($ip, DNS_A);
         if (empty($ip_address_array)) {
@@ -72,6 +111,33 @@ function ip_info($ip)
     }
 
     return $result;
+}
+
+function is_cloudflare_ip($ip)
+{
+    // Get the Cloudflare IP ranges
+    $cloudflare_ranges = file_get_contents('https://www.cloudflare.com/ips-v4');
+    $cloudflare_ranges = explode("\n", $cloudflare_ranges);
+
+    foreach ($cloudflare_ranges as $range) {
+        if (cidr_match($ip, $range)) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function cidr_match($ip, $range) {
+    list($subnet, $bits) = explode('/', $range);
+    if ($bits === null) {
+        $bits = 32;
+    }
+    $ip = ip2long($ip);
+    $subnet = ip2long($subnet);
+    $mask = -1 << (32 - $bits);
+    $subnet &= $mask;
+    return ($ip & $mask) == $subnet;
 }
 
 function is_valid($input)
@@ -336,5 +402,5 @@ function hiddifyHeader($subscriptionName) {
     return "#profile-title: base64:" . $encodedCombinedText . "\n" .
         "#profile-update-interval: 1\n" .
         "#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n" .
-        "#support-url: https://github.com/3yed-82\n";
+        "#support-url: https://github.com/3yed-61\n";
 }
