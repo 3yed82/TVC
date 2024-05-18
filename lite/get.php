@@ -77,7 +77,7 @@ foreach ($configsList as $source => $configs) {
     echo "\n" . strval($tempSource) . "/" . strval($totalSources) . "\n";
 
     // Loop through each config in the configs array
-    $limitKey = count($configs) - 1;
+    $limitKey = count($configs) - 2;
     foreach (array_reverse($configs) as $key => $config) {
         // Calculate the percentage complete
         $percentage = ($tempCounter / $totalConfigs) * 100;
@@ -90,7 +90,7 @@ foreach ($configsList as $source => $configs) {
         $tempCounter++;
 
         // If the config is valid and the key is less than or equal to 1
-        if (is_valid($config) && isEncrypted($config) && $key >= $limitKey) {
+        if (is_valid($config) && $key >= $limitKey) {
             $type = detect_type($config);
             $configHash = $configsHash[$type];
             $configIp = $configsIp[$type];
@@ -98,15 +98,17 @@ foreach ($configsList as $source => $configs) {
             $configLocation =
                 ip_info($decodedConfig[$configIp])->country ?? "XX";
             $configFlag =
-                $configLocation === "XX" ? "🏳️" : getFlags($configLocation);
-            $source = $source === "iP_CF" ? "FAKEOFTVC" : $source;
+                $configLocation === "XX" ? "❔" : ($configLocation === "CF" ? "🚩" : getFlags($configLocation));
+            $isEncrypted = 
+                isEncrypted($config) ? "🟢" : "🔴";
             $decodedConfig[$configHash] =
                 $configFlag .
                 $configLocation .
+                " | " . 
+                $isEncrypted .
                 " | " .
                 $type .
-                " | @" .
-                $source .
+                " | 3YED" .
                 " | " .
                 strval($key);
             $encodedConfig = reparseConfig($decodedConfig, $type);
