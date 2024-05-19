@@ -139,8 +139,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
@@ -195,8 +196,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
@@ -1099,7 +1101,41 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 0",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "us-ny-rn.licom.ga",
+            "server_port": 62008,
+            "uuid": "f81e990e-1283-48f9-9eff-acacad6fb661",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us-ny-rn.licom.ga",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "us-ny-rn.licom.ga"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "46.17.45.13",
             "server_port": 33879,
@@ -1116,7 +1152,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 2",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "hkcm.dfnode.top",
             "server_port": 19300,
