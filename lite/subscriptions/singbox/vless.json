@@ -152,6 +152,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 6",
+                "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇮🇷IR | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 0",
@@ -259,6 +261,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 6",
+                "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇮🇷IR | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 0",
@@ -1419,6 +1423,68 @@ https://github.com/3yed-61
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
                     "Host": "104.17.145.25"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "www.visa.com.sg",
+            "server_port": 8443,
+            "uuid": "9a39f63e-28c8-4560-af18-b01b9916ef1b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh-tgws.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Tel-proxy_mtm\/?ed=2560",
+                "headers": {
+                    "Host": "pardazesh-tgws.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 7",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Tel-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
