@@ -106,7 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | 3YED | 7",
+                "🇨🇦CA | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
@@ -146,7 +147,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 16",
                 "🇨🇦CA | 🔴 | vless | 3YED | 195",
                 "🇨🇦CA | 🔴 | vless | 3YED | 196",
-                "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
                 "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
@@ -215,7 +216,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | 3YED | 7",
+                "🇨🇦CA | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
@@ -255,7 +257,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 16",
                 "🇨🇦CA | 🔴 | vless | 3YED | 195",
                 "🇨🇦CA | 🔴 | vless | 3YED | 196",
-                "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
                 "🇨🇦CA | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
@@ -340,7 +342,38 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 7",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "162.159.153.2",
+            "server_port": 8443,
+            "uuid": "31b834d8-490f-45c6-db51-753aa0814359",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn-xw.unoix.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vpn-xw.unoix.co"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "104.21.34.74",
             "server_port": 443,
@@ -1281,7 +1314,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 80,
