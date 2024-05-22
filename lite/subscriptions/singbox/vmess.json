@@ -113,9 +113,9 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 10",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 71",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
@@ -135,9 +135,9 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 10",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 71",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
@@ -309,6 +309,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 71",
+            "type": "vmess",
+            "server": "188.75.92.107",
+            "server_port": 12077,
+            "uuid": "99bf4fe7-f3bf-46b4-9b49-7960c54ad19d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -363,40 +380,6 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "nl2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "cb1178a1-ed8b-46d9-a173-7e6c1de73399",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "nl2-full.privateip.net"
                 }
             }
         },
