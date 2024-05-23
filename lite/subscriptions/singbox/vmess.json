@@ -116,8 +116,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇪🇸ES | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
@@ -140,8 +140,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇪🇸ES | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
@@ -405,11 +405,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇪🇸ES | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2082,
-            "uuid": "1ed3f9fd-7adb-4971-b8c0-3d4916290982",
+            "server": "es-full.privateip.net",
+            "server_port": 443,
+            "uuid": "3dee9636-9663-404d-a9d9-459d9e6d4459",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -420,16 +420,26 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "es-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/CuTy87zAzV\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "cfcdn1.sanfencdn9.com"
+                    "Host": "es-full.privateip.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "upload.ir",
             "server_port": 80,
