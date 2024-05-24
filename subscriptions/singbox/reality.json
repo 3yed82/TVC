@@ -105,16 +105,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | 3YED | 6",
-                "❔XX | 🔴 | vless | 3YED | 8",
-                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 7",
+                "❔XX | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇹🇷TR | 🔴 | vless | 3YED | 8",
-                "🇬🇧GB | 🔴 | vless | 3YED | 5",
+                "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -165,16 +164,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | 3YED | 6",
-                "❔XX | 🔴 | vless | 3YED | 8",
-                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 7",
+                "❔XX | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇹🇷TR | 🔴 | vless | 3YED | 8",
-                "🇬🇧GB | 🔴 | vless | 3YED | 5",
+                "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -241,7 +239,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 6",
+            "tag": "❔XX | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "[2a0d:5940:102:2::]",
             "server_port": 25365,
@@ -277,7 +275,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 8",
+            "tag": "❔XX | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 2096,
@@ -302,42 +300,6 @@
                     "enabled": true,
                     "public_key": "9HWaR32kYaEr1s6HmzlebfaAHdlo2K0qEhx5UxpxwX4",
                     "short_id": "0f4ad338"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "[2a05:541:133:7::1]",
-            "server_port": 25365,
-            "uuid": "f418b43f-5b7d-478b-b8ee-23afa1a52f5b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "od2m_12XJ2eb-3sJSPnHGGltVRCXtMCRsmf-9bffUl4",
-                    "short_id": "491406b8"
                 }
             },
             "transport": {
@@ -537,7 +499,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 5",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "192.248.171.240",
             "server_port": 800,
