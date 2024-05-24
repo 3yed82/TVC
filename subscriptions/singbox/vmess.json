@@ -116,9 +116,10 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 153",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 155",
-                "🇮🇪IE | 🟢 | vmess | 3YED | 156",
+                "❔XX | 🟢 | vmess | 3YED | 146",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 163",
+                "🇫🇮FI | 🟢 | vmess | 3YED | 165",
+                "🇺🇸US | 🟢 | vmess | 3YED | 166",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇮🇹IT | 🟢 | vmess | 3YED | 2",
@@ -165,9 +166,10 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 153",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 155",
-                "🇮🇪IE | 🟢 | vmess | 3YED | 156",
+                "❔XX | 🟢 | vmess | 3YED | 146",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 163",
+                "🇫🇮FI | 🟢 | vmess | 3YED | 165",
+                "🇺🇸US | 🟢 | vmess | 3YED | 166",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇮🇹IT | 🟢 | vmess | 3YED | 2",
@@ -468,7 +470,41 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 153",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 146",
+            "type": "vmess",
+            "server": "atlasnet1.myatlasnet.ir",
+            "server_port": 8443,
+            "uuid": "63e54742-a244-4bb0-c9cb-17a545f4ca3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 163",
             "type": "vmess",
             "server": "pro.iranspeed.shop",
             "server_port": 80,
@@ -485,7 +521,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 155",
+            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 165",
             "type": "vmess",
             "server": "FRoM.iRAnsPeed.shop",
             "server_port": 80,
@@ -509,7 +545,7 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | vmess | 3YED | 156",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 166",
             "type": "vmess",
             "server": "MAil.IrANspeED.SHOp",
             "server_port": 80,
