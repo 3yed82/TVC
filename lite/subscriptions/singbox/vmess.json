@@ -274,9 +274,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "p1.v2raybrasil.cloud",
-            "server_port": 2052,
-            "uuid": "60bcbd52-0c88-4da3-aee2-cc1f9d5ca224",
+            "server": "upload.ir",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -287,11 +287,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
