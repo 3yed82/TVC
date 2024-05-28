@@ -109,13 +109,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3YED | 0",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 19",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 8",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 179",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 24",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 25",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -135,13 +133,11 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3YED | 0",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 19",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 8",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 179",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 24",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 25",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -239,11 +235,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
-            "server": "cold-dawn-9246.fly.dev",
-            "server_port": 443,
-            "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+            "server": "104.16.61.8",
+            "server_port": 2082,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,21 +250,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cold-dawn-9246.fly.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+                "path": "\/obdii.cfd\/linkws",
                 "headers": {
-                    "Host": "cold-dawn-9246.fly.dev"
+                    "Host": "104.16.61.8"
                 }
             }
         },
@@ -338,65 +324,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 24",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 25",
-            "type": "vmess",
-            "server": "185.146.173.32",
-            "server_port": 2052,
-            "uuid": "76b32e0a-2338-40f6-9090-9e440ca91afc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/index.php\/SeYeDMT",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "104.26.7.65",
             "server_port": 443,
