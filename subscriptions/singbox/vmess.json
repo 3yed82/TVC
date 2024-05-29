@@ -112,12 +112,12 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 11",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
+                "🚩CF | 🟢 | vmess | 3YED | 15",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -136,7 +136,6 @@
                 "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
@@ -161,12 +160,12 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 11",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
+                "🚩CF | 🟢 | vmess | 3YED | 15",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -185,7 +184,6 @@
                 "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
@@ -359,7 +357,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "172.67.207.26",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "linde06.indiavideo.sbs",
             "server_port": 443,
@@ -393,7 +425,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "cold-dawn-9246.fly.dev",
             "server_port": 443,
@@ -427,7 +459,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "cold-dawn-9246.fly.dev",
             "server_port": 443,
@@ -461,7 +493,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 10",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
             "server": "172.67.229.35",
             "server_port": 2086,
@@ -485,7 +517,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 11",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 15",
             "type": "vmess",
             "server": "172.67.229.37",
             "server_port": 2086,
@@ -505,40 +537,6 @@
                 "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
                     "Host": "172.67.229.37"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "crackthecode.ftp.sh",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vcp3.dehel15354.wORkeRS.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linde06.indiavideo.sbs:443\/linkws",
-                "headers": {
-                    "Host": "vcp3.dehel15354.wORkeRS.dEV"
                 }
             }
         },
@@ -1014,30 +1012,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "172.67.199.185",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.199.185"
-                }
             }
         },
         {
