@@ -182,7 +182,7 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇨🇦CA | 🔴 | vless | 3YED | 8",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 6",
@@ -486,6 +486,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 8",
                 "🚩CF | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🚩CF | 🔴 | vless | 3YED | 14",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 4",
@@ -624,7 +627,6 @@
                 "🇷🇺RU | 🟢 | vmess | 3YED | 0",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 1",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 1",
@@ -855,7 +857,7 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇨🇦CA | 🔴 | vless | 3YED | 8",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 6",
@@ -1159,6 +1161,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 8",
                 "🚩CF | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🚩CF | 🔴 | vless | 3YED | 14",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 4",
@@ -1297,7 +1302,6 @@
                 "🇷🇺RU | 🟢 | vmess | 3YED | 0",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 1",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 1",
@@ -3337,7 +3341,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 0",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "all.msv2ray.online",
             "server_port": 443,
@@ -10364,6 +10368,79 @@
             }
         },
         {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "008ba5df-c4d8-4bd5-8516-0b1c9e07961e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 8443,
+            "uuid": "2d9fbe4c-2a28-4676-a439-c330609cfa4d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "104.17.169.114",
+            "server_port": 80,
+            "uuid": "aebca481-d343-4ae8-a641-c598d253f0f1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "104.17.169.114"
+                }
+            }
+        },
+        {
             "tag": "🚩CF | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "104.16.141.107",
@@ -13565,30 +13642,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "104.18.14.19",
-            "server_port": 80,
-            "uuid": "4e63f0da-80ff-4b1e-8f68-80158ad0ff2a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/4e63f0da",
-                "headers": {
-                    "Host": "104.18.14.19"
-                }
             }
         },
         {
