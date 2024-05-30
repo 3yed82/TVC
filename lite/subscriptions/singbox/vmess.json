@@ -109,12 +109,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 19",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 18",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 27",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 28",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇹🇷TR | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -131,12 +133,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 19",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 18",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 27",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 28",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇹🇷TR | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -224,7 +228,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "104.16.60.8",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v149-dskds65",
+                "headers": {
+                    "Host": "104.16.60.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
             "server": "104.26.0.95",
             "server_port": 443,
@@ -258,7 +286,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "174.136.205.46",
             "server_port": 39027,
@@ -363,6 +391,40 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "tr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "5d19853b-93ed-4718-b228-2979cf38cc28",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "tr-full.privateip.net"
                 }
             }
         },
