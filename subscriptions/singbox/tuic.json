@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | tuic | 3YED | 2"
+                "🇳🇱NL | 🟢 | tuic | 3YED | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | tuic | 3YED | 2"
+                "🇳🇱NL | 🟢 | tuic | 3YED | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -135,13 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | tuic | 3YED | 2",
+            "tag": "🇳🇱NL | 🟢 | tuic | 3YED | 0",
             "type": "tuic",
-            "server": "bivojoud.seyedalikhameneibinamous.site",
-            "server_port": 49892,
-            "uuid": "f6893810-5165-4d9a-95fb-a582fd82d004",
-            "password": "f6893810-5165-4d9a-95fb-a582fd82d004",
-            "congestion_control": "cubic",
+            "server": "singbox.freelines.net",
+            "server_port": 57034,
+            "uuid": "5663790a-0291-422f-ac20-d873c42a39e4",
+            "password": "5663790a-0291-422f-ac20-d873c42a39e4",
+            "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "zero_rtt_handshake": false,
             "heartbeat": "10s",
@@ -149,8 +149,8 @@
             "tls": {
                 "enabled": true,
                 "disable_sni": false,
-                "server_name": "bivojoud.seyedalikhameneibinamous.site",
-                "insecure": false,
+                "server_name": "www.bing.com",
+                "insecure": true,
                 "alpn": [
                     "h3",
                     "spdy\/3.1"
