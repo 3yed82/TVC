@@ -112,12 +112,12 @@ https://github.com/3yed-61
                 "🇺🇦UA | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 186",
-                "❔XX | 🟢 | vmess | 3YED | 24",
-                "🇺🇸US | 🟢 | vmess | 3YED | 25",
+                "❔XX | 🟢 | vmess | 3YED | 28",
+                "🇺🇸US | 🟢 | vmess | 3YED | 29",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
@@ -135,12 +135,12 @@ https://github.com/3yed-61
                 "🇺🇦UA | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 186",
-                "❔XX | 🟢 | vmess | 3YED | 24",
-                "🇺🇸US | 🟢 | vmess | 3YED | 25",
+                "❔XX | 🟢 | vmess | 3YED | 28",
+                "🇺🇸US | 🟢 | vmess | 3YED | 29",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
@@ -284,7 +284,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 24",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 28",
             "type": "vmess",
             "server": "f42.maryam1500.top",
             "server_port": 2098,
@@ -301,7 +301,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 25",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 29",
             "type": "vmess",
             "server": "205.234.231.35",
             "server_port": 31433,
@@ -376,7 +376,41 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "188.114.99.134",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "185.146.173.92",
             "server_port": 80,
@@ -396,30 +430,6 @@ https://github.com/3yed-61
                 "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "172.64.229.85",
-            "server_port": 2052,
-            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.64.229.85"
                 }
             }
         },
