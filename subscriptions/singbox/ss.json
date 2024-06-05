@@ -105,9 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🟢 | ss | 3YED | 2",
+                "🇸🇪SE | 🟢 | ss | 3YED | 5",
+                "🇨🇦CA | 🟢 | ss | 3YED | 12",
                 "🇩🇪DE | 🟢 | ss | 3YED | 0",
-                "🇦🇪AE | 🟢 | ss | 3YED | 51",
+                "🇦🇪AE | 🟢 | ss | 3YED | 53",
                 "🇬🇧GB | 🟢 | ss | 3YED | 15",
                 "🇬🇧GB | 🟢 | ss | 3YED | 1",
                 "❔XX | 🟢 | ss | 3YED | 2",
@@ -133,9 +134,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🟢 | ss | 3YED | 2",
+                "🇸🇪SE | 🟢 | ss | 3YED | 5",
+                "🇨🇦CA | 🟢 | ss | 3YED | 12",
                 "🇩🇪DE | 🟢 | ss | 3YED | 0",
-                "🇦🇪AE | 🟢 | ss | 3YED | 51",
+                "🇦🇪AE | 🟢 | ss | 3YED | 53",
                 "🇬🇧GB | 🟢 | ss | 3YED | 15",
                 "🇬🇧GB | 🟢 | ss | 3YED | 1",
                 "❔XX | 🟢 | ss | 3YED | 2",
@@ -177,7 +179,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🟢 | ss | 3YED | 2",
+            "tag": "🇸🇪SE | 🟢 | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "217.196.103.206",
+            "server_port": 29312,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qgpdyzHj8rZW9fDxxkUHRI",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | ss | 3YED | 12",
             "type": "shadowsocks",
             "server": "23.162.200.28",
             "server_port": 3389,
@@ -197,7 +209,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | 🟢 | ss | 3YED | 51",
+            "tag": "🇦🇪AE | 🟢 | ss | 3YED | 53",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
