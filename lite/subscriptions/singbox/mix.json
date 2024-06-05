@@ -122,7 +122,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 26",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇨🇦CA | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇸🇪SE | 🔴 | vless | 3YED | 25",
                 "🇸🇪SE | 🔴 | vless | 3YED | 26",
@@ -199,8 +199,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | trojan | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 3",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
@@ -260,7 +260,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 26",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇨🇦CA | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇸🇪SE | 🔴 | vless | 3YED | 25",
                 "🇸🇪SE | 🔴 | vless | 3YED | 26",
@@ -337,8 +337,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | trojan | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 3",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
@@ -757,7 +757,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 80,
@@ -2627,7 +2627,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 3",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "cn.zzv02.infonode.xyz",
             "server_port": 17013,
@@ -2651,7 +2651,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 4",
+            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "46.226.163.143",
             "server_port": 56148,
@@ -2760,6 +2760,37 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
             "type": "vless",
+            "server": "162.159.252.236",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
+            "type": "vless",
             "server": "104.18.202.232",
             "server_port": 443,
             "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
@@ -2785,37 +2816,6 @@ https://github.com/3yed-61
                 "path": "\/telegram-proxy_mtm\/",
                 "headers": {
                     "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.16.80.131",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
