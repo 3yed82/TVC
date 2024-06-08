@@ -109,6 +109,7 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
+                "🇬🇧GB | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 22",
                 "❔XX | 🔴 | vless | 3YED | 23"
             ]
@@ -120,6 +121,7 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
+                "🇬🇧GB | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 22",
                 "❔XX | 🔴 | vless | 3YED | 23"
             ],
@@ -228,6 +230,42 @@ https://github.com/3yed-61
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "95.179.202.50",
+            "server_port": 2093,
+            "uuid": "7cfb0575-9759-4953-846e-f55127eea2d8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
+                    "short_id": "d710e2b9"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "stackoverflow.com"
+                ],
+                "path": "\/"
             }
         },
         {
