@@ -113,8 +113,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -132,8 +132,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -196,9 +196,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 17",
             "type": "vmess",
-            "server": "104.21.8.157",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "server": "172.67.172.50",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -213,7 +213,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.8.157"
+                    "Host": "172.67.172.50"
                 }
             }
         },
@@ -327,6 +327,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "104.19.47.207",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.64.97.235",
@@ -347,40 +371,6 @@ https://github.com/3yed-61
                 "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
                 "headers": {
                     "Host": "172.64.97.235"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "oracle1.mysupp.com",
-            "server_port": 25943,
-            "uuid": "520c82fe-3e74-43b9-9dfb-87cae71e8cc0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "oracle1.mysupp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/canada",
-                "headers": {
-                    "Host": "oracle1.mysupp.com"
                 }
             }
         },
