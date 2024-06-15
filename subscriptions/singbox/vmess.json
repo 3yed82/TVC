@@ -137,11 +137,11 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 1",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 9",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -198,11 +198,11 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 1",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 9",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -1102,7 +1102,31 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.64.97.235",
+            "server_port": 8080,
+            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "zecjk.com",
             "server_port": 443,
@@ -1136,7 +1160,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 1",
+            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "185.146.173.185",
             "server_port": 80,
@@ -1160,7 +1184,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 3",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "188.114.97.7",
             "server_port": 443,
@@ -1194,7 +1218,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "162.251.62.115",
             "server_port": 22324,
@@ -1211,7 +1235,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 8",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
             "server": "172.67.199.118",
             "server_port": 8080,
@@ -1231,40 +1255,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.199.118"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2096,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rough-wildflower-0b5e.zemel-yesenia1720.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
-                "headers": {
-                    "Host": "rough-wildflower-0b5e.zemel-yesenia1720.workers.dev"
                 }
             }
         },
