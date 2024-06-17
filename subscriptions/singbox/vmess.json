@@ -126,6 +126,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 179",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -181,6 +182,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 179",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -766,6 +768,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.26.0.95",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
