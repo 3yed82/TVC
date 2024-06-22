@@ -110,13 +110,14 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 4",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 157",
                 "🇺🇸US | 🟢 | vmess | 3YED | 12",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -132,13 +133,14 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 4",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 157",
                 "🇺🇸US | 🟢 | vmess | 3YED | 12",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -268,7 +270,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.21.42.39",
             "server_port": 443,
@@ -333,6 +335,23 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "glweidf.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 157",
+            "type": "vmess",
+            "server": "149.28.240.190",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -428,6 +447,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "104.16.149.244",
+            "server_port": 2086,
+            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.16.149.244"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "107.167.20.182",
@@ -458,40 +501,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "107.167.20.182"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "fd8aaad9-7987-49f3-b175-18daf2d2dc0d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
