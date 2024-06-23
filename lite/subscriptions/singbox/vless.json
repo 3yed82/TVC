@@ -151,7 +151,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 184",
                 "🇸🇪SE | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "🇨🇦CA | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -176,8 +176,7 @@ https://github.com/3yed-61
                 "🇲🇾MY | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 40",
                 "🇸🇪SE | 🔴 | vless | 3YED | 41",
-                "🇩🇪DE | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇮🇷IR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇲🇾MY | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -263,7 +262,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 184",
                 "🇸🇪SE | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "🇨🇦CA | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -288,8 +287,7 @@ https://github.com/3yed-61
                 "🇲🇾MY | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 40",
                 "🇸🇪SE | 🔴 | vless | 3YED | 41",
-                "🇩🇪DE | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇮🇷IR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇲🇾MY | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -1341,7 +1339,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
@@ -1949,25 +1947,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "78.46.204.85",
-            "server_port": 8080,
-            "uuid": "8688aee3-9a03-4ab4-99db-edd1793f1ab8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "104.20.143.175",
-            "server_port": 80,
-            "uuid": "0d7bcdc3-062e-43e0-a2ac-3ebe88823876",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "36798d8a-1a34-4579-901f-a4ef7c759553",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1975,12 +1959,22 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/SpdNet@SpdNet@SpdNet@SpdNet@SpdNet@SpdNet?ed=2052",
-                "headers": {
-                    "Host": "104.20.143.175"
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
