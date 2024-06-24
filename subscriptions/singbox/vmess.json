@@ -129,7 +129,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 124",
                 "❔XX | 🟢 | vmess | 3YED | 138",
-                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 6",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 11",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -190,7 +190,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 124",
                 "❔XX | 🟢 | vmess | 3YED | 138",
-                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 6",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 11",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -853,11 +853,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
-            "server": "us.eaxeg.be",
-            "server_port": 80,
-            "uuid": "ab602e02-624b-44f0-a51b-25ed53f70048",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -868,11 +868,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/XC3c53DiSQ9N70H4Y2aW",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
