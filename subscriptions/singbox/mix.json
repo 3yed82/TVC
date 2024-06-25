@@ -593,13 +593,12 @@
                 "🇨🇦CA | 🟢 | ss | 3YED | 14",
                 "🇺🇸US | 🟢 | ss | 3YED | 15",
                 "🇸🇬SG | 🟢 | ss | 3YED | 16",
-                "🚩CF | 🔴 | vless | 3YED | 0",
+                "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
-                "🇸🇪SE | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🚩CF | 🔴 | vless | 3YED | 7",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16",
+                "🚩CF | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 13",
                 "🚩CF | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
@@ -643,7 +642,7 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 15",
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
-                "TVCtnknvgtxdt",
+                "TVCjkihbnuylz",
                 "🚩CF | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 8",
@@ -1281,13 +1280,12 @@
                 "🇨🇦CA | 🟢 | ss | 3YED | 14",
                 "🇺🇸US | 🟢 | ss | 3YED | 15",
                 "🇸🇬SG | 🟢 | ss | 3YED | 16",
-                "🚩CF | 🔴 | vless | 3YED | 0",
+                "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
-                "🇸🇪SE | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🚩CF | 🔴 | vless | 3YED | 7",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16",
+                "🚩CF | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 13",
                 "🚩CF | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
@@ -1331,7 +1329,7 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 15",
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
-                "TVCtnknvgtxdt",
+                "TVCjkihbnuylz",
                 "🚩CF | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 8",
@@ -12634,7 +12632,28 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 0",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "af5a3844-2453-417d-87f6-5ce2af5fc234",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 443,
@@ -12665,7 +12684,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 1",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -12696,28 +12715,41 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "185.146.173.37",
-            "server_port": 2095,
-            "uuid": "af5a3844-2453-417d-87f6-5ce2af5fc234",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "104.17.197.31",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "quiet-moon-132a.xetag42714.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "quiet-moon-132a.xetag42714.workers.dev"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "104.18.34.251",
             "server_port": 443,
@@ -12748,7 +12780,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 7",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 13",
             "type": "vless",
             "server": "172.67.152.111",
             "server_port": 443,
@@ -12779,7 +12811,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 12",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -12809,57 +12841,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": "38.75.137.27",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "104.17.213.57",
-            "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xmivideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -13909,7 +13890,7 @@
             }
         },
         {
-            "tag": "TVCtnknvgtxdt",
+            "tag": "TVCjkihbnuylz",
             "type": "vless",
             "server": "",
             "server_port": 0,
