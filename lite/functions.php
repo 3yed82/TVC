@@ -363,7 +363,7 @@ function tehran_time()
 }
 
 function hiddifyHeader($subscriptionName) {
-    $hiddenText = " | 3YED🔆";
+    $hiddenText = " | 3YED⭐";
     $combinedText = $subscriptionName . $hiddenText;
     $encodedCombinedText = base64_encode($combinedText);
 
