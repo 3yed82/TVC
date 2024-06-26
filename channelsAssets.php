@@ -9,7 +9,7 @@ require "functions.php";
 
 // Fetch the JSON data from the API and decode it into an associative array
 $sourcesArray = json_decode(
-    file_get_contents("https://api.yebekhe.link/tvc-channels/channels.json"),
+    file_get_contents("channels.json"),
     true
 );
 deleteFolder("channelsData/logos");
@@ -33,7 +33,7 @@ foreach ($sourcesArray as $source => $types) {
     // Build the channel data array
     $channelArray[$source]['types'] = $types;
     $channelArray[$source]['title'] = $title_match[1];
-    $channelArray[$source]['logo'] = "https://raw.githubusercontent.com/3yed82/TVC/main/channelsData/logos/" . $source . ".jpg";
+    $channelArray[$source]['logo'] = "https://raw.githubusercontent.com/yebekhe/TVC/main/channelsData/logos/" . $source . ".jpg";
 }
 
 // Save the channel data array as JSON
