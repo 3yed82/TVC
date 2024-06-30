@@ -108,8 +108,8 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 4",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 7",
@@ -129,8 +129,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 4",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 7",
@@ -198,7 +198,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 4",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "fgzlwxmo1829.dopraxrocks.com",
+            "server_port": 8880,
+            "uuid": "4605f656-5a3d-4221-a9ef-ed775e82e430",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.madariran.filegear-sg.me",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.67.164.164",
             "server_port": 443,
@@ -228,30 +252,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "fgzlwxmo1829.dopraxrocks.com",
-            "server_port": 8880,
-            "uuid": "4605f656-5a3d-4221-a9ef-ed775e82e430",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.らわなさらわ.madariran.filegear-sg.me",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
