@@ -137,7 +137,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 3",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 54",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -202,7 +202,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 3",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 54",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -995,11 +995,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "f83157d0-8e2f-47e9-b7df-2312f025ce1d",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1010,11 +1010,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
