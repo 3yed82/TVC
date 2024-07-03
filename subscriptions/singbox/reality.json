@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇳🇴NO | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🔴 | vless | 3YED | 18",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -142,7 +143,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 42",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
-                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇫🇮FI | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -178,6 +179,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇳🇴NO | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🔴 | vless | 3YED | 18",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -203,7 +205,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 42",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
-                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇫🇮FI | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -623,6 +625,42 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "46.226.163.222",
+            "server_port": 80,
+            "uuid": "df82aacb-560f-4319-80af-377fa6cc3ba3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kcQj575e33w6a7dzsDSXhGX0w9e5Sm8-ITPS2qN5rDc",
+                    "short_id": "914933da"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1379,7 +1417,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 0",
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "realgod.gamebestir.ir",
             "server_port": 2093,
