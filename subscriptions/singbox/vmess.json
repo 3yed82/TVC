@@ -127,7 +127,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 11",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 12",
                 "🚩CF | 🟢 | vmess | 3YED | 13",
                 "🚩CF | 🟢 | vmess | 3YED | 17",
                 "🚩CF | 🟢 | vmess | 3YED | 18",
@@ -139,6 +139,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 55",
                 "🇺🇸US | 🟢 | vmess | 3YED | 61",
                 "🇺🇸US | 🟢 | vmess | 3YED | 79",
+                "🚩CF | 🟢 | vmess | 3YED | 18",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -194,7 +195,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 11",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 12",
                 "🚩CF | 🟢 | vmess | 3YED | 13",
                 "🚩CF | 🟢 | vmess | 3YED | 17",
                 "🚩CF | 🟢 | vmess | 3YED | 18",
@@ -206,6 +207,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 55",
                 "🇺🇸US | 🟢 | vmess | 3YED | 61",
                 "🇺🇸US | 🟢 | vmess | 3YED | 79",
+                "🚩CF | 🟢 | vmess | 3YED | 18",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -770,7 +772,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 12",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 12",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1040,6 +1042,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "172.67.164.164",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms07.xfixedfloat.cfd"
+                }
             }
         },
         {
