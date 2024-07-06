@@ -107,7 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🇫🇷FR | 🔴 | vless | 3YED | 14",
@@ -166,8 +166,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 104",
                 "🇸🇪SE | 🔴 | vless | 3YED | 105",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
-                "🇸🇪SE | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇨🇷CR | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
@@ -205,7 +205,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🇫🇷FR | 🔴 | vless | 3YED | 14",
@@ -264,8 +264,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 104",
                 "🇸🇪SE | 🔴 | vless | 3YED | 105",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
-                "🇸🇪SE | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇨🇷CR | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
@@ -349,7 +349,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "104.21.19.124",
             "server_port": 8880,
@@ -1750,9 +1750,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
             "type": "vless",
-            "server": "www.Speedtest.Net",
+            "server": "188.114.98.223",
             "server_port": 2095,
             "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
             "flow": "",
@@ -1766,29 +1766,44 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "188.114.98.223"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "185.146.173.43",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
-            "flow": "",
+            "server": "188.245.69.77",
+            "server_port": 443,
+            "uuid": "Telegram-ipV2Ray-xio",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.43"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
+                    "short_id": "b1c8e3fa"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
