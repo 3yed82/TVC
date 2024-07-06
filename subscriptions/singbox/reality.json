@@ -118,10 +118,8 @@
                 "🇰🇷KR | 🔴 | vless | 3YED | 0",
                 "🇹🇷TR | 🟢 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 163",
-                "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇬🇧GB | 🔴 | vless | 3YED | 15",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -183,10 +181,8 @@
                 "🇰🇷KR | 🔴 | vless | 3YED | 0",
                 "🇹🇷TR | 🟢 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 163",
-                "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇬🇧GB | 🔴 | vless | 3YED | 15",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -684,42 +680,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "188.245.69.77",
-            "server_port": 443,
-            "uuid": "%54%65%6c%65%67%72%61%6d%2d%69%70%56%32%52%61%79%2d%78%69%6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
-                    "short_id": "b1c8e3fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇸🇪SE | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "77.221.143.183",
@@ -782,42 +742,6 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "193.233.114.4",
-            "server_port": 443,
-            "uuid": "b34c6ee4-0d00-42bd-80e7-498473e17494",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "een7poSoq6eFDvfwDNdGN75DsJrluUh6Vv15SMWLDX8",
-                    "short_id": "00e2953a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@set_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
