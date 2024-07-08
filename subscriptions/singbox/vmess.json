@@ -132,8 +132,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "❔XX | 🟢 | vmess | 3YED | 69",
                 "🇺🇸US | 🟢 | vmess | 3YED | 76",
-                "🚩CF | 🟢 | vmess | 3YED | 0",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 16",
+                "🚩CF | 🟢 | vmess | 3YED | 17",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -188,8 +188,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "❔XX | 🟢 | vmess | 3YED | 69",
                 "🇺🇸US | 🟢 | vmess | 3YED | 76",
-                "🚩CF | 🟢 | vmess | 3YED | 0",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 16",
+                "🚩CF | 🟢 | vmess | 3YED | 17",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -881,11 +881,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 16",
             "type": "vmess",
-            "server": "162.159.129.17",
+            "server": "104.16.219.108",
             "server_port": 80,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -898,18 +898,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
+                "path": "\/Telegram\/XV2ray",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | 3YED | 4",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 17",
             "type": "vmess",
-            "server": "154.47.21.27",
-            "server_port": 8099,
-            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -919,6 +919,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
