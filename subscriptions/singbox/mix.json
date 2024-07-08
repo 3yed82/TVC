@@ -618,13 +618,16 @@
                 "🇩🇪DE | 🟢 | ss | 3YED | 17",
                 "🇨🇦CA | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🟢 | ss | 3YED | 19",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 5",
-                "🚩CF | 🔴 | vless | 3YED | 9",
-                "🚩CF | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 11",
                 "🚩CF | 🔴 | vless | 3YED | 12",
                 "🚩CF | 🔴 | vless | 3YED | 13",
-                "🚩CF | 🔴 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 2",
@@ -1295,13 +1298,16 @@
                 "🇩🇪DE | 🟢 | ss | 3YED | 17",
                 "🇨🇦CA | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🟢 | ss | 3YED | 19",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 5",
-                "🚩CF | 🔴 | vless | 3YED | 9",
-                "🚩CF | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🚩CF | 🔴 | vless | 3YED | 11",
                 "🚩CF | 🔴 | vless | 3YED | 12",
                 "🚩CF | 🔴 | vless | 3YED | 13",
-                "🚩CF | 🔴 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 2",
@@ -13655,11 +13661,107 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.67.156.22",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws\/afrhms16v.bestxray.buzz",
+                "headers": {
+                    "Host": "nezuko.raidenshogun.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "1a94747b-8901-4812-ba23-7eb44cc1162f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingOfIRaN.Pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
+                "headers": {
+                    "Host": "kingOfIRaN.Pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
+                "headers": {
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                }
+            }
+        },
+        {
             "tag": "🚩CF | 🔴 | vless | 3YED | 5",
             "type": "vless",
-            "server": "172.66.47.2",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+            "uuid": "a2f001eb-632b-4e05-b962-580b050ea46c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -13669,7 +13771,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "server_name": "ariAmEhr-447.PaGes.dEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -13679,18 +13781,76 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
+                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
                 "headers": {
-                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+                    "Host": "ariAmEhr-447.PaGes.dEV"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 9",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
+            "type": "vmess",
+            "server": "104.16.219.108",
+            "server_port": 80,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+            "type": "vmess",
+            "server": "185.146.173.129",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nt-haze-7dad.rogap16875.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "nt-haze-7dad.rogap16875.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
             "type": "vless",
-            "server": "104.24.20.71",
+            "server": "66.81.247.6",
             "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
+            "uuid": "c0e1f187-a2c5-44f9-a9c1-642e483dd890",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -13700,7 +13860,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
+                "server_name": "G2.NAnvAIIisaeEd.Ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -13710,76 +13870,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/AOagIIfbJJ0hbXIwCE6mq",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
+                    "Host": "G2.NAnvAIIisaeEd.Ir"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "162.159.152.152",
-            "server_port": 443,
-            "uuid": "97e092ee-3a03-434d-a38a-cabd9f860254",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "join-v2rey.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
-            "type": "vless",
-            "server": "medium.com",
-            "server_port": 443,
-            "uuid": "97e092ee-3a03-434d-a38a-cabd9f860254",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 12",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "104.17.239.159",
             "server_port": 443,
@@ -13810,7 +13908,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 13",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "172.64.87.52",
             "server_port": 443,
@@ -13841,7 +13939,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 14",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 13",
             "type": "vless",
             "server": "172.66.47.126",
             "server_port": 443,
