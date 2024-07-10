@@ -145,10 +145,11 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 20",
                 "🇺🇸US | 🟢 | vmess | 3YED | 21",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 119",
                 "🇺🇸US | 🟢 | vmess | 3YED | 132",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🚩CF | 🟢 | vmess | 3YED | 13",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -159,7 +160,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
@@ -214,10 +216,11 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 20",
                 "🇺🇸US | 🟢 | vmess | 3YED | 21",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🚩CF | 🟢 | vmess | 3YED | 119",
                 "🇺🇸US | 🟢 | vmess | 3YED | 132",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
+                "🚩CF | 🟢 | vmess | 3YED | 13",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -228,7 +231,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
@@ -1285,7 +1289,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "188.114.98.40",
             "server_port": 80,
@@ -1350,7 +1354,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 13",
+            "type": "vmess",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2052,
@@ -1367,7 +1395,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
+                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=1024",
                 "headers": {
                     "Host": ""
                 }
@@ -1594,6 +1622,40 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "nodejs.org",
+            "server_port": 443,
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy1c1.cpiforpersia.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "headers": {
+                    "Host": "hdfy1c1.cpiforpersia.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1626,7 +1688,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "jahfkjha.cfd",
             "server_port": 443,
@@ -1660,7 +1722,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1694,7 +1756,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 3",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
