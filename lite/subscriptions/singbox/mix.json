@@ -163,7 +163,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 35",
+                "🇺🇸US | 🟢 | vmess | 3YED | 26",
+                "🇺🇸US | 🟢 | vmess | 3YED | 27",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
@@ -184,13 +185,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇬🇧GB | 🟢 | ss | 3YED | 16",
                 "🇫🇷FR | 🟢 | ss | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
@@ -290,7 +293,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 35",
+                "🇺🇸US | 🟢 | vmess | 3YED | 26",
+                "🇺🇸US | 🟢 | vmess | 3YED | 27",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
@@ -311,13 +315,15 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇬🇧GB | 🟢 | ss | 3YED | 16",
                 "🇫🇷FR | 🟢 | ss | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
@@ -1681,13 +1687,16 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 35",
-            "type": "vless",
-            "server": "104.24.20.71",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 26",
+            "type": "vmess",
+            "server": "cake.capellare.com",
             "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1695,7 +1704,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
+                "server_name": "cake.capellare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1705,10 +1714,27 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
+                    "Host": "cake.capellare.com"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 27",
+            "type": "vmess",
+            "server": "38.99.82.160",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -2160,11 +2186,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
+            "server": "104.24.196.20",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2174,7 +2200,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel3.pages.dev",
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2184,9 +2210,40 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/KkhHL0gsSoZ7M6id\/ZGU1Lm1lcmxpbm56Lmxpbms=?ed=2560",
                 "headers": {
-                    "Host": "bpb-worker-panel3.pages.dev"
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "viEEzer-pANeL.paGES.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/HRj71tnRkPZV60Ea\/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+                "headers": {
+                    "Host": "viEEzer-pANeL.paGES.DEv"
                 }
             }
         },
@@ -2301,7 +2358,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "a.baradiha.com",
             "server_port": 443,
@@ -2335,7 +2423,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "104.20.239.88",
             "server_port": 80,
