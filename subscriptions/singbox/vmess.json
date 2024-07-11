@@ -123,13 +123,14 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 3",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 163",
                 "🚩CF | 🟢 | vmess | 3YED | 9",
                 "❔XX | 🟢 | vmess | 3YED | 143",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -177,13 +178,14 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 3",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 163",
                 "🚩CF | 🟢 | vmess | 3YED | 9",
                 "❔XX | 🟢 | vmess | 3YED | 143",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -642,7 +644,24 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "45.147.77.110",
+            "server_port": 13736,
+            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "104.19.51.232",
             "server_port": 2086,
@@ -666,7 +685,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 80,
@@ -690,7 +709,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 2",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "23.162.152.6",
             "server_port": 22324,
@@ -765,11 +784,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 2",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "95.38.132.62",
-            "server_port": 17998,
-            "uuid": "304b5561-1f23-44c5-a0e8-7d5696316ee5",
+            "server": "104.19.47.195",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -779,6 +798,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
+                }
             }
         },
         {
