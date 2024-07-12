@@ -131,7 +131,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 28",
                 "🇸🇪SE | 🔴 | vless | 3YED | 29",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
-                "🇸🇪SE | 🔴 | vless | 3YED | 9",
+                "🇸🇬SG | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇰🇷KR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -180,13 +180,14 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "🇵🇱PL | 🟢 | ss | 3YED | 14",
                 "🇳🇱NL | 🟢 | ss | 3YED | 15",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
@@ -250,7 +251,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 28",
                 "🇸🇪SE | 🔴 | vless | 3YED | 29",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
-                "🇸🇪SE | 🔴 | vless | 3YED | 9",
+                "🇸🇬SG | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇰🇷KR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -299,13 +300,14 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "🇵🇱PL | 🟢 | ss | 3YED | 14",
                 "🇳🇱NL | 🟢 | ss | 3YED | 15",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
@@ -938,7 +940,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 9",
+            "tag": "🇸🇬SG | 🔴 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "ArV2ray.mEhpow.IR.",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BO.Mehpow.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -955,27 +988,6 @@ https://github.com/3yed-61
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray",
                 "headers": {
                     "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "185.146.173.158",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.158"
                 }
             }
         },
@@ -2035,11 +2047,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
-            "server": "188.114.99.183",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "104.21.8.157",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2050,30 +2062,20 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
-            "server": "185.146.173.59",
+            "server": "172.67.164.164",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2086,7 +2088,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "afrhms07.xfixedfloat.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2098,7 +2100,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -2240,6 +2242,30 @@ https://github.com/3yed-61
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "bpb-worker-panel3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "104.19.47.36",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.19.47.36"
                 }
             }
         },
