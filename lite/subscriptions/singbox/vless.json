@@ -165,7 +165,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇧🇿BZ | 🟢 | vless | 3YED | 125",
                 "🇺🇸US | 🟢 | vless | 3YED | 126",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -261,7 +262,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇧🇿BZ | 🟢 | vless | 3YED | 125",
                 "🇺🇸US | 🟢 | vless | 3YED | 126",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -1722,11 +1724,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "104.17.23.36",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "104.18.101.41",
+            "server_port": 8080,
+            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1734,22 +1736,26 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "104.18.101.41"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "172.105.103.109",
+            "server_port": 443,
+            "uuid": "96504949-cc59-48a0-b3d1-11bf457aec79",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
