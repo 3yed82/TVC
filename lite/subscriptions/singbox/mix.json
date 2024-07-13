@@ -177,8 +177,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 126",
                 "🇪🇸ES | 🟢 | ss | 3YED | 14",
                 "🇩🇪DE | 🟢 | ss | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇸🇪SE | 🔴 | vless | 3YED | 19",
+                "🇸🇪SE | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
@@ -294,8 +294,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 126",
                 "🇪🇸ES | 🟢 | ss | 3YED | 14",
                 "🇩🇪DE | 🟢 | ss | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇸🇪SE | 🔴 | vless | 3YED | 19",
+                "🇸🇪SE | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
@@ -2015,28 +2015,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "DIGIV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "www.Speedtest.Net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 18",
             "type": "vless",
             "server": "185.146.173.68",
             "server_port": 2095,
@@ -2053,6 +2032,37 @@ https://github.com/3yed-61
                 "path": "\/DigiconnecT?ed=1024",
                 "headers": {
                     "Host": "185.146.173.68"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JOIN-Proxy_mtm\/",
+                "headers": {
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
             }
         },
