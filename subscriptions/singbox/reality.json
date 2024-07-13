@@ -109,7 +109,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
@@ -122,7 +121,6 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 91",
                 "🇩🇪DE | 🟢 | vless | 3YED | 92",
                 "🇩🇪DE | 🟢 | vless | 3YED | 93",
-                "🇳🇱NL | 🔴 | vless | 3YED | 15",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -163,7 +161,7 @@
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2"
+                "🇩🇪DE | 🔴 | vless | 3YED | 3"
             ]
         },
         {
@@ -174,7 +172,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
@@ -187,7 +184,6 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 91",
                 "🇩🇪DE | 🟢 | vless | 3YED | 92",
                 "🇩🇪DE | 🟢 | vless | 3YED | 93",
-                "🇳🇱NL | 🔴 | vless | 3YED | 15",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -228,7 +224,7 @@
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2"
+                "🇩🇪DE | 🔴 | vless | 3YED | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -389,42 +385,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 16",
-            "type": "vless",
-            "server": "188.245.74.174",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "C-4TnViSwiie0fLE9kpvR2T4tgdpVAvk9GTi_nzoYAg",
-                    "short_id": "53cfa353"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -796,35 +756,6 @@
                     "enabled": true,
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "194.26.192.135",
-            "server_port": 10001,
-            "uuid": "610dda6b-7935-4c67-ab5b-18f654b9268b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "main.lowerping98.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8fQZoI2rdyauh1qly_MOAzwzrL_herw79U3HXA4bUH4",
-                    "short_id": "15e6cffc"
                 }
             }
         },
@@ -2122,7 +2053,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "xn--tr8h.snappfoodi.com.",
             "server_port": 8081,
