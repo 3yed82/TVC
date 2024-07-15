@@ -161,8 +161,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇹🇼TW | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 96",
@@ -261,8 +261,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇹🇼TW | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 96",
@@ -1679,6 +1679,27 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "type": "vless",
+            "server": "104.21.94.168",
+            "server_port": 8080,
+            "uuid": "169c5a68-9d6a-4129-b4f4-5a0089397ab0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "104.21.94.168"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
             "server": "172.67.138.69",
@@ -1696,27 +1717,6 @@ https://github.com/3yed-61
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "172.67.138.69"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 8080,
-            "uuid": "13e3944d-2c37-4d6d-b3d0-c493f73d4984",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-                "headers": {
-                    "Host": "104.21.69.44"
                 }
             }
         },
