@@ -106,8 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | 3YED | 14",
-                "🇨🇦CA | 🔴 | vless | 3YED | 15",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇫🇷FR | 🔴 | vless | 3YED | 14",
@@ -234,8 +233,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | 3YED | 14",
-                "🇨🇦CA | 🔴 | vless | 3YED | 15",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇫🇷FR | 🔴 | vless | 3YED | 14",
@@ -378,32 +376,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 80,
-            "uuid": "--Channel--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/eli.elmahstyle.ir?ed=80",
-                "headers": {
-                    "Host": "www.parsvds.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 15",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "--Channel--ELiV2ray-",
+            "uuid": "Channel-ELiV2ray-ELiV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2482,9 +2459,30 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "www.parsvds.ir",
+            "server": "www.speedtest.net",
             "server_port": 8080,
-            "uuid": "d1a0ccb2-26f8-4dbc-aa17-04d2ad7c8d6d",
+            "uuid": "telegram-id-PcV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-PcV2ry",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "d7e70e3d-f5bb-4510-bb42-bd06171f5b44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2496,28 +2494,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "www.parsvds.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMiZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
