@@ -121,9 +121,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 13",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "❔XX | 🟢 | vmess | 3YED | 15",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🚩CF | 🟢 | vmess | 3YED | 16",
-                "🚩CF | 🟢 | vmess | 3YED | 17",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -188,9 +188,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 13",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "❔XX | 🟢 | vmess | 3YED | 15",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🚩CF | 🟢 | vmess | 3YED | 16",
-                "🚩CF | 🟢 | vmess | 3YED | 17",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
@@ -586,9 +586,9 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 12",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "104.19.47.239",
+            "server": "104.19.47.168",
             "server_port": 8080,
             "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
@@ -605,16 +605,16 @@
                 "type": "ws",
                 "path": "\/&Telegram🇨🇳 @WangCai2",
                 "headers": {
-                    "Host": "104.19.47.239"
+                    "Host": "104.19.47.168"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 16",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "104.19.47.60",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "::ffff:6815:fd4",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -625,20 +625,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.19.47.60"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 17",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "104.19.47.231",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -649,11 +659,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.19.47.231"
+                    "Host": "obdii.cfd"
                 }
             }
         },
