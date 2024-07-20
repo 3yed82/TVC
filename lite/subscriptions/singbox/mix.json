@@ -200,8 +200,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -225,7 +225,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇨🇷CR | 🔴 | vless | 3YED | 13",
+                "❔XX | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
@@ -335,8 +335,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -360,7 +360,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇨🇷CR | 🔴 | vless | 3YED | 13",
+                "❔XX | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
@@ -1519,9 +1519,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
-            "server": "172.67.199.121",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "108.181.200.220",
+            "server_port": 22751,
+            "uuid": "09fb03a6-5e49-4a59-e268-dbd1720f5eb1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1536,7 +1536,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.199.121"
+                    "Host": "108.181.200.220"
                 }
             }
         },
@@ -2530,7 +2530,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.67.183.220",
             "server_port": 443,
@@ -2564,7 +2564,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -3198,12 +3198,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇷CR | 🔴 | vless | 3YED | 13",
+            "tag": "❔XX | 🟢 | vless | 3YED | 13",
             "type": "vless",
-            "server": "My.GozargahVPN.top",
+            "server": "GozargahVPN.anten.cloud",
             "server_port": 443,
-            "uuid": "b897d1a5-6a30-45bb-8244-bbae99672609",
-            "flow": "",
+            "uuid": "541f5c7b-9f58-4724-f0bc-8d671fb01c29",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -3212,19 +3212,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.GozargahVPN.top",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
-                "headers": {
-                    "Host": "www.GozargahVPN.top"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
+                    "short_id": "e0"
                 }
             }
         },
