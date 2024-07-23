@@ -123,8 +123,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 19",
-                "🚩CF | 🟢 | vmess | 3YED | 9",
-                "🚩CF | 🟢 | vmess | 3YED | 14",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🚩CF | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -181,8 +182,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 19",
-                "🚩CF | 🟢 | vmess | 3YED | 9",
-                "🚩CF | 🟢 | vmess | 3YED | 14",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🚩CF | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -609,11 +611,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 9",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "173.245.58.37",
+            "server": "104.18.10.128",
             "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -626,7 +628,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "7wih-darkness-f0af.jivegoh116.workers.dev",
+                "server_name": "hdfy5c4.jahangirkh.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -635,19 +637,19 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/afrhms07.xfixedfloat.cfd\/linkws",
-                "headers": {
-                    "Host": "7wih-darkness-f0af.jivegoh116.workers.dev"
-                }
+                "type": "grpc",
+                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "172.67.199.218",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "104.21.8.157",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -662,7 +664,41 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.67.199.218"
+                    "Host": "104.21.8.157"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "172.67.219.194",
+            "server_port": 443,
+            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "denc36.xtooltech.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "denc36.xtooltech.cfd"
                 }
             }
         },
