@@ -107,8 +107,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
+                "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 44",
-                "🇺🇸US | 🔴 | vless | 3YED | 45",
+                "❔XX | 🔴 | vless | 3YED | 45",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🟢 | vless | 3YED | 15"
@@ -119,8 +120,9 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
+                "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 44",
-                "🇺🇸US | 🔴 | vless | 3YED | 45",
+                "❔XX | 🔴 | vless | 3YED | 45",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🟢 | vless | 3YED | 15"
@@ -175,6 +177,42 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | 3YED | 21",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "77649599-d5b0-4d0c-ba92-a4d751d1b769",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cuDCgrTnGQZJ07hEuNqq10lp_XnAb-NYiBGvv_DOHzw",
+                    "short_id": "0b3d7e6a1ce3cee3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | 3YED | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -204,7 +242,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 45",
+            "tag": "❔XX | 🔴 | vless | 3YED | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
