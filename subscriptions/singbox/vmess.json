@@ -126,7 +126,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇨🇭CH | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 135",
                 "🇺🇸US | 🟢 | vmess | 3YED | 151",
                 "🇺🇸US | 🟢 | vmess | 3YED | 153",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
@@ -183,7 +183,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇨🇭CH | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 135",
                 "🇺🇸US | 🟢 | vmess | 3YED | 151",
                 "🇺🇸US | 🟢 | vmess | 3YED | 153",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
@@ -716,11 +716,11 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vmess | 3YED | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 135",
             "type": "vmess",
-            "server": "cwm6qx1070hp2ds48c26c.tele-too.com",
-            "server_port": 41304,
-            "uuid": "42f5c3a2-2743-4212-bd13-cae715be02ff",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -730,6 +730,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
