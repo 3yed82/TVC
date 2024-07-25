@@ -126,9 +126,10 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 126",
                 "🇺🇸US | 🟢 | vmess | 3YED | 142",
                 "🇺🇸US | 🟢 | vmess | 3YED | 144",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 6",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
@@ -182,9 +183,10 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 126",
                 "🇺🇸US | 🟢 | vmess | 3YED | 142",
                 "🇺🇸US | 🟢 | vmess | 3YED | 144",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 6",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
@@ -714,6 +716,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 126",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 142",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -762,7 +788,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
             "server": "speed.cloudflare.com",
             "server_port": 8080,
