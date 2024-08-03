@@ -127,8 +127,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 178",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🚩CF | 🟢 | vmess | 3YED | 8",
-                "🚩CF | 🟢 | vmess | 3YED | 254",
-                "❔XX | 🟢 | vmess | 3YED | 269",
+                "🚩CF | 🟢 | vmess | 3YED | 261",
                 "🚩CF | 🟢 | vmess | 3YED | 3",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -174,8 +173,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 178",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
                 "🚩CF | 🟢 | vmess | 3YED | 8",
-                "🚩CF | 🟢 | vmess | 3YED | 254",
-                "❔XX | 🟢 | vmess | 3YED | 269",
+                "🚩CF | 🟢 | vmess | 3YED | 261",
                 "🚩CF | 🟢 | vmess | 3YED | 3",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -686,7 +684,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 254",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 261",
             "type": "vmess",
             "server": "104.21.51.208",
             "server_port": 80,
@@ -707,23 +705,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 269",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1039,9 +1020,9 @@
         {
             "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "172.67.156.22",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "3e5cda0a-6122-4f54-9e3c-3f49e7a526f9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1052,21 +1033,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nezuko.raidenshogun.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws\/afrhms16v.bestxray.buzz",
+                "path": "\/",
                 "headers": {
-                    "Host": "nezuko.raidenshogun.cloudns.org"
+                    "Host": ""
                 }
             }
         },
