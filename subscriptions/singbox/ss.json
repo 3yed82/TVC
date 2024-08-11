@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3YED | 3",
+                "🇪🇸ES | 🟢 | ss | 3YED | 4",
+                "🇮🇳IN | 🟢 | ss | 3YED | 14",
                 "🇩🇪DE | 🟢 | ss | 3YED | 2",
                 "🇦🇪AE | 🟢 | ss | 3YED | 7",
                 "🇸🇪SE | 🟢 | ss | 3YED | 0",
@@ -135,7 +136,7 @@
                 "🇺🇸US | 🟢 | ss | 3YED | 27",
                 "🇸🇬SG | 🟢 | ss | 3YED | 28",
                 "🇵🇱PL | 🟢 | ss | 3YED | 29",
-                "🇧🇭BH | 🟢 | ss | 3YED | 1",
+                "🇧🇭BH | 🟢 | ss | 3YED | 2",
                 "🇬🇧GB | 🟢 | ss | 3YED | 2"
             ]
         },
@@ -143,7 +144,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3YED | 3",
+                "🇪🇸ES | 🟢 | ss | 3YED | 4",
+                "🇮🇳IN | 🟢 | ss | 3YED | 14",
                 "🇩🇪DE | 🟢 | ss | 3YED | 2",
                 "🇦🇪AE | 🟢 | ss | 3YED | 7",
                 "🇸🇪SE | 🟢 | ss | 3YED | 0",
@@ -173,7 +175,7 @@
                 "🇺🇸US | 🟢 | ss | 3YED | 27",
                 "🇸🇬SG | 🟢 | ss | 3YED | 28",
                 "🇵🇱PL | 🟢 | ss | 3YED | 29",
-                "🇧🇭BH | 🟢 | ss | 3YED | 1",
+                "🇧🇭BH | 🟢 | ss | 3YED | 2",
                 "🇬🇧GB | 🟢 | ss | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,12 +199,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 3",
+            "tag": "🇪🇸ES | 🟢 | ss | 3YED | 4",
             "type": "shadowsocks",
-            "server": "us-ain.yangon.club",
-            "server_port": 443,
+            "server": "194.87.45.189",
+            "server_port": 40076,
             "method": "chacha20-ietf-poly1305",
-            "password": "g13S7doXar0A",
+            "password": "sOJ7Wo6yHqWQv8FUEq3BKV",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇳IN | 🟢 | ss | 3YED | 14",
+            "type": "shadowsocks",
+            "server": "64.227.144.190",
+            "server_port": 50690,
+            "method": "chacha20-ietf-poly1305",
+            "password": "jQahQBlN1Xdu1uhwUKrE7k",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -497,7 +509,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇧🇭BH | 🟢 | ss | 3YED | 1",
+            "tag": "🇧🇭BH | 🟢 | ss | 3YED | 2",
             "type": "shadowsocks",
             "server": "series-a2-me.varzesh360.co",
             "server_port": 443,
