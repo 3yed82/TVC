@@ -135,7 +135,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 10",
-                "🇸🇬SG | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
@@ -166,7 +166,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 331",
-                "🇺🇸US | 🔴 | vless | 3YED | 332",
+                "🇹🇷TR | 🟢 | vless | 3YED | 332",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -231,7 +231,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 10",
-                "🇸🇬SG | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
@@ -262,7 +262,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 331",
-                "🇺🇸US | 🔴 | vless | 3YED | 332",
+                "🇹🇷TR | 🟢 | vless | 3YED | 332",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -930,7 +930,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | 3YED | 11",
+            "tag": "❔XX | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
@@ -1620,9 +1620,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 331",
             "type": "vless",
-            "server": "151.101.66.133",
+            "server": "de-04.tradex2080.com",
             "server_port": 443,
-            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1632,7 +1632,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "de-04.tradex2080.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1642,19 +1642,19 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/gPGhgE3kwHBXqpNptGAxAtI0QM",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "de-04.tradex2080.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 332",
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 332",
             "type": "vless",
-            "server": "162.159.129.129",
+            "server": "tr1.tradex2080.com",
             "server_port": 443,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
-            "flow": "",
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1663,19 +1663,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.dev",
+                "server_name": "www.upci.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/XV2ray?ed=2560",
-                "headers": {
-                    "Host": "pages.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
