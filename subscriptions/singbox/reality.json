@@ -105,19 +105,19 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | 3YED | 1",
-                "❔XX | 🔴 | vless | 3YED | 5",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇦🇪AE | 🟢 | vless | 3YED | 0",
-                "🇹🇷TR | 🟢 | vless | 3YED | 321",
+                "🇹🇷TR | 🟢 | vless | 3YED | 304",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -164,19 +164,19 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | 3YED | 1",
-                "❔XX | 🔴 | vless | 3YED | 5",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇦🇪AE | 🟢 | vless | 3YED | 0",
-                "🇹🇷TR | 🟢 | vless | 3YED | 321",
+                "🇹🇷TR | 🟢 | vless | 3YED | 304",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -239,7 +239,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 1",
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "[2a12:5940:aa41::2]",
             "server_port": 25366,
@@ -269,42 +269,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 5",
-            "type": "vless",
-            "server": "[2a0d:5940:48:11::]",
-            "server_port": 25365,
-            "uuid": "biato--ZEDMODEON",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ejzsFE5yASJhIIEbTMZyRJ0160Cj6SIoAyawdPCqmGY",
-                    "short_id": "ff11931a"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -470,6 +434,42 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | 3YED | 7",
+            "type": "vless",
+            "server": "[2a0d:5940:47:31::]",
+            "server_port": 25365,
+            "uuid": "join--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sx7hzGgMCtrk8Wnm8PS-RuSjQTL_kfK0kC1n4Ix6UTg",
+                    "short_id": "408c8c78"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -555,7 +555,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 321",
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 304",
             "type": "vless",
             "server": "tr1.tradex2080.com",
             "server_port": 443,
