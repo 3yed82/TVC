@@ -145,7 +145,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
-                "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -245,7 +244,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
-                "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -1143,27 +1141,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 4",
-            "type": "vless",
-            "server": "www.parspack.com",
-            "server_port": 80,
-            "uuid": "Telegram-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parspack.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "zula.ir",
@@ -1636,9 +1613,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 278",
             "type": "vless",
-            "server": "172.66.40.175",
-            "server_port": 443,
-            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "server": "104.26.12.255",
+            "server_port": 8080,
+            "uuid": "855c5f2f-c42c-41e2-bbb2-35cd09bc55ab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1646,23 +1623,20 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "tr2.tradex2080.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.26.12.255"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 279",
             "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+            "server": "SpeeDTeST.OrG",
+            "server_port": 80,
+            "uuid": "855c5f2f-c42c-41e2-bbb2-35cd09bc55ab",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1670,22 +1644,12 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "de-02.tradex2080.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "gPGhgE3kwHBXqebAryGsQ",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "SpeeDTeST.OrG"
+                }
             }
         },
         {
