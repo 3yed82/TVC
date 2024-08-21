@@ -110,7 +110,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 11",
-                "🇹🇷TR | 🟢 | vmess | 3YED | 55",
+                "🇺🇸US | 🟢 | vmess | 3YED | 32",
+                "🇺🇸US | 🟢 | vmess | 3YED | 33",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -130,7 +131,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 11",
-                "🇹🇷TR | 🟢 | vmess | 3YED | 55",
+                "🇺🇸US | 🟢 | vmess | 3YED | 32",
+                "🇺🇸US | 🟢 | vmess | 3YED | 33",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -254,11 +256,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | 3YED | 55",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 32",
             "type": "vmess",
-            "server": "185.39.204.117",
-            "server_port": 10001,
-            "uuid": "f5d267aa-5ca5-11ef-8efc-574fd46444ff",
+            "server": "188.114.97.2",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -271,7 +273,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -281,9 +283,43 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vpnjantit",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 33",
+            "type": "vmess",
+            "server": "104.21.77.29",
+            "server_port": 443,
+            "uuid": "8d90c129-4156-4d6c-9115-24df25f26a02",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "beyonddbc.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "beyonddbc.sbs"
                 }
             }
         },
