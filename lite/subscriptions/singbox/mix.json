@@ -139,7 +139,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
-                "🇨🇦CA | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -174,7 +174,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 218",
+                "🇺🇸US | 🔴 | vless | 3YED | 218",
                 "🇺🇸US | 🔴 | vless | 3YED | 219",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -255,7 +255,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
-                "🇨🇦CA | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 10",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -290,7 +290,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 218",
+                "🇺🇸US | 🔴 | vless | 3YED | 218",
                 "🇺🇸US | 🔴 | vless | 3YED | 219",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -1003,7 +1003,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 10",
+            "tag": "❔XX | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1771,28 +1771,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 218",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 219",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 218",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "104.26.12.255",
+            "server_port": 8080,
+            "uuid": "8dbcaf09-aa30-4367-9d8e-2762e66141d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1802,9 +1785,30 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "104.26.12.255"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 219",
+            "type": "vless",
+            "server": "104.26.12.255",
+            "server_port": 8080,
+            "uuid": "8dbcaf09-aa30-4367-9d8e-2762e66141d1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.26.12.255"
                 }
             }
         },
