@@ -111,17 +111,18 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 15",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 16",
-                "🇮🇪IE | 🔴 | vless | 3YED | 17",
-                "🇨🇦CA | 🔴 | vless | 3YED | 3",
+                "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇨🇦CA | 🔴 | vless | 3YED | 8",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 17",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
+                "🇨🇦CA | 🔴 | vless | 3YED | 25",
                 "🇨🇦CA | 🔴 | vless | 3YED | 26",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
@@ -209,17 +210,18 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 15",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 16",
-                "🇮🇪IE | 🔴 | vless | 3YED | 17",
-                "🇨🇦CA | 🔴 | vless | 3YED | 3",
+                "🇸🇪SE | 🔴 | vless | 3YED | 17",
                 "🇨🇦CA | 🔴 | vless | 3YED | 7",
                 "🇨🇦CA | 🔴 | vless | 3YED | 8",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 17",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
+                "🇨🇦CA | 🔴 | vless | 3YED | 25",
                 "🇨🇦CA | 🔴 | vless | 3YED | 26",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
@@ -393,6 +395,37 @@ https://github.com/3yed-61
         {
             "tag": "🇸🇪SE | 🔴 | vless | 3YED | 16",
             "type": "vless",
+            "server": "13.51.99.165",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 17",
+            "type": "vless",
             "server": "13.49.4.88",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -419,51 +452,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "63.33.176.169",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -582,6 +570,20 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 2",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "172.66.44.254",
@@ -639,6 +641,20 @@ https://github.com/3yed-61
             "server": "www.speedtest.net",
             "server_port": 8880,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 25",
+            "type": "vless",
+            "server": "www.parspack.com",
+            "server_port": 8880,
+            "uuid": "0ca81a17-6dd6-485f-9957-8fc691248f29",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1585,29 +1601,43 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
             "type": "vless",
-            "server": "104.26.15.16",
+            "server": "104.17.148.22",
             "server_port": 8880,
-            "uuid": "5d19ae36-bb68-4cef-beea-6c26511e11f7",
+            "uuid": "c8558d9f-0fb4-4243-8d09-aa21acf23912",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "172.67.138.69",
+            "server": "104.17.148.22",
             "server_port": 8880,
-            "uuid": "5d19ae36-bb68-4cef-beea-6c26511e11f7",
+            "uuid": "c8558d9f-0fb4-4243-8d09-aa21acf23912",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
