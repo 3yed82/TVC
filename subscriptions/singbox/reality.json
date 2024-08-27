@@ -119,7 +119,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -180,7 +179,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -635,42 +633,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "172.232.38.249",
-            "server_port": 12345,
-            "uuid": "c6b18efd-56a6-4c99-9b64-0918e18893df",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hCnI4M-irNCDqaQ_g9rJMr1PvgKr_zwB8Xu3Cl1YYQ8",
-                    "short_id": "cc068f12f9db3887"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "www.stackoverflow.com"
-                ],
-                "path": "\/"
             }
         },
         {
