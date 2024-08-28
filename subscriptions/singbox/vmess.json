@@ -115,9 +115,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 11",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 13",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 9",
-                "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
@@ -128,7 +125,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 17",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 18",
-                "❔XX | 🟢 | vmess | 3YED | 154",
+                "❔XX | 🟢 | vmess | 3YED | 176",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -161,9 +158,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 11",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 13",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 9",
-                "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
@@ -174,7 +168,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 16",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 17",
                 "🇹🇷TR | 🟢 | vmess | 3YED | 18",
-                "❔XX | 🟢 | vmess | 3YED | 154",
+                "❔XX | 🟢 | vmess | 3YED | 176",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -428,108 +422,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "irvideo.cfd",
-            "server_port": 443,
-            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "irvideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "irvideo.cfd"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "2606:4700:3037::6815:406",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "gcore-bwg.1929585.xyz",
-            "server_port": 443,
-            "uuid": "4ffb2fa9-d321-4a73-8d5f-1d6c37b4a683",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gcore-bwg.1929585.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ab",
-                "headers": {
-                    "Host": "gcore-bwg.1929585.xyz"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -758,7 +650,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 154",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 176",
             "type": "vmess",
             "server": null,
             "server_port": 0,
