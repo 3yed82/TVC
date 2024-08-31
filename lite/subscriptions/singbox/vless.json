@@ -140,7 +140,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
-                "❔XX | 🔴 | vless | 3YED | 11",
+                "🇨🇦CA | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
@@ -177,7 +178,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇩🇪DE | 🔴 | vless | 3YED | 45",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇸🇪SE | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -234,7 +235,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
-                "❔XX | 🔴 | vless | 3YED | 11",
+                "🇨🇦CA | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
@@ -271,7 +273,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇩🇪DE | 🔴 | vless | 3YED | 45",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇸🇪SE | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -1062,7 +1064,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 11",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "172.66.44.254",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cXrOLvPn.PAgEs.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "cXrOLvPn.PAgEs.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -1829,7 +1862,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8880,
-            "uuid": "ab7e8891-97de-4807-be40-43dd41d577ee",
+            "uuid": "251e61e3-f4db-4508-9e9d-2a80af4362b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1839,24 +1872,17 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 12",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "dbee8546-0b7e-4b72-b409-48e63fb860ee",
+            "server": "www.parspack.com",
+            "server_port": 8880,
+            "uuid": "ab7e8891-97de-4807-be40-43dd41d577ee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/servernett",
-                "headers": {
-                    "Host": "185.146.173.58"
-                }
             }
         },
         {
