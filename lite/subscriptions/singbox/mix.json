@@ -136,12 +136,12 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
-                "🇨🇦CA | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇨🇦CA | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
-                "❔XX | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
@@ -257,12 +257,12 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
-                "🇨🇦CA | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇨🇦CA | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
-                "❔XX | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
@@ -992,7 +992,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 10",
+            "tag": "❔XX | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "ArV2ray.mAshtimji.IR",
             "server_port": 443,
@@ -1137,25 +1137,35 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 11",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "[2a01:4f8:c012:9907::1]",
-            "server_port": 30004,
-            "uuid": "TELEGRAM-ServerNett",
-            "flow": "",
+            "server": "129.146.219.12",
+            "server_port": 443,
+            "uuid": "76fbe93f-8510-4eca-8340-fefe0f8f2a28",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mirrors.download.xn--mirrors-oj8km52txc7d.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
             "tag": "🇨🇦CA | 🔴 | vless | 3YED | 12",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "13f842a4-fce1-434e-8f0d-d761ac4678cc",
+            "server": "104.17.147.22",
+            "server_port": 2095,
+            "uuid": "65f299ae-a727-4df7-abd6-383d427f4ace",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1165,9 +1175,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--Join--ACADEMI_VPN--",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "104.17.147.22"
                 }
             }
         },
