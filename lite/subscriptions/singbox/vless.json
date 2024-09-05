@@ -140,7 +140,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
-                "🇮🇷IR | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
@@ -242,7 +242,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 19",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
-                "🇮🇷IR | 🔴 | vless | 3YED | 12",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 4",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
@@ -1043,8 +1043,29 @@ https://github.com/3yed-61
             "tag": "🇸🇪SE | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "185.146.173.49",
+            "server_port": 80,
+            "uuid": "e1ffc0d3-04ce-5393-b91e-b54ea14eb3cb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": "185.146.173.49"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "172.67.177.201",
             "server_port": 443,
-            "uuid": "9c18b0f0-0a6d-59ed-9caa-05ed01db072e",
+            "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1054,7 +1075,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "no2.vless.site",
+                "server_name": "continuity.sasuke.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1064,24 +1085,10 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "no2.vless.site"
+                    "Host": "continuity.sasuke.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "193.107.48.54",
-            "server_port": 2052,
-            "uuid": "c581bfd8-c5ff-4c88-b256-3dbc995ee241",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
