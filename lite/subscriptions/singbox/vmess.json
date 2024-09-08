@@ -218,6 +218,30 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
+            "server": "172.66.168.173",
+            "server_port": 80,
+            "uuid": "f1fb28e5-e5b6-450c-972c-13235c94285c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 6",
+            "type": "vmess",
             "server": "104.21.74.239",
             "server_port": 443,
             "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
@@ -246,40 +270,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "104.26.13.72",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cake.capellare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "cake.capellare.com"
                 }
             }
         },
