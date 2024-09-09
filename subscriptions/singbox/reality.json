@@ -105,10 +105,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 9",
-                "❔XX | 🔴 | vless | 3YED | 12",
+                "❔XX | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
@@ -164,10 +165,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 9",
-                "❔XX | 🔴 | vless | 3YED | 12",
+                "❔XX | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
@@ -239,7 +241,36 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "91.107.167.23",
+            "server_port": 443,
+            "uuid": "62e58436-9b8c-4f42-bcbd-2be43a5bb62c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pvocKxZ7AZwZMjuSzDJREFKdQStouhXONYUslbqgbSg",
+                    "short_id": "5b196e581bd2"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "[2a0d:5940:94:1::]",
             "server_port": 25365,
@@ -275,7 +306,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 7",
+            "tag": "❔XX | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -311,7 +342,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 9",
+            "tag": "❔XX | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -347,7 +378,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 12",
+            "tag": "❔XX | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "[2a0d:5940:94:1::]",
             "server_port": 25365,
