@@ -132,10 +132,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 2",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 3",
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 3",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
@@ -178,10 +178,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 2",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 3",
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 3",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
@@ -892,11 +892,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "acbacab-abca-acba-bcad-cbbbccaaacab",
+            "server": "82.115.18.219",
+            "server_port": 8081,
+            "uuid": "721f48a3-353c-4aa1-a216-60d776ffad76",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -913,6 +913,23 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
+            "uuid": "acbacab-abca-acba-bcad-cbbbccaaacab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 1080,
             "uuid": "babccaa-abca-aabc-bdca-bcbbacabccaa",
             "security": "auto",
             "alter_id": 0,
@@ -926,7 +943,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 2",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "45.67.32.147",
             "server_port": 40413,
@@ -956,40 +973,6 @@
                 "path": "\/makeacall",
                 "headers": {
                     "Host": "free.hardtofind.42web.io"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "185.146.173.158",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         },
