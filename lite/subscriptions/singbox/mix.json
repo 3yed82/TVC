@@ -156,8 +156,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 15",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 8",
+                "🇷🇺RU | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 14",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 17",
@@ -182,7 +182,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇸🇪SE | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
@@ -269,8 +269,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 15",
                 "🇨🇦CA | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 8",
+                "🇷🇺RU | 🔴 | vless | 3YED | 9",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 14",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 17",
@@ -295,7 +295,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇸🇪SE | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
@@ -1605,7 +1605,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "vmessorg.sabadyt.ir",
             "server_port": 80,
@@ -1626,7 +1626,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 9",
+            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "193.9.49.166",
             "server_port": 8080,
@@ -2119,6 +2119,40 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
+            "server": "ps-siluofake-1.nsde.date",
+            "server_port": 2096,
+            "uuid": "09d4e6ab-bf30-4c29-900f-5d824ff2ec77",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ps-siluofake-1.nsde.date",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ps-siluofake-1.nsde.date"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
+            "type": "vmess",
             "server": "104.21.5.170",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -2148,23 +2182,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "a.baradiha.com"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abaacbc-bcaa-acab-badc-bcaabaccbabc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
