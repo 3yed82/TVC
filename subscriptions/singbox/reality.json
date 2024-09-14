@@ -118,8 +118,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "❔XX | 🔴 | vless | 3YED | 0",
-                "🇬🇧GB | 🟢 | vless | 3YED | 1",
+                "🇸🇬SG | 🟢 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🟢 | vless | 3YED | 3",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -179,8 +180,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "❔XX | 🔴 | vless | 3YED | 0",
-                "🇬🇧GB | 🟢 | vless | 3YED | 1",
+                "🇸🇬SG | 🟢 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🟢 | vless | 3YED | 3",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -595,7 +597,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 0",
+            "tag": "🇸🇬SG | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "45.129.228.177",
+            "server_port": 50623,
+            "uuid": "47a7ff3b-6ffb-48d1-d15b-59e830726af5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "shoping-ailg.igshopingai.biz.tr",
             "server_port": 443,
@@ -631,7 +662,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 1",
+            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 3",
             "type": "vless",
             "server": "91.132.50.143",
             "server_port": 8443,
