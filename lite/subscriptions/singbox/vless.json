@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
+                "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 39",
                 "🇸🇪SE | 🔴 | vless | 3YED | 40",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
@@ -164,8 +164,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 11",
                 "🇬🇧GB | 🟢 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -193,8 +193,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇨🇦CA | 🔴 | vless | 3YED | 2",
+                "🇨🇦CA | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 39",
                 "🇸🇪SE | 🔴 | vless | 3YED | 40",
                 "🇨🇦CA | 🔴 | vless | 3YED | 12",
@@ -251,8 +251,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 11",
                 "🇬🇧GB | 🟢 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -296,7 +296,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "104.16.16.16",
             "server_port": 80,
@@ -317,7 +317,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -778,7 +778,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "9c4347f6-6c96-4358-8d11-167d6e9c2583",
+            "uuid": "2b673c6a-723d-494e-bf5b-e0d25e927d8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -799,7 +799,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "9c4347f6-6c96-4358-8d11-167d6e9c2583",
+            "uuid": "2b673c6a-723d-494e-bf5b-e0d25e927d8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1476,22 +1476,29 @@ https://github.com/3yed-61
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
             "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 8880,
+            "uuid": "77353934-13a8-4f7d-a6f7-22bef5b38d33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=8880",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
             "type": "vless",
-            "server": "151.101.2.219",
-            "server_port": 443,
-            "uuid": "2c4dced6-af33-489e-9457-5731d5a3d142",
+            "server": "104.17.148.22",
+            "server_port": 8880,
+            "uuid": "77353934-13a8-4f7d-a6f7-22bef5b38d33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1499,21 +1506,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "104.17.148.22"
                 }
             }
         },
@@ -1658,6 +1655,42 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "shoping-ailg.igshopingai.biz.tr",
+            "server_port": 443,
+            "uuid": "320eb15d-66d3-45d3-9998-9f712577ebdb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afternic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J5aaCYQft4PeaMxenmrVh5WUQYRXuKNUtblM9TRpXAk",
+                    "short_id": "cc26b226"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Dev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇬🇧GB | 🟢 | vless | 3YED | 12",
             "type": "vless",
             "server": "91.132.50.143",
@@ -1683,37 +1716,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "162.159.153.210",
-            "server_port": 443,
-            "uuid": "1d399c5a-1c32-4fff-a4d0-d78fd3328a4c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.teasalo.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip=proxyip.us.fxxk.dedyn.io",
-                "headers": {
-                    "Host": "pages.teasalo.cloudns.org"
                 }
             }
         },
@@ -1830,6 +1832,37 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
             "type": "vless",
+            "server": "sport.k6n.ir",
+            "server_port": 443,
+            "uuid": "6b8cebaa-f284-4bd8-b3d8-a9458aa4b31e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join:@oPeTa_v2ray-telegram:@oPeTa_v2ray-join-chanel:@oPeTa_v2ray-join:@opeta_v2ray-telegram:@opeta_v2ray\/?ed=1024",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
+            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "55349db5-b030-452e-82f0-9ace27b04406",
@@ -1853,27 +1886,6 @@ https://github.com/3yed-61
             "transport": {
                 "type": "ws",
                 "path": "\/@melov2ray\/ws",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "95cbdd0d-7345-403f-8dc7-a7e3cf36b108",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "headers": {
                     "Host": "speedtest.net"
                 }
