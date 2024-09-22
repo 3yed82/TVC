@@ -154,13 +154,13 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
                 "🇸🇬SG | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 269",
-                "🇺🇸US | 🔴 | vless | 3YED | 270",
+                "🇺🇸US | 🟢 | vless | 3YED | 270",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇸🇪SE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 5",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -232,13 +232,13 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
                 "🇸🇬SG | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 269",
-                "🇺🇸US | 🔴 | vless | 3YED | 270",
+                "🇺🇸US | 🟢 | vless | 3YED | 270",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇸🇪SE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 5",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -1491,10 +1491,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 270",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 270",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "2415aa3c-f129-4c10-a007-3054bd21bcef",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1503,11 +1503,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
@@ -1609,7 +1619,21 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 4",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "24238d3b-14c9-45b9-8876-b5f096e9ef1d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "185.146.173.200",
             "server_port": 443,
@@ -1636,37 +1660,6 @@ https://github.com/3yed-61
                 "path": "\/XV2ray?ed=512",
                 "headers": {
                     "Host": "pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
-            "type": "vless",
-            "server": "172.66.47.200",
-            "server_port": 443,
-            "uuid": "850a9d4e-4e1f-41e1-8ba1-b8d0a0d6fe00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eV2rAYdEV.pageS.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pimYiCPFd3353OXG\/MTM5LjE4NS4zNC4xMzE=?ed=2560",
-                "headers": {
-                    "Host": "eV2rAYdEV.pageS.dEv"
                 }
             }
         },
