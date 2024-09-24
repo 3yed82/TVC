@@ -152,8 +152,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | vless | 3YED | 323",
                 "🇺🇸US | 🟢 | vless | 3YED | 324",
+                "🇺🇸US | 🔴 | vless | 3YED | 325",
                 "🇺🇸US | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
@@ -228,8 +228,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | vless | 3YED | 323",
                 "🇺🇸US | 🟢 | vless | 3YED | 324",
+                "🇺🇸US | 🔴 | vless | 3YED | 325",
                 "🇺🇸US | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
@@ -1445,7 +1445,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 323",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 324",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
@@ -1476,10 +1476,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 324",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 325",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "8baccd09-9b09-4fe4-b0e7-c1c4a5688e03",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1488,21 +1488,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "SpeedTest.net"
                 }
             }
         },
