@@ -430,11 +430,12 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
-                "🇸🇪SE | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 5",
+                "🚩CF | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -871,11 +872,12 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
-                "🇸🇪SE | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 5",
+                "🚩CF | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -9280,7 +9282,38 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "277f8f79-15a7-4f75-aeee-a372048659f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/de?ed=1048",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "172.66.47.182",
             "server_port": 443,
@@ -9311,7 +9344,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 2",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "104.18.218.118",
             "server_port": 443,
@@ -9342,7 +9375,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 3",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
@@ -9363,7 +9396,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "104.18.218.118",
             "server_port": 8443,
@@ -9394,7 +9427,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 5",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "172.66.44.211",
             "server_port": 443,
