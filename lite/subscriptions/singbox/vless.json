@@ -113,8 +113,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇨🇦CA | 🔴 | vless | 3YED | 11",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
@@ -147,7 +147,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 306",
+                "🇺🇸US | 🟢 | vless | 3YED | 306",
                 "🇺🇸US | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
@@ -185,8 +185,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇨🇦CA | 🔴 | vless | 3YED | 11",
+                "🇨🇦CA | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 8",
@@ -219,7 +219,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 306",
+                "🇺🇸US | 🟢 | vless | 3YED | 306",
                 "🇺🇸US | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
@@ -449,70 +449,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "[2a0d:5940:48:11::]",
-            "server_port": 25365,
-            "uuid": "Join--ZEDMODEON",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eset.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xMHPs7wvQmizyc5VXW2t0_7UXW1Hs0sIE-7lssrd_1I",
-                    "short_id": "4012e21d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 443,
-            "uuid": "Join--ZEDMODEON",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "e6242b23-e697-4952-9246-eff8afeb2910",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
-                "headers": {
-                    "Host": "speedtest.net"
-                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "bc757570-d942-4c8f-91a1-683275b0502d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1267,10 +1228,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 306",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 306",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "c717d4ca-7ca1-44d8-a987-b1b430fe3d22",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1279,11 +1240,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
