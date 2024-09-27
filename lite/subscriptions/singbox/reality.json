@@ -107,7 +107,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇫🇷FR | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 9",
+                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -119,7 +120,8 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇫🇷FR | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 9",
+                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 45",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -175,7 +177,36 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 8",
+            "tag": "❔XX | 🔴 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "host.the-ashegh.ir",
+            "server_port": 1024,
+            "uuid": "b3a4b75b-242a-41db-e679-3614fa7646dd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "The-Sys.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tN8Wc2ucm7c7gWvRXv2Rdy-I3qlHeeSF2eKJakY5r20",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "212.47.231.216",
             "server_port": 443,
