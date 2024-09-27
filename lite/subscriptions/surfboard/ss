@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | 🟢 | ss | 3YED | 2 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = cZ8XyhCI9jwDJUkto8bQyI
-🇦🇹AT | 🟢 | ss | 3YED | 3 = ss, 212.113.106.76, 29149, encrypt-method = chacha20-ietf-poly1305, password = gpG52wwJzvrdWnLEtIrfGK
+🇸🇬SG | 🟢 | ss | 3YED | 3 = ss, sg.outlinekeys.net, 52252, encrypt-method = chacha20-ietf-poly1305, password = cZ8XyhCI9jwDJUkto8bQyI
+🇦🇹AT | 🟢 | ss | 3YED | 4 = ss, 212.113.106.76, 29149, encrypt-method = chacha20-ietf-poly1305, password = gpG52wwJzvrdWnLEtIrfGK
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | 🟢 | ss | 3YED | 2,🇦🇹AT | 🟢 | ss | 3YED | 3
-URL-TEST = url-test,🇸🇬SG | 🟢 | ss | 3YED | 2,🇦🇹AT | 🟢 | ss | 3YED | 3
-FALLBACK = fallback,🇸🇬SG | 🟢 | ss | 3YED | 2,🇦🇹AT | 🟢 | ss | 3YED | 3
+MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | 🟢 | ss | 3YED | 3,🇦🇹AT | 🟢 | ss | 3YED | 4
+URL-TEST = url-test,🇸🇬SG | 🟢 | ss | 3YED | 3,🇦🇹AT | 🟢 | ss | 3YED | 4
+FALLBACK = fallback,🇸🇬SG | 🟢 | ss | 3YED | 3,🇦🇹AT | 🟢 | ss | 3YED | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
