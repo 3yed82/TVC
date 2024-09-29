@@ -156,7 +156,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇮🇷IR | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -233,7 +233,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇮🇷IR | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -1512,6 +1512,37 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
+            "server": "104.21.54.238",
+            "server_port": 443,
+            "uuid": "15abeb04-e0df-42af-8059-51cada9642ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kanal-ma-falcunargo.29d5e73daa.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "kanal-ma-falcunargo.29d5e73daa.workers.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "type": "vless",
             "server": "104.21.79.20",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
@@ -1537,27 +1568,6 @@ https://github.com/3yed-61
                 "path": "\/7yCBIFjRSCHHVWBS?ed=2560",
                 "headers": {
                     "Host": "ppAl03.FihoKaC288.WoRKErS.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "81.12.27.90",
-            "server_port": 39568,
-            "uuid": "9520a1fd-5ced-4a0f-a912-ffabccc52543",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "81.12.27.90"
                 }
             }
         },
@@ -1819,9 +1829,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "104.17.147.22",
+            "server": "speedtest.net",
             "server_port": 443,
-            "uuid": "ff0c677c-dcc5-4010-a7fb-4b5627b207f4",
+            "uuid": "1fc08af9-a75e-4adb-af34-2eb43c2f91cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1831,7 +1841,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "paGES.DEV.",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1841,9 +1851,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "paGES.DEV."
+                    "Host": "speedtest.net"
                 }
             }
         },
