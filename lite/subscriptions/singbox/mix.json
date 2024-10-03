@@ -127,8 +127,8 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -173,8 +173,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -219,8 +219,8 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -265,8 +265,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -562,6 +562,27 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
             "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -587,27 +608,6 @@ https://github.com/3yed-61
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -805,7 +805,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -836,7 +836,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "172.66.47.151",
             "server_port": 443,
@@ -1981,11 +1981,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
-            "server": "172.66.44.57",
+            "server": "172.66.44.211",
             "server_port": 443,
-            "uuid": "2d01b0eb-91fd-4eae-9fb0-50c08856181d",
+            "uuid": "690f16d0-6425-462b-86e0-a70a8169c5d9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1995,7 +1995,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "e420ceed.aryoo-vpn-friends.pages.dev",
+                "server_name": "pardazeshvpn-tg97.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2005,18 +2005,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
                 "headers": {
-                    "Host": "e420ceed.aryoo-vpn-friends.pages.dev"
+                    "Host": "pardazeshvpn-tg97.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "172.66.47.182",
             "server_port": 443,
-            "uuid": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
+            "uuid": "c46e9a8a-226e-4cc2-aeff-31c774e1e4f9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2026,7 +2026,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "119f3a0b.chikiy123w.pages.dev",
+                "server_name": "pardazeshvpn-tg93.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2036,9 +2036,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN",
                 "headers": {
-                    "Host": "119f3a0b.chikiy123w.pages.dev"
+                    "Host": "pardazeshvpn-tg93.pages.dev"
                 }
             }
         },
