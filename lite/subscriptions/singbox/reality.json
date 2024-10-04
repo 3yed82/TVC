@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -119,7 +118,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 44",
@@ -146,35 +144,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 5",
-            "type": "vless",
-            "server": "91.107.167.23",
-            "server_port": 443,
-            "uuid": "62e58436-9b8c-4f42-bcbd-2be43a5bb62c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pvocKxZ7AZwZMjuSzDJREFKdQStouhXONYUslbqgbSg",
-                    "short_id": "5b196e581bd2"
-                }
-            }
         },
         {
             "tag": "🇫🇮FI | 🟢 | vless | 3YED | 13",
