@@ -163,8 +163,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🟢 | vless | 3YED | 319",
                 "🇺🇸US | 🟢 | vless | 3YED | 320",
-                "🇺🇸US | 🔴 | vless | 3YED | 321",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇹🇷TR | 🔴 | vless | 3YED | 6",
@@ -255,8 +255,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🟢 | vless | 3YED | 319",
                 "🇺🇸US | 🟢 | vless | 3YED | 320",
-                "🇺🇸US | 🔴 | vless | 3YED | 321",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇹🇷TR | 🔴 | vless | 3YED | 6",
@@ -1733,11 +1733,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 320",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 319",
             "type": "vless",
             "server": "SpeedTest.net",
             "server_port": 443,
-            "uuid": "2acbceba-ee72-434b-b140-786e42cba836",
+            "uuid": "841b83da-3916-4c83-808f-a0433118a1c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1764,11 +1764,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 321",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 320",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 80,
-            "uuid": "2acbceba-ee72-434b-b140-786e42cba836",
+            "server_port": 443,
+            "uuid": "841b83da-3916-4c83-808f-a0433118a1c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1776,11 +1776,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "SpeedTest.net"
+                    "Host": "speedtest.net"
                 }
             }
         },
