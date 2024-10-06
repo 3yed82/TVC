@@ -134,8 +134,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🟢 | vless | 3YED | 9",
                 "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -150,7 +150,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | vless | 3YED | 325",
+                "🇺🇸US | 🔴 | vless | 3YED | 325",
                 "🇺🇸US | 🟢 | vless | 3YED | 326",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -211,8 +211,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🟢 | vless | 3YED | 9",
                 "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -227,7 +227,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | vless | 3YED | 325",
+                "🇺🇸US | 🔴 | vless | 3YED | 325",
                 "🇺🇸US | 🟢 | vless | 3YED | 326",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -987,7 +987,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 14",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 15",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1018,7 +1018,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 15",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1399,10 +1399,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 325",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 325",
             "type": "vless",
             "server": "SpeedTest.net",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "aaa888e5-d4f1-47b5-b9b1-f51daac8698a",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1411,21 +1411,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "SpeedTest.net"
                 }
             }
         },
