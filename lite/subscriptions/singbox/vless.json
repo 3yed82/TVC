@@ -151,7 +151,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🟢 | vless | 3YED | 275",
+                "🇺🇸US | 🔴 | vless | 3YED | 275",
                 "🇺🇸US | 🔴 | vless | 3YED | 276",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -228,7 +228,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🟢 | vless | 3YED | 275",
+                "🇺🇸US | 🔴 | vless | 3YED | 275",
                 "🇺🇸US | 🔴 | vless | 3YED | 276",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -1386,10 +1386,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 275",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 275",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "28880d8d-7131-4917-8e48-bb6099f0efbd",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1397,16 +1397,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -1530,6 +1520,37 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
+            "server": "172.66.47.155",
+            "server_port": 443,
+            "uuid": "34a83286-ba4e-4f0a-ac08-77a95469eeaf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh18.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh18.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
             "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
@@ -1555,37 +1576,6 @@ https://github.com/3yed-61
                 "path": "\/1jk0RN6A5M3aEMof",
                 "headers": {
                     "Host": "ClOuDflaReiRaN1.pAgeS.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "104.27.207.92",
-            "server_port": 443,
-            "uuid": "f06ac303-e626-451d-bcfc-ee825ee69398",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "AzAdnET-SemeJ.pAGES.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/iLBB4pavFZGckVIC",
-                "headers": {
-                    "Host": "AzAdnET-SemeJ.pAGES.dev"
                 }
             }
         },
