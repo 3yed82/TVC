@@ -233,11 +233,12 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🚩CF | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🚩CF | 🔴 | vless | 3YED | 7",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -759,11 +760,12 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🚩CF | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🚩CF | 🔴 | vless | 3YED | 7",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -4264,7 +4266,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -4295,7 +4297,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "104.18.39.232",
             "server_port": 2083,
@@ -4326,7 +4328,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -4347,7 +4349,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 8",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "104.18.39.232",
             "server_port": 2083,
@@ -4378,11 +4380,42 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
             "uuid": "40d2b26a-174b-4bed-9afe-ed32e6e205ae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 443,
+            "uuid": "45838957-58b3-4c36-8d91-e0092e7c4953",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
