@@ -106,28 +106,26 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 16",
                 "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 12",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 13"
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 16",
                 "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 12",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 13"
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,7 +148,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 16",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 16",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 45020,
@@ -167,41 +165,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "jahfkjha.cfd",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
             "server": "172.67.244.191",
             "server_port": 443,
@@ -252,7 +216,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 4",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
             "server_port": 80,
@@ -276,7 +240,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -310,11 +274,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 12",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
-            "server": "amdjp.fineyoo.ml",
+            "server": "172.105.238.164",
             "server_port": 443,
-            "uuid": "ce48596c-f159-498b-a333-a0b8683cba7f",
+            "uuid": "3706161f-3ee3-48e5-bfcf-0d856cc6f0ab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -327,7 +291,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "amdjp.fineyoo.ml",
+                "server_name": "172.105.238.164",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -337,18 +301,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ray",
+                "path": "\/down",
                 "headers": {
-                    "Host": "amdjp.fineyoo.ml"
+                    "Host": "172.105.238.164"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 13",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 11",
             "type": "vmess",
-            "server": "pro01.my1188.org",
-            "server_port": 3213,
-            "uuid": "ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b",
+            "server": "ah.yd01.paopaocloud.cyou",
+            "server_port": 10014,
+            "uuid": "d8c5b486-84bb-3887-a1d9-07455ea608f2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -361,7 +325,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pro01.my1188.org",
+                "server_name": "ah.yd01.paopaocloud.cyou",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -371,9 +335,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/v2ray",
                 "headers": {
-                    "Host": "pro01.my1188.org"
+                    "Host": "ah.yd01.paopaocloud.cyou"
                 }
             }
         }
