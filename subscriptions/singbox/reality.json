@@ -155,6 +155,7 @@
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇸🇪SE | 🟢 | vless | 3YED | 2"
             ]
         },
@@ -212,6 +213,7 @@
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇸🇪SE | 🟢 | vless | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1776,6 +1778,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "re.iranfastfod.ir",
+            "server_port": 8443,
+            "uuid": "telegram-Afv2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0LI5bDltMLiL2_W9Sl4xp60UGlznmgR-b6TbsKFtKG4",
+                    "short_id": "96c7"
+                }
             }
         },
         {
