@@ -150,8 +150,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 307",
-                "🇺🇸US | 🟢 | vless | 3YED | 308",
+                "🇺🇸US | 🟢 | vless | 3YED | 306",
+                "🇺🇸US | 🟢 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -227,8 +227,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 307",
-                "🇺🇸US | 🟢 | vless | 3YED | 308",
+                "🇺🇸US | 🟢 | vless | 3YED | 306",
+                "🇺🇸US | 🟢 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -1361,10 +1361,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 307",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 306",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "4a9e4e0d-461d-42b0-8105-623220ab7582",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1372,6 +1372,16 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1382,7 +1392,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 308",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 307",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
