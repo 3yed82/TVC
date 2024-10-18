@@ -110,8 +110,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 41",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇮🇪IE | 🔴 | vless | 3YED | 16",
-                "🇬🇧GB | 🔴 | vless | 3YED | 17",
+                "🇸🇪SE | 🔴 | vless | 3YED | 16",
+                "🇮🇪IE | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -150,7 +150,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 341",
-                "🇺🇸US | 🟢 | vless | 3YED | 342",
+                "🇺🇸US | 🔴 | vless | 3YED | 342",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -181,8 +181,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 41",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇮🇪IE | 🔴 | vless | 3YED | 16",
-                "🇬🇧GB | 🔴 | vless | 3YED | 17",
+                "🇸🇪SE | 🔴 | vless | 3YED | 16",
+                "🇮🇪IE | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -221,7 +221,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 341",
-                "🇺🇸US | 🟢 | vless | 3YED | 342",
+                "🇺🇸US | 🔴 | vless | 3YED | 342",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -354,9 +354,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 16",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "34.248.206.11",
+            "server": "16.16.87.151",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -385,9 +385,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 17",
+            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "35.179.99.76",
+            "server": "52.31.114.85",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1356,7 +1356,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "77a55f57-b0bb-403f-a3f3-e233b9ea0a5f",
+            "uuid": "c0259a71-9059-4ba3-9004-17e0b831f023",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1383,10 +1383,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 342",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 342",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "77a55f57-b0bb-403f-a3f3-e233b9ea0a5f",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1394,16 +1394,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
