@@ -112,8 +112,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 11"
+                "🇸🇪SE | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ]
         },
         {
@@ -126,8 +126,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 11"
+                "🇸🇪SE | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -297,6 +297,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 9",
+            "type": "vmess",
+            "server": "185.146.173.52",
+            "server_port": 80,
+            "uuid": "e2b683fe-5b91-5f62-906a-e720ba96cf97",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "185.146.173.52"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "104.19.47.65",
@@ -317,40 +341,6 @@ https://github.com/3yed-61
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "104.19.47.65"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 11",
-            "type": "vmess",
-            "server": "p1.v2raybrasil.xyz",
-            "server_port": 443,
-            "uuid": "51991d4c-bcbd-4424-a4f0-6ad9b6cc4d83",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "p1.v2raybrasil.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2raybrasil.com",
-                "headers": {
-                    "Host": "p1.v2raybrasil.xyz"
                 }
             }
         }
