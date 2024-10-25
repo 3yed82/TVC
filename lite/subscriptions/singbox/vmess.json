@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🟢 | vmess | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 10",
                 "🇺🇸US | 🟢 | vmess | 3YED | 11",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15"
             ]
         },
@@ -121,14 +121,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🟢 | vmess | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 10",
                 "🇺🇸US | 🟢 | vmess | 3YED | 11",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -152,7 +152,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -285,7 +285,41 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 11",
+            "type": "vmess",
+            "server": "hkcft01.xqc.best",
+            "server_port": 443,
+            "uuid": "f84b5887-a632-4446-a178-5d357fef1263",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hkcft01.xqc.best",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hkcft01.xqc.best"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 12",
             "type": "vmess",
             "server": "36.150.27.84",
             "server_port": 28365,
@@ -305,40 +339,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "36.150.27.84"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 11",
-            "type": "vmess",
-            "server": "c.pelang.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "c.pelang.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "c.pelang.org"
                 }
             }
         },
