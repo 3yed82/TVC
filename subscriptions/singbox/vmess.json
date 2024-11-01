@@ -141,9 +141,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇨🇭CH | 🟢 | vmess | 3YED | 9"
+                "🇫🇷FR | 🟢 | vmess | 3YED | 7"
             ]
         },
         {
@@ -186,9 +184,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇨🇭CH | 🟢 | vmess | 3YED | 9"
+                "🇫🇷FR | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1124,64 +1120,6 @@
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "de-new01.daluquan.top",
-            "server_port": 8080,
-            "uuid": "237c632a-8ac0-4040-ab02-adbc3b9e6610",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "186.190.215.32",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
