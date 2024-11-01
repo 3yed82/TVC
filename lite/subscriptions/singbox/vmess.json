@@ -112,8 +112,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 11"
+                "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ]
         },
         {
@@ -126,8 +126,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 11"
+                "🇺🇸US | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -300,9 +300,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
-            "server": "c.kandap.homes",
+            "server": "d.ritchier.info",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -317,7 +317,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "c.kandap.homes",
+                "server_name": "d.ritchier.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -327,18 +327,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "c.kandap.homes"
+                    "Host": "d.ritchier.info"
                 }
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
-            "server": "ie9as-g01.jp01-0986-vm0.entry.fr0307a.art",
-            "server_port": 21581,
-            "uuid": "02bf7660-c38f-30b4-b740-2f9b4d717704",
+            "server": "fapeng.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 1,
             "global_padding": false,
@@ -351,12 +351,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ie9as-g01.jp01-0986-vm0.entry.fr0307a.art",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
