@@ -105,8 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇭BH | 🟢 | ss | 3YED | 4",
-                "🇬🇧GB | 🟢 | ss | 3YED | 8",
+                "🇧🇭BH | 🟢 | ss | 3YED | 0",
+                "🇬🇧GB | 🟢 | ss | 3YED | 1",
+                "🇬🇧GB | 🟢 | ss | 3YED | 6",
                 "🇦🇪AE | 🟢 | ss | 3YED | 10",
                 "🇦🇪AE | 🟢 | ss | 3YED | 11"
             ]
@@ -115,8 +116,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇭BH | 🟢 | ss | 3YED | 4",
-                "🇬🇧GB | 🟢 | ss | 3YED | 8",
+                "🇧🇭BH | 🟢 | ss | 3YED | 0",
+                "🇬🇧GB | 🟢 | ss | 3YED | 1",
+                "🇬🇧GB | 🟢 | ss | 3YED | 6",
                 "🇦🇪AE | 🟢 | ss | 3YED | 10",
                 "🇦🇪AE | 🟢 | ss | 3YED | 11"
             ],
@@ -141,7 +143,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇭BH | 🟢 | ss | 3YED | 4",
+            "tag": "🇧🇭BH | 🟢 | ss | 3YED | 0",
             "type": "shadowsocks",
             "server": "series-a2-me.samanehha.co",
             "server_port": 443,
@@ -151,12 +153,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 8",
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "series-a1.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 6",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
             "plugin": "",
             "plugin_opts": ""
         },
