@@ -135,15 +135,15 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 1",
-                "🇹🇷TR | 🟢 | vmess | 3YED | 2",
-                "🇰🇷KR | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 2",
+                "🇹🇷TR | 🟢 | vmess | 3YED | 3",
+                "🇰🇷KR | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "❔XX | 🟢 | vmess | 3YED | 7",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 9"
             ]
         },
@@ -181,15 +181,15 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 1",
-                "🇹🇷TR | 🟢 | vmess | 3YED | 2",
-                "🇰🇷KR | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 2",
+                "🇹🇷TR | 🟢 | vmess | 3YED | 3",
+                "🇰🇷KR | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "❔XX | 🟢 | vmess | 3YED | 7",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -955,7 +955,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "23.224.6.211",
+            "server_port": 30003,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.29379463.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/091615350227",
+                "headers": {
+                    "Host": "www.29379463.xyz"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -972,7 +1006,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 1",
+            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "61.120.9.18",
             "server_port": 43720,
@@ -989,7 +1023,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | 3YED | 2",
+            "tag": "🇹🇷TR | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "103.215.218.222",
             "server_port": 443,
@@ -1023,7 +1057,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | 3YED | 3",
+            "tag": "🇰🇷KR | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "144.24.84.29",
             "server_port": 47832,
@@ -1047,7 +1081,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.67.173.142",
             "server_port": 443,
@@ -1081,7 +1115,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "172.64.167.10",
             "server_port": 2082,
@@ -1105,7 +1139,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1122,7 +1156,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 7",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 48009,
@@ -1139,28 +1173,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "abaaccb-abca-caab-acbd-aabbacccbacb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cabaacb-baca-caba-cabd-cacbcbaabcab",
+            "uuid": "abaaccb-abca-caab-acbd-aabbacccbacb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
