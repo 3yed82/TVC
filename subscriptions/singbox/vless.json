@@ -191,7 +191,6 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
@@ -378,11 +377,11 @@
                 "❔XX | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 11",
-                "🇬🇧GB | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🚩CF | 🔴 | vless | 3YED | 5",
+                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 6",
+                "🚩CF | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 266",
                 "🇺🇸US | 🔴 | vless | 3YED | 267",
                 "🇺🇸US | 🟢 | vless | 3YED | 268",
@@ -583,7 +582,6 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 4",
@@ -770,11 +768,11 @@
                 "❔XX | 🔴 | vless | 3YED | 9",
                 "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 11",
-                "🇬🇧GB | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🚩CF | 🔴 | vless | 3YED | 4",
-                "🚩CF | 🔴 | vless | 3YED | 5",
+                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🚩CF | 🔴 | vless | 3YED | 6",
+                "🚩CF | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 266",
                 "🇺🇸US | 🔴 | vless | 3YED | 267",
                 "🇺🇸US | 🟢 | vless | 3YED | 268",
@@ -2953,27 +2951,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "mio.splashthat.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -7529,7 +7506,38 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 1",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "162.159.152.2",
+            "server_port": 443,
+            "uuid": "50b7fc84-85b4-4043-b1f7-6477c9017a44",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "purlitefastest.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/purlitefastest.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "purlitefastest.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "198.244.147.21",
             "server_port": 31251,
@@ -7543,7 +7551,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "bwdraper.faculty.ucdavis.edu",
             "server_port": 443,
@@ -7574,7 +7582,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "104.22.2.218",
             "server_port": 8080,
@@ -7595,7 +7603,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 5",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "104.21.5.57",
             "server_port": 443,
@@ -7622,37 +7630,6 @@
                 "path": "\/BmwjYm7OnaFXHktl?ed=2560",
                 "headers": {
                     "Host": "FaLlInG-mEadoW-2CaA.jEPOGo9305.WorkeRs.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "104.20.21.49",
-            "server_port": 443,
-            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "freedom-1rj.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
-                "headers": {
-                    "Host": "freedom-1rj.pages.dev"
                 }
             }
         },
