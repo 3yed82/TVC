@@ -109,7 +109,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 33",
                 "🇸🇪SE | 🔴 | vless | 3YED | 34",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -161,11 +161,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -187,7 +187,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 33",
                 "🇸🇪SE | 🔴 | vless | 3YED | 34",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -239,11 +239,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -337,7 +337,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1674,11 +1674,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cabacab-abac-caab-dcab-bbacbaccaacb",
+            "server": "38.91.106.227",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1688,14 +1688,31 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.91.106.227",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "38.91.106.227"
+                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aabccba-aacb-abac-bdac-baaabbabcccc",
+            "server_port": 1080,
+            "uuid": "cabacab-abac-caab-dcab-bbacbaccaacb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1722,11 +1739,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
             "type": "vless",
-            "server": "172.64.35.199",
+            "server": "172.66.44.233",
             "server_port": 443,
-            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "uuid": "38720105-063f-40f5-a5eb-f3198b9b617d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1736,7 +1753,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "freedom-1rj.pages.dev",
+                "server_name": "aksnmaioas.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1746,18 +1763,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "freedom-1rj.pages.dev"
+                    "Host": "aksnmaioas.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "104.26.11.137",
+            "server": "104.16.60.8",
             "server_port": 443,
-            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
+            "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1767,7 +1784,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "st-gb-1.brocdn.com",
+                "server_name": "ahmedquran19.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1777,9 +1794,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket",
+                "path": "\/current_time",
                 "headers": {
-                    "Host": "st-gb-1.brocdn.com"
+                    "Host": "ahmedquran19.xyz"
                 }
             }
         },
