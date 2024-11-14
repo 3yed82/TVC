@@ -134,7 +134,8 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3"
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
         {
@@ -170,7 +171,8 @@
                 "🚩CF | 🟢 | vmess | 3YED | 0",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 1",
                 "🚩CF | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3"
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -922,6 +924,23 @@
                 "headers": {
                     "Host": "ip.sb"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "676d18a1-82fc-47ae-a676-a4c348eeaac0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
