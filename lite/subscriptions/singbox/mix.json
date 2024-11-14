@@ -109,7 +109,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 33",
                 "🇸🇪SE | 🔴 | vless | 3YED | 34",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -160,8 +160,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -186,7 +186,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 33",
                 "🇸🇪SE | 🔴 | vless | 3YED | 34",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -237,8 +237,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -335,7 +335,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1641,6 +1641,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "38.75.137.121",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.75.137.121",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "38.75.137.121"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "104.21.31.62",
@@ -1672,23 +1706,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "104.21.31.62"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "103.184.45.164",
-            "server_port": 80,
-            "uuid": "782efefc-aac2-a7f2-6e2b-e42f7bc5d75a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
