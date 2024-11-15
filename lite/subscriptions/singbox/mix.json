@@ -163,11 +163,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -242,11 +242,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -1707,7 +1707,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "104.20.17.186",
             "server_port": 2082,
@@ -1731,7 +1731,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.19.21.71",
             "server_port": 2082,
@@ -1769,7 +1769,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "104.26.11.137",
+            "server_port": 443,
+            "uuid": "2b47debd-d627-11ee-aaa8-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "st-gb-1.brocdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-gb-1.brocdn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "104.16.60.8",
             "server_port": 443,
@@ -1796,37 +1827,6 @@ https://github.com/3yed-61
                 "path": "\/current_time",
                 "headers": {
                     "Host": "ahmedquran19.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "172.66.47.115",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "6B700E9B.BPB-WORKEr-PAnel-9r9.PAGeS.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/tmlO9TqxlsNgBI70?ed=2560",
-                "headers": {
-                    "Host": "6B700E9B.BPB-WORKEr-PAnel-9r9.PAGeS.dev"
                 }
             }
         },
