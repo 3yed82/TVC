@@ -406,10 +406,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 303",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -800,10 +799,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 303",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -8329,7 +8327,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -8360,32 +8358,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
             "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "9de97a22-c894-4ee9-8f32-92b046bcb717",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
+            "server": "162.159.44.205",
             "server_port": 443,
-            "uuid": "9de97a22-c894-4ee9-8f32-92b046bcb717",
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8395,7 +8372,38 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
+                "server_name": "freedom-1rj.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/freedom-1rj.pages.dev\/?ed=2560",
+                "headers": {
+                    "Host": "freedom-1rj.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "104.26.14.85",
+            "server_port": 2096,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hagh.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8407,28 +8415,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "9de97a22-c894-4ee9-8f32-92b046bcb717",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
+                    "Host": "hagh.pages.dev"
                 }
             }
         },
