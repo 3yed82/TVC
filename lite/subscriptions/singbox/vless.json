@@ -134,8 +134,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -151,8 +151,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -203,8 +202,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -220,8 +219,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -934,27 +932,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "NUFiLTER.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
-                "headers": {
-                    "Host": "NUFiLTER.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
             "type": "vless",
             "server": "iranserver.com",
@@ -983,6 +960,37 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "pages.dev"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1c5aa689-b879-4cf2-953a-d3bff35db893",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.felafel.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ConfigTell,@ConfigTell,@ConfigTell",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1360,11 +1368,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "108.162.195.129",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "62ae1cc9-5940-4f21-a0ed-1c13b32b5908",
+            "uuid": "d4d50c45-c159-4a9c-be98-24e4d4c00b27",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1374,7 +1382,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de.ailicf.us.kg",
+                "server_name": "lumEra2.PAgES.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1384,24 +1392,10 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/safaf",
+                "path": "\/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420?ed=2560",
                 "headers": {
-                    "Host": "de.ailicf.us.kg"
+                    "Host": "lumEra2.PAgES.DEv"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "www.SPEEDTEST.nEt",
-            "server_port": 8080,
-            "uuid": "e7aee378-accf-41e1-8aba-ce20988e333b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1545,9 +1539,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8880,
-            "uuid": "42635d46-fb12-4118-c273-167ff1de4ffb",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "ca6718bd-f089-4eab-a660-ae9c1dc6e254",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1557,9 +1551,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/melo\/",
+                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "151.101.3.8"
                 }
             }
         },
@@ -1568,7 +1562,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "d8a38f66-3375-4ec5-ac51-35f395d59091",
+            "uuid": "42635d46-fb12-4118-c273-167ff1de4ffb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
