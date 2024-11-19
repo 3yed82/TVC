@@ -119,8 +119,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 9",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 15",
-                "🚩CF | 🟢 | vmess | 3YED | 16",
+                "🇫🇮FI | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -156,8 +155,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 9",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 15",
-                "🚩CF | 🟢 | vmess | 3YED | 16",
+                "🇫🇮FI | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -484,11 +482,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 15",
+            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-ID-VPN-WHAL-16",
+            "server": "hra.app-browser.org",
+            "server_port": 443,
+            "uuid": "43eae510-e1bc-4036-e919-86a628f983ef",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -498,23 +496,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-ID-VPN-WHAL-16",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hra.app-browser.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
