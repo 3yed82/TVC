@@ -417,16 +417,9 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🚩CF | 🟢 | vless | 3YED | 1",
-                "🚩CF | 🟢 | vless | 3YED | 2",
-                "🚩CF | 🟢 | vless | 3YED | 3",
-                "🚩CF | 🟢 | vless | 3YED | 4",
-                "🚩CF | 🟢 | vless | 3YED | 5",
-                "🚩CF | 🟢 | vless | 3YED | 6",
-                "🇺🇸US | 🟢 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -829,16 +822,9 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🚩CF | 🟢 | vless | 3YED | 1",
-                "🚩CF | 🟢 | vless | 3YED | 2",
-                "🚩CF | 🟢 | vless | 3YED | 3",
-                "🚩CF | 🟢 | vless | 3YED | 4",
-                "🚩CF | 🟢 | vless | 3YED | 5",
-                "🚩CF | 🟢 | vless | 3YED | 6",
-                "🇺🇸US | 🟢 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -8652,6 +8638,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2266e5c0-1971-49aa-a454-e10a46ea0ee2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
+                "headers": {
+                    "Host": "151.101.3.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
+            "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
             "uuid": "5d175779-9e00-4e13-a622-45e686a0cea0",
@@ -8681,245 +8688,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 1",
-            "type": "vless",
-            "server": "104.21.198.255",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "104.20.181.114",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 3",
-            "type": "vless",
-            "server": "104.22.13.192",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 4",
-            "type": "vless",
-            "server": "104.16.6.65",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 5",
-            "type": "vless",
-            "server": "104.21.95.137",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "104.19.75.119",
-            "server_port": 443,
-            "uuid": "3dc35595-0a69-4da7-8a82-881709b9db7c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "151.101.130.133",
-            "server_port": 443,
-            "uuid": "9015bb61-935e-40f7-9363-a2262b2a22c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "live.989bull.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws\/",
-                "headers": {
-                    "Host": "live.989bull.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "2266e5c0-1971-49aa-a454-e10a46ea0ee2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "go.inmobi.com",
             "server_port": 443,
@@ -8950,7 +8719,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "ipw.nscl.ir",
             "server_port": 443,

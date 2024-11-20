@@ -175,6 +175,8 @@ proxies:
   - {"name":"🇳🇱NL | 🟢 | vmess | 3YED | 1","type":"vmess","server":"89.23.103.249","port":"8081","cipher":"auto","uuid":"60b85ec5-4cc9-4dd5-a5d2-edc876501b69","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | 🔴 | trojan | 3YED | 2","type":"trojan","server":"185.176.24.2","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV"}
   - {"name":"🚩CF | 🔴 | trojan | 3YED | 4","type":"trojan","server":"172.67.49.134","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanfree-76s.pages.dev"}
+  - {"name":"🚩CF | 🟢 | trojan | 3YED | 10","type":"trojan","server":"104.26.13.31","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojanmz.pages.dev"}
+  - {"name":"🇯🇵JP | 🔴 | trojan | 3YED | 13","type":"trojan","server":"54.249.161.173","port":443,"udp":false,"password":"8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"sniffle.meijireform.com"}
   - {"name":"🚩CF | 🔴 | trojan | 3YED | 0","type":"trojan","server":"104.20.21.199","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"b96ef9ae.trojanfree-76s.pages.dev"}
   - {"name":"🇳🇱NL | 🟢 | vmess | 3YED | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3YED | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
@@ -183,8 +185,6 @@ proxies:
   - {"name":"🚩CF | 🟢 | vmess | 3YED | 3","type":"vmess","server":"172.67.204.84","port":443,"cipher":"auto","uuid":"92610402-8d8c-43ff-895b-7b3c938ddfe0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"download.game-one.ir"}}}
   - {"name":"🚩CF | 🟢 | vmess | 3YED | 7","type":"vmess","server":"104.19.21.63","port":2095,"cipher":"auto","uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip18.6016725.xyz"}}}
   - {"name":"🚩CF | 🟢 | vmess | 3YED | 8","type":"vmess","server":"104.19.55.49","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip27.6929198.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | 3YED | 9","type":"vmess","server":"104.20.17.186","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip6.6929198.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | 3YED | 10","type":"vmess","server":"162.159.140.56","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip3.6929198.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3YED | 15","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"676d18a1-82fc-47ae-a676-a4c348eeaac0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"httpupgrade"}
 proxy-groups:
   - name: MANUAL
@@ -249,6 +249,8 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇳🇱NL | 🔴 | trojan | 3YED | 2'
       - '🚩CF | 🔴 | trojan | 3YED | 4'
+      - '🚩CF | 🟢 | trojan | 3YED | 10'
+      - '🇯🇵JP | 🔴 | trojan | 3YED | 13'
       - '🚩CF | 🔴 | trojan | 3YED | 0'
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇺🇸US | 🟢 | vmess | 3YED | 2'
@@ -257,8 +259,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | 3YED | 3'
       - '🚩CF | 🟢 | vmess | 3YED | 7'
       - '🚩CF | 🟢 | vmess | 3YED | 8'
-      - '🚩CF | 🟢 | vmess | 3YED | 9'
-      - '🚩CF | 🟢 | vmess | 3YED | 10'
       - '🇺🇸US | 🟢 | vmess | 3YED | 15'
   - name: URL-TEST
     type: url-test
@@ -323,6 +323,8 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇳🇱NL | 🔴 | trojan | 3YED | 2'
       - '🚩CF | 🔴 | trojan | 3YED | 4'
+      - '🚩CF | 🟢 | trojan | 3YED | 10'
+      - '🇯🇵JP | 🔴 | trojan | 3YED | 13'
       - '🚩CF | 🔴 | trojan | 3YED | 0'
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇺🇸US | 🟢 | vmess | 3YED | 2'
@@ -331,8 +333,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | 3YED | 3'
       - '🚩CF | 🟢 | vmess | 3YED | 7'
       - '🚩CF | 🟢 | vmess | 3YED | 8'
-      - '🚩CF | 🟢 | vmess | 3YED | 9'
-      - '🚩CF | 🟢 | vmess | 3YED | 10'
       - '🇺🇸US | 🟢 | vmess | 3YED | 15'
   - name: FALLBACK
     type: fallback
@@ -396,6 +396,8 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇳🇱NL | 🔴 | trojan | 3YED | 2'
       - '🚩CF | 🔴 | trojan | 3YED | 4'
+      - '🚩CF | 🟢 | trojan | 3YED | 10'
+      - '🇯🇵JP | 🔴 | trojan | 3YED | 13'
       - '🚩CF | 🔴 | trojan | 3YED | 0'
       - '🇳🇱NL | 🟢 | vmess | 3YED | 1'
       - '🇺🇸US | 🟢 | vmess | 3YED | 2'
@@ -404,8 +406,6 @@ proxy-groups:
       - '🚩CF | 🟢 | vmess | 3YED | 3'
       - '🚩CF | 🟢 | vmess | 3YED | 7'
       - '🚩CF | 🟢 | vmess | 3YED | 8'
-      - '🚩CF | 🟢 | vmess | 3YED | 9'
-      - '🚩CF | 🟢 | vmess | 3YED | 10'
       - '🇺🇸US | 🟢 | vmess | 3YED | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
