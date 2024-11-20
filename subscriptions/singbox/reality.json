@@ -116,6 +116,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -150,6 +151,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -465,6 +467,35 @@
                     "enabled": true,
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "213.252.232.175",
+            "server_port": 2096,
+            "uuid": "a35367d5-0edb-4882-b8b5-0249b820e114",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PbUniy2w23tAs97ciXVClmXXRXtV1lb69dS-J9SFbAc",
+                    "short_id": "7c88bf8e"
                 }
             }
         },
