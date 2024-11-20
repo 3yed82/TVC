@@ -163,14 +163,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇯🇵JP | 🔴 | trojan | 3YED | 16",
-                "🇺🇸US | 🟢 | trojan | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -248,14 +248,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇯🇵JP | 🔴 | trojan | 3YED | 16",
-                "🇺🇸US | 🟢 | trojan | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -1680,23 +1680,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | 🔴 | trojan | 3YED | 16",
-            "type": "trojan",
-            "server": "54.249.161.173",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "type": "vless",
+            "server": "172.66.44.56",
             "server_port": 443,
-            "password": "8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | trojan | 3YED | 17",
-            "type": "trojan",
-            "server": "104.26.13.31",
-            "server_port": 443,
-            "password": "auto",
+            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1704,7 +1694,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojanmz.pages.dev",
+                "server_name": "pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1714,9 +1704,40 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "trojanmz.pages.dev"
+                    "Host": "pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "199.34.228.178",
+            "server_port": 443,
+            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sB-1u6.Pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "sB-1u6.Pages.DEV"
                 }
             }
         },
@@ -1841,11 +1862,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "104.19.21.63",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "server": "https:\/\/github.com\/ALIILAPRO\/v2rayNG-Config",
+            "server_port": 433,
+            "uuid": "Free",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1855,21 +1876,14 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip18.6016725.xyz"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "104.19.55.49",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "61.120.9.18",
+            "server_port": 43720,
+            "uuid": "f248d0e9-19f7-ea7f-6659-17a610dfe8d6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1879,13 +1893,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip27.6929198.xyz"
-                }
             }
         },
         {

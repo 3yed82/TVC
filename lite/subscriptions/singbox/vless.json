@@ -156,6 +156,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -228,6 +230,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -1504,6 +1508,68 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "type": "vless",
+            "server": "172.66.44.56",
+            "server_port": 443,
+            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "199.34.228.178",
+            "server_port": 443,
+            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sB-1u6.Pages.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "sB-1u6.Pages.DEV"
                 }
             }
         },
