@@ -116,7 +116,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
-                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -151,7 +152,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
-                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -471,11 +473,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 8",
             "type": "vless",
-            "server": "213.252.232.175",
-            "server_port": 2096,
-            "uuid": "a35367d5-0edb-4882-b8b5-0249b820e114",
+            "server": "188.245.90.214",
+            "server_port": 1633,
+            "uuid": "d17bc275-a17b-4d41-9f52-879f6619ac2b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -485,17 +487,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PbUniy2w23tAs97ciXVClmXXRXtV1lb69dS-J9SFbAc",
-                    "short_id": "7c88bf8e"
+                    "public_key": "ANlgAsYC8HmKfJnc5SFvru822urkxG1PzW1Zw4Vbm0Q",
+                    "short_id": "9bc0a55a5379c0ed"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "89.187.169.71",
+            "server_port": 443,
+            "uuid": "6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g",
+                    "short_id": "01b200e90e250221"
                 }
             }
         },
