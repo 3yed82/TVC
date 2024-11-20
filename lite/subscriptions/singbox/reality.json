@@ -107,8 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇫🇮FI | 🔴 | vless | 3YED | 17",
-                "🇦🇲AM | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ]
@@ -118,8 +116,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇫🇮FI | 🔴 | vless | 3YED | 17",
-                "🇦🇲AM | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ],
@@ -169,64 +165,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "65.21.186.167",
-            "server_port": 48140,
-            "uuid": "001efd4b-5c84-43e8-8fe1-6607c2321b04",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B26zbuTTQs1ueZYzwV5xD6EGqFjJF_YQf15iyt7PV3s",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇦🇲AM | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "213.108.23.243",
-            "server_port": 26926,
-            "uuid": "d2a16fbe-5a9f-45c2-be21-9b16a7db9b96",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "V1Sm4pc5EuEHSwsfXDDLYPuiu3JZUESNifEkvm5ARn8",
-                    "short_id": "435d625ae815"
                 }
             }
         },
