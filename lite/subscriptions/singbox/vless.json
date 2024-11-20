@@ -1514,9 +1514,30 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "172.66.44.56",
+            "server": "167.82.30.71",
+            "server_port": 80,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "167.82.30.71"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "3df56fd0-d1b7-4793-b877-acd356d960f3",
+            "uuid": "ec9406f9-3fc6-442d-b9f6-90c59b64eff2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1539,37 +1560,6 @@ https://github.com/3yed-61
                 "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
                     "Host": "pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "199.34.228.178",
-            "server_port": 443,
-            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sB-1u6.Pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
-                "headers": {
-                    "Host": "sB-1u6.Pages.DEV"
                 }
             }
         },
