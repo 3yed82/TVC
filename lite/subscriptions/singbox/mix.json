@@ -163,13 +163,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇯🇵JP | 🔴 | trojan | 3YED | 16",
+                "🇺🇸US | 🟢 | trojan | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -247,13 +248,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇯🇵JP | 🔴 | trojan | 3YED | 16",
+                "🇺🇸US | 🟢 | trojan | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -1678,23 +1680,43 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "2266e5c0-1971-49aa-a454-e10a46ea0ee2",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇯🇵JP | 🔴 | trojan | 3YED | 16",
+            "type": "trojan",
+            "server": "54.249.161.173",
+            "server_port": 443,
+            "password": "8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | trojan | 3YED | 17",
+            "type": "trojan",
+            "server": "104.26.13.31",
+            "server_port": 443,
+            "password": "auto",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojanmz.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE?ed=2480",
+                "path": "\/",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "trojanmz.pages.dev"
                 }
             }
         },
@@ -1819,11 +1841,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "104.20.17.186",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "server": "104.19.21.63",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1838,14 +1860,14 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": ""
+                    "Host": "ip18.6016725.xyz"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "162.159.140.56",
+            "server": "104.19.55.49",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
@@ -1862,7 +1884,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": ""
+                    "Host": "ip27.6929198.xyz"
                 }
             }
         },
