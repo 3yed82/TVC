@@ -418,12 +418,15 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇺🇸US | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🟢 | vless | 3YED | 6",
-                "🚩CF | 🟢 | vless | 3YED | 7",
+                "🚩CF | 🔴 | vless | 3YED | 5",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🚩CF | 🔴 | vless | 3YED | 8",
+                "🚩CF | 🔴 | vless | 3YED | 9",
                 "🚩CF | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🚩CF | 🔴 | vless | 3YED | 11",
+                "🚩CF | 🔴 | vless | 3YED | 12",
+                "🚩CF | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -833,12 +836,15 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇺🇸US | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🟢 | vless | 3YED | 6",
-                "🚩CF | 🟢 | vless | 3YED | 7",
+                "🚩CF | 🔴 | vless | 3YED | 5",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🚩CF | 🔴 | vless | 3YED | 8",
+                "🚩CF | 🔴 | vless | 3YED | 9",
                 "🚩CF | 🔴 | vless | 3YED | 10",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🚩CF | 🔴 | vless | 3YED | 11",
+                "🚩CF | 🔴 | vless | 3YED | 12",
+                "🚩CF | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -8781,9 +8787,47 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
             "type": "vless",
-            "server": "NUFiLTER.fastly80-3.hosting-ip.com",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "6e7dde55-f681-4cd2-a8e1-2ff9b1df7b25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "104.18.165.38",
+            "server_port": 8443,
+            "uuid": "6e7dde55-f681-4cd2-a8e1-2ff9b1df7b25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.18.165.38",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "Zula.ir",
             "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER",
+            "uuid": "telegram_v2rayng_76",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8793,18 +8837,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
+                "path": "\/?ed=2053",
                 "headers": {
-                    "Host": "NUFiLTER.fastly80-3.hosting-ip.com"
+                    "Host": "Zula.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 5",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
-            "server": "iranserver.com",
+            "server": "japantimes.co.jp",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "c95a5a3a-5a4c-4ee5-b11a-96f72cf80661",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8814,7 +8858,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9b446b2C.AEstINGuPloaD.paGEs.DEv",
+                "server_name": "4cbba020.fastpurnet3.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8824,18 +8868,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SVogCkLhumaPHSpv?ed=2560",
+                "path": "\/4cbba020.mobilesignal.pages.dev\/?ed=2560",
                 "headers": {
-                    "Host": "9b446b2C.AEstINGuPloaD.paGEs.DEv"
+                    "Host": "4cbba020.fastpurnet3.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 6",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 8",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "172.67.71.217",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "2df56fd0-d1b7-4793-b877-acd356d960f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8845,7 +8889,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9b446B2c.AesTINguPlOAD.pagES.dEv",
+                "server_name": "pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8855,18 +8899,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/habKldJNC1yQEUgb?ed=2560",
+                "path": "\/?ed=8080",
                 "headers": {
-                    "Host": "9b446B2c.AesTINguPlOAD.pagES.dEv"
+                    "Host": "pages.dev"
                 }
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 7",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "104.18.37.146",
+            "server_port": 8443,
+            "uuid": "d8038434-51de-440b-9521-d114503e57af",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8876,7 +8920,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "9B446b2C.aesTiNgupLOaD.pAgES.DeV",
+                "server_name": "BiA-DAILY-coNfIGs.pAgES.DEV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8886,14 +8930,107 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Q4KAnxjo89nnWwSS?ed=2560",
+                "path": "\/TELEGRAM-Daily_Configs?ed=1048",
                 "headers": {
-                    "Host": "9B446b2C.aesTiNgupLOaD.pAgES.DeV"
+                    "Host": "BiA-DAILY-coNfIGs.pAgES.DEV"
                 }
             }
         },
         {
             "tag": "🚩CF | 🔴 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "172.66.44.110",
+            "server_port": 443,
+            "uuid": "d8038434-51de-440b-9521-d114503e57af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BIa-Daily-coNfIGS.pagEs.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-Daily_Configs?ed=8080",
+                "headers": {
+                    "Host": "BIa-Daily-coNfIGS.pagEs.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "172.66.47.146",
+            "server_port": 443,
+            "uuid": "d8038434-51de-440b-9521-d114503e57af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIa-daILy-CoNFigS.PAgEs.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-Daily_Configs?ed=1024",
+                "headers": {
+                    "Host": "bIa-daILy-CoNFigS.PAgEs.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "104.17.207.36",
+            "server_port": 8443,
+            "uuid": "d8038434-51de-440b-9521-d114503e57af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bIa-DAIly-CoNFIGs.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-Daily_Configs?ed=80",
+                "headers": {
+                    "Host": "bIa-DAIly-CoNFIGs.PaGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 15",
             "type": "vless",
             "server": "104.18.165.39",
             "server_port": 80,
@@ -8904,51 +9041,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
-            "type": "vless",
-            "server": "de-08.pezesh-kian.com",
-            "server_port": 2095,
-            "uuid": "a446ef35-6c74-40d9-910c-f63d60197d9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "Zmaoz.Faculty.Ucdavis.Edu",
-            "server_port": 443,
-            "uuid": "e21b205e-fd61-4140-9112-e7570f62de63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zmaoz.Faculty.Ucdavis.Edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@custom_config?ed=2560",
-                "headers": {
-                    "Host": "Zmaoz.Faculty.Ucdavis.Edu"
-                }
             }
         },
         {
