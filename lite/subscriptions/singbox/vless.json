@@ -113,7 +113,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
@@ -154,8 +154,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -186,7 +186,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
@@ -227,8 +227,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 305",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -451,7 +451,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1475,11 +1475,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "8a3105f2-a816-4287-9d46-c4f3a780e767",
+            "server": "172.67.187.170",
+            "server_port": 443,
+            "uuid": "7781631b-b5d1-4643-9ba4-f58b759fb874",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1487,20 +1487,30 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kachiina.thelastronin.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN----join.JOKERRVPN",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.148.22"
+                    "Host": "kachiina.thelastronin.cloudns.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 2",
             "type": "vless",
-            "server": "172.67.69.236",
-            "server_port": 8080,
-            "uuid": "3cff1332-9020-4a58-8dbf-3ff31bd271a4",
+            "server": "185.146.173.52",
+            "server_port": 8880,
+            "uuid": "608743f6-2e9e-4ff8-b0b1-d27f12bfd5f1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
