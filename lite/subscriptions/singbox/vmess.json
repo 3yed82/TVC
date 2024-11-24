@@ -108,7 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 16",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -121,7 +123,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇸🇪SE | 🟢 | vmess | 3YED | 16",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
@@ -182,11 +186,28 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3YED | 16",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
-            "server": "Back.MsV2ray.online",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "server": "209.38.179.254",
+            "server_port": 40793,
+            "uuid": "da000e5f-8319-4067-abcd-f4d517668b0a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
+            "type": "vmess",
+            "server": "kz3bw.c6tu5uwk9.buzz",
+            "server_port": 80,
+            "uuid": "377bf036-b6b2-4867-bf3a-dbeb24a90326",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -197,21 +218,35 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": "yUE73.c6tu5uwk9.buzz",
+            "server_port": 80,
+            "uuid": "377bf036-b6b2-4867-bf3a-dbeb24a90326",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": ""
                 }
             }
         },
