@@ -116,7 +116,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
-                "🇳🇱NL | 🟢 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -151,7 +150,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
-                "🇳🇱NL | 🟢 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -468,42 +466,6 @@
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "109.207.171.66",
-            "server_port": 8443,
-            "uuid": "89aa82da-c5ff-43aa-9e07-2a3f6f253fab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r5t0FMNYQZ6MyEjittGRVQtAtyV8miQC3Cqzcx_cRG4",
-                    "short_id": "37c6859775"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "JoinBadeChannel@antimeli",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
