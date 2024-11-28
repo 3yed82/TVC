@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 4",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -132,7 +132,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
-                "🚩CF | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇺🇸US | 🟢 | vmess | 3YED | 16"
@@ -155,7 +154,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 4",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -169,7 +168,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
-                "🚩CF | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
                 "🇺🇸US | 🟢 | vmess | 3YED | 16"
@@ -467,11 +465,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "TELEGRAM-WHAL-FREE32",
+            "server": "hms19.best-tizi.top",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -481,6 +479,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms19.best-tizi.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms19.best-tizi.top"
+                }
             }
         },
         {
@@ -798,30 +813,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "3d7e3d62-7164-4ed8-b92e-9d5b77437cf8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.147.22"
-                }
             }
         },
         {
