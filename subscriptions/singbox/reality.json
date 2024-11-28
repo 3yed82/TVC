@@ -116,6 +116,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
+                "🇦🇪AE | 🔴 | vless | 3YED | 7",
+                "🇦🇲AM | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -150,6 +152,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
+                "🇦🇪AE | 🔴 | vless | 3YED | 7",
+                "🇦🇲AM | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -465,6 +469,64 @@
                     "enabled": true,
                     "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
                     "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪AE | 🔴 | vless | 3YED | 7",
+            "type": "vless",
+            "server": "uae.kitten-tube.com",
+            "server_port": 443,
+            "uuid": "414df689-dc19-418b-849c-f0f15967d71e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adobe.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k",
+                    "short_id": "4048A3da"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲AM | 🔴 | vless | 3YED | 15",
+            "type": "vless",
+            "server": "213.108.23.243",
+            "server_port": 26926,
+            "uuid": "93116f8b-f5b7-4811-9ee0-baafdde330c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V1Sm4pc5EuEHSwsfXDDLYPuiu3JZUESNifEkvm5ARn8",
+                    "short_id": "435d625ae815"
                 }
             }
         },
