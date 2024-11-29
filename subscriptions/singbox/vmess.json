@@ -116,10 +116,9 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 2",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -147,10 +146,9 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 14",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 2",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -387,7 +385,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -455,11 +453,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 13",
             "type": "vmess",
-            "server": "46.8.71.20",
-            "server_port": 50523,
-            "uuid": "a3790a73-2b0f-4493-9564-be6695a5c306",
+            "server": "us-new03.daluquan.top",
+            "server_port": 8880,
+            "uuid": "4b9a43f2-b26d-4b56-afe5-2b6678add939",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -469,23 +467,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "46.8.71.20",
-            "server_port": 51984,
-            "uuid": "1e4366c5-3138-4d1d-adb4-cb56817cfd1a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/itdog?ed=2560",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
