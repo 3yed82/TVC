@@ -118,6 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 6",
                 "❔XX | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -137,8 +138,6 @@
                 "🚩CF | 🟢 | vmess | 3YED | 11",
                 "🚩CF | 🟢 | vmess | 3YED | 12",
                 "🚩CF | 🟢 | vmess | 3YED | 13",
-                "🚩CF | 🟢 | vmess | 3YED | 14",
-                "🚩CF | 🟢 | vmess | 3YED | 15",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ]
@@ -160,6 +159,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 6",
                 "❔XX | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -179,8 +179,6 @@
                 "🚩CF | 🟢 | vmess | 3YED | 11",
                 "🚩CF | 🟢 | vmess | 3YED | 12",
                 "🚩CF | 🟢 | vmess | 3YED | 13",
-                "🚩CF | 🟢 | vmess | 3YED | 14",
-                "🚩CF | 🟢 | vmess | 3YED | 15",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10"
             ],
@@ -473,6 +471,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cs.putihb.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "www.parsvds.com",
+            "server_port": 2087,
+            "uuid": "ad0a8c49-0785-46d9-bb14-2c3ab03a5dbb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "OfFEr.miRAcLestorY.ToP.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "OfFEr.miRAcLestorY.ToP."
                 }
             }
         },
@@ -959,54 +991,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "104.18.114.216"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "104.26.0.83",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.0.83"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 15",
-            "type": "vmess",
-            "server": "104.21.238.87",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.21.238.87"
                 }
             }
         },
