@@ -117,8 +117,10 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 14",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -149,8 +151,10 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 14",
+                "🇷🇺RU | 🟢 | vmess | 3YED | 4",
+                "🚩CF | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -406,7 +410,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "denc36.xtooltech.cfd",
             "server_port": 443,
@@ -470,6 +474,54 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cs.putihb.org"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "195.58.48.220",
+            "server_port": 6191,
+            "uuid": "28f6d888-cbc5-4210-8cd2-b40cf566d9a8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
+            "type": "vmess",
+            "server": "104.16.155.10",
+            "server_port": 2082,
+            "uuid": "1c713b69-0abe-3a1e-bf70-b0579ea2f772",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dabai.in172.64.25.37",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
