@@ -15,11 +15,12 @@ DIRECT = direct
 🇮🇪IE | 🟢 | trojan | 3YED | 13 = trojan, 54.229.97.252, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | 🟢 | trojan | 3YED | 12 = trojan, 3.98.149.151, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇮🇪IE | 🟢 | trojan | 3YED | 13 = trojan, 54.78.33.85, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇺🇸US | 🔴 | trojan | 3YED | 16 = trojan, 141.101.114.52, 443, password = bpb-trojan, udp-delay = true, skip-cert-verify = false, sni = fcspring.ggff.net, ws = false
 🇺🇸US | 🔴 | trojan | 3YED | 0 = trojan, 104.17.102.149, 2053, password = bpb-trojan, udp-delay = true, skip-cert-verify = false, sni = bpb-WorkEr-panel-bcr.PagEs.DEv, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 0
-URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 0
-FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 0
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 16,🇺🇸US | 🔴 | trojan | 3YED | 0
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 16,🇺🇸US | 🔴 | trojan | 3YED | 0
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇨🇦CA | 🟢 | trojan | 3YED | 12,🇮🇪IE | 🟢 | trojan | 3YED | 13,🇺🇸US | 🔴 | trojan | 3YED | 16,🇺🇸US | 🔴 | trojan | 3YED | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
