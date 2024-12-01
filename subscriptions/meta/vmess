@@ -141,7 +141,6 @@ proxies:
   - {"name":"🇯🇵JP | 🟢 | vmess | 3YED | 2","type":"vmess","server":"35.76.124.196","port":"46486","cipher":"auto","uuid":"ac7ff9e6-8770-3f96-a818-9fc37daa6c4a","alterId":"1","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵JP | 🟢 | vmess | 3YED | 3","type":"vmess","server":"35.74.61.85","port":"21586","cipher":"auto","uuid":"e9537990-d286-3eaf-8596-d74249d3f347","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇯🇵JP | 🟢 | vmess | 3YED | 4","type":"vmess","server":"43.207.224.79","port":"28783","cipher":"auto","uuid":"46d2d389-2469-30ad-9e7a-21f1daa63935","alterId":"1","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩CF | 🟢 | vmess | 3YED | 5","type":"vmess","server":"162.159.45.195","port":"2086","cipher":"auto","uuid":"bc65fac2-7dc7-426f-acdd-0779a5035bde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"p1.613055.xyz"}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | 3YED | 8","type":"vmess","server":"94.130.190.88","port":"7610","cipher":"auto","uuid":"5480b44f-5823-4246-bb8e-8a371da6dc4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -170,7 +169,6 @@ proxy-groups:
       - '🇯🇵JP | 🟢 | vmess | 3YED | 2'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 3'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 4'
-      - '🚩CF | 🟢 | vmess | 3YED | 5'
       - '🇩🇪DE | 🟢 | vmess | 3YED | 8'
   - name: URL-TEST
     type: url-test
@@ -199,7 +197,6 @@ proxy-groups:
       - '🇯🇵JP | 🟢 | vmess | 3YED | 2'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 3'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 4'
-      - '🚩CF | 🟢 | vmess | 3YED | 5'
       - '🇩🇪DE | 🟢 | vmess | 3YED | 8'
   - name: FALLBACK
     type: fallback
@@ -227,7 +224,6 @@ proxy-groups:
       - '🇯🇵JP | 🟢 | vmess | 3YED | 2'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 3'
       - '🇯🇵JP | 🟢 | vmess | 3YED | 4'
-      - '🚩CF | 🟢 | vmess | 3YED | 5'
       - '🇩🇪DE | 🟢 | vmess | 3YED | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
