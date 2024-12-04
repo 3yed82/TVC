@@ -148,9 +148,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 302",
+                "🇺🇸US | 🟢 | vless | 3YED | 302",
                 "🇺🇸US | 🔴 | vless | 3YED | 303",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇯🇵JP | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -215,9 +216,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 302",
+                "🇺🇸US | 🟢 | vless | 3YED | 302",
                 "🇺🇸US | 🔴 | vless | 3YED | 303",
-                "🇺🇸US | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇯🇵JP | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -1327,17 +1329,27 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 302",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 302",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "9e8aad0e-5ba2-4005-b5fb-03521dc00345",
+            "server_port": 443,
+            "uuid": "45b0c639-b364-4d00-a49f-ccdfac51fe5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
@@ -1352,7 +1364,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
-            "uuid": "9e8aad0e-5ba2-4005-b5fb-03521dc00345",
+            "uuid": "45b0c639-b364-4d00-a49f-ccdfac51fe5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1369,11 +1381,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "Zula.ir",
-            "server_port": 80,
-            "uuid": "v2rayvpn______official",
+            "server": "Zmaoz.Faculty.UcdavIS.Edu",
+            "server_port": 443,
+            "uuid": "49d65fc2-8413-4d97-9303-ad34f0bdeef4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1381,11 +1393,50 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2053",
+                "path": "\/@melov2ray\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
-                    "Host": "Zula.ir"
+                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "147.78.246.135",
+            "server_port": 40337,
+            "uuid": "a313e3c2-3ad3-42c7-a1c3-d446e2db9d94",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Si6MJWCjLRhoiws8yJngQlyxm8unL1GpQz7nq5nokBw",
+                    "short_id": "292576df"
                 }
             }
         },
