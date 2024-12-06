@@ -118,8 +118,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
-                "🇳🇱NL | 🟢 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 9",
+                "🇺🇸US | 🟢 | vless | 3YED | 1",
+                "🇳🇱NL | 🟢 | vless | 3YED | 2",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -154,8 +155,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
-                "🇳🇱NL | 🟢 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 9",
+                "🇺🇸US | 🟢 | vless | 3YED | 1",
+                "🇳🇱NL | 🟢 | vless | 3YED | 2",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -504,6 +506,35 @@
         {
             "tag": "🇺🇸US | 🟢 | vless | 3YED | 0",
             "type": "vless",
+            "server": "172.233.174.18",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 1",
+            "type": "vless",
             "server": "129.146.190.225",
             "server_port": 18443,
             "uuid": "fd921cf3-c900-42be-97c5-347a50abf76e",
@@ -531,7 +562,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 1",
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "51.158.243.62",
             "server_port": 443,
@@ -560,7 +591,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 9",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 10",
             "type": "vless",
             "server": "107.172.57.21",
             "server_port": 443,
