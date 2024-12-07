@@ -156,14 +156,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 252",
                 "🇺🇸US | 🔴 | vless | 3YED | 253",
-                "🇺🇸US | 🔴 | trojan | 3YED | 11",
-                "🇺🇸US | 🔴 | trojan | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "❔XX | 🔴 | vless | 3YED | 17",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 9",
                 "❔XX | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
@@ -174,8 +174,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇨🇦CA | 🔴 | trojan | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇦🇪AE | 🟢 | ss | 3YED | 17",
+                "🇨🇦CA | 🔴 | trojan | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 2",
@@ -236,14 +236,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 252",
                 "🇺🇸US | 🔴 | vless | 3YED | 253",
-                "🇺🇸US | 🔴 | trojan | 3YED | 11",
-                "🇺🇸US | 🔴 | trojan | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "❔XX | 🔴 | vless | 3YED | 17",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 9",
                 "❔XX | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
@@ -254,8 +254,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇨🇦CA | 🔴 | trojan | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇦🇪AE | 🟢 | ss | 3YED | 17",
+                "🇨🇦CA | 🔴 | trojan | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 2",
@@ -1500,11 +1500,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | 3YED | 11",
-            "type": "trojan",
-            "server": "104.20.171.200",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "live.989bull.com",
             "server_port": 443,
-            "password": "MxJf4oM9fRzrnL9hKpHAUw",
+            "uuid": "SAVTEAM7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1512,29 +1514,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fcgerman.nimaempire.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | trojan | 3YED | 12",
-            "type": "trojan",
-            "server": "104.19.211.18",
-            "server_port": 443,
-            "password": "MxJf4oM9fRzrnL9hKpHAUw",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fcgerman.nimaempire.cfd",
+                "server_name": "live.989bull.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1544,9 +1524,30 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/tws",
+                "path": "\/@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443",
                 "headers": {
-                    "Host": "fcgerman.nimaempire.cfd"
+                    "Host": "live.989bull.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 17",
+            "type": "vless",
+            "server": "‌ArV2ry.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80",
+                "headers": {
+                    "Host": "‌ArV2ry.fastly80-3.hosting-ip.com"
                 }
             }
         },
@@ -1657,7 +1658,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 9",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1674,7 +1675,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 10",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 11",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1927,7 +1928,17 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | trojan | 3YED | 17",
+            "tag": "🇦🇪AE | 🟢 | ss | 3YED | 17",
+            "type": "shadowsocks",
+            "server": "api.namasha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | trojan | 3YED | 18",
             "type": "trojan",
             "server": "135.84.79.80",
             "server_port": 443,
@@ -1952,27 +1963,6 @@ https://github.com/3yed-61
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "trojan.putata.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "VPNCSTOMIZE.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "9dacaffa-e12d-4b0b-8bd7-ff333ce10f4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed",
-                "headers": {
-                    "Host": "VPNCSTOMIZE.fastly80-3.hosting-ip.com"
                 }
             }
         },
