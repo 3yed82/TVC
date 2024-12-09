@@ -400,16 +400,13 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 298",
                 "🇺🇸US | 🟢 | vless | 3YED | 299",
                 "🇺🇸US | 🔴 | vless | 3YED | 300",
-                "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇳🇱NL | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇳🇱NL | 🟢 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 3",
                 "🚩CF | 🔴 | vless | 3YED | 5",
@@ -774,16 +771,13 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 298",
                 "🇺🇸US | 🟢 | vless | 3YED | 299",
                 "🇺🇸US | 🔴 | vless | 3YED | 300",
-                "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇳🇱NL | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇳🇱NL | 🟢 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 3",
                 "🚩CF | 🔴 | vless | 3YED | 5",
@@ -8067,46 +8061,47 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 1",
             "type": "vless",
-            "server": "clearcreditrepair.com",
-            "server_port": 443,
-            "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
-            "flow": "",
+            "server": "109.207.172.223",
+            "server_port": 8443,
+            "uuid": "bb841267-9b32-4c2f-90bd-2929541bc314",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/melo\/ws?e",
-                "headers": {
-                    "Host": "clearcreditrepair.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0UslOEYP-RXX7kOiWtEs7oMEHvJZrqILf2Fl-nCoPE4",
+                    "short_id": "12d1c921"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "JoinBadeChannel@antimeli",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 2",
             "type": "vless",
-            "server": "clientproo.xyz",
-            "server_port": 8080,
-            "uuid": "2fb4ff3e-664c-48d1-81c5-e64b1b5905f6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "de04.abvpn.ru",
             "server_port": 443,
-            "uuid": "357027be-f167-41c3-a878-aa64f6284761",
+            "uuid": "b6cdcef0-b61b-424d-81f8-41e40e762dde",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8116,7 +8111,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "12863995741163367406554084809141.v2line.net",
+                "server_name": "de04.abvpn.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8126,132 +8121,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/v2line-paris-france-vl-ws-tls-advanced",
+                "path": "\/websocket#\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
                 "headers": {
-                    "Host": "12863995741163367406554084809141.v2line.net"
+                    "Host": "de04.abvpn.ru"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "e3d88bae-d1ef-420a-b23a-e53a4d819dcc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "16833408090632354836285938102432.v2line.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2line-istanbul-turkey-vl-ws-tls-advanced",
-                "headers": {
-                    "Host": "16833408090632354836285938102432.v2line.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "f7993502-37fe-4a14-8836-66ded7b88bfd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "40172455355379893279666481965425.v2line.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2line-dubai-unitedarabemirates-vl-ws-tls-advanced",
-                "headers": {
-                    "Host": "40172455355379893279666481965425.v2line.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 2052,
-            "uuid": "V2RAXX--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
-            "type": "vless",
-            "server": "fastlyipcloudflaretamiz.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "V2RAXX--",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram,V2RAXX,Telegram,V2RAXX?ed=443",
-                "headers": {
-                    "Host": "fastlyipcloudflaretamiz.fast.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "A16.fastly80-2.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-NUFiLTER-myid",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
-                "headers": {
-                    "Host": "A16.fastly80-2.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "de04.abvpn.ru",
             "server_port": 443,
@@ -8282,11 +8159,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 10",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
-            "server": "de04.abvpn.ru",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "b6cdcef0-b61b-424d-81f8-41e40e762dde",
+            "uuid": "357027be-f167-41c3-a878-aa64f6284761",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8296,7 +8173,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de04.abvpn.ru",
+                "server_name": "12863995741163367406554084809141.v2line.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -8306,9 +8183,92 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/websocket#\/TELEGRAM-MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "path": "\/v2line-paris-france-vl-ws-tls-advanced",
                 "headers": {
-                    "Host": "de04.abvpn.ru"
+                    "Host": "12863995741163367406554084809141.v2line.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e3d88bae-d1ef-420a-b23a-e53a4d819dcc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "16833408090632354836285938102432.v2line.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2line-istanbul-turkey-vl-ws-tls-advanced",
+                "headers": {
+                    "Host": "16833408090632354836285938102432.v2line.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "f7993502-37fe-4a14-8836-66ded7b88bfd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "40172455355379893279666481965425.v2line.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2line-dubai-unitedarabemirates-vl-ws-tls-advanced",
+                "headers": {
+                    "Host": "40172455355379893279666481965425.v2line.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
+            "type": "vless",
+            "server": "clearcreditrepair.com",
+            "server_port": 443,
+            "uuid": "aa6f3d6e-f835-46ab-e35e-71828493ec4f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/ws?e",
+                "headers": {
+                    "Host": "clearcreditrepair.com"
                 }
             }
         },
