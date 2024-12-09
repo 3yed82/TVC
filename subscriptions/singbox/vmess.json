@@ -120,8 +120,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 23",
                 "🇲🇽MX | 🟢 | vmess | 3YED | 0",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 4",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 1",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -132,8 +132,7 @@
                 "🇷🇺RU | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "🚩CF | 🟢 | vmess | 3YED | 5"
             ]
         },
         {
@@ -155,8 +154,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 23",
                 "🇲🇽MX | 🟢 | vmess | 3YED | 0",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 4",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 1",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -167,8 +166,7 @@
                 "🇷🇺RU | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "🚩CF | 🟢 | vmess | 3YED | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -484,11 +482,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 4",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
-            "server": "s4.hostsazan.top",
-            "server_port": 21244,
-            "uuid": "5fbcbf39-cd53-4012-9d57-dfdd94b0ae98",
+            "server": "socks5tobefree.ydns.eu",
+            "server_port": 33026,
+            "uuid": "96627876-63f5-4ca7-9b41-a52fee0ca476",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -498,14 +496,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "socks5tobefree.ydns.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dangerzone",
+                "headers": {
+                    "Host": "socks5tobefree.ydns.eu"
+                }
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 1",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "89.42.137.103",
-            "server_port": 80,
-            "uuid": "30ab6920-b3fa-4f81-b4fd-1cc912353d54",
+            "server": "hms24.ivideos.sbs",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -515,6 +530,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ivideos.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "ivideos.sbs"
+                }
             }
         },
         {
@@ -795,23 +827,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "bbaacca-abac-bcaa-abdc-caabcbbabcac",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
