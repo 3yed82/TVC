@@ -147,11 +147,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 233",
                 "🇺🇸US | 🟢 | vless | 3YED | 234",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 5",
+                "🇸🇪SE | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -212,11 +213,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 233",
                 "🇺🇸US | 🟢 | vless | 3YED | 234",
-                "🇺🇸US | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇸🇪SE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇩🇪DE | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 5",
+                "🇸🇪SE | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
@@ -1274,11 +1276,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "151.101.2.228",
-            "server_port": 80,
-            "uuid": "ab51af2e-2819-480e-afaf-b682c82dc63f",
+            "server": "atrapalotickets.com",
+            "server_port": 443,
+            "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1286,12 +1288,36 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "atrapalotickets.com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/melo\/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpnd=2048",
                 "headers": {
-                    "Host": "151.101.2.228"
+                    "Host": "atrapalotickets.com."
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-127",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1340,12 +1366,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 4",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 3",
             "type": "vless",
-            "server": "san.dornagamesco.ir",
-            "server_port": 1623,
-            "uuid": "c7f1126c-0aec-4ded-aca4-1099ebe367fb",
-            "flow": "xtls-rprx-vision",
+            "server": "tun.ferdowsi.shop",
+            "server_port": 2087,
+            "uuid": "ca156343-91ca-4398-a0e8-23e6480a8718",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1354,47 +1380,34 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "g4.ferdowsi.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 5",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
-            "server": "san.dornagamesco.ir",
-            "server_port": 1621,
-            "uuid": "c7f1126c-0aec-4ded-aca4-1099ebe367fb",
-            "flow": "xtls-rprx-vision",
+            "server": "WeB.blUwAVe.iR",
+            "server_port": 2095,
+            "uuid": "f050cff5-f3a5-4d88-b653-e70fac34dd24",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
-                    "short_id": "3a622700e73c6642"
-                }
             }
         },
         {
