@@ -147,8 +147,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 234",
                 "🇺🇸US | 🔴 | vless | 3YED | 235",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
@@ -213,8 +212,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 234",
                 "🇺🇸US | 🔴 | vless | 3YED | 235",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
@@ -1229,25 +1227,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2086,
-            "uuid": "6183515f-5051-49f9-edd9-b8f1050340af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "12d1f136-0997-4f80-9ff2-2223d0da1bf0",
+            "server": "mio.splashthat.com",
+            "server_port": 443,
+            "uuid": "14c013ed-5577-4618-bd0d-53133a898348",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,11 +1239,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443",
+                "path": "\/@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420------@EXPRESSVPN_420",
                 "headers": {
-                    "Host": "151.101.3.8"
+                    "Host": "live.skornorth.com"
                 }
             }
         },
