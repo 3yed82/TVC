@@ -425,9 +425,11 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 233",
                 "🇺🇸US | 🔴 | vless | 3YED | 234",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🚩CF | 🟢 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🟢 | vless | 3YED | 8",
+                "🚩CF | 🔴 | vless | 3YED | 14",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -822,9 +824,11 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 233",
                 "🇺🇸US | 🔴 | vless | 3YED | 234",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🚩CF | 🟢 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🚩CF | 🟢 | vless | 3YED | 8",
+                "🚩CF | 🔴 | vless | 3YED | 14",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 3",
@@ -8881,37 +8885,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
-            "server": "presidential-salmon-vz-a587c1b2.koyeb.app",
-            "server_port": 443,
-            "uuid": "04fbc9cb-f068-4904-8881-8f1a336770e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "presidential-salmon-vz-a587c1b2.koyeb.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vl",
-                "headers": {
-                    "Host": "presidential-salmon-vz-a587c1b2.koyeb.app"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
-            "type": "vless",
             "server": "b-corsairs.com",
             "server_port": 443,
             "uuid": "c7953896-7bb2-4ce2-c7ca-117b2678b47f",
@@ -8941,7 +8914,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
+            "tag": "🚩CF | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "104.21.20.148",
+            "server_port": 443,
+            "uuid": "4285f327-20c6-483c-ab28-5ed6d28837bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xe50-de40cdn1.unlimiteddev.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "xe50-de40cdn1.unlimiteddev.co"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -8972,7 +8976,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -8999,6 +9003,68 @@
                 "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
                 "headers": {
                     "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vless | 3YED | 8",
+            "type": "vless",
+            "server": "104.21.64.1",
+            "server_port": 443,
+            "uuid": "4285f327-20c6-483c-ab28-5ed6d28837bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xe50-de40cdn1.unlimiteddev.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "xe50-de40cdn1.unlimiteddev.co"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "172.67.68.240",
+            "server_port": 443,
+            "uuid": "f2004126-5865-4980-b6dd-2211dbaadf10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rayan.sahel.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "rayan.sahel.us.kg"
                 }
             }
         },
