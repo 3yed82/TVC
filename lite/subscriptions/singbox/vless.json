@@ -113,6 +113,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🟢 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -153,6 +154,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -179,6 +181,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🟢 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -219,6 +222,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -433,6 +437,27 @@ https://github.com/3yed-61
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "3a3b9d72-140a-4053-8744-887ecd7688b2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE,telegram-@VPNCUSTOMIZE?ed=2560",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1430,9 +1455,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2082,
-            "uuid": "SVNTEAM",
+            "server": "live.skornorth.com",
+            "server_port": 443,
+            "uuid": "20ee9d1e-3dac-4027-97ab-bc8548f4ca2e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1440,12 +1465,36 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "live.skornorth.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam?ed=2560",
+                "path": "\/@custom_config",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "live.skornorth.com"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "84.47.233.102",
+            "server_port": 20014,
+            "uuid": "0e626bc4-44a4-4e24-baa9-604f5387db80",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
