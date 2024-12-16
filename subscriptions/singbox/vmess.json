@@ -119,6 +119,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 96",
                 "🇲🇽MX | 🟢 | vmess | 3YED | 104",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 116",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -154,6 +155,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 96",
                 "🇲🇽MX | 🟢 | vmess | 3YED | 104",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 116",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -493,6 +495,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": "frankfurt03.zgjok.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "de01.tiktokcloud.us.kg",
+            "server_port": 443,
+            "uuid": "a76c1300-65a2-4e3d-a6cd-89cb902419e5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de01.tiktokcloud.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/de01",
+                "headers": {
+                    "Host": "de01.tiktokcloud.us.kg"
                 }
             }
         },
