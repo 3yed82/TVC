@@ -128,7 +128,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇨🇦CA | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
@@ -161,8 +161,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 8",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -203,7 +203,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇨🇦CA | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
@@ -236,8 +236,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 8",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
@@ -856,7 +856,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 3",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "www.gov.se",
             "server_port": 8443,
@@ -1636,6 +1636,27 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "www.esquire.com",
+            "server_port": 80,
+            "uuid": "813e1424-c68d-4e96-ac5f-e7b6dfe79605",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.esquire.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "151.101.2.187",
@@ -1653,27 +1674,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "151.101.2.187"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "151.101.129.46",
-            "server_port": 80,
-            "uuid": "813e1424-c68d-4e96-ac5f-e7b6dfe79605",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "151.101.129.46"
                 }
             }
         },
