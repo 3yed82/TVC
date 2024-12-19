@@ -108,8 +108,8 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇺🇸US | 🔴 | vless | 3YED | 28",
                 "🇸🇪SE | 🔴 | vless | 3YED | 29",
-                "🇨🇦CA | 🔴 | vless | 3YED | 13",
-                "🇨🇦CA | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
@@ -156,8 +156,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🟢 | vless | 3YED | 13",
@@ -176,8 +176,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇺🇸US | 🔴 | vless | 3YED | 28",
                 "🇸🇪SE | 🔴 | vless | 3YED | 29",
-                "🇨🇦CA | 🔴 | vless | 3YED | 13",
-                "🇨🇦CA | 🔴 | vless | 3YED | 14",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 19",
@@ -224,8 +224,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🟢 | vless | 3YED | 13",
@@ -303,7 +303,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 13",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
@@ -317,7 +317,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 14",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2083,
@@ -1473,7 +1473,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "151.101.66.219",
             "server_port": 80,
@@ -1494,7 +1494,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1517,9 +1517,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "74d7e3c1-a842-4cb5-b04b-c4f28957039d",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "tel--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1527,20 +1527,30 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "bbcc6a4f-de43-4599-b48f-42a8cf994324",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Biaing--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1548,11 +1558,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
