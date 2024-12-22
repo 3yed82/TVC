@@ -109,7 +109,6 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇷🇺RU | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 137",
@@ -124,6 +123,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇫🇷FR | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -153,7 +153,6 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
-                "🇷🇺RU | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 137",
@@ -168,6 +167,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇫🇷FR | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -328,35 +328,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "45.67.32.147",
-            "server_port": 37665,
-            "uuid": "5d2e9d3b-adfd-4056-935b-e9c86acfaec1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "psv4.vkuseraudio.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fcjBIZcvVsr1Gy-iZbIko-0Ey5icPtmXIxY3sd4UEFw",
-                    "short_id": "9168"
                 }
             }
         },
@@ -739,6 +710,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "45.67.32.147",
+            "server_port": 37665,
+            "uuid": "5d2e9d3b-adfd-4056-935b-e9c86acfaec1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "psv4.vkuseraudio.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fcjBIZcvVsr1Gy-iZbIko-0Ey5icPtmXIxY3sd4UEFw",
+                    "short_id": "9168"
+                }
             }
         },
         {
