@@ -127,7 +127,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -142,8 +142,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 9"
+                "🇺🇸US | 🟢 | vmess | 3YED | 8"
             ]
         },
         {
@@ -172,7 +171,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
                 "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🚩CF | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -187,8 +186,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 9"
+                "🇺🇸US | 🟢 | vmess | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -691,11 +689,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
-            "server": "falkn.jewelll.ir",
-            "server_port": 2211,
-            "uuid": "b1c7350b-c449-4ebb-9271-1e11146e66e7",
+            "server": "172.67.164.232",
+            "server_port": 443,
+            "uuid": "33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -705,6 +703,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "33.bycf.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rongseven",
+                "headers": {
+                    "Host": "33.bycf.us.kg"
+                }
             }
         },
         {
@@ -1039,30 +1054,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "194.87.68.115",
-            "server_port": 16712,
-            "uuid": "9511bda3-0098-4159-9eb6-fa848b1525cf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "194.87.68.115"
-                }
             }
         }
     ],
