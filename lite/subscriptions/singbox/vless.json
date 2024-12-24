@@ -142,13 +142,14 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇮🇹IT | 🔴 | vless | 3YED | 13",
+                "🇮🇹IT | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 351",
                 "🇺🇸US | 🔴 | vless | 3YED | 352",
-                "🇮🇹IT | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
@@ -207,13 +208,14 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇮🇹IT | 🔴 | vless | 3YED | 13",
+                "🇮🇹IT | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 351",
                 "🇺🇸US | 🔴 | vless | 3YED | 352",
-                "🇮🇹IT | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
@@ -1129,7 +1131,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | 3YED | 13",
+            "tag": "🇮🇹IT | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "138.124.93.231",
             "server_port": 34722,
@@ -1278,11 +1280,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇹IT | 🔴 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "95.164.46.39",
-            "server_port": 2052,
-            "uuid": "72936223-46ff-5e16-be53-77f9261d938a",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "d0ea1a3c-4c5c-4bbb-ba9c-0b16129d9285",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1290,12 +1292,53 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "468ad56a-e5a7-402f-84e2-2bbf4e5d9c99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
+                }
             }
         },
         {
@@ -1408,7 +1451,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "151.101.1.6",
             "server_port": 80,
-            "uuid": "3e6ec0b6-dee3-4669-b0dc-731a652a4a4a",
+            "uuid": "bd28fe16-05b2-4393-94d5-a3aba5d24f16",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1427,9 +1470,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 11",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "Join--ZEDMODEON",
+            "server": "151.101.1.6",
+            "server_port": 80,
+            "uuid": "3e6ec0b6-dee3-4669-b0dc-731a652a4a4a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1437,21 +1480,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "path": "\/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "151.101.1.6"
                 }
             }
         },
