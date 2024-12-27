@@ -132,7 +132,8 @@
                 "🇦🇪AE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇹🇼TW | 🔴 | vless | 3YED | 11",
-                "🇩🇪DE | 🟢 | vless | 3YED | 12",
+                "🇫🇷FR | 🟢 | vless | 3YED | 5",
+                "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -185,7 +186,8 @@
                 "🇦🇪AE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇹🇼TW | 🔴 | vless | 3YED | 11",
-                "🇩🇪DE | 🟢 | vless | 3YED | 12",
+                "🇫🇷FR | 🟢 | vless | 3YED | 5",
+                "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -985,11 +987,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 12",
+            "tag": "🇫🇷FR | 🟢 | vless | 3YED | 5",
             "type": "vless",
-            "server": "JOIN-SVNTEAM.RU",
+            "server": "87.98.149.193",
             "server_port": 443,
-            "uuid": "SVNTEAM",
+            "uuid": "15b051a1-e139-41d9-9743-550a72ecf190",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1008,8 +1010,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-8Kc96Mx8qkwEaYTF9Jx6x5uLpuizNFuXaeZQPD4FQY",
-                    "short_id": "101b2a567b1309"
+                    "public_key": "-e-Py1tk4hBqFmmL-p_1l7imBS6eGWx1lVqbHWwA2yo",
+                    "short_id": "6d49a78191f4d90f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "dir.royal-film-3.co.uk",
+            "server_port": 443,
+            "uuid": "5346aa00-8750-4c50-b3bb-91f19c7d6dc9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hostgator.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GLpKeNAUHdgMalqLtE4yPERggo4tC9OxTUfWuxv8IBk",
+                    "short_id": "7eb399485bae4ba1"
                 }
             }
         },
