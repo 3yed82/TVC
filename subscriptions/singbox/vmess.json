@@ -119,9 +119,10 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 1",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 9",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 12",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 10",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -154,9 +155,10 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 1",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 9",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 12",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 10",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -453,7 +455,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
             "server": "151.101.2.216",
             "server_port": 80,
@@ -477,7 +479,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 9",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "185.29.223.164",
             "server_port": 32718,
@@ -494,11 +496,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 12",
+            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
-            "server": "frankfurt03.zgjok.com",
-            "server_port": 443,
-            "uuid": "4f7c2243-a38a-4672-983b-f1378aee0a7f",
+            "server": "103.149.183.178",
+            "server_port": 54675,
+            "uuid": "3a907956-f668-4e6b-ea03-0949f0c9c0a5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
+            "type": "vmess",
+            "server": "151.101.194.133",
+            "server_port": 80,
+            "uuid": "3ecf9ef9-d4e7-4eb4-a16d-c6e7b2a39af4",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -509,21 +528,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "frankfurt03.zgjok.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "frankfurt03.zgjok.com"
+                    "Host": ""
                 }
             }
         },
