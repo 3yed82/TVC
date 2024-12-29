@@ -134,7 +134,9 @@
                 "🇦🇪AE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 11",
                 "🇹🇼TW | 🔴 | vless | 3YED | 12",
-                "🇮🇱IL | 🟢 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 11",
+                "🇮🇱IL | 🟢 | vless | 3YED | 12",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -187,7 +189,9 @@
                 "🇦🇪AE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 11",
                 "🇹🇼TW | 🔴 | vless | 3YED | 12",
-                "🇮🇱IL | 🟢 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 11",
+                "🇮🇱IL | 🟢 | vless | 3YED | 12",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
@@ -1050,10 +1054,39 @@
             }
         },
         {
-            "tag": "🇮🇱IL | 🟢 | vless | 3YED | 2",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "persian--k2k.gamebaz98.ir",
+            "server_port": 7870,
+            "uuid": "telegram-gozargah-azadi",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jM1gcVk2UnB4y8PimJ7FA4Y8gxLxBoxD-vg9YWH4jnM",
+                    "short_id": "5cebd3fd"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱IL | 🟢 | vless | 3YED | 12",
             "type": "vless",
             "server": "138.124.25.81",
-            "server_port": 5757,
+            "server_port": 9191,
             "uuid": "33dc6301-e4bf-4612-94f5-7006fe062892",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -1073,7 +1106,36 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Km5SzQsIFMRVl4TlxVFAdhih7C6CnjMvUrtf38gTyQM",
+                    "public_key": "Xu729q6Ids2ONqwgvqA7oNbd_7wXfnWLJxCJj6ZDD3Y",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "129.146.77.26",
+            "server_port": 28824,
+            "uuid": "fd78dead-1b5b-4a2e-cc0e-55f1b762637a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": ""
                 }
             }
