@@ -129,9 +129,9 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 4",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 0",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 1",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 1",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3"
+                "🇷🇺RU | 🟢 | vmess | 3YED | 3"
             ]
         },
         {
@@ -162,9 +162,9 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 4",
                 "🇸🇬SG | 🟢 | vmess | 3YED | 0",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 1",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 1",
                 "🇷🇺RU | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3"
+                "🇷🇺RU | 🟢 | vmess | 3YED | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -683,6 +683,40 @@
         {
             "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "sg25.jnstore.biz.id",
+            "server_port": 443,
+            "uuid": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg25.jnstore.biz.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "sg25.jnstore.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
             "server": "8.219.209.8",
             "server_port": 443,
             "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
@@ -715,7 +749,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 1",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "46.29.161.228",
             "server_port": 5743,
@@ -739,7 +773,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 2",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "46.29.161.159",
             "server_port": 5743,
@@ -759,40 +793,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "46.29.161.159"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "primer.ibilibi.li",
-            "server_port": 443,
-            "uuid": "e5852393-ca52-4c90-a237-d63cbbb57f21",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "primer.ibilibi.li",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/farcry?ed=2560",
-                "headers": {
-                    "Host": "primer.ibilibi.li"
                 }
             }
         }
