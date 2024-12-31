@@ -16,11 +16,12 @@ DIRECT = direct
 🇺🇸US | 🟢 | vmess | 3YED | 12 = vmess, 151.101.2.216, 80, username = 545485da-9ff4-48c5-ae94-45e6e4ee7d26, ws = true, tls = , vmess-aead = true, ws-path = /racevpn, ws-headers = Host:"6606.com", skip-cert-verify = true, tfo = false
 🇨🇳CN | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | 3YED | 5 = vmess, www.speedtest.net, 8080, username = cc9be09e-c05e-4f54-831b-969ecb185692, ws = true, tls = , vmess-aead = true, ws-path = /njbvhfgxdgthj, ws-headers = Host:"gi7ip5kbae7a.libreone.com", skip-cert-verify = true, tfo = false
-🇯🇵JP | 🟢 | vmess | 3YED | 10 = vmess, 54.248.121.219, 443, username = 60c0bbfa-c54f-49a9-81ba-779b0206a9fd, ws = true, tls = 1, vmess-aead = true, ws-path = /ylks, ws-headers = Host:"nl.zhuk.us.kg", skip-cert-verify = true, tfo = false
+🇺🇸US | 🟢 | vmess | 3YED | 12 = vmess, 152.67.231.219, 443, username = 60c0bbfa-c54f-49a9-81ba-779b0206a9fd, ws = true, tls = 1, vmess-aead = true, ws-path = /ylks, ws-headers = Host:"nl.zhuk.us.kg", skip-cert-verify = true, tfo = false
+🇯🇵JP | 🟢 | vmess | 3YED | 13 = vmess, 54.248.121.219, 443, username = 60c0bbfa-c54f-49a9-81ba-779b0206a9fd, ws = true, tls = 1, vmess-aead = true, ws-path = /ylks, ws-headers = Host:"nl.zhuk.us.kg", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇯🇵JP | 🟢 | vmess | 3YED | 10
-URL-TEST = url-test,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇯🇵JP | 🟢 | vmess | 3YED | 10
-FALLBACK = fallback,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇯🇵JP | 🟢 | vmess | 3YED | 10
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇺🇸US | 🟢 | vmess | 3YED | 12,🇯🇵JP | 🟢 | vmess | 3YED | 13
+URL-TEST = url-test,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇺🇸US | 🟢 | vmess | 3YED | 12,🇯🇵JP | 🟢 | vmess | 3YED | 13
+FALLBACK = fallback,🇫🇷FR | 🟢 | vmess | 3YED | 45,🇺🇸US | 🟢 | vmess | 3YED | 0,🇺🇸US | 🟢 | vmess | 3YED | 12,🇨🇳CN | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 5,🇺🇸US | 🟢 | vmess | 3YED | 12,🇯🇵JP | 🟢 | vmess | 3YED | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
