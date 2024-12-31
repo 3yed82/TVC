@@ -148,7 +148,7 @@ https://github.com/3yed-61
                 "🇦🇪AE | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 344",
                 "🇺🇸US | 🔴 | vless | 3YED | 345",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇫🇷FR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -215,7 +215,7 @@ https://github.com/3yed-61
                 "🇦🇪AE | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 344",
                 "🇺🇸US | 🔴 | vless | 3YED | 345",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇫🇷FR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
@@ -1264,11 +1264,32 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "server": "151.101.120.121",
+            "server_port": 80,
+            "uuid": "b5162299-f153-4594-8367-15a108e2bb68",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "151.101.120.121"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "theatlantic.com",
             "server_port": 443,
-            "uuid": "e4638cbb-c39f-4ef0-d626-e2e104557ca2",
+            "uuid": "TELEGRAM-NUFiLTER",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1278,7 +1299,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1288,30 +1309,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=4096@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "bea3e2e7-5433-43b3-db13-6b481e8dab5a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu"
                 }
             }
         },
