@@ -159,14 +159,14 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 344",
                 "🇺🇸US | 🔴 | vless | 3YED | 345",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🇮🇷IR | 🔴 | vless | 3YED | 18",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
@@ -239,14 +239,14 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🟢 | vless | 3YED | 344",
                 "🇺🇸US | 🔴 | vless | 3YED | 345",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🇮🇷IR | 🔴 | vless | 3YED | 18",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "🇮🇳IN | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
@@ -1518,13 +1518,16 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "zmaoz.faculty.ucdavis.edu",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": "151.101.194.133",
             "server_port": 443,
-            "uuid": "d44053e7-adce-4c86-a67e-264db5662e01",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "fd79106e-0f6c-4ad7-af1b-40a079afdf67",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1532,7 +1535,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu.",
+                "server_name": "mio.splashthat.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1542,18 +1545,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu."
+                    "Host": "mio.splashthat.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "dc7b6c02-707f-4beb-99bd-7be9526aa502",
+            "server": "62.60.179.48",
+            "server_port": 2052,
+            "uuid": "674a1d4e-3850-40bd-8309-a9452db58495",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1563,9 +1566,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/olem\/ws?ed=1024@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "speedtest.net"
+                    "Host": "62.60.179.48"
                 }
             }
         },
@@ -1671,9 +1674,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "gs09.guoshi1520.com",
+            "server": "3.144.191.4",
             "server_port": 443,
-            "uuid": "681e76bc-c19e-4614-ca47-95ba2253a5a3",
+            "uuid": "60c0bbfa-c54f-49a9-81ba-779b0206a9fd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1686,7 +1689,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gs09.guoshi1520.com",
+                "server_name": "3.144.191.4",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1696,18 +1699,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/681e76bc",
+                "path": "\/ylks",
                 "headers": {
-                    "Host": "gs09.guoshi1520.com"
+                    "Host": "3.144.191.4"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "104.18.181.238",
-            "server_port": 2096,
-            "uuid": "27dbf6c4-5727-45a6-b54c-142995ff4ad7",
+            "server": "141.147.154.214",
+            "server_port": 443,
+            "uuid": "60c0bbfa-c54f-49a9-81ba-779b0206a9fd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1720,7 +1723,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.18.181.238",
+                "server_name": "141.147.154.214",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1730,9 +1733,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/465YRTS2AQTEW",
+                "path": "\/ylks",
                 "headers": {
-                    "Host": "104.18.181.238"
+                    "Host": "141.147.154.214"
                 }
             }
         },
