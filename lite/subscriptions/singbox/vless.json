@@ -145,9 +145,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🟢 | vless | 3YED | 159",
-                "🇺🇸US | 🟢 | vless | 3YED | 160",
-                "🇩🇪DE | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🟢 | vless | 3YED | 146",
+                "🇺🇸US | 🔴 | vless | 3YED | 147",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -208,9 +209,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 13",
-                "🇺🇸US | 🟢 | vless | 3YED | 159",
-                "🇺🇸US | 🟢 | vless | 3YED | 160",
-                "🇩🇪DE | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🟢 | vless | 3YED | 146",
+                "🇺🇸US | 🔴 | vless | 3YED | 147",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇩🇪DE | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -1150,7 +1152,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 159",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 146",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 443,
@@ -1181,10 +1183,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 160",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 147",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
+            "server_port": 80,
             "uuid": "abfccb05-adf7-4ff5-87d9-ac4472e9bf02",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1192,16 +1194,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
@@ -1212,21 +1204,67 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
             "type": "vless",
-            "server": "TLS.zeoaeriedo-saioesrio.ir",
-            "server_port": 2000,
-            "uuid": "4ae8804f-2329-4f42-b5bd-fec4992afe39",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "Bia--ZEDMODEON",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "62.60.216.210",
+            "server_port": 443,
+            "uuid": "4837df64-bec6-4505-aff7-71f281b27c8d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "russia.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LoNYZgZ6WvqA2qkrVwkz4RHWnjoFTzw4h59F0GeAqh0",
+                    "short_id": "05a6d4aa5e314637"
+                }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "service_name": "djshdgduuxdhgsgstXxCxshcV",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
