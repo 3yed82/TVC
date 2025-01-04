@@ -106,7 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vless | 3YED | 11",
+                "🇺🇸US | 🟢 | vless | 3YED | 11",
+                "🇫🇮FI | 🔴 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ]
@@ -115,7 +116,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vless | 3YED | 11",
+                "🇺🇸US | 🟢 | vless | 3YED | 11",
+                "🇫🇮FI | 🔴 | vless | 3YED | 14",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ],
@@ -140,7 +142,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3YED | 11",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 11",
             "type": "vless",
             "server": "cuvip.doubledou.icu",
             "server_port": 443,
@@ -165,6 +167,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "65.109.199.233",
+            "server_port": 4050,
+            "uuid": "1df5e589-3301-427e-b0aa-0017ffde1555",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oVRY8h7Njgw25j3CNhaJVMUys378tTvecrSRbrB3gyo",
+                    "short_id": "2ebd6e17dec6a5d9"
                 }
             }
         },
