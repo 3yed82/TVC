@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🟢 | vless | 3YED | 14",
+                "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ]
@@ -115,7 +115,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🟢 | vless | 3YED | 14",
+                "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ],
@@ -140,11 +140,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 14",
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 12",
             "type": "vless",
-            "server": "62.60.216.210",
-            "server_port": 443,
-            "uuid": "4837df64-bec6-4505-aff7-71f281b27c8d",
+            "server": "174.138.13.224",
+            "server_port": 15891,
+            "uuid": "ae2228d1-9b8f-4914-9e0a-68a115f8dbe1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -154,25 +154,18 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "russia.com",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LoNYZgZ6WvqA2qkrVwkz4RHWnjoFTzw4h59F0GeAqh0",
-                    "short_id": "05a6d4aa5e314637"
+                    "public_key": "4FNDHgDP2lnetuRioH6DsE9kMnDyhkJ2NHLMpZgyci0",
+                    "short_id": "10f1"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "djshdgduuxdhgsgstXxCxshcV",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
