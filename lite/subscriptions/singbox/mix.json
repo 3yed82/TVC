@@ -156,6 +156,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 186",
                 "🇺🇸US | 🟢 | vless | 3YED | 187",
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
@@ -233,6 +234,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 186",
                 "🇺🇸US | 🟢 | vless | 3YED | 187",
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
@@ -1419,6 +1421,27 @@ https://github.com/3yed-61
         },
         {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "TLS.zeoaeriedo-saioesrio.ir",
+            "server_port": 2000,
+            "uuid": "d28832c6-b491-4592-9133-c62806d487f3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 19",
             "type": "vless",
             "server": "188.245.231.16",
             "server_port": 443,
