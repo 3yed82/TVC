@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | 3YED | 193",
-                "🇺🇸US | 🟢 | vless | 3YED | 194",
+                "🇫🇷FR | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ]
@@ -116,8 +116,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | 3YED | 193",
-                "🇺🇸US | 🟢 | vless | 3YED | 194",
+                "🇫🇷FR | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21"
             ],
@@ -142,11 +142,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 193",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 15",
             "type": "vless",
-            "server": "18.222.166.29",
-            "server_port": 1212,
-            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+            "server": "213.176.66.228",
+            "server_port": 37021,
+            "uuid": "bae3e61a-234d-4ce2-90ea-981efdeaaf54",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -156,24 +156,24 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
-                    "short_id": "a4844ba7"
+                    "public_key": "Gk3eR3mV55k5P3tg-MzqMpNolmML8q9zBOf6A102e1Y",
+                    "short_id": "bc721eb6"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 194",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 10",
             "type": "vless",
-            "server": "18.209.55.184",
+            "server": "3.145.64.2",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
