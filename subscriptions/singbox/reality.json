@@ -159,14 +159,7 @@
                 "❔XX | 🟢 | vless | 3YED | 262",
                 "❔XX | 🟢 | vless | 3YED | 263",
                 "❔XX | 🔴 | vless | 3YED | 264",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🟢 | vless | 3YED | 5",
-                "❔XX | 🟢 | vless | 3YED | 7",
-                "❔XX | 🟢 | vless | 3YED | 8",
-                "❔XX | 🔴 | vless | 3YED | 10",
-                "❔XX | 🔴 | vless | 3YED | 11",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "❔XX | 🔴 | vless | 3YED | 13",
+                "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 2",
@@ -251,14 +244,7 @@
                 "❔XX | 🟢 | vless | 3YED | 262",
                 "❔XX | 🟢 | vless | 3YED | 263",
                 "❔XX | 🔴 | vless | 3YED | 264",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🟢 | vless | 3YED | 5",
-                "❔XX | 🟢 | vless | 3YED | 7",
-                "❔XX | 🟢 | vless | 3YED | 8",
-                "❔XX | 🔴 | vless | 3YED | 10",
-                "❔XX | 🔴 | vless | 3YED | 11",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "❔XX | 🔴 | vless | 3YED | 13",
+                "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 2",
@@ -1913,7 +1899,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 2",
+            "tag": "❔XX | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "188.245.220.62",
             "server_port": 5052,
@@ -1943,237 +1929,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "666vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | 3YED | 5",
-            "type": "vless",
-            "server": "fr.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | 3YED | 7",
-            "type": "vless",
-            "server": "nl-1.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "au.srv.flexiblenet.org",
-            "server_port": 8443,
-            "uuid": "219ee52a-0e91-4f36-93a5-3e28a4830a7a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bunny.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "os2QbCQyqdqE4vr-vVWTQMBiqxFXEDSLhMncRy5RIwg",
-                    "short_id": "f8d8d12585198cb5"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "ns9.esfahansiman.com",
-            "server_port": 1210,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ubuntu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 11",
-            "type": "vless",
-            "server": "ns8.esfahansiman.com",
-            "server_port": 1210,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ubuntu.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "ns7.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "ns6.esfahansiman.com",
-            "server_port": 2030,
-            "uuid": "76604d4f-e3d7-4377-a680-31d7ca2e85e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@@jet_config-@jet_config-@jet_config",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
