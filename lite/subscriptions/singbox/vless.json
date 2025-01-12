@@ -147,6 +147,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 313",
                 "🇺🇸US | 🟢 | vless | 3YED | 314",
+                "🇩🇪DE | 🔴 | vless | 3YED | 11",
+                "🇫🇮FI | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -210,6 +212,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 313",
                 "🇺🇸US | 🟢 | vless | 3YED | 314",
+                "🇩🇪DE | 🔴 | vless | 3YED | 11",
+                "🇫🇮FI | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -1281,6 +1285,63 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "clientproo.xyz",
+            "server_port": 47252,
+            "uuid": "Tel-AB_841",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "plm7PtLeSp27aIMuf1qPJaLxyYpSGZGG-EFUjw-giUM",
+                    "short_id": "a3f762"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-id:@BugFreeNet[@AB_841]",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "65.21.149.150",
+            "server_port": 443,
+            "uuid": "95089f63-c732-4594-bfcb-c8180bd09a1c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "65.21.149.150"
                 }
             }
         },
