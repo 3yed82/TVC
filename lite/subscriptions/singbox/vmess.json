@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -122,6 +123,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇩🇪DE | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -181,6 +183,30 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
+            "type": "vmess",
+            "server": "104.16.60.8",
+            "server_port": 2095,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "104.16.60.8"
+                }
             }
         },
         {
