@@ -151,9 +151,10 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 303",
-                "🇺🇸US | 🔴 | vless | 3YED | 304",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 313",
+                "🇺🇸US | 🟢 | vless | 3YED | 314",
+                "🇫🇷FR | 🟢 | trojan | 3YED | 17",
+                "🇨🇦CA | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
@@ -227,9 +228,10 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 303",
-                "🇺🇸US | 🔴 | vless | 3YED | 304",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 313",
+                "🇺🇸US | 🟢 | vless | 3YED | 314",
+                "🇫🇷FR | 🟢 | trojan | 3YED | 17",
+                "🇨🇦CA | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
@@ -1375,9 +1377,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 303",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 313",
             "type": "vless",
-            "server": "13.58.144.224",
+            "server": "3.144.110.49",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1404,9 +1406,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 304",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 314",
             "type": "vless",
-            "server": "107.20.18.124",
+            "server": "18.216.29.97",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1433,23 +1435,46 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "167.82.1.136",
-            "server_port": 80,
-            "uuid": "253ef561-9e57-4336-befd-878ddd30df01",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇫🇷FR | 🟢 | trojan | 3YED | 17",
+            "type": "trojan",
+            "server": "51.44.129.184",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "teleirani.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | trojan | 3YED | 18",
+            "type": "trojan",
+            "server": "3.97.132.69",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
