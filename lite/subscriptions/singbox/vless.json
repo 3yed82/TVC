@@ -140,14 +140,13 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇨🇦CA | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 335",
                 "🇩🇪DE | 🔴 | vless | 3YED | 336",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇩🇪DE | 🔴 | vless | 3YED | 14",
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
@@ -204,14 +203,13 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "🇨🇦CA | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 335",
                 "🇩🇪DE | 🔴 | vless | 3YED | 336",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇩🇪DE | 🔴 | vless | 3YED | 14",
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
@@ -1055,7 +1053,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 15",
             "type": "vless",
             "server": "104.17.214.22",
             "server_port": 443,
@@ -1226,42 +1224,36 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 1",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "bdb8ed01-3807-443e-a81b-512bfc73362e",
-            "flow": "",
+            "server": "deko.tinadresses.ir",
+            "server_port": 5048,
+            "uuid": "aacf3d29-d72d-5c9b-97e3-e549e8e286b0",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/?=9090",
-                "headers": {
-                    "Host": "151.101.3.8"
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qdfo8UQXXsXPViln7MbAIIvVgKrDnuRoFBGVTJDm134",
+                    "short_id": "31e7200536a1ad45"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "TLS.zeoaeriedo-saioesrio.ir",
-            "server_port": 2000,
-            "uuid": "8b43abce-8170-432c-9d85-cc93807aa098",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "\/@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray-------@TLS_v2ray",
+                "service_name": "666vless",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
