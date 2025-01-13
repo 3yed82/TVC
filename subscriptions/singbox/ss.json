@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | 3YED | 7",
+                "🇳🇱NL | 🟢 | ss | 3YED | 0",
+                "❔XX | 🟢 | ss | 3YED | 8",
                 "❔XX | 🟢 | ss | 3YED | 9",
                 "🇧🇭BH | 🟢 | ss | 3YED | 17"
             ]
@@ -114,7 +115,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | 3YED | 7",
+                "🇳🇱NL | 🟢 | ss | 3YED | 0",
+                "❔XX | 🟢 | ss | 3YED | 8",
                 "❔XX | 🟢 | ss | 3YED | 9",
                 "🇧🇭BH | 🟢 | ss | 3YED | 17"
             ],
@@ -139,7 +141,17 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | 3YED | 7",
+            "tag": "🇳🇱NL | 🟢 | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "45.158.171.66",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "❔XX | 🟢 | ss | 3YED | 8",
             "type": "shadowsocks",
             "server": "freakconfig72.usecharge.ir",
             "server_port": 443,
