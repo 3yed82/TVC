@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
+                "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -119,6 +120,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | 🔴 | vless | 3YED | 11",
+                "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇸🇪SE | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -179,6 +181,35 @@ https://github.com/3yed-61
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "80.240.112.94",
+            "server_port": 443,
+            "uuid": "c39d34d1-8723-42fd-a63d-1c857c76249a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mD8V76JrLVJQrQXtyNVgcqwptE9PzcF8nEJe3MyhTDY",
+                    "short_id": "f0db85b11110c6"
+                }
             }
         },
         {
