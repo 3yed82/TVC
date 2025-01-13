@@ -120,8 +120,6 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 12",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -136,9 +134,7 @@
                 "🇭🇰HK | 🟢 | vmess | 3YED | 3",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 6"
             ]
         },
         {
@@ -160,8 +156,6 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 12",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇫🇮FI | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -176,9 +170,7 @@
                 "🇭🇰HK | 🟢 | vmess | 3YED | 3",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -525,40 +517,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-            "type": "vmess",
-            "server": "103.149.183.178",
-            "server_port": 27512,
-            "uuid": "96d38683-0817-4d91-bffa-6f03df18d9dc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "safe.sanjesh.online",
-            "server_port": 8249,
-            "uuid": "d03d8fe4-9a8f-4b18-8c5b-355c1c2f40b9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -971,64 +929,6 @@
                 "path": "\/path\/1736675184805",
                 "headers": {
                     "Host": "199.180.101.23"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "108.186.26.168",
-            "server_port": 37004,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "108.186.26.168",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/1736675184805",
-                "headers": {
-                    "Host": "108.186.26.168"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "www.darkroom.lol",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.darkroom.lol"
                 }
             }
         }
