@@ -122,6 +122,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
@@ -200,6 +201,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
@@ -619,6 +621,37 @@ https://github.com/3yed-61
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "Zmaoz.Faculty.Ucdavis.Edu",
+            "server_port": 443,
+            "uuid": "Parsashonam-149",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Zmaoz.Faculty.Ucdavis.Edu.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Parsashonam\/ws?ed=2560",
+                "headers": {
+                    "Host": "Zmaoz.Faculty.Ucdavis.Edu."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 443,
@@ -1528,11 +1561,11 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "74.48.127.51",
-            "server_port": 31006,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "vip3.pmy666.xyz",
+            "server_port": 8080,
+            "uuid": "20666f30-0add-4da4-bba0-28f985426978",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1541,21 +1574,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "74.48.127.51",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1737281819057",
+                "path": "\/",
                 "headers": {
-                    "Host": "74.48.127.51"
+                    "Host": "vip3.pmy666.xyz"
                 }
             }
         },
