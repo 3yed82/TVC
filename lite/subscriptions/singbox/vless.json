@@ -131,7 +131,7 @@ https://github.com/3yed-61
                 "🇷🇺RU | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇫🇷FR | 🔴 | vless | 3YED | 31",
+                "🇫🇷FR | 🔴 | vless | 3YED | 42",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
@@ -150,8 +150,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 318",
                 "🇫🇷FR | 🔴 | vless | 3YED | 13",
                 "🇭🇰HK | 🔴 | vless | 3YED | 9",
-                "🇸🇪SE | 🟢 | vless | 3YED | 9",
-                "🇷🇴RO | 🟢 | vless | 3YED | 10",
+                "🇧🇪BE | 🟢 | vless | 3YED | 10",
+                "🇸🇪SE | 🟢 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇱🇻LV | 🔴 | vless | 3YED | 1",
@@ -199,7 +199,7 @@ https://github.com/3yed-61
                 "🇷🇺RU | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇫🇷FR | 🔴 | vless | 3YED | 31",
+                "🇫🇷FR | 🔴 | vless | 3YED | 42",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
@@ -218,8 +218,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vless | 3YED | 318",
                 "🇫🇷FR | 🔴 | vless | 3YED | 13",
                 "🇭🇰HK | 🔴 | vless | 3YED | 9",
-                "🇸🇪SE | 🟢 | vless | 3YED | 9",
-                "🇷🇴RO | 🟢 | vless | 3YED | 10",
+                "🇧🇪BE | 🟢 | vless | 3YED | 10",
+                "🇸🇪SE | 🟢 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇱🇻LV | 🔴 | vless | 3YED | 1",
@@ -859,7 +859,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 31",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 42",
             "type": "vless",
             "server": "v04.blkrose.ir",
             "server_port": 2053,
@@ -1374,7 +1374,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | 3YED | 9",
+            "tag": "🇧🇪BE | 🟢 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "79.127.224.12",
+            "server_port": 8443,
+            "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bru-be-01.fromblancwithlove.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vless | 3YED | 11",
             "type": "vless",
             "server": "195.181.166.87",
             "server_port": 8443,
@@ -1389,30 +1413,6 @@ https://github.com/3yed-61
             "tls": {
                 "enabled": true,
                 "server_name": "se1.fromblancwithlove.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇴RO | 🟢 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "buh-ro-01.fromblancwithlove.com",
-            "server_port": 8443,
-            "uuid": "157448af-8ecf-4075-a9e9-b23a6a94899b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "buh-ro-01.fromblancwithlove.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
