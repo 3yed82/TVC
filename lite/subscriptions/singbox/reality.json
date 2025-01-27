@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇦🇪AE | 🟢 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
                 "🇫🇷FR | 🔴 | vless | 3YED | 42",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
@@ -123,6 +124,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇦🇪AE | 🟢 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
                 "🇫🇷FR | 🔴 | vless | 3YED | 42",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
@@ -154,6 +156,35 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "193.123.90.77",
+            "server_port": 443,
+            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | 🟢 | vless | 3YED | 2",
@@ -492,7 +523,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
-            "uuid": "SVNTEAM2",
+            "uuid": "SVNTEAM3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
