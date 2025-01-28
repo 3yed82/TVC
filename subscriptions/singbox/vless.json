@@ -203,7 +203,6 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 3",
-                "🇦🇪AE | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -375,6 +374,7 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇦🇪AE | 🟢 | vless | 3YED | 0",
                 "🇯🇵JP | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 11",
@@ -422,7 +422,6 @@
                 "🇭🇰HK | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
                 "🇫🇮FI | 🟢 | vless | 3YED | 5",
-                "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇮🇳IN | 🔴 | vless | 3YED | 2",
@@ -586,7 +585,6 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 3",
-                "🇦🇪AE | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -758,6 +756,7 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇦🇪AE | 🟢 | vless | 3YED | 0",
                 "🇯🇵JP | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 11",
@@ -805,7 +804,6 @@
                 "🇭🇰HK | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
                 "🇫🇮FI | 🟢 | vless | 3YED | 5",
-                "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇮🇳IN | 🔴 | vless | 3YED | 2",
@@ -3411,35 +3409,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | vless | 3YED | 4",
-            "type": "vless",
-            "server": "193.123.90.77",
-            "server_port": 443,
-            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI",
-                    "short_id": "6ba85179e30d4fc2"
-                }
             }
         },
         {
@@ -7802,6 +7771,35 @@
             }
         },
         {
+            "tag": "🇦🇪AE | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "193.123.90.77",
+            "server_port": 443,
+            "uuid": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3tyvN86mGzMnYhAMX06SJMYSWhG02rqzTr7GjS-OaWI",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
             "tag": "🇯🇵JP | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "45.12.134.120",
@@ -9056,27 +9054,6 @@
                     "enabled": true,
                     "public_key": "cTm0TIKL9qK550XICK2YroOSr1u-f12h5UmBw2EAr2c",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 9",
-            "type": "vless",
-            "server": "45.159.249.213",
-            "server_port": 2052,
-            "uuid": "ed1baf3b-f38f-559a-86c5-53b3c3492ce1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless#telegram@v2ray_alpha",
-                "headers": {
-                    "Host": "45.159.249.213"
                 }
             }
         },
