@@ -470,8 +470,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇮🇷IR | 🔴 | vless | 3YED | 13",
                 "❔XX | 🟢 | vmess | 3YED | 0",
-                "🚩CF | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇷🇴RO | 🔴 | vless | 3YED | 0",
                 "🇮🇹IT | 🔴 | vless | 3YED | 1",
                 "🇧🇪BE | 🔴 | vless | 3YED | 2",
@@ -916,8 +917,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇮🇷IR | 🔴 | vless | 3YED | 13",
                 "❔XX | 🟢 | vmess | 3YED | 0",
-                "🚩CF | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇷🇴RO | 🔴 | vless | 3YED | 0",
                 "🇮🇹IT | 🔴 | vless | 3YED | 1",
                 "🇧🇪BE | 🔴 | vless | 3YED | 2",
@@ -10059,6 +10061,23 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 2080,
+            "uuid": "abaccba-caba-baac-dcba-cabababbccac",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 2080,
             "uuid": "aaccbba-abca-caba-cabd-cbbcabaabcca",
             "security": "auto",
             "alter_id": 0,
@@ -10072,7 +10091,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "172.67.213.110",
             "server_port": 443,
@@ -10106,7 +10125,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "142.0.134.241",
             "server_port": 45017,
