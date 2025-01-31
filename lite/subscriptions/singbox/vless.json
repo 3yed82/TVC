@@ -132,7 +132,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇫🇷FR | 🔴 | vless | 3YED | 9",
+                "🇫🇷FR | 🟢 | vless | 3YED | 9",
+                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
@@ -195,7 +196,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇫🇷FR | 🔴 | vless | 3YED | 9",
+                "🇫🇷FR | 🟢 | vless | 3YED | 9",
+                "🇫🇷FR | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
@@ -887,7 +889,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 9",
+            "tag": "🇫🇷FR | 🟢 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "91.134.88.205",
+            "server_port": 443,
+            "uuid": "e0351c77-411c-43d1-f967-4b5411068aaf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "france.linceed.se",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "51.68.88.224",
             "server_port": 22671,
