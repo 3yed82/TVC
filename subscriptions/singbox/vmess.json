@@ -127,9 +127,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇫🇮FI | 🟢 | vmess | 3YED | 4"
             ]
@@ -160,9 +161,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇫🇮FI | 🟢 | vmess | 3YED | 4"
             ],
@@ -633,7 +635,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "104.21.96.1",
+            "server_port": 8443,
+            "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl.899994.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/index",
+                "headers": {
+                    "Host": "nl.899994.xyz"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -650,7 +686,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -667,7 +703,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "144.202.19.230",
             "server_port": 8881,
