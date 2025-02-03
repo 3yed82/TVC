@@ -170,8 +170,9 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🔴 | vless | 3YED | 11"
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
+                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 13"
             ]
         },
         {
@@ -243,8 +244,9 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🔴 | vless | 3YED | 11"
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
+                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -2292,6 +2294,35 @@
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
+            "uuid": "SVNTEAM4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 3",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
             "uuid": "SVNTEAM3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -2317,7 +2348,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
@@ -2346,7 +2377,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 11",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 13",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
