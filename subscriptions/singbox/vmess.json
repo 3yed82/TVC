@@ -124,14 +124,15 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 1",
-                "❔XX | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 3",
+                "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 7",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ]
         },
@@ -158,14 +159,15 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 1",
-                "❔XX | 🟢 | vmess | 3YED | 2",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 3",
+                "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 7",
+                "🚩CF | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7",
+                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -577,7 +579,48 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 0",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acabcab-caba-bcaa-bdac-cbbccacaaabb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.17.221.248",
+            "server_port": 2052,
+            "uuid": "4b36625c-b9d9-3ea6-aed5-86d62c70e16d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dabai.in172.67.2.142",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "140.245.60.39",
             "server_port": 23452,
@@ -601,7 +644,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -618,7 +661,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 2",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -635,7 +678,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "vu-mumbai-01.vnode.info",
             "server_port": 2053,
@@ -669,7 +712,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "104.21.81.115",
             "server_port": 443,
@@ -703,7 +746,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "mods-destruction-academy-gear.trycloudflare.com",
             "server_port": 443,
@@ -737,7 +780,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
             "server": "s1.db-link01.top",
             "server_port": 2052,
@@ -757,30 +800,6 @@
                 "path": "\/dabai.in172.67.2.142",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "217.142.186.13",
-            "server_port": 23452,
-            "uuid": "33afaa7d-05f8-42ef-8542-799a37d8f4b3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "217.142.186.13"
                 }
             }
         },
