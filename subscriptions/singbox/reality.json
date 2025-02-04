@@ -111,6 +111,7 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 154",
                 "🇬🇧GB | 🟢 | vless | 3YED | 4",
                 "🇹🇷TR | 🟢 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 35",
@@ -134,6 +135,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 292",
                 "🇨🇦CA | 🟢 | vless | 3YED | 297",
                 "🇨🇦CA | 🟢 | vless | 3YED | 298",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -171,6 +173,7 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 154",
                 "🇬🇧GB | 🟢 | vless | 3YED | 4",
                 "🇹🇷TR | 🟢 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 35",
@@ -194,6 +197,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 292",
                 "🇨🇦CA | 🟢 | vless | 3YED | 297",
                 "🇨🇦CA | 🟢 | vless | 3YED | 298",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -433,6 +437,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 154",
+            "type": "vless",
+            "server": "138.124.61.246",
+            "server_port": 443,
+            "uuid": "V2rayArgoN-",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1tA2CIltAtu_CMKCMWqH4zuRi-EA9LFG9Wz6SI0_sG4",
+                    "short_id": "ff"
+                }
             }
         },
         {
@@ -1170,6 +1203,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "44.222.237.59",
+            "server_port": 8080,
+            "uuid": "d6143486-36c8-445b-b2b5-f3d389298f72",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.openai.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yXtksaZJPAeCdqGkd9OzsufzBj9uGEOTOP4Dm9003GU",
+                    "short_id": "721e34c7"
+                }
             }
         },
         {
