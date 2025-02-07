@@ -128,8 +128,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 1",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ]
         },
@@ -160,8 +162,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
-                "❔XX | 🟢 | vmess | 3YED | 1",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🚩CF | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -706,7 +710,58 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "acacbab-caba-cbaa-acbd-baacbbcccaba",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.21.48.1",
+            "server_port": 8443,
+            "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "it0.899994.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/index",
+                "headers": {
+                    "Host": "it0.899994.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "it0.899994.xyz",
             "server_port": 8443,
@@ -740,7 +795,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 2080,
