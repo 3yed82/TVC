@@ -105,12 +105,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇵🇱PL | 🟢 | ss | 3YED | 3",
-                "🇺🇸US | 🟢 | ss | 3YED | 4",
-                "🇭🇺HU | 🟢 | ss | 3YED | 6",
-                "🇮🇳IN | 🟢 | ss | 3YED | 10",
-                "🇨🇾CY | 🟢 | ss | 3YED | 12",
+                "🇺🇸US | 🟢 | ss | 3YED | 0",
+                "🇺🇸US | 🟢 | ss | 3YED | 2",
+                "🇵🇱PL | 🟢 | ss | 3YED | 4",
+                "🇳🇱NL | 🟢 | ss | 3YED | 5",
+                "🇭🇺HU | 🟢 | ss | 3YED | 7",
+                "🇮🇳IN | 🟢 | ss | 3YED | 11",
+                "🇨🇾CY | 🟢 | ss | 3YED | 13",
                 "🇬🇧GB | 🟢 | ss | 3YED | 2"
             ]
         },
@@ -118,12 +119,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇵🇱PL | 🟢 | ss | 3YED | 3",
-                "🇺🇸US | 🟢 | ss | 3YED | 4",
-                "🇭🇺HU | 🟢 | ss | 3YED | 6",
-                "🇮🇳IN | 🟢 | ss | 3YED | 10",
-                "🇨🇾CY | 🟢 | ss | 3YED | 12",
+                "🇺🇸US | 🟢 | ss | 3YED | 0",
+                "🇺🇸US | 🟢 | ss | 3YED | 2",
+                "🇵🇱PL | 🟢 | ss | 3YED | 4",
+                "🇳🇱NL | 🟢 | ss | 3YED | 5",
+                "🇭🇺HU | 🟢 | ss | 3YED | 7",
+                "🇮🇳IN | 🟢 | ss | 3YED | 11",
+                "🇨🇾CY | 🟢 | ss | 3YED | 13",
                 "🇬🇧GB | 🟢 | ss | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -147,7 +149,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 1",
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "23.157.40.47",
+            "server_port": 6697,
+            "method": "aes-256-gcm",
+            "password": "TEzjfAYq2IjtuoS",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 2",
             "type": "shadowsocks",
             "server": "23.157.40.47",
             "server_port": 5003,
@@ -157,7 +169,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | 3YED | 3",
+            "tag": "🇵🇱PL | 🟢 | ss | 3YED | 4",
             "type": "shadowsocks",
             "server": "51.77.53.200",
             "server_port": 3306,
@@ -167,7 +179,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 4",
+            "tag": "🇳🇱NL | 🟢 | ss | 3YED | 5",
             "type": "shadowsocks",
             "server": "beesyar.org",
             "server_port": 8080,
@@ -177,7 +189,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇭🇺HU | 🟢 | ss | 3YED | 6",
+            "tag": "🇭🇺HU | 🟢 | ss | 3YED | 7",
             "type": "shadowsocks",
             "server": "86.104.75.103",
             "server_port": 49264,
@@ -187,7 +199,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇳IN | 🟢 | ss | 3YED | 10",
+            "tag": "🇮🇳IN | 🟢 | ss | 3YED | 11",
             "type": "shadowsocks",
             "server": "64.227.144.190",
             "server_port": 50690,
@@ -197,7 +209,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇾CY | 🟢 | ss | 3YED | 12",
+            "tag": "🇨🇾CY | 🟢 | ss | 3YED | 13",
             "type": "shadowsocks",
             "server": "134.255.210.49",
             "server_port": 990,
