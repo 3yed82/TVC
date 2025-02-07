@@ -111,7 +111,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3YED | 11",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 7",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ]
         },
@@ -124,7 +124,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3YED | 11",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 7",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -257,11 +257,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 7",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "140.245.58.215",
-            "server_port": 23452,
-            "uuid": "a8c12d0d-76f9-4b78-a030-3776944a01e8",
+            "server": "indiavideo.sbs",
+            "server_port": 443,
+            "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -272,11 +272,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "140.245.58.215"
+                    "Host": "indiavideo.sbs"
                 }
             }
         },
