@@ -119,6 +119,8 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 129",
                 "🇩🇪DE | 🟢 | vless | 3YED | 148",
+                "🇩🇪DE | 🟢 | vless | 3YED | 152",
+                "🇩🇪DE | 🟢 | vless | 3YED | 155",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -127,7 +129,7 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "❔XX | 🟢 | vless | 3YED | 166",
                 "🇺🇸US | 🟢 | vless | 3YED | 170",
-                "🇫🇷FR | 🟢 | vless | 3YED | 176",
+                "❔XX | 🟢 | vless | 3YED | 176",
                 "🇺🇸US | 🟢 | vless | 3YED | 181",
                 "🇺🇸US | 🟢 | vless | 3YED | 182",
                 "🇺🇸US | 🟢 | vless | 3YED | 183",
@@ -187,6 +189,8 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 129",
                 "🇩🇪DE | 🟢 | vless | 3YED | 148",
+                "🇩🇪DE | 🟢 | vless | 3YED | 152",
+                "🇩🇪DE | 🟢 | vless | 3YED | 155",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -195,7 +199,7 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "❔XX | 🟢 | vless | 3YED | 166",
                 "🇺🇸US | 🟢 | vless | 3YED | 170",
-                "🇫🇷FR | 🟢 | vless | 3YED | 176",
+                "❔XX | 🟢 | vless | 3YED | 176",
                 "🇺🇸US | 🟢 | vless | 3YED | 181",
                 "🇺🇸US | 🟢 | vless | 3YED | 182",
                 "🇺🇸US | 🟢 | vless | 3YED | 183",
@@ -726,6 +730,64 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 152",
+            "type": "vless",
+            "server": "x.Snappfood.lol",
+            "server_port": 443,
+            "uuid": "9b53688e-d36b-44cd-cde9-e7f6d920210f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ysc-smz8s0W4-LskjjcyxNQ-sryPT3bVumwfUKBgOWM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 155",
+            "type": "vless",
+            "server": "91.107.142.229",
+            "server_port": 443,
+            "uuid": "9b53688e-d36b-44cd-cde9-e7f6d920210f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ysc-smz8s0W4-LskjjcyxNQ-sryPT3bVumwfUKBgOWM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | 3YED | 3",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
@@ -979,7 +1041,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | 3YED | 176",
+            "tag": "❔XX | 🟢 | vless | 3YED | 176",
             "type": "vless",
             "server": "v01.blkrose.ir",
             "server_port": 2053,
