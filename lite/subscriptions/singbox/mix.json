@@ -152,16 +152,16 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 192",
-                "🇺🇸US | 🔴 | vless | 3YED | 193",
+                "🇺🇸US | 🟢 | vless | 3YED | 193",
+                "🇺🇸US | 🟢 | vless | 3YED | 194",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | trojan | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -235,16 +235,16 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 192",
-                "🇺🇸US | 🔴 | vless | 3YED | 193",
+                "🇺🇸US | 🟢 | vless | 3YED | 193",
+                "🇺🇸US | 🟢 | vless | 3YED | 194",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | trojan | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -1401,25 +1401,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 192",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 193",
             "type": "vless",
-            "server": "3.141.39.74",
-            "server_port": 3229,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 193",
-            "type": "vless",
-            "server": "cash.ns.cloudflare.com",
+            "server": "hajlab.ucdavis.edu",
             "server_port": 443,
-            "uuid": "60b79d46-9b53-4ebb-a28e-93c2f6731750",
+            "uuid": "0d76021a-6b29-4876-9bdc-fea149d78cc2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1429,7 +1415,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "a5kns6.bestvpninuae.com",
+                "server_name": "hajlab.ucdavis.edu",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1439,9 +1425,40 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wss",
+                "path": "\/",
                 "headers": {
-                    "Host": "a5kns6.bestvpninuae.com"
+                    "Host": "hajlab.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 194",
+            "type": "vless",
+            "server": "hajlab.ucdavis.edu",
+            "server_port": 443,
+            "uuid": "0d76021a-6b29-4876-9bdc-fea149d78cc2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajlab.ucdavis.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
@@ -1611,7 +1628,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 3",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 2080,
@@ -1628,7 +1645,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
