@@ -160,8 +160,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
@@ -242,8 +242,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
@@ -1594,11 +1594,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "2.58.87.221",
-            "server_port": 12269,
-            "uuid": "db85ff0e-c33f-401d-c415-4c7cce135704",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "caabacb-acba-caab-cbad-bbaaaccbaccb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1608,21 +1608,14 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "198.41.209.70",
-            "server_port": 80,
-            "uuid": "e6543319-0574-42ac-b778-1c4325d626f5",
+            "server": "104.16.239.254",
+            "server_port": 2096,
+            "uuid": "75de8443-8efe-429c-c5ef-a51f38592f03",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1633,11 +1626,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.okcupid.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/3tq4ttrw",
                 "headers": {
-                    "Host": ""
+                    "Host": "www.okcupid.com"
                 }
             }
         },
