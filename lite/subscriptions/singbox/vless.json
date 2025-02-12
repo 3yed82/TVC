@@ -150,8 +150,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 299",
-                "🇺🇸US | 🔴 | vless | 3YED | 300",
+                "🇺🇸US | 🔴 | vless | 3YED | 303",
+                "🇺🇸US | 🔴 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -224,8 +224,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
-                "🇺🇸US | 🔴 | vless | 3YED | 299",
-                "🇺🇸US | 🔴 | vless | 3YED | 300",
+                "🇺🇸US | 🔴 | vless | 3YED | 303",
+                "🇺🇸US | 🔴 | vless | 3YED | 304",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -1356,21 +1356,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 299",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 303",
             "type": "vless",
-            "server": "3.86.230.119",
-            "server_port": 80,
-            "uuid": "4d5848af-3baf-4225-8f2b-fc25fc3370bb",
+            "server": "jermaine.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "2a734652-b37c-4b58-8abf-5807d0e05c35",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "49lg0z.shieldify.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss",
+                "headers": {
+                    "Host": "49lg0z.shieldify.site"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 300",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 304",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
