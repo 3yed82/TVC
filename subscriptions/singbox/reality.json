@@ -126,9 +126,10 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
-                "🇩🇪DE | 🟢 | vless | 3YED | 114",
                 "🇩🇪DE | 🟢 | vless | 3YED | 121",
                 "🇩🇪DE | 🟢 | vless | 3YED | 128",
+                "🇳🇱NL | 🟢 | vless | 3YED | 155",
+                "🇩🇪DE | 🟢 | vless | 3YED | 11",
                 "🇷🇺RU | 🟢 | vless | 3YED | 19",
                 "🇺🇸US | 🟢 | vless | 3YED | 20",
                 "🇲🇩MD | 🟢 | vless | 3YED | 21",
@@ -152,7 +153,7 @@
                 "🇸🇪SE | 🟢 | vless | 3YED | 264",
                 "🇸🇪SE | 🟢 | vless | 3YED | 265",
                 "❔XX | 🟢 | vless | 3YED | 270",
-                "❔XX | 🟢 | vless | 3YED | 271",
+                "🇬🇧GB | 🟢 | vless | 3YED | 271",
                 "❔XX | 🟢 | vless | 3YED | 272",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
@@ -208,9 +209,10 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
-                "🇩🇪DE | 🟢 | vless | 3YED | 114",
                 "🇩🇪DE | 🟢 | vless | 3YED | 121",
                 "🇩🇪DE | 🟢 | vless | 3YED | 128",
+                "🇳🇱NL | 🟢 | vless | 3YED | 155",
+                "🇩🇪DE | 🟢 | vless | 3YED | 11",
                 "🇷🇺RU | 🟢 | vless | 3YED | 19",
                 "🇺🇸US | 🟢 | vless | 3YED | 20",
                 "🇲🇩MD | 🟢 | vless | 3YED | 21",
@@ -234,7 +236,7 @@
                 "🇸🇪SE | 🟢 | vless | 3YED | 264",
                 "🇸🇪SE | 🟢 | vless | 3YED | 265",
                 "❔XX | 🟢 | vless | 3YED | 270",
-                "❔XX | 🟢 | vless | 3YED | 271",
+                "🇬🇧GB | 🟢 | vless | 3YED | 271",
                 "❔XX | 🟢 | vless | 3YED | 272",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
@@ -1013,35 +1015,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 114",
-            "type": "vless",
-            "server": "svnteam.misvn.ir",
-            "server_port": 443,
-            "uuid": "SVNTEAM1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | 3YED | 121",
             "type": "vless",
             "server": "de-re.afteam.ir",
@@ -1074,6 +1047,64 @@
             "tag": "🇩🇪DE | 🟢 | vless | 3YED | 128",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 155",
+            "type": "vless",
+            "server": "87.121.79.113",
+            "server_port": 2053,
+            "uuid": "5eaf0943-2ba0-49ae-a3dc-2957429a85d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "github.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mCCigQPrTHY9CMHgDgfWo00ij_dgYt0sAc_uHeRFklI",
+                    "short_id": "a4c4d9258f0685a4"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "svnteam.misvn.ir",
             "server_port": 443,
             "uuid": "SVNTEAM1",
             "flow": "xtls-rprx-vision",
@@ -1802,7 +1833,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3YED | 271",
+            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 271",
             "type": "vless",
             "server": "v19.blkrose.ir",
             "server_port": 2053,
