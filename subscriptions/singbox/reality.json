@@ -176,7 +176,8 @@
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 1"
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 19"
             ]
         },
         {
@@ -254,7 +255,8 @@
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 1"
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -2656,6 +2658,35 @@
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
             "uuid": "SVNTEAM1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "193rx1HPJxmcw5Igm1lZeCcPnBx1dVfBroBl5FR9BEE",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
+            "uuid": "SVNTEAM4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
