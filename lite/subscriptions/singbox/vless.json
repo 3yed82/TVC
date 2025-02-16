@@ -169,8 +169,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🔴 | vless | 3YED | 3"
+                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 4"
             ]
         },
         {
@@ -240,8 +240,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🔴 | vless | 3YED | 3"
+                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1849,37 +1849,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "web.bbv2ry.pics",
-            "server_port": 443,
-            "uuid": "ca544ad7-181d-408f-8f95-8ce7c51cd399",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Skyy.bbv2ry.pics",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Skyy.bbv2ry.pics"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "web.bbv2ry.pics",
@@ -1907,6 +1876,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "Skyy.bbv2ry.pics"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "web.bbv2ry.pics",
+            "server_port": 443,
+            "uuid": "12e9debb-5f13-4981-b600-073f5e9307c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Sky1.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Sky1.bbv2ry.pics"
                 }
             }
         }
