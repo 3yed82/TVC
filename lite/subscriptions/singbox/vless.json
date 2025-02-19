@@ -155,8 +155,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 308",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
-                "🇸🇰SK | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇺🇸US | 🟢 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -225,8 +224,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 308",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
-                "🇸🇰SK | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇺🇸US | 🟢 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -1473,11 +1471,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇰SK | 🔴 | vless | 3YED | 6",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 5",
             "type": "vless",
-            "server": "5.252.23.173",
-            "server_port": 8880,
-            "uuid": "9ac37507-dc17-5313-8125-c6f588c60103",
+            "server": "51.81.37.120",
+            "server_port": 443,
+            "uuid": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1485,32 +1483,14 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
-            "type": "vless",
-            "server": "104.26.14.85",
-            "server_port": 80,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "104.26.14.85"
+            "tls": {
+                "enabled": true,
+                "server_name": "147135010103.sec19org.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
