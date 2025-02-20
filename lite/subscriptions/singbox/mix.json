@@ -156,13 +156,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇯🇵JP | 🟢 | trojan | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 286",
-                "🇺🇸US | 🔴 | vless | 3YED | 287",
+                "🇺🇸US | 🔴 | vless | 3YED | 293",
+                "🇺🇸US | 🔴 | vless | 3YED | 294",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
-                "❔XX | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -234,13 +232,11 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇯🇵JP | 🟢 | trojan | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 286",
-                "🇺🇸US | 🔴 | vless | 3YED | 287",
+                "🇺🇸US | 🔴 | vless | 3YED | 293",
+                "🇺🇸US | 🔴 | vless | 3YED | 294",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
-                "❔XX | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -1514,11 +1510,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 286",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 293",
             "type": "vless",
-            "server": "jermaine.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "9fcb535c-f0dc-42d2-869b-7e8a072a8ffc",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "49207b17-c9e0-4912-aba2-a6d0eccf585e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1526,30 +1522,20 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "l18oqn.a27app.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/wss",
+                "path": "\/",
                 "headers": {
-                    "Host": "l18oqn.a27app.com"
+                    "Host": "tgju.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 287",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 294",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
-            "uuid": "151e57b7-1c76-44d8-886d-e1d291c96146",
+            "uuid": "0b654ecb-acdd-4f14-a718-f71b8a75e0e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1657,57 +1643,6 @@ https://github.com/3yed-61
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 12",
-            "type": "vmess",
-            "server": "38.54.94.122",
-            "server_port": 2053,
-            "uuid": "2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/L0229-16",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 13",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aacbabc-acab-caab-dcab-caccbabbabac",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
