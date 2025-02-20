@@ -111,8 +111,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 5"
+                "🇹🇼TW | 🟢 | vmess | 3YED | 5"
             ]
         },
         {
@@ -124,8 +123,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 5"
+                "🇹🇼TW | 🟢 | vmess | 3YED | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,11 +255,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+            "tag": "🇹🇼TW | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "88.198.172.25",
-            "server_port": 15145,
-            "uuid": "e7eb472e-dc83-49d5-be5e-82a79a2124ee",
+            "server": "1.162.148.212",
+            "server_port": 25775,
+            "uuid": "50b3fb1b-5591-4743-8e9b-0601c5dfe86d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -273,28 +271,11 @@ https://github.com/3yed-61
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "JbiB8V66V78Hf5bivfsis8vH",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cbacaab-aacb-aabc-dcba-bbaccaaacbcb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+                "type": "ws",
+                "path": "\/?ed=1024",
+                "headers": {
+                    "Host": "1.162.148.212"
+                }
             }
         }
     ],
