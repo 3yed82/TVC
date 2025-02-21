@@ -117,6 +117,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 13",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 145",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇲🇾MY | 🟢 | vmess | 3YED | 1",
@@ -137,9 +138,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 6"
             ]
         },
         {
@@ -158,6 +157,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 13",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 145",
                 "🚩CF | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇲🇾MY | 🟢 | vmess | 3YED | 1",
@@ -178,9 +178,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -404,6 +402,33 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 145",
+            "type": "vmess",
+            "server": "WwW.sPEeDtEsT.NeT",
+            "server_port": 2096,
+            "uuid": "6387a384-534d-445c-bf53-49a56177c4a7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.waltonweb.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -871,57 +896,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "104.31.16.9",
-            "server_port": 2053,
-            "uuid": "ad3d0eb7-24a6-403b-9225-feeacb8219b9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "qurantv.quranir.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "qurantv.quranir.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "bacbcaa-aabc-acab-bacd-abbacaaccbcb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
