@@ -129,14 +129,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 18",
-                "🇫🇮FI | 🔴 | vless | 3YED | 150",
-                "🇩🇪DE | 🔴 | vless | 3YED | 151",
+                "🇺🇸US | 🔴 | vless | 3YED | 143",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "❔XX | 🔴 | vless | 3YED | 9",
-                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -194,14 +193,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 18",
-                "🇫🇮FI | 🔴 | vless | 3YED | 150",
-                "🇩🇪DE | 🔴 | vless | 3YED | 151",
+                "🇺🇸US | 🔴 | vless | 3YED | 143",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "❔XX | 🔴 | vless | 3YED | 9",
-                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 11",
+                "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -832,53 +830,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 150",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 143",
             "type": "vless",
-            "server": "135.181.155.147",
-            "server_port": 40240,
-            "uuid": "d0c5ee0e-c74b-486c-9809-f3aab15568cb",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 151",
-            "type": "vless",
-            "server": "mehdi.vact.ir",
-            "server_port": 2083,
-            "uuid": "MTMVPN-Channel",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hEiLB7_WfQKIGm7O82wLrDoLwEV__RIM7sfWnhllzXA",
-                    "short_id": "860beecd2f155e4a"
-                }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram@v2ray_alpha\/?ed=2560",
+                "headers": {
+                    "Host": "104.17.148.22"
+                }
             }
         },
         {
@@ -976,10 +945,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 9",
+            "tag": "❔XX | 🔴 | vless | 3YED | 11",
             "type": "vless",
             "server": "[2a01:4f8:c010:45f6::1]",
-            "server_port": 36736,
+            "server_port": 25797,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
@@ -990,10 +959,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 10",
+            "tag": "❔XX | 🔴 | vless | 3YED | 12",
             "type": "vless",
-            "server": "[2a01:4f8:c010:1d97::1]",
-            "server_port": 51047,
+            "server": "[2a01:4f8:c010:45f6::1]",
+            "server_port": 36736,
             "uuid": "TELEGRAM-ServerNett",
             "flow": "",
             "packet_encoding": "xudp",
