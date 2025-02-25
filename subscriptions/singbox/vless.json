@@ -370,7 +370,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 310",
                 "🇺🇸US | 🟢 | vless | 3YED | 311",
                 "🇸🇪SE | 🔴 | vless | 3YED | 312",
-                "🇬🇧GB | 🔴 | vless | 3YED | 313",
+                "❔XX | 🔴 | vless | 3YED | 313",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -399,13 +399,9 @@
                 "🚩CF | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 12",
-                "🚩CF | 🔴 | vless | 3YED | 13",
-                "🚩CF | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🚩CF | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 3",
@@ -712,7 +708,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 310",
                 "🇺🇸US | 🟢 | vless | 3YED | 311",
                 "🇸🇪SE | 🔴 | vless | 3YED | 312",
-                "🇬🇧GB | 🔴 | vless | 3YED | 313",
+                "❔XX | 🔴 | vless | 3YED | 313",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -741,13 +737,9 @@
                 "🚩CF | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
-                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 12",
-                "🚩CF | 🔴 | vless | 3YED | 13",
-                "🚩CF | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
-                "🚩CF | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "❔XX | 🔴 | vless | 3YED | 3",
@@ -7612,7 +7604,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 313",
+            "tag": "❔XX | 🔴 | vless | 3YED | 313",
             "type": "vless",
             "server": "v05.zerotransgold.ir",
             "server_port": 2096,
@@ -8359,11 +8351,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 443,
-            "uuid": "c1475197-4d29-4f77-8760-84680ab19e7a",
+            "uuid": "0109212f-c4fe-4265-ae12-6b33616991b2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -8399,6 +8391,42 @@
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 443,
+            "uuid": "c1475197-4d29-4f77-8760-84680ab19e7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BqyR1J0knEz_ExHwER9WKfxCeoMduUlb4oCGTez7-yg",
+                    "short_id": "6b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "mehdi.vact.ir",
+            "server_port": 443,
             "uuid": "d262c8dd-ae75-4d5e-b004-d9414598195b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -8428,161 +8456,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "server_port": 8443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hAsTI.FreEAIRlaiNES.COM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-MTMVPN-MTMVPN-MTMVPN\/?ed=2560",
-                "headers": {
-                    "Host": "hAsTI.FreEAIRlaiNES.COM"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.21.96.1",
-            "server_port": 2083,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HaSti.fReEaiRLAinEs.COM",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/MTMVPN?ed=2560",
-                "headers": {
-                    "Host": "HaSti.fReEaiRLAinEs.COM"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "104.21.56.44",
-            "server_port": 443,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "REDw.pOOriam.Ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@proxy_mtm?ed=2560",
-                "headers": {
-                    "Host": "REDw.pOOriam.Ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2083,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hAsTi.frEEairLainEs.Com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@proxy_mtm?ed=2560",
-                "headers": {
-                    "Host": "hAsTi.frEEairLainEs.Com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "104.21.32.1",
-            "server_port": 2087,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HASti.FReeAirlAINEs.cOm",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@ShadowProxy66\/",
-                "headers": {
-                    "Host": "HASti.FReeAirlAINEs.cOm"
-                }
             }
         },
         {
