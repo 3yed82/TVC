@@ -430,8 +430,9 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 1",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
@@ -768,8 +769,9 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
-                "🇺🇸US | 🔴 | vless | 3YED | 1",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇮🇷IR | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
@@ -9297,6 +9299,35 @@
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
+            "uuid": "6c76ee27-5281-4d1f-9e28-9a33e0bb0820",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "SVNTEAM.MiSVN.iR",
+            "server_port": 443,
             "uuid": "88da5abf-08f2-44fe-951e-358e96bc86ba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -9322,7 +9353,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "151.101.194.133",
             "server_port": 443,
@@ -9353,7 +9384,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
