@@ -112,7 +112,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 8"
             ]
         },
         {
@@ -125,7 +125,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -259,6 +259,30 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
+            "server": "faedff.57de-78fc4c715615.cfd",
+            "server_port": 80,
+            "uuid": "0ba4a240-1586-4a54-929c-26389c8a4111",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "faedff.57de-78fc4c715615.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 8",
+            "type": "vmess",
             "server": "104.31.16.9",
             "server_port": 2053,
             "uuid": "ad3d0eb7-24a6-403b-9225-feeacb8219b9",
@@ -288,23 +312,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "qurantv.quranir.com"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "accbaab-caba-aabc-dacb-bcabccacbaba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
