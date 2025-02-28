@@ -134,7 +134,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 15",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇮🇳IN | 🟢 | ss | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 158",
                 "🇺🇸US | 🔴 | vless | 3YED | 159",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
@@ -158,7 +157,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 374",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -212,7 +211,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 15",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇮🇳IN | 🟢 | ss | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 158",
                 "🇺🇸US | 🔴 | vless | 3YED | 159",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
@@ -236,7 +234,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 374",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -966,16 +964,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇳IN | 🟢 | ss | 3YED | 17",
-            "type": "shadowsocks",
-            "server": "64.227.144.190",
-            "server_port": 50690,
-            "method": "chacha20-ietf-poly1305",
-            "password": "AbkZdd2F8nEUp4o6M3FA1M",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 158",
             "type": "vless",
             "server": "join.ELiV2.RAY.fastly80-3.hosting-ip.com",
@@ -1584,11 +1572,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
+            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "caabcba-aabc-bcaa-adbc-bcbcacabcaab",
+            "server": "140.245.36.187",
+            "server_port": 23452,
+            "uuid": "e6592058-1e2d-4068-8d4a-6f4e2d044008",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1598,14 +1586,21 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "140.245.36.187"
+                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "https:\/\/github.com\/ALIILAPRO\/v2rayNG-Config",
-            "server_port": 433,
-            "uuid": "Free",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "caabcba-aabc-bcaa-adbc-bcbcacabcaab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
