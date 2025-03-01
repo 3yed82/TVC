@@ -312,8 +312,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🚩CF | 🟢 | vless | 3YED | 1",
-                "🇮🇷IR | 🔴 | vless | 3YED | 9",
+                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🚩CF | 🟢 | vless | 3YED | 2",
+                "🇮🇷IR | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
@@ -675,8 +676,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🚩CF | 🟢 | vless | 3YED | 1",
-                "🇮🇷IR | 🔴 | vless | 3YED | 9",
+                "🚩CF | 🔴 | vless | 3YED | 1",
+                "🚩CF | 🟢 | vless | 3YED | 2",
+                "🇮🇷IR | 🔴 | vless | 3YED | 10",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
@@ -6084,6 +6086,27 @@
             },
             "transport": {
                 "type": "ws",
+                "path": "\/?ed=MARAMBASHI_MARAMBASHI\/?ed=2560",
+                "headers": {
+                    "Host": "172.67.73.163"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🔴 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "172.67.73.163",
+            "server_port": 80,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "172.67.73.163"
@@ -6091,7 +6114,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vless | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "104.21.56.44",
             "server_port": 443,
@@ -6122,7 +6145,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 9",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "iri.ginuerzht.ir",
             "server_port": 2053,
