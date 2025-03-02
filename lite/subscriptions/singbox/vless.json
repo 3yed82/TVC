@@ -146,8 +146,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇸🇬SG | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 408",
-                "🇺🇸US | 🔴 | vless | 3YED | 409",
+                "🇺🇸US | 🔴 | vless | 3YED | 403",
+                "🇺🇸US | 🔴 | vless | 3YED | 404",
                 "❔XX | 🟢 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -213,8 +213,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇸🇬SG | 🟢 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 408",
-                "🇺🇸US | 🔴 | vless | 3YED | 409",
+                "🇺🇸US | 🔴 | vless | 3YED | 403",
+                "🇺🇸US | 🔴 | vless | 3YED | 404",
                 "❔XX | 🟢 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -1277,7 +1277,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 408",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 403",
+            "type": "vless",
+            "server": "angelina.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "3ddaa23e-6531-45a8-814c-70460622ca12",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mrob8z.isfshzist.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss",
+                "headers": {
+                    "Host": "mrob8z.isfshzist.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 404",
             "type": "vless",
             "server": "jermaine.ns.cloudflare.com",
             "server_port": 443,
@@ -1304,37 +1335,6 @@ https://github.com/3yed-61
                 "path": "\/wss",
                 "headers": {
                     "Host": "17jviy.alligator27app.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 409",
-            "type": "vless",
-            "server": "chloe.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "192c4881-79b2-4610-ae99-656173836aac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hevogm.fivegravity.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/wss",
-                "headers": {
-                    "Host": "hevogm.fivegravity.com"
                 }
             }
         },
