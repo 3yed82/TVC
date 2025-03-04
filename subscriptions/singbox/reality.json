@@ -127,13 +127,15 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
-                "🇩🇪DE | 🟢 | vless | 3YED | 123",
-                "🇮🇪IE | 🟢 | vless | 3YED | 129",
-                "🇩🇪DE | 🔴 | vless | 3YED | 136",
+                "🇩🇪DE | 🔴 | vless | 3YED | 112",
+                "🇩🇪DE | 🟢 | vless | 3YED | 113",
+                "🇩🇪DE | 🟢 | vless | 3YED | 131",
+                "🇮🇪IE | 🟢 | vless | 3YED | 137",
+                "🇩🇪DE | 🔴 | vless | 3YED | 144",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇸🇬SG | 🟢 | vless | 3YED | 15",
+                "🇸🇬SG | 🟢 | vless | 3YED | 16",
                 "🇸🇪SE | 🟢 | vless | 3YED | 345",
                 "🇸🇪SE | 🟢 | vless | 3YED | 346",
                 "🇸🇪SE | 🟢 | vless | 3YED | 347",
@@ -203,13 +205,15 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
-                "🇩🇪DE | 🟢 | vless | 3YED | 123",
-                "🇮🇪IE | 🟢 | vless | 3YED | 129",
-                "🇩🇪DE | 🔴 | vless | 3YED | 136",
+                "🇩🇪DE | 🔴 | vless | 3YED | 112",
+                "🇩🇪DE | 🟢 | vless | 3YED | 113",
+                "🇩🇪DE | 🟢 | vless | 3YED | 131",
+                "🇮🇪IE | 🟢 | vless | 3YED | 137",
+                "🇩🇪DE | 🔴 | vless | 3YED | 144",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇸🇬SG | 🟢 | vless | 3YED | 15",
+                "🇸🇬SG | 🟢 | vless | 3YED | 16",
                 "🇸🇪SE | 🟢 | vless | 3YED | 345",
                 "🇸🇪SE | 🟢 | vless | 3YED | 346",
                 "🇸🇪SE | 🟢 | vless | 3YED | 347",
@@ -1030,7 +1034,72 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 123",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 112",
+            "type": "vless",
+            "server": "mehdi.vact.ir",
+            "server_port": 443,
+            "uuid": "c1475197-4d29-4f77-8760-84680ab19e7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BqyR1J0knEz_ExHwER9WKfxCeoMduUlb4oCGTez7-yg",
+                    "short_id": "6b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 113",
+            "type": "vless",
+            "server": "milad.bal1istic.com",
+            "server_port": 3004,
+            "uuid": "50eb255a-dfa8-4647-b2ad-30cb9c39e8c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4vfLoEO2od3a8v1dey6cxhcl6Jq2q5ojgnkB1XcpqFg",
+                    "short_id": "15fd91264a728479"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 131",
             "type": "vless",
             "server": "85.208.139.222",
             "server_port": 1633,
@@ -1059,7 +1128,7 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | vless | 3YED | 129",
+            "tag": "🇮🇪IE | 🟢 | vless | 3YED | 137",
             "type": "vless",
             "server": "54.75.81.113",
             "server_port": 8443,
@@ -1088,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 136",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 144",
             "type": "vless",
             "server": "mehdi.vact.ir",
             "server_port": 443,
@@ -1225,7 +1294,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | 3YED | 15",
+            "tag": "🇸🇬SG | 🟢 | vless | 3YED | 16",
             "type": "vless",
             "server": "259284b7.ddns-link-b5.uk",
             "server_port": 10036,
