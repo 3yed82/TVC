@@ -105,8 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇵🇱PL | 🟢 | ss | 3YED | 19",
+                "🇺🇸US | 🟢 | ss | 3YED | 5",
+                "🇳🇱NL | 🟢 | ss | 3YED | 13",
+                "🇺🇸US | 🟢 | ss | 3YED | 17",
                 "🇧🇭BH | 🟢 | ss | 3YED | 2",
                 "🇧🇭BH | 🟢 | ss | 3YED | 4"
             ]
@@ -115,8 +116,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇵🇱PL | 🟢 | ss | 3YED | 19",
+                "🇺🇸US | 🟢 | ss | 3YED | 5",
+                "🇳🇱NL | 🟢 | ss | 3YED | 13",
+                "🇺🇸US | 🟢 | ss | 3YED | 17",
                 "🇧🇭BH | 🟢 | ss | 3YED | 2",
                 "🇧🇭BH | 🟢 | ss | 3YED | 4"
             ],
@@ -141,9 +143,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 1",
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 5",
             "type": "shadowsocks",
-            "server": "45.87.175.178",
+            "server": "45.87.175.192",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "cvII85TrW6n0OGyfpHVS1u",
@@ -151,12 +153,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | 3YED | 19",
+            "tag": "🇳🇱NL | 🟢 | ss | 3YED | 13",
             "type": "shadowsocks",
-            "server": "45.144.48.63",
-            "server_port": 57456,
+            "server": "45.158.171.132",
+            "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "d3837224ed465f00",
+            "password": "4a2rfixophdjffa8KVA4Aa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 17",
+            "type": "shadowsocks",
+            "server": "45.87.175.178",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u",
             "plugin": "",
             "plugin_opts": ""
         },
