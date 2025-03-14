@@ -128,11 +128,10 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 138",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 305",
-                "🇨🇦CA | 🟢 | vless | 3YED | 320",
-                "🇨🇦CA | 🟢 | vless | 3YED | 321",
-                "🇨🇦CA | 🟢 | vless | 3YED | 336",
+                "🇺🇸US | 🟢 | vless | 3YED | 321",
+                "🇺🇸US | 🟢 | vless | 3YED | 322",
                 "🇨🇦CA | 🟢 | vless | 3YED | 337",
+                "🇨🇦CA | 🟢 | vless | 3YED | 338",
                 "🇳🇱NL | 🟢 | vless | 3YED | 5",
                 "🇳🇱NL | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
@@ -192,11 +191,10 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 138",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 305",
-                "🇨🇦CA | 🟢 | vless | 3YED | 320",
-                "🇨🇦CA | 🟢 | vless | 3YED | 321",
-                "🇨🇦CA | 🟢 | vless | 3YED | 336",
+                "🇺🇸US | 🟢 | vless | 3YED | 321",
+                "🇺🇸US | 🟢 | vless | 3YED | 322",
                 "🇨🇦CA | 🟢 | vless | 3YED | 337",
+                "🇨🇦CA | 🟢 | vless | 3YED | 338",
                 "🇳🇱NL | 🟢 | vless | 3YED | 5",
                 "🇳🇱NL | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
@@ -1014,7 +1012,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 305",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 321",
+            "type": "vless",
+            "server": "3.17.76.211",
+            "server_port": 8443,
+            "uuid": "73c732f2-d435-4197-9f33-0d7c1f47d3a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 322",
             "type": "vless",
             "server": "3.16.48.169",
             "server_port": 8443,
@@ -1043,7 +1070,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 320",
+            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 337",
             "type": "vless",
             "server": "35.183.107.172",
             "server_port": 8443,
@@ -1072,67 +1099,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 321",
+            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 338",
             "type": "vless",
             "server": "3.99.152.89",
-            "server_port": 8443,
-            "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 336",
-            "type": "vless",
-            "server": "3.96.162.164",
-            "server_port": 8443,
-            "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 337",
-            "type": "vless",
-            "server": "15.222.235.202",
             "server_port": 8443,
             "uuid": "b285432e-8677-40e3-a86a-ca167cd9d5bd",
             "flow": "xtls-rprx-vision",
