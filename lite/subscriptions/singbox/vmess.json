@@ -113,8 +113,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 9",
-                "❔XX | 🟢 | vmess | 3YED | 10"
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11"
             ]
         },
         {
@@ -128,8 +128,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3YED | 0",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 9",
-                "❔XX | 🟢 | vmess | 3YED | 10"
+                "🇺🇸US | 🟢 | vmess | 3YED | 10",
+                "❔XX | 🟢 | vmess | 3YED | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -295,13 +295,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bbaacac-aacb-cbaa-cabd-bababaacbccc",
+            "server": "107.175.96.74",
+            "server_port": 41507,
+            "uuid": "695ac0a3-406a-41d7-83c5-5af8c39d3bec",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 5,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -309,14 +309,31 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ny1.bulkcash.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ny1.bulkcash.top"
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 10",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 11",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "cbacbaa-baca-caba-cdab-ababccbbcaac",
+            "server_port": 1080,
+            "uuid": "bbaacac-aacb-cbaa-cabd-bababaacbccc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
