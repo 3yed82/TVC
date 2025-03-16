@@ -119,6 +119,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 114",
                 "🇺🇸US | 🟢 | vmess | 3YED | 143",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 6",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 0",
@@ -132,8 +133,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 2",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 6"
+                "🚩CF | 🟢 | vmess | 3YED | 5"
             ]
         },
         {
@@ -154,6 +154,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 114",
                 "🇺🇸US | 🟢 | vmess | 3YED | 143",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 6",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 0",
@@ -167,8 +168,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 2",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 6"
+                "🚩CF | 🟢 | vmess | 3YED | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -442,6 +442,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 114",
+            "type": "vmess",
+            "server": "irhms03.dongfeng.cfd",
+            "server_port": 443,
+            "uuid": "fa5b55cd-cafc-4de0-a4c8-722e02a9f58e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms03.dongfeng.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms03.dongfeng.cfd"
                 }
             }
         },
@@ -769,30 +803,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "uswuxian.pai50288.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "140.245.56.46",
-            "server_port": 23452,
-            "uuid": "e6592058-1e2d-4068-8d4a-6f4e2d044008",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "140.245.56.46"
                 }
             }
         }
