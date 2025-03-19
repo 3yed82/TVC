@@ -134,6 +134,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | ss | 3YED | 17",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 156",
                 "🇺🇸US | 🔴 | vless | 3YED | 157",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -155,7 +157,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇵🇭PH | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 355",
+                "🇸🇪SE | 🔴 | vless | 3YED | 353",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -210,6 +212,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 16",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | ss | 3YED | 17",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 156",
                 "🇺🇸US | 🔴 | vless | 3YED | 157",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -231,7 +235,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇵🇭PH | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 355",
+                "🇸🇪SE | 🔴 | vless | 3YED | 353",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -898,6 +902,50 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 17",
+            "type": "shadowsocks",
+            "server": "45.87.175.199",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "QCXDxuDlTTMD7jtgHUjIoj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ayanjlizi.yiwis32762.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/sgfqkqmltcy.site\/rbqqvws",
+                "headers": {
+                    "Host": "ayanjlizi.yiwis32762.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 156",
             "type": "vless",
             "server": "151.101.2.165",
@@ -1414,11 +1462,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 355",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 353",
             "type": "vless",
-            "server": "angelina.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "10525b84-7f6e-43ef-912b-87434df813f4",
+            "server": "185.146.173.37",
+            "server_port": 8443,
+            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1428,7 +1476,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "news5.testsnew.com",
+                "server_name": "Be9AqSoYcF.mYsPdMmEtI.cOm",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1438,9 +1486,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wss",
+                "path": "\/",
                 "headers": {
-                    "Host": "news5.testsnew.com"
+                    "Host": "Be9AqSoYcF.mYsPdMmEtI.cOm"
                 }
             }
         },
