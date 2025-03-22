@@ -140,8 +140,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
-                "🇦🇪AE | 🟢 | vmess | 3YED | 8"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 7"
             ]
         },
         {
@@ -183,8 +182,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 6",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
-                "🇦🇪AE | 🟢 | vmess | 3YED | 8"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1048,40 +1046,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "193.123.81.105",
-            "server_port": 443,
-            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "193.123.81.105",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "193.123.81.105"
-                }
             }
         }
     ],
