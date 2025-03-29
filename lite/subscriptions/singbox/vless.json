@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 42",
                 "🇸🇪SE | 🔴 | vless | 3YED | 43",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 10",
-                "🇮🇪IE | 🔴 | vless | 3YED | 14",
-                "🇬🇧GB | 🔴 | vless | 3YED | 15",
+                "🇸🇪SE | 🔴 | vless | 3YED | 14",
+                "🇮🇪IE | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -179,14 +179,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 42",
                 "🇸🇪SE | 🔴 | vless | 3YED | 43",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 10",
-                "🇮🇪IE | 🔴 | vless | 3YED | 14",
-                "🇬🇧GB | 🔴 | vless | 3YED | 15",
+                "🇸🇪SE | 🔴 | vless | 3YED | 14",
+                "🇮🇪IE | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -268,7 +268,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 3",
+            "tag": "❔XX | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "fastly.cdn.f-35.store",
             "server_port": 8080,
@@ -324,7 +324,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 0",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "172.67.73.163",
             "server_port": 80,
@@ -390,9 +390,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 14",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 14",
             "type": "vless",
-            "server": "99.81.174.182",
+            "server": "13.61.225.74",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -421,9 +421,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 15",
+            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 15",
             "type": "vless",
-            "server": "18.170.129.186",
+            "server": "52.212.103.65",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -549,8 +549,8 @@ https://github.com/3yed-61
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "telegram-ArV2ray",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -558,11 +558,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "m.mashti.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "m.mashti.link"
                 }
             }
         },
