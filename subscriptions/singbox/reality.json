@@ -124,7 +124,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 118",
-                "🇺🇸US | 🔴 | vless | 3YED | 119",
+                "🇺🇸US | 🔴 | vless | 3YED | 125",
+                "🇺🇸US | 🔴 | vless | 3YED | 126",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
@@ -183,7 +184,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 118",
-                "🇺🇸US | 🔴 | vless | 3YED | 119",
+                "🇺🇸US | 🔴 | vless | 3YED | 125",
+                "🇺🇸US | 🔴 | vless | 3YED | 126",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
@@ -819,6 +821,35 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 118",
             "type": "vless",
+            "server": "54.175.114.99",
+            "server_port": 1212,
+            "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+                    "short_id": "a4844ba7"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 125",
+            "type": "vless",
             "server": "54.201.154.24",
             "server_port": 1212,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
@@ -846,7 +877,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 119",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 126",
             "type": "vless",
             "server": "3.86.8.147",
             "server_port": 1212,
