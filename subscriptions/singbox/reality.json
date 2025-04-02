@@ -126,8 +126,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 150",
                 "🇺🇸US | 🔴 | vless | 3YED | 156",
                 "🇺🇸US | 🔴 | vless | 3YED | 165",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🔴 | vless | 3YED | 4",
+                "❔XX | 🔴 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇨🇭CH | 🟢 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -185,8 +186,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 150",
                 "🇺🇸US | 🔴 | vless | 3YED | 156",
                 "🇺🇸US | 🔴 | vless | 3YED | 165",
-                "❔XX | 🔴 | vless | 3YED | 2",
-                "❔XX | 🔴 | vless | 3YED | 4",
+                "❔XX | 🔴 | vless | 3YED | 0",
+                "❔XX | 🔴 | vless | 3YED | 3",
+                "❔XX | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇨🇭CH | 🟢 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
@@ -904,7 +906,43 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 2",
+            "tag": "❔XX | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "ipv6.proxystore11.shop",
+            "server_port": 443,
+            "uuid": "a4581b69-90d1-49e3-a36a-3aaf9bdf1d1e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.canva.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qTjnHPhsqfvEpnCP4cTXXvVQI34F2uXhWxl0ddtgpTc",
+                    "short_id": "b5f32071b5f64f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "L6ocyVFZGNHz4gxKwgJ",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "ipv6.proxystore11.news",
             "server_port": 443,
@@ -940,7 +978,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 4",
+            "tag": "❔XX | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "ipv6.proxystore11.news",
             "server_port": 443,
