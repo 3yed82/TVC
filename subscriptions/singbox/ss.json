@@ -105,10 +105,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇳🇱NL | 🟢 | ss | 3YED | 5",
-                "🇩🇪DE | 🟢 | ss | 3YED | 11",
-                "🇿🇦ZA | 🟢 | ss | 3YED | 12",
+                "🇬🇧GB | 🟢 | ss | 3YED | 0",
+                "🇺🇸US | 🟢 | ss | 3YED | 7",
+                "🇳🇱NL | 🟢 | ss | 3YED | 11",
+                "🇩🇪DE | 🟢 | ss | 3YED | 17",
+                "🇿🇦ZA | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🟢 | ss | 3YED | 2",
                 "🇬🇧GB | 🟢 | ss | 3YED | 9"
             ]
@@ -117,10 +118,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3YED | 1",
-                "🇳🇱NL | 🟢 | ss | 3YED | 5",
-                "🇩🇪DE | 🟢 | ss | 3YED | 11",
-                "🇿🇦ZA | 🟢 | ss | 3YED | 12",
+                "🇬🇧GB | 🟢 | ss | 3YED | 0",
+                "🇺🇸US | 🟢 | ss | 3YED | 7",
+                "🇳🇱NL | 🟢 | ss | 3YED | 11",
+                "🇩🇪DE | 🟢 | ss | 3YED | 17",
+                "🇿🇦ZA | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🟢 | ss | 3YED | 2",
                 "🇬🇧GB | 🟢 | ss | 3YED | 9"
             ],
@@ -145,7 +147,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 1",
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 7",
             "type": "shadowsocks",
             "server": "45.87.175.171",
             "server_port": 8080,
@@ -155,7 +167,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | 3YED | 5",
+            "tag": "🇳🇱NL | 🟢 | ss | 3YED | 11",
             "type": "shadowsocks",
             "server": "45.158.171.146",
             "server_port": 8080,
@@ -165,7 +177,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | 🟢 | ss | 3YED | 11",
+            "tag": "🇩🇪DE | 🟢 | ss | 3YED | 17",
             "type": "shadowsocks",
             "server": "109.120.177.122",
             "server_port": 6774,
@@ -175,7 +187,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇿🇦ZA | 🟢 | ss | 3YED | 12",
+            "tag": "🇿🇦ZA | 🟢 | ss | 3YED | 18",
             "type": "shadowsocks",
             "server": "129.232.134.112",
             "server_port": 990,
