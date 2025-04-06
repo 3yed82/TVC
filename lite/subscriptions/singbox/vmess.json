@@ -116,8 +116,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "🇸🇬SG | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5"
             ]
         },
         {
@@ -134,8 +134,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "🇸🇬SG | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -403,11 +403,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
+            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "baacbac-aabc-abca-adbc-ccabbabacabc",
+            "server": "217.142.187.146",
+            "server_port": 23452,
+            "uuid": "a66a6287-1f6b-41bb-9509-4f8252b8d47d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -417,14 +417,21 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "217.142.187.146"
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "aacacbb-baac-abca-dcba-ccabacaabbbc",
+            "server_port": 1080,
+            "uuid": "baacbac-aabc-abca-adbc-ccabbabacabc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
