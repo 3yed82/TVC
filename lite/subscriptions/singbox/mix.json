@@ -155,7 +155,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇨🇳CN | 🔴 | vless | 3YED | 308",
+                "🇬🇧GB | 🔴 | vless | 3YED | 316",
+                "🇺🇸US | 🔴 | vless | 3YED | 317",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -234,7 +235,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
-                "🇨🇳CN | 🔴 | vless | 3YED | 308",
+                "🇬🇧GB | 🔴 | vless | 3YED | 316",
+                "🇺🇸US | 🔴 | vless | 3YED | 317",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -1447,26 +1449,44 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | 🔴 | vless | 3YED | 308",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 316",
             "type": "vless",
-            "server": "gysz0000.dynu.net",
-            "server_port": 11839,
-            "uuid": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-            "flow": "xtls-rprx-vision",
+            "server": "45.32.180.9",
+            "server_port": 8080,
+            "uuid": "44f3dce9-14bd-4c61-eea7-6b301e0bb034",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.nvidia.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "45.32.180.9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 317",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "13692dc2-200c-4e3a-99f5-8ab0024fd1ae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
                 }
             }
         },
