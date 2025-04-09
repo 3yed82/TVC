@@ -145,9 +145,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
-                "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -217,9 +214,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
-                "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇩🇪DE | 🔴 | vless | 3YED | 19",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -1517,114 +1511,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MTMVPN---MTMVPN----MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "mehdi24.vact.ir",
-            "server_port": 443,
-            "uuid": "MTMVPN",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZfJhYHphztYrI4N-RpcZqfNhqV-9PG-qT80ShLpJQ8",
-                    "short_id": "a473bfc1f4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 17",
-            "type": "vless",
-            "server": "mehdi24.vact.ir",
-            "server_port": 443,
-            "uuid": "8cba15d2-7c60-48b5-8075-58790b4ed714",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZfJhYHphztYrI4N-RpcZqfNhqV-9PG-qT80ShLpJQ8",
-                    "short_id": "a473bfc1f4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "mehdi24.vact.ir",
-            "server_port": 443,
-            "uuid": "ff3a7a67-4e95-48e6-b7cd-82d85c43d2d6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZfJhYHphztYrI4N-RpcZqfNhqV-9PG-qT80ShLpJQ8",
-                    "short_id": "a473bfc1f4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
