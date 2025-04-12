@@ -133,8 +133,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 0"
             ]
         },
@@ -170,8 +171,9 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -872,7 +874,31 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 0",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "v7.heduian.link",
+            "server_port": 30807,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/oooo",
+                "headers": {
+                    "Host": "v7.heduian.link"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "1743919941.tencentapp.cn",
             "server_port": 2053,
@@ -906,7 +932,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "v8.heduian.link",
             "server_port": 30808,
