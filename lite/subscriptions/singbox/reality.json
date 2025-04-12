@@ -106,7 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "❔XX | 🔴 | vless | 3YED | 150",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇭CH | 🟢 | vless | 3YED | 4",
@@ -120,7 +121,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "❔XX | 🔴 | vless | 3YED | 150",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "🇨🇭CH | 🟢 | vless | 3YED | 4",
@@ -150,7 +152,43 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 7",
+            "tag": "❔XX | 🔴 | vless | 3YED | 150",
+            "type": "vless",
+            "server": "mehdi21.vact.ir",
+            "server_port": 443,
+            "uuid": "3a98dee0-8d9f-4f17-a1b0-706b72bcab11",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vLtM7H2Bbmzw5-Tevlxh2soD0WML7GJNeAg6gdhsCzo",
+                    "short_id": "ba66"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "mehdi24.vact.ir",
             "server_port": 443,
