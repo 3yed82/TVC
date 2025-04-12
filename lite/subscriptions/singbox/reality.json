@@ -106,12 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | 3YED | 150",
                 "❔XX | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🟢 | vless | 3YED | 217",
-                "🇮🇪IE | 🟢 | vless | 3YED | 218",
-                "❔XX | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🟢 | vless | 3YED | 226",
+                "🇮🇪IE | 🟢 | vless | 3YED | 227",
                 "❔XX | 🔴 | vless | 3YED | 2",
+                "❔XX | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -123,12 +122,11 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | 3YED | 150",
                 "❔XX | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🟢 | vless | 3YED | 217",
-                "🇮🇪IE | 🟢 | vless | 3YED | 218",
-                "❔XX | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🟢 | vless | 3YED | 226",
+                "🇮🇪IE | 🟢 | vless | 3YED | 227",
                 "❔XX | 🔴 | vless | 3YED | 2",
+                "❔XX | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -154,42 +152,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3YED | 150",
-            "type": "vless",
-            "server": "mehdi21.vact.ir",
-            "server_port": 443,
-            "uuid": "3a98dee0-8d9f-4f17-a1b0-706b72bcab11",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vLtM7H2Bbmzw5-Tevlxh2soD0WML7GJNeAg6gdhsCzo",
-                    "short_id": "ba66"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "❔XX | 🔴 | vless | 3YED | 7",
@@ -228,7 +190,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 217",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 226",
             "type": "vless",
             "server": "52.3.245.222",
             "server_port": 8444,
@@ -257,7 +219,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | vless | 3YED | 218",
+            "tag": "🇮🇪IE | 🟢 | vless | 3YED | 227",
             "type": "vless",
             "server": "18.202.50.85",
             "server_port": 8444,
@@ -286,7 +248,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 1",
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "ipv6.proxystore11.shop",
             "server_port": 443,
@@ -322,7 +284,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 2",
+            "tag": "❔XX | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "ipv6.proxystore11.shop",
             "server_port": 443,
