@@ -154,7 +154,6 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | 3YED | 8","type":"vmess","server":"183.236.51.38","port":"43121","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | 🟢 | vmess | 3YED | 9","type":"vmess","server":"hn3x.newbee8.me","port":"22253","cipher":"auto","uuid":"1824af53-6021-4866-a6f9-1bad166dc2c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬SG | 🟢 | vmess | 3YED | 10","type":"vmess","server":"103.106.229.207","port":"53802","cipher":"auto","uuid":"803c04ae-2da6-434b-a692-8fd75e5964d7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | 🟢 | vmess | 3YED | 11","type":"vmess","server":"9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net","port":"5229","cipher":"auto","uuid":"51362ab6-b5e6-11ea-ad28-f23c913c8d2b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | 3YED | 0","type":"vmess","server":"2a01:4f8:c010:6ca3::1","port":"41358","cipher":"auto","uuid":"68719eee-35cf-4980-adb3-b3986f566bf7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"kcp"}
 proxy-groups:
   - name: MANUAL
@@ -198,7 +197,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | 3YED | 8'
       - '🇨🇳CN | 🟢 | vmess | 3YED | 9'
       - '🇸🇬SG | 🟢 | vmess | 3YED | 10'
-      - '🇨🇳CN | 🟢 | vmess | 3YED | 11'
       - '❔XX | 🟢 | vmess | 3YED | 0'
   - name: URL-TEST
     type: url-test
@@ -242,7 +240,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | 3YED | 8'
       - '🇨🇳CN | 🟢 | vmess | 3YED | 9'
       - '🇸🇬SG | 🟢 | vmess | 3YED | 10'
-      - '🇨🇳CN | 🟢 | vmess | 3YED | 11'
       - '❔XX | 🟢 | vmess | 3YED | 0'
   - name: FALLBACK
     type: fallback
@@ -285,7 +282,6 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | 3YED | 8'
       - '🇨🇳CN | 🟢 | vmess | 3YED | 9'
       - '🇸🇬SG | 🟢 | vmess | 3YED | 10'
-      - '🇨🇳CN | 🟢 | vmess | 3YED | 11'
       - '❔XX | 🟢 | vmess | 3YED | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
