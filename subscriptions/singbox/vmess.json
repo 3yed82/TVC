@@ -125,7 +125,8 @@
                 "🇵🇱PL | 🟢 | vmess | 3YED | 17",
                 "🇧🇷BR | 🟢 | vmess | 3YED | 19",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 294",
+                "🇺🇸US | 🟢 | vmess | 3YED | 291",
+                "🇺🇸US | 🟢 | vmess | 3YED | 315",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -138,8 +139,6 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🚩CF | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0"
             ]
@@ -168,7 +167,8 @@
                 "🇵🇱PL | 🟢 | vmess | 3YED | 17",
                 "🇧🇷BR | 🟢 | vmess | 3YED | 19",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 294",
+                "🇺🇸US | 🟢 | vmess | 3YED | 291",
+                "🇺🇸US | 🟢 | vmess | 3YED | 315",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
@@ -181,8 +181,6 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇯🇵JP | 🟢 | vmess | 3YED | 4",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🚩CF | 🟢 | vmess | 3YED | 6",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
                 "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 0"
             ],
@@ -622,7 +620,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 294",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 291",
+            "type": "vmess",
+            "server": "cloudgetservice.mcloudservice.site",
+            "server_port": 443,
+            "uuid": "3cf58606-5f2a-4609-9abd-404f633bd7e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudgetservice.mcloudservice.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws?ed=2560",
+                "headers": {
+                    "Host": "cloudgetservice.mcloudservice.site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 315",
             "type": "vmess",
             "server": "us10-04.852224.ggff.net",
             "server_port": 443,
@@ -963,64 +995,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "104.21.94.64",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.21.94.64",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "104.21.94.64"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "64.32.13.244",
-            "server_port": 7612,
-            "uuid": "7e64224c-4c10-11ec-bd7c-f23c913c8d2b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "64.32.13.244"
-                }
             }
         },
         {
