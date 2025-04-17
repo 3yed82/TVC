@@ -130,8 +130,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇩🇪DE | 🟢 | trojan | 3YED | 18",
-                "🇸🇪SE | 🟢 | trojan | 3YED | 19",
+                "🇫🇷FR | 🟢 | trojan | 3YED | 18",
+                "🇩🇪DE | 🟢 | trojan | 3YED | 19",
                 "🇩🇪DE | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
@@ -161,8 +161,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 6",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -211,8 +211,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇩🇪DE | 🟢 | trojan | 3YED | 18",
-                "🇸🇪SE | 🟢 | trojan | 3YED | 19",
+                "🇫🇷FR | 🟢 | trojan | 3YED | 18",
+                "🇩🇪DE | 🟢 | trojan | 3YED | 19",
                 "🇩🇪DE | 🟢 | trojan | 3YED | 18",
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
@@ -242,8 +242,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 5",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 6",
-                "🇷🇺RU | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -823,9 +823,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | trojan | 3YED | 18",
+            "tag": "🇫🇷FR | 🟢 | trojan | 3YED | 18",
             "type": "trojan",
-            "server": "18.199.48.0",
+            "server": "13.36.99.118",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -845,9 +845,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | trojan | 3YED | 19",
+            "tag": "🇩🇪DE | 🟢 | trojan | 3YED | 19",
             "type": "trojan",
-            "server": "13.50.20.63",
+            "server": "18.157.135.108",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1525,6 +1525,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 5",
+            "type": "vmess",
+            "server": "2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com",
+            "server_port": 17233,
+            "uuid": "ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net",
@@ -1539,30 +1556,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "195.58.49.84",
-            "server_port": 22013,
-            "uuid": "d9581ec1-2882-4749-a956-b3184c27277b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "195.58.49.84"
-                }
             }
         },
         {
