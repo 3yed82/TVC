@@ -137,8 +137,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇫🇮FI | 🟢 | ss | 3YED | 17",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "❔XX | 🔴 | vless | 3YED | 150",
@@ -161,8 +159,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 2",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇷🇺RU | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -219,8 +217,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
-                "🇫🇮FI | 🟢 | ss | 3YED | 17",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 18",
                 "🇨🇦CA | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🔴 | vless | 3YED | 16",
                 "❔XX | 🔴 | vless | 3YED | 150",
@@ -243,8 +239,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 2",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇷🇺RU | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -968,50 +964,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | ss | 3YED | 17",
-            "type": "shadowsocks",
-            "server": "185.5.38.111",
-            "server_port": 55988,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VZGpJiYpqsqrwx3ACRV1vX2qNSG8Jignq4SMn1qCpBKyBWiihvK3MsdFtFdTcGevaHQzjhJ1L9qzVf8SQG7c4ygHtudNNSPk",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "163.5.159.231",
-            "server_port": 443,
-            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "irvideo.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "irvideo.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🔴 | vless | 3YED | 15",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1555,6 +1507,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "81137562-sutj40-suyhjm-1hhyy.cm.plebai.net",
+            "server_port": 15229,
+            "uuid": "c594c7ec-8b10-11ef-a2b8-f23c9164ca5d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "183.236.51.38",
@@ -1569,30 +1538,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "fadawtawd.zhangwei.li",
-            "server_port": 46005,
-            "uuid": "4c5a8a75-7d65-40a9-8c3b-a67abae08534",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/zh-cn",
-                "headers": {
-                    "Host": "fadawtawd.zhangwei.li"
-                }
             }
         },
         {
