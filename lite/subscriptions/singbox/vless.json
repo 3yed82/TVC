@@ -125,6 +125,7 @@ https://github.com/3yed-61
                 "🇲🇾MY | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇨🇭CH | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -197,6 +198,7 @@ https://github.com/3yed-61
                 "🇲🇾MY | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇨🇭CH | 🔴 | vless | 3YED | 0",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -659,6 +661,42 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "Speedtest.net"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "wedbaztel.smartexchangevip.com",
+            "server_port": 27211,
+            "uuid": "7833f8ad-b69c-4c59-9035-0964f826183c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "80IHrVf_vpOI4Y8psDliYi9-OuiVaVKkyeRShKqqh3Q",
+                    "short_id": "44287741c96b7bbe"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@WedBaZtel----------@WedBaZtel-----------@WedBaZtel----@WedBaZtel-------@WedBaZtel-----@WedBaZtel----------@WedBaZtel-----------@WedBaZtel----@WedBaZtel-------@WedBaZtel-----@WedBaZtel----------@WedBaZtel-----------@WedBaZtel----@WedBaZtel-------@WedBaZtel",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
