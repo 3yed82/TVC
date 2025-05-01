@@ -121,7 +121,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 10",
                 "🇵🇱PL | 🟢 | vmess | 3YED | 18",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 142",
+                "🇵🇱PL | 🟢 | vmess | 3YED | 100",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -150,7 +150,7 @@
                 "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 10",
                 "🇵🇱PL | 🟢 | vmess | 3YED | 18",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 142",
+                "🇵🇱PL | 🟢 | vmess | 3YED | 100",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -482,11 +482,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 142",
+            "tag": "🇵🇱PL | 🟢 | vmess | 3YED | 100",
             "type": "vmess",
-            "server": "5.180.30.85",
-            "server_port": 18598,
-            "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
+            "server": "kapelleng.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -496,6 +496,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kapelleng.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kapelleng.com"
+                }
             }
         },
         {
