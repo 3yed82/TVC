@@ -132,6 +132,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇳🇱NL | 🔴 | vless | 3YED | 146",
+                "🇮🇷IR | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -167,7 +169,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 8",
                 "🇮🇹IT | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3"
@@ -203,6 +205,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇳🇱NL | 🔴 | vless | 3YED | 146",
+                "🇮🇷IR | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -238,7 +242,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 8",
                 "🇮🇹IT | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 3"
@@ -822,6 +826,41 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "nautica.foolvpn.me"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 146",
+            "type": "vless",
+            "server": "5.253.30.14",
+            "server_port": 8880,
+            "uuid": "c7d4b0f6-0f18-45a3-97c7-caaf373f032d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 147",
+            "type": "vless",
+            "server": "AK111.amirak.cfd",
+            "server_port": 25679,
+            "uuid": "95984f4e-0733-4430-a937-f630cb2fb113",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1684,7 +1723,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 8",
+            "tag": "❔XX | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
