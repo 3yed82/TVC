@@ -132,7 +132,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇮🇷IR | 🔴 | vless | 3YED | 139",
+                "🇳🇱NL | 🔴 | vless | 3YED | 146",
+                "🇮🇷IR | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -204,7 +205,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
-                "🇮🇷IR | 🔴 | vless | 3YED | 139",
+                "🇳🇱NL | 🔴 | vless | 3YED | 146",
+                "🇮🇷IR | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -483,7 +485,7 @@ https://github.com/3yed-61
             "type": "vless",
             "server": "151.101.64.155",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "telegram-id-ArV2ray1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -502,8 +504,8 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
+            "server": "151.101.64.155",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -516,7 +518,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "151.101.64.155"
                 }
             }
         },
@@ -827,11 +829,32 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 139",
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 146",
             "type": "vless",
-            "server": "151.234.162.87",
-            "server_port": 443,
-            "uuid": "a850d045-3c17-4430-b9fe-e6411b27b038",
+            "server": "5.253.30.14",
+            "server_port": 8880,
+            "uuid": "c7d4b0f6-0f18-45a3-97c7-caaf373f032d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless-grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 147",
+            "type": "vless",
+            "server": "AK111.amirak.cfd",
+            "server_port": 25679,
+            "uuid": "95984f4e-0733-4430-a937-f630cb2fb113",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
