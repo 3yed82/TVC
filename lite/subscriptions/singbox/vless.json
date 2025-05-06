@@ -144,18 +144,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇫🇮FI | 🔴 | vless | 3YED | 14",
                 "❔XX | 🟢 | vless | 3YED | 15",
-                "🇪🇸ES | 🔴 | vless | 3YED | 350",
-                "🇮🇱IL | 🔴 | vless | 3YED | 351",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "🇭🇰HK | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
@@ -218,18 +214,14 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🟢 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 11",
                 "❔XX | 🔴 | vless | 3YED | 12",
                 "🇫🇮FI | 🔴 | vless | 3YED | 14",
                 "❔XX | 🟢 | vless | 3YED | 15",
-                "🇪🇸ES | 🔴 | vless | 3YED | 350",
-                "🇮🇱IL | 🔴 | vless | 3YED | 351",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "🇭🇰HK | 🔴 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 12",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
@@ -1108,35 +1100,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 12",
-            "type": "vless",
-            "server": "172.82.67.154",
-            "server_port": 11476,
-            "uuid": "2fd823dd-767b-4245-b56e-4790ca8c1a93",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
-                    "short_id": "eeb3b8"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 14",
             "type": "vless",
             "server": "172.67.187.170",
@@ -1304,48 +1267,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | 3YED | 350",
-            "type": "vless",
-            "server": "65.20.104.178",
-            "server_port": 8080,
-            "uuid": "29ecc6d7-b89d-4e60-882f-f77e0666184d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "65.20.104.178"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇱IL | 🔴 | vless | 3YED | 351",
-            "type": "vless",
-            "server": "64.176.170.221",
-            "server_port": 8080,
-            "uuid": "17529038-9f09-4a66-a601-9c1550fc3b2b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "64.176.170.221"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "cname.proxystore11.news",
@@ -1377,26 +1298,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 14",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 12",
             "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-229",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "103.160.204.59",
-            "server_port": 443,
-            "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-            "flow": "",
+            "server": "172.82.67.154",
+            "server_port": 11476,
+            "uuid": "2fd823dd-767b-4245-b56e-4790ca8c1a93",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1405,19 +1312,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vlee.amclubs.nyc.mn",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "vlee.amclubs.nyc.mn"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dHyiM189GsudgANJT4X9fxzsTnBUvoEUAjrJFnPGp2I",
+                    "short_id": "eeb3b8"
                 }
             }
         },
