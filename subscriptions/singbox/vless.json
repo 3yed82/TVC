@@ -158,6 +158,8 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 22",
                 "🇺🇸US | 🔴 | vless | 3YED | 25",
                 "🇺🇸US | 🔴 | vless | 3YED | 26",
+                "🇺🇸US | 🔴 | vless | 3YED | 29",
+                "🇺🇸US | 🔴 | vless | 3YED | 30",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 0",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 1",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 2",
@@ -548,6 +550,8 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 22",
                 "🇺🇸US | 🔴 | vless | 3YED | 25",
                 "🇺🇸US | 🔴 | vless | 3YED | 26",
+                "🇺🇸US | 🔴 | vless | 3YED | 29",
+                "🇺🇸US | 🔴 | vless | 3YED | 30",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 0",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 1",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 2",
@@ -1812,6 +1816,48 @@
             "server": "zmaoz.faculty.ucdavis.edu",
             "server_port": 80,
             "uuid": "ca9074b2-2442-43b8-c7ab-5440cb7f3ef7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 29",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "99578e88-bc64-479f-e498-050bbb70c4d1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 30",
+            "type": "vless",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "99578e88-bc64-479f-e498-050bbb70c4d1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
