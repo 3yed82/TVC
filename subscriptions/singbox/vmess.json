@@ -129,12 +129,13 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
-                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5"
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 5",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7"
             ]
         },
         {
@@ -165,12 +166,13 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
-                "🚩CF | 🟢 | vmess | 3YED | 2",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5"
+                "🚩CF | 🟢 | vmess | 3YED | 4",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 5",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 6",
+                "🇺🇸US | 🟢 | vmess | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -734,7 +736,41 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 0",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "sg6.vip2.g2.moonbase.life",
+            "server_port": 35146,
+            "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg6.vip2.g2.moonbase.life",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/home",
+                "headers": {
+                    "Host": "sg6.vip2.g2.moonbase.life"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "b79bda8c-svc1s0-t65a3e-tqgz.hk3.p5pv.com",
             "server_port": 8080,
@@ -758,7 +794,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com",
             "server_port": 17232,
@@ -775,7 +811,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "172.67.7.29",
             "server_port": 80,
@@ -799,7 +835,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 3",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "72c12481-svc1s0-te0v28-1mh67.cm5.p5pv.com",
             "server_port": 17233,
@@ -816,7 +852,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "9626e517-svfr40-te0v28-1mh67.cm5.p5pv.com",
             "server_port": 17234,
@@ -833,7 +869,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "us01.sh-cloudflare.sbs",
             "server_port": 8443,
