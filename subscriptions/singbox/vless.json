@@ -413,7 +413,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🚩CF | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
@@ -806,7 +805,6 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🚩CF | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
@@ -7890,37 +7888,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "cname.proxystore11.news",
-            "server_port": 2087,
-            "uuid": "71630354-9b6d-4132-bc3c-24ebd0174bc6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "panel.proxystore11.news",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/prx11",
-                "headers": {
-                    "Host": "panel.proxystore11.news"
-                }
             }
         },
         {
