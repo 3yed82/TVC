@@ -122,14 +122,15 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 15",
                 "❔XX | 🟢 | vmess | 3YED | 121",
-                "🇵🇱PL | 🟢 | vmess | 3YED | 125",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 125",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
-                "🚩CF | 🟢 | vmess | 3YED | 1"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 2"
             ]
         },
         {
@@ -153,14 +154,15 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 15",
                 "❔XX | 🟢 | vmess | 3YED | 121",
-                "🇵🇱PL | 🟢 | vmess | 3YED | 125",
+                "🇬🇧GB | 🟢 | vmess | 3YED | 125",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
-                "🚩CF | 🟢 | vmess | 3YED | 1"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🚩CF | 🟢 | vmess | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -523,7 +525,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vmess | 3YED | 125",
+            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 125",
             "type": "vmess",
             "server": "kapelleng.com",
             "server_port": 443,
@@ -707,7 +709,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "sg1.g2.moonbase.life",
+            "server_port": 35111,
+            "uuid": "c3136814-a07e-41f6-ad94-8e20458c0d21",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg1.g2.moonbase.life",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/home",
+                "headers": {
+                    "Host": "sg1.g2.moonbase.life"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "rak1.986986.shop",
             "server_port": 2053,
@@ -741,7 +777,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "172.67.98.140",
             "server_port": 80,
