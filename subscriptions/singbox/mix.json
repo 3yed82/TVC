@@ -487,13 +487,14 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 0",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇿🇦ZA | 🔴 | vless | 3YED | 1",
-                "🚩CF | 🔴 | vless | 3YED | 3",
-                "🇸🇪SE | 🔴 | vless | 3YED | 4",
-                "🇫🇮FI | 🔴 | vless | 3YED | 5",
-                "🚩CF | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇿🇦ZA | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 5",
+                "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -953,13 +954,14 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 0",
                 "🇭🇰HK | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇿🇦ZA | 🔴 | vless | 3YED | 1",
-                "🚩CF | 🔴 | vless | 3YED | 3",
-                "🇸🇪SE | 🔴 | vless | 3YED | 4",
-                "🇫🇮FI | 🔴 | vless | 3YED | 5",
-                "🚩CF | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇿🇦ZA | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 5",
+                "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -9753,6 +9755,30 @@
         {
             "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com",
+            "server_port": 80,
+            "uuid": "2b57ec48-0da4-11ef-8f35-f23c913c8d2b",
+            "security": "auto",
+            "alter_id": 2,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
             "server": "2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com",
             "server_port": 80,
             "uuid": "89b0ea8c-806b-11ed-94ba-f23c913c8d2b",
@@ -9775,7 +9801,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 1",
+            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "4087dc1a-sv2sg0-swqixu-1luqs.hk.p5pv.com",
             "server_port": 80,
@@ -9799,7 +9825,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "cloudgetservice.mcloudservice.site",
             "server_port": 443,
@@ -9854,7 +9880,28 @@
             }
         },
         {
-            "tag": "🇿🇦ZA | 🔴 | vless | 3YED | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8080,
+            "uuid": "51fda508-20aa-419e-b4c3-3a6202411412",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🇿🇦ZA | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "88.218.95.12",
             "server_port": 8880,
@@ -9875,7 +9922,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 2096,
@@ -9906,7 +9953,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 4",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "94.228.164.249",
             "server_port": 80,
@@ -9927,7 +9974,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 5",
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "89.27.8.25",
             "server_port": 80,
@@ -9944,27 +9991,6 @@
                 "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
                 "headers": {
                     "Host": "89.27.8.25"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 8880,
-            "uuid": "f3b7552c-d4f6-43c9-b87b-2990c3063a6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.204.84"
                 }
             }
         },
