@@ -137,9 +137,10 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 146",
-                "🇩🇪DE | 🔴 | vless | 3YED | 147",
+                "🇩🇪DE | 🟢 | vless | 3YED | 147",
+                "🇩🇪DE | 🟢 | vless | 3YED | 148",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -218,9 +219,10 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3YED | 19",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | ss | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
-                "🇺🇸US | 🔴 | vless | 3YED | 146",
-                "🇩🇪DE | 🔴 | vless | 3YED | 147",
+                "🇩🇪DE | 🟢 | vless | 3YED | 147",
+                "🇩🇪DE | 🟢 | vless | 3YED | 148",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 12",
@@ -959,6 +961,16 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 18",
+            "type": "shadowsocks",
+            "server": "23.154.136.132",
+            "server_port": 5499,
+            "method": "aes-256-gcm",
+            "password": "lGqs95QkFHo2NV",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 5",
             "type": "vless",
             "server": "104.16.148.244",
@@ -990,38 +1002,61 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 146",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 147",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "148ff673-b389-4b67-82c3-ae5225f2ce33",
-            "flow": "",
+            "server": "45.150.174.81",
+            "server_port": 443,
+            "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+                    "short_id": "f203719d3ff9a5f5"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 147",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 148",
             "type": "vless",
-            "server": "144.76.231.24",
-            "server_port": 36231,
-            "uuid": "965c9185-1ff2-44a8-b0d3-579822748c0f",
-            "flow": "",
+            "server": "91.238.82.240",
+            "server_port": 443,
+            "uuid": "c8898cfd-9927-4f36-b7bc-40de76076b80",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maviks.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+                    "short_id": "f203719d3ff9a5f5"
+                }
             }
         },
         {
