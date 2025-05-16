@@ -429,7 +429,6 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇫🇮FI | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
-                "🇫🇮FI | 🔴 | vless | 3YED | 11",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
@@ -492,6 +491,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🚩CF | 🔴 | vless | 3YED | 10",
@@ -501,7 +501,7 @@
                 "🚩CF | 🔴 | vless | 3YED | 4",
                 "🇷🇺RU | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
-                "🇸🇨SC | 🔴 | vless | 3YED | 0",
+                "🇷🇺RU | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
@@ -891,7 +891,6 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
                 "🇫🇮FI | 🟢 | vless | 3YED | 7",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
-                "🇫🇮FI | 🔴 | vless | 3YED | 11",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 2",
@@ -954,6 +953,7 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🚩CF | 🔴 | vless | 3YED | 10",
@@ -963,7 +963,7 @@
                 "🚩CF | 🔴 | vless | 3YED | 4",
                 "🇷🇺RU | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
-                "🇸🇨SC | 🔴 | vless | 3YED | 0",
+                "🇷🇺RU | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
@@ -8380,27 +8380,6 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 11",
-            "type": "vless",
-            "server": "89.27.8.25",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
-                "headers": {
-                    "Host": "89.27.8.25"
-                }
-            }
-        },
-        {
             "tag": "🚩CF | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "104.16.128.22",
@@ -9996,6 +9975,27 @@
             }
         },
         {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "89.27.8.25",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
+                "headers": {
+                    "Host": "89.27.8.25"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "89.144.25.236",
@@ -10234,7 +10234,7 @@
             }
         },
         {
-            "tag": "🇸🇨SC | 🔴 | vless | 3YED | 0",
+            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "djfdd.nexavps.ir",
             "server_port": 8880,
