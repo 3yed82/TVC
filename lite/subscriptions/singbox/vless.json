@@ -157,8 +157,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "❔XX | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 19",
@@ -225,8 +225,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 13",
                 "🇸🇪SE | 🔴 | vless | 3YED | 14",
-                "❔XX | 🔴 | vless | 3YED | 12",
-                "❔XX | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "❔XX | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇳🇱NL | 🔴 | vless | 3YED | 19",
@@ -1459,31 +1459,60 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 12",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
             "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "338bb2c5-22a4-4864-805c-b5cd2ee6a865",
+            "server": "zmaoz.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "d41c3a84-0dcc-45fd-8b8d-0552197ae314",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/olem\/ws?ed=1024",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 13",
+            "tag": "❔XX | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "website.acveo.ir",
-            "server_port": 8080,
-            "uuid": "4b270bff-0f7e-428e-9fab-a4d96c068e8b",
-            "flow": "",
+            "server": "Tabriz-Website.acveo.ir",
+            "server_port": 443,
+            "uuid": "95b72ff8-d3ac-4f80-aab2-6a175e2eb9d9",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8",
+                    "short_id": "b1417d"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
