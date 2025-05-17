@@ -107,11 +107,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | vless | 3YED | 10",
+                "🇩🇪DE | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "❔XX | 🔴 | vless | 3YED | 8"
+                "🇩🇪DE | 🔴 | vless | 3YED | 8"
             ]
         },
         {
@@ -119,11 +120,12 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🟢 | vless | 3YED | 10",
+                "🇩🇪DE | 🔴 | vless | 3YED | 307",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "❔XX | 🔴 | vless | 3YED | 8"
+                "🇩🇪DE | 🔴 | vless | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -171,6 +173,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
                     "short_id": "7e39db0c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 307",
+            "type": "vless",
+            "server": "168.119.248.187",
+            "server_port": 223,
+            "uuid": "2084deb2-fb34-4fd5-9f74-f6e2c5360206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ms.sodogodping.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
+                    "short_id": "c7f175a94bd79f8d"
                 }
             }
         },
@@ -312,7 +343,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
