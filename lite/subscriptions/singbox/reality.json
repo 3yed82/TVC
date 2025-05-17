@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -118,7 +117,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🟢 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -144,35 +142,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "213.21.245.83",
-            "server_port": 443,
-            "uuid": "6f6adc8f-1dbb-4bde-af84-a30d71032d2f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TXHciLv9Ctu7k7sdIcadLJIEa1WTCIseYctDMa6NW0c",
-                    "short_id": "7e39db0c"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
