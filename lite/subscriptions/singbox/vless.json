@@ -129,8 +129,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇳🇱NL | 🔴 | vless | 3YED | 147",
-                "🇳🇱NL | 🔴 | vless | 3YED | 148",
+                "🇮🇷IR | 🔴 | vless | 3YED | 140",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 11",
@@ -152,7 +151,7 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇸🇪SE | 🔴 | vless | 3YED | 10",
+                "🇸🇪SE | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -192,8 +191,7 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
-                "🇳🇱NL | 🔴 | vless | 3YED | 147",
-                "🇳🇱NL | 🔴 | vless | 3YED | 148",
+                "🇮🇷IR | 🔴 | vless | 3YED | 140",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "❔XX | 🔴 | vless | 3YED | 11",
@@ -215,7 +213,7 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇸🇪SE | 🔴 | vless | 3YED | 10",
+                "🇸🇪SE | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -780,31 +778,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 147",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 140",
             "type": "vless",
-            "server": "64.227.77.203",
-            "server_port": 443,
-            "uuid": "86b54d8f-fb29-4326-a05f-f7e61896286f",
+            "server": "85.133.206.14",
+            "server_port": 33912,
+            "uuid": "d2bdf18d-dadc-427f-9b0b-5e68fdd00521",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 148",
-            "type": "vless",
-            "server": "64.227.77.203",
-            "server_port": 443,
-            "uuid": "86b54d8f-fb29-4326-a05f-f7e61896286f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram:@summertimeus",
+                "headers": {
+                    "Host": "85.133.206.14"
+                }
             }
         },
         {
@@ -1298,7 +1289,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 10",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "185.146.173.39",
             "server_port": 8880,
