@@ -111,8 +111,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4"
+                "🇰🇷KR | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ]
         },
         {
@@ -124,8 +124,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4"
+                "🇰🇷KR | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,6 +257,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇰🇷KR | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "lv4.789900.xyz",
+            "server_port": 2087,
+            "uuid": "7dd16ab1-2a36-4b32-86fd-eb49fb039752",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lv4.789900.xyz"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "172.67.170.51",
@@ -277,30 +301,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.170.51"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "141.101.120.253",
-            "server_port": 2096,
-            "uuid": "381cb6d1-6ad4-4909-8494-b8d786cf78ce",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "141.101.120.253"
                 }
             }
         }
