@@ -125,7 +125,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5"
+                "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0"
             ]
         },
         {
@@ -152,7 +153,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
-                "🚩CF | 🟢 | vmess | 3YED | 5"
+                "🚩CF | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -644,6 +646,40 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "hknbyivfffj.site",
+            "server_port": 443,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rbqqvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
