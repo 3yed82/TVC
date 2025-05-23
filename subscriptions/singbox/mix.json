@@ -223,8 +223,10 @@
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇮🇷IR | 🔴 | vless | 3YED | 3",
-                "🇫🇮FI | 🔴 | vless | 3YED | 4",
+                "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇮🇷IR | 🔴 | vless | 3YED | 5",
+                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇮🇷IR | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 5",
@@ -461,7 +463,8 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 0",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇱🇻LV | 🔴 | vless | 3YED | 2",
@@ -639,8 +642,10 @@
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇮🇷IR | 🔴 | vless | 3YED | 3",
-                "🇫🇮FI | 🔴 | vless | 3YED | 4",
+                "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇮🇷IR | 🔴 | vless | 3YED | 5",
+                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇮🇷IR | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 5",
@@ -877,7 +882,8 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+                "🇸🇬SG | 🟢 | vmess | 3YED | 0",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 1",
                 "🇱🇻LV | 🔴 | vless | 3YED | 2",
@@ -3476,7 +3482,7 @@
             "type": "vless",
             "server": "185.143.233.120",
             "server_port": 443,
-            "uuid": "c92348f4-1ebb-4232-b546-c056f3721ffb",
+            "uuid": "675537c4-5916-446f-b90d-15f64f3ccf67",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3496,7 +3502,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wp-content?ed=2020",
+                "path": "\/telegram-mitivpn-telegram-mitivpn-telegram-mitivpn",
                 "headers": {
                     "Host": "mydigipay.com"
                 }
@@ -3527,7 +3533,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/wp-admin",
+                "path": "\/telegram-mitivpn-telegram-mitivpn-telegram-mitivpn",
                 "headers": {
                     "Host": "mydigipay.com"
                 }
@@ -3569,6 +3575,37 @@
             "type": "vless",
             "server": "185.143.233.120",
             "server_port": 443,
+            "uuid": "675537c4-5916-446f-b90d-15f64f3ccf67",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mydigipay.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wp-admin",
+                "headers": {
+                    "Host": "mydigipay.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "185.143.233.120",
+            "server_port": 443,
             "uuid": "c92348f4-1ebb-4232-b546-c056f3721ffb",
             "flow": "",
             "packet_encoding": "xudp",
@@ -3596,7 +3633,38 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 4",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "185.143.233.120",
+            "server_port": 443,
+            "uuid": "c92348f4-1ebb-4232-b546-c056f3721ffb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mydigipay.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wp-content?ed=2020",
+                "headers": {
+                    "Host": "mydigipay.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "3982390233.torob.com.tr",
             "server_port": 2182,
@@ -3632,7 +3700,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 5",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "185.143.233.120",
             "server_port": 443,
@@ -9233,7 +9301,24 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 0",
+            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "8.222.223.192",
+            "server_port": 26325,
+            "uuid": "e58e1439-7181-4344-842f-0e46fc71ed93",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "183.238.90.8",
             "server_port": 41766,
