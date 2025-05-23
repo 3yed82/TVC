@@ -127,9 +127,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2"
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ]
         },
         {
@@ -158,9 +159,10 @@
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "🇭🇰HK | 🟢 | vmess | 3YED | 0",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 1",
-                "🇺🇸US | 🟢 | vmess | 3YED | 2"
+                "🚩CF | 🟢 | vmess | 3YED | 0",
+                "🇭🇰HK | 🟢 | vmess | 3YED | 1",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -639,7 +641,31 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 0",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.67.214.33",
+            "server_port": 2082,
+            "uuid": "2f821152-c3e9-4074-9185-2790e7425f42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "43.247.135.192",
             "server_port": 19504,
@@ -656,7 +682,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 1",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "tk.hzlt.tkddns.xyz",
             "server_port": 22641,
@@ -690,7 +716,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "cdn1.bpcdn.cc",
             "server_port": 2086,
