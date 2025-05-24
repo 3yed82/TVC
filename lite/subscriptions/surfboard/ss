@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | 🟢 | ss | 3YED | 17 = ss, 45.158.171.141, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🇮🇳IN | 🟢 | ss | 3YED | 18 = ss, 64.227.144.190, 50690, encrypt-method = chacha20-ietf-poly1305, password = PMeTVu76168UHquRQkb8f0
+🇬🇧GB | 🟢 | ss | 3YED | 11 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | 🟢 | ss | 3YED | 17,🇮🇳IN | 🟢 | ss | 3YED | 18
-URL-TEST = url-test,🇳🇱NL | 🟢 | ss | 3YED | 17,🇮🇳IN | 🟢 | ss | 3YED | 18
-FALLBACK = fallback,🇳🇱NL | 🟢 | ss | 3YED | 17,🇮🇳IN | 🟢 | ss | 3YED | 18
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | ss | 3YED | 11
+URL-TEST = url-test,🇬🇧GB | 🟢 | ss | 3YED | 11
+FALLBACK = fallback,🇬🇧GB | 🟢 | ss | 3YED | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
