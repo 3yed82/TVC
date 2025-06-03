@@ -406,11 +406,11 @@
                 "🇰🇭KH | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🟢 | vless | 3YED | 9",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 1",
-                "🚩CF | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 0",
+                "🇮🇷IR | 🔴 | vless | 3YED | 1",
+                "❔XX | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇰🇭KH | 🔴 | vless | 3YED | 1",
                 "🇷🇺RU | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
@@ -761,11 +761,11 @@
                 "🇰🇭KH | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🟢 | vless | 3YED | 9",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 1",
-                "🚩CF | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🚩CF | 🔴 | vless | 3YED | 4",
+                "🚩CF | 🔴 | vless | 3YED | 0",
+                "🇮🇷IR | 🔴 | vless | 3YED | 1",
+                "❔XX | 🔴 | vless | 3YED | 2",
+                "🚩CF | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇰🇭KH | 🔴 | vless | 3YED | 1",
                 "🇷🇺RU | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
@@ -8171,7 +8171,38 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 0",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.16.3.5",
+            "server_port": 443,
+            "uuid": "963816bd-b6e7-4648-abff-8af25bc07d87",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gulf-d96.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ecY3gziM8W6ud5yj?ed=2560",
+                "headers": {
+                    "Host": "gulf-d96.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "185.143.233.120",
             "server_port": 443,
@@ -8202,7 +8233,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 1",
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
@@ -8231,7 +8262,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 2",
+            "tag": "🚩CF | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "104.16.98.3",
             "server_port": 2053,
@@ -8262,7 +8293,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -8273,37 +8304,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🚩CF | 🔴 | vless | 3YED | 4",
-            "type": "vless",
-            "server": "104.16.14.1",
-            "server_port": 443,
-            "uuid": "711627d2-1662-4e98-a3d6-086fd4fd4d31",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/iqySBCJZh3v7AmTx?ed=2560",
-                "headers": {
-                    "Host": "5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev"
-                }
             }
         },
         {
