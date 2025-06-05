@@ -132,8 +132,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇨🇿CZ | 🔴 | vless | 3YED | 143",
-                "🇨🇿CZ | 🔴 | vless | 3YED | 144",
+                "🇨🇿CZ | 🔴 | vless | 3YED | 136",
+                "❔XX | 🟢 | vless | 3YED | 137",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -153,8 +153,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 287",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇮🇷IR | 🔴 | vless | 3YED | 7",
-                "❔XX | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇬🇧GB | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -204,8 +204,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "🇨🇿CZ | 🔴 | vless | 3YED | 143",
-                "🇨🇿CZ | 🔴 | vless | 3YED | 144",
+                "🇨🇿CZ | 🔴 | vless | 3YED | 136",
+                "❔XX | 🟢 | vless | 3YED | 137",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -225,8 +225,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 287",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇮🇷IR | 🔴 | vless | 3YED | 7",
-                "❔XX | 🔴 | vless | 3YED | 9",
-                "🇩🇪DE | 🔴 | vless | 3YED | 2",
+                "❔XX | 🔴 | vless | 3YED | 10",
+                "❔XX | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇬🇧GB | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -916,7 +916,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | 3YED | 143",
+            "tag": "🇨🇿CZ | 🔴 | vless | 3YED | 136",
             "type": "vless",
             "server": "194.182.79.113",
             "server_port": 26468,
@@ -937,24 +937,27 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇿CZ | 🔴 | vless | 3YED | 144",
+            "tag": "❔XX | 🟢 | vless | 3YED | 137",
             "type": "vless",
-            "server": "194.182.79.202",
-            "server_port": 39049,
-            "uuid": "dd4b9b8a-2718-46bd-bc9b-fe947b0ed16c",
-            "flow": "",
+            "server": "join-bede-achavpn.claudify.org",
+            "server_port": 8000,
+            "uuid": "d7f40691-ef51-45ce-9a2c-051e2a1b0750",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "tr-1.claudify.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -1428,7 +1431,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 9",
+            "tag": "❔XX | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "p9.punchline.ir",
             "server_port": 29570,
@@ -1457,7 +1460,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 2",
+            "tag": "❔XX | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "public.misvn.ir",
             "server_port": 443,
