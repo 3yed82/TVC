@@ -109,13 +109,14 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 7",
                 "❔XX | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇬🇧GB | 🟢 | vless | 3YED | 286",
-                "🇬🇧GB | 🟢 | vless | 3YED | 287",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "❔XX | 🟢 | vless | 3YED | 286",
+                "❔XX | 🟢 | vless | 3YED | 287",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "❔XX | 🟢 | vless | 3YED | 4",
-                "❔XX | 🟢 | vless | 3YED | 5"
+                "🇩🇪DE | 🟢 | vless | 3YED | 4",
+                "🇩🇪DE | 🟢 | vless | 3YED | 5"
             ]
         },
         {
@@ -125,13 +126,14 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 7",
                 "❔XX | 🟢 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇬🇧GB | 🟢 | vless | 3YED | 286",
-                "🇬🇧GB | 🟢 | vless | 3YED | 287",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "❔XX | 🟢 | vless | 3YED | 286",
+                "❔XX | 🟢 | vless | 3YED | 287",
                 "❔XX | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
-                "❔XX | 🟢 | vless | 3YED | 4",
-                "❔XX | 🟢 | vless | 3YED | 5"
+                "🇩🇪DE | 🟢 | vless | 3YED | 4",
+                "🇩🇪DE | 🟢 | vless | 3YED | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -228,6 +230,42 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 17",
             "type": "vless",
+            "server": "193.46.81.83",
+            "server_port": 3567,
+            "uuid": "telegram-id-ArV2ray3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_5Hw5RRcDyCnW7H3Ubmp9UnqNiQUaKfB5rPTDqI_kAA",
+                    "short_id": "c14b9292de5a8d6f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
+            "type": "vless",
             "server": "193.46.81.67",
             "server_port": 3567,
             "uuid": "telegram-id-ArV2ray3",
@@ -262,7 +300,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 286",
+            "tag": "❔XX | 🟢 | vless | 3YED | 286",
             "type": "vless",
             "server": "v01.vxlimir.com",
             "server_port": 1370,
@@ -291,7 +329,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 287",
+            "tag": "❔XX | 🟢 | vless | 3YED | 287",
             "type": "vless",
             "server": "v08.vxlimir.com",
             "server_port": 1370,
@@ -421,7 +459,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3YED | 4",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
@@ -450,7 +488,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3YED | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 5",
             "type": "vless",
             "server": "SVNTEAM.MiSVN.iR",
             "server_port": 443,
