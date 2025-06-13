@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
+                "🇳🇱NL | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
@@ -156,6 +157,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
+                "🇳🇱NL | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
@@ -222,6 +224,35 @@
         },
         {
             "tag": "🇳🇱NL | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "193.124.49.40",
+            "server_port": 443,
+            "uuid": "Parsashonam-255",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LvhboN12zGLBdlvVLEhSbl0ad_lijW1-D_TTP5n9UlE",
+                    "short_id": "360557aa"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 3",
             "type": "vless",
             "server": "193.124.49.40",
             "server_port": 443,
