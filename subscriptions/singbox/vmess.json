@@ -118,9 +118,9 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 9",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 103",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -134,7 +134,6 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 1",
                 "❔XX | 🟢 | vmess | 3YED | 0"
             ]
@@ -156,9 +155,9 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 14",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 15",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 12",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 9",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇨🇳CN | 🟢 | vmess | 3YED | 19",
                 "🇺🇸US | 🟢 | vmess | 3YED | 103",
                 "🇨🇭CH | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
@@ -172,7 +171,6 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 7",
                 "🇮🇷IR | 🟢 | vmess | 3YED | 1",
                 "❔XX | 🟢 | vmess | 3YED | 0"
             ],
@@ -418,11 +416,28 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 4",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
-            "server": "62.146.232.159",
-            "server_port": 14372,
-            "uuid": "ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7",
+            "server": "112.132.215.12",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": "112.132.215.12",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -435,11 +450,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 10",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
-            "server": "cf.fovi.tk",
-            "server_port": 443,
-            "uuid": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+            "server": "47.116.166.178",
+            "server_port": 50002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -449,57 +464,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "foxlux.fovi.tk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/eisasqa",
-                "headers": {
-                    "Host": "foxlux.fovi.tk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 12",
-            "type": "vmess",
-            "server": "development.net",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
             }
         },
         {
@@ -857,30 +821,6 @@
                 "path": "\/TjUzWyRmR4P2fGqXENw4Z4",
                 "headers": {
                     "Host": "C1swEw.777159.XYZ"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "v37.heduian.link",
-            "server_port": 30837,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/oooo",
-                "headers": {
-                    "Host": "v37.heduian.link"
                 }
             }
         },
