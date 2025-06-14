@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | 3YED | 9 = vmess, 172.67.27.112, 80, username = e4428179-1e5c-428a-a921-cda20cfd75a4, ws = true, tls = , vmess-aead = true, ws-path = /s15.html, ws-headers = Host:"725608535205772025050919020565858.s15.chibaba.filegear-sg.me", skip-cert-verify = true, tfo = false
-🇷🇺RU | 🟢 | vmess | 3YED | 10 = vmess, 45.147.201.231, 22037, username = 6ea743bb-61f0-4e93-b1a2-8326e8c486a0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇺🇸US | 🟢 | vmess | 3YED | 4 = vmess, bookmyshow.com, 443, username = a10ccbe4-354d-486a-9ed9-6ad32fafc8f8, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"jpv.xiaoqi555.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 9,🇷🇺RU | 🟢 | vmess | 3YED | 10
-URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 9,🇷🇺RU | 🟢 | vmess | 3YED | 10
-FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 9,🇷🇺RU | 🟢 | vmess | 3YED | 10
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 4
+URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 4
+FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
