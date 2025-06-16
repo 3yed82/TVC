@@ -105,18 +105,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇩ID | 🟢 | ss | 3YED | 4",
-                "🇺🇸US | 🟢 | ss | 3YED | 13",
-                "🇺🇸US | 🟢 | ss | 3YED | 17"
+                "🇺🇸US | 🟢 | ss | 3YED | 0",
+                "🇮🇩ID | 🟢 | ss | 3YED | 5",
+                "🇺🇸US | 🟢 | ss | 3YED | 14",
+                "🇺🇸US | 🟢 | ss | 3YED | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇩ID | 🟢 | ss | 3YED | 4",
-                "🇺🇸US | 🟢 | ss | 3YED | 13",
-                "🇺🇸US | 🟢 | ss | 3YED | 17"
+                "🇺🇸US | 🟢 | ss | 3YED | 0",
+                "🇮🇩ID | 🟢 | ss | 3YED | 5",
+                "🇺🇸US | 🟢 | ss | 3YED | 14",
+                "🇺🇸US | 🟢 | ss | 3YED | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -139,7 +141,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇩ID | 🟢 | ss | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "144.126.146.38",
+            "server_port": 30789,
+            "method": "chacha20-ietf-poly1305",
+            "password": "8d73e088-dc5a-4dfe-8927-56351ee80407",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇮🇩ID | 🟢 | ss | 3YED | 5",
             "type": "shadowsocks",
             "server": "154.205.159.100",
             "server_port": 990,
@@ -149,7 +161,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 13",
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 14",
             "type": "shadowsocks",
             "server": "23.154.136.51",
             "server_port": 8888,
@@ -159,7 +171,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3YED | 17",
+            "tag": "🇺🇸US | 🟢 | ss | 3YED | 18",
             "type": "shadowsocks",
             "server": "23.154.136.51",
             "server_port": 5499,
