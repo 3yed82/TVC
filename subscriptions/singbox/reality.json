@@ -108,7 +108,8 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇦🇲AM | 🟢 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 7",
+                "🇦🇲AM | 🟢 | vless | 3YED | 1",
+                "❔XX | 🔴 | vless | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
@@ -139,8 +140,9 @@
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
-                "🇳🇱NL | 🟢 | vless | 3YED | 0",
-                "🇹🇷TR | 🟢 | vless | 3YED | 2",
+                "🇦🇲AM | 🔴 | vless | 3YED | 1",
+                "🇳🇱NL | 🟢 | vless | 3YED | 2",
+                "🇹🇷TR | 🟢 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -169,7 +171,8 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 8",
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇦🇲AM | 🟢 | vless | 3YED | 0",
-                "❔XX | 🔴 | vless | 3YED | 7",
+                "🇦🇲AM | 🟢 | vless | 3YED | 1",
+                "❔XX | 🔴 | vless | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
@@ -200,8 +203,9 @@
                 "❔XX | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 1",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
-                "🇳🇱NL | 🟢 | vless | 3YED | 0",
-                "🇹🇷TR | 🟢 | vless | 3YED | 2",
+                "🇦🇲AM | 🔴 | vless | 3YED | 1",
+                "🇳🇱NL | 🟢 | vless | 3YED | 2",
+                "🇹🇷TR | 🟢 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -304,6 +308,42 @@
             "tag": "🇦🇲AM | 🟢 | vless | 3YED | 0",
             "type": "vless",
             "server": "45.83.143.71",
+            "server_port": 443,
+            "uuid": "f8ff8435-f201-471b-b08b-602cef6ca180",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KuXbGeSIqhg5_bFaYN1ZW7F4m4LyjLio8Yh1YEE46xM",
+                    "short_id": "8a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇦🇲AM | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "45.83.143.71",
             "server_port": 2087,
             "uuid": "1af8c451-eff1-40cb-a14e-e395a4bd6018",
             "flow": "xtls-rprx-vision",
@@ -337,7 +377,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 7",
+            "tag": "❔XX | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "www.speedtest-divar.ir",
             "server_port": 443,
@@ -1320,7 +1360,43 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 0",
+            "tag": "🇦🇲AM | 🔴 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "45.83.143.71",
+            "server_port": 443,
+            "uuid": "f8ff8435-f201-471b-b08b-602cef6ca180",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KuXbGeSIqhg5_bFaYN1ZW7F4m4LyjLio8Yh1YEE46xM",
+                    "short_id": "8a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "89.34.230.165",
             "server_port": 443,
@@ -1349,7 +1425,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 2",
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "185.39.204.29",
             "server_port": 443,
