@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇸🇬SG | 🟢 | vmess | 3YED | 13 = vmess, ml02.333210.xyz, 40000, username = f8d8531b-a2b2-4515-911b-10c2f8ab7f26, ws = true, tls = , vmess-aead = true, ws-path = /bby, ws-headers = Host:"ml02.333210.xyz", skip-cert-verify = true, tfo = false
-🇭🇰HK | 🟢 | vmess | 3YED | 14 = vmess, 626edbe1-sv2sg0-t7hu58-1q1la.hgc1.tcpbbr.net, 80, username = 25b46954-9a33-11ee-8b86-f23c91cfbbc9, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
+🇭🇰HK | 🟢 | vmess | 3YED | 9 = vmess, 36fd9536-sv4n40-swudbv-df1b.hgc1.tcpbbr.net, 80, username = 9b94a182-5a1b-11ee-b866-f23c9164ca5d, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
+🇭🇰HK | 🟢 | vmess | 3YED | 10 = vmess, f236416d-sv2sg0-t9zk7e-v1dr.hgc1.tcpbbr.net, 80, username = 0bf1ce74-f82f-11ec-9fad-f23c91cfbbc9, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 13,🇭🇰HK | 🟢 | vmess | 3YED | 14
-URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 13,🇭🇰HK | 🟢 | vmess | 3YED | 14
-FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 13,🇭🇰HK | 🟢 | vmess | 3YED | 14
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
+URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
+FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
