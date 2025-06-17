@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇭🇰HK | 🟢 | vmess | 3YED | 9 = vmess, 36fd9536-sv4n40-swudbv-df1b.hgc1.tcpbbr.net, 80, username = 9b94a182-5a1b-11ee-b866-f23c9164ca5d, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
-🇭🇰HK | 🟢 | vmess | 3YED | 10 = vmess, f236416d-sv2sg0-t9zk7e-v1dr.hgc1.tcpbbr.net, 80, username = 0bf1ce74-f82f-11ec-9fad-f23c91cfbbc9, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
+🇭🇰HK | 🟢 | vmess | 3YED | 10 = vmess, 183cb398-sv6hs0-tdzlqm-1h1y5.hk.p5pv.com, 80, username = ef332c4a-a21b-11ed-9765-f23c9164ca5d, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"broadcastlv.chat.bilibili.com", skip-cert-verify = true, tfo = false
+🇨🇳CN | 🟢 | vmess | 3YED | 11 = vmess, v6.heduian.link, 30806, username = cbb3f877-d1fb-344c-87a9-d153bffd5484, ws = true, tls = , vmess-aead = false, ws-path = /oooo, ws-headers = Host:"ocbc.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
-URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
-FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 9,🇭🇰HK | 🟢 | vmess | 3YED | 10
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 10,🇨🇳CN | 🟢 | vmess | 3YED | 11
+URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 10,🇨🇳CN | 🟢 | vmess | 3YED | 11
+FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇭🇰HK | 🟢 | vmess | 3YED | 10,🇨🇳CN | 🟢 | vmess | 3YED | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
