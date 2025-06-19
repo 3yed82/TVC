@@ -123,6 +123,7 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇬🇧GB | 🟢 | vless | 3YED | 87",
                 "🇫🇮FI | 🟢 | vless | 3YED | 0",
+                "🇫🇮FI | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 4",
@@ -172,6 +173,7 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇬🇧GB | 🟢 | vless | 3YED | 87",
                 "🇫🇮FI | 🟢 | vless | 3YED | 0",
+                "🇫🇮FI | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 4",
@@ -804,6 +806,35 @@
         },
         {
             "tag": "🇫🇮FI | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "irantechsoftwares.com",
+            "server_port": 443,
+            "uuid": "fcb1aa0e-6e2d-49af-91c9-cf851868f2b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "irantechsoftwares.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iGKunF680EUDy-6nhdD4uCKhOWOCblf78iUFkJcvY0c",
+                    "short_id": "a110"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "uk.srv1.stargrian.com",
             "server_port": 3443,
