@@ -169,7 +169,7 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -350,9 +350,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "🇸🇪SE | 🔴 | vless | 3YED | 1",
-                "🇮🇷IR | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇮🇷IR | 🔴 | vless | 3YED | 1",
+                "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
@@ -466,7 +466,7 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🔴 | vless | 3YED | 9",
+                "🇨🇦CA | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
@@ -647,9 +647,9 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
-                "🇸🇪SE | 🔴 | vless | 3YED | 1",
-                "🇮🇷IR | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇮🇷IR | 🔴 | vless | 3YED | 1",
+                "🇸🇪SE | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
@@ -2336,7 +2336,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -6553,7 +6553,21 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "vexo7.cafefart42.ir",
+            "server_port": 42542,
+            "uuid": "d253ddff-6f55-4edb-b142-948e81c83687",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "htz.safemode2.com",
             "server_port": 2096,
@@ -6577,7 +6591,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 1",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "nim2.therevenant.shop",
             "server_port": 2053,
@@ -6588,37 +6602,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "htz.safemode2.com",
-            "server_port": 2096,
-            "uuid": "d6cba31f-7d3d-4c06-9a1c-8ece70d9c9d7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "htz.safemode2.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "htz.safemode2.com"
-                }
             }
         },
         {
