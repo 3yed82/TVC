@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇨🇳CN | 🟢 | vmess | 3YED | 12 = vmess, 16.mamamajd.site, 23616, username = fa155c2f-c4a3-3fa2-ac58-8be6cb517a1a, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"16.mamamajd.site", skip-cert-verify = true, tfo = false
+🇸🇬SG | 🟢 | vmess | 3YED | 6 = vmess, 140.245.41.245, 23452, username = 6abfbd44-62aa-4ad3-8b5a-aa4ef40466f5, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"westsg2-ddns.oraclenat.cc", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇨🇳CN | 🟢 | vmess | 3YED | 12
-URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇨🇳CN | 🟢 | vmess | 3YED | 12
-FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇨🇳CN | 🟢 | vmess | 3YED | 12
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 6
+URL-TEST = url-test,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 6
+FALLBACK = fallback,❔XX | 🟢 | vmess | 3YED | 4,🇸🇬SG | 🟢 | vmess | 3YED | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
