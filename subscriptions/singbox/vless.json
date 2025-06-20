@@ -339,11 +339,13 @@
                 "❔XX | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇫🇮FI | 🔴 | vless | 3YED | 2",
+                "🇮🇷IR | 🔴 | vless | 3YED | 3",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
                 "🇮🇷IR | 🟢 | vless | 3YED | 3",
-                "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇬SG | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -354,8 +356,8 @@
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🔴 | vless | 3YED | 1",
-                "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇳🇱NL | 🔴 | vless | 3YED | 3",
+                "🇬🇧GB | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -636,11 +638,13 @@
                 "❔XX | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 10",
                 "❔XX | 🔴 | vless | 3YED | 11",
-                "🇮🇷IR | 🔴 | vless | 3YED | 0",
+                "🇬🇧GB | 🔴 | vless | 3YED | 0",
+                "🇫🇮FI | 🔴 | vless | 3YED | 2",
+                "🇮🇷IR | 🔴 | vless | 3YED | 3",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🚩CF | 🔴 | vless | 3YED | 2",
                 "🇮🇷IR | 🟢 | vless | 3YED | 3",
-                "🇺🇸US | 🔴 | vless | 3YED | 4",
+                "🇸🇪SE | 🔴 | vless | 3YED | 4",
                 "🇸🇬SG | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
@@ -651,8 +655,8 @@
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🔴 | vless | 3YED | 1",
-                "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇳🇱NL | 🔴 | vless | 3YED | 3",
+                "🇬🇧GB | 🔴 | vless | 3YED | 4",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
@@ -6267,7 +6271,52 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "102.177.189.29",
+            "server_port": 8880,
+            "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TelegramU0001F1E8U0001F1F3",
+                "headers": {
+                    "Host": "hk.laoyoutiao.link"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 2",
+            "type": "vless",
+            "server": "213.176.65.192",
+            "server_port": 443,
+            "uuid": "e11e467c-415c-4545-8973-f7d4cae6bccf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mehrab.mojtabajeab.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "v1.mailiran.net",
             "server_port": 13210,
@@ -6359,7 +6408,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "nim.therevenant.shop",
             "server_port": 2095,
@@ -6603,6 +6652,20 @@
         {
             "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
             "type": "vless",
+            "server": "102.177.189.1",
+            "server_port": 8880,
+            "uuid": "730f02b4-a187-4498-b3fa-9e9f1dccf47c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 1",
+            "type": "vless",
             "server": "102.177.189.29",
             "server_port": 8880,
             "uuid": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
@@ -6622,21 +6685,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 1",
-            "type": "vless",
-            "server": "102.177.189.1",
-            "server_port": 8880,
-            "uuid": "730f02b4-a187-4498-b3fa-9e9f1dccf47c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 2",
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "abdzgg.teemazad.com",
             "server_port": 37062,
@@ -6650,7 +6699,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 3",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 4",
             "type": "vless",
             "server": "vexo7.cafefart42.ir",
             "server_port": 42542,
