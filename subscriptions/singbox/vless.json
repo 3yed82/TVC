@@ -105,9 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
@@ -350,9 +350,10 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇬🇧GB | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 1",
-                "🇸🇪SE | 🔴 | vless | 3YED | 2",
+                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇬🇧GB | 🔴 | vless | 3YED | 1",
+                "🇮🇷IR | 🔴 | vless | 3YED | 2",
+                "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
@@ -402,9 +403,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🔴 | vless | 3YED | 2",
-                "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇺🇸US | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "🇮🇷IR | 🔴 | vless | 3YED | 1",
@@ -647,9 +648,10 @@
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🚩CF | 🔴 | vless | 3YED | 0",
-                "🇬🇧GB | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 1",
-                "🇸🇪SE | 🔴 | vless | 3YED | 2",
+                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇬🇧GB | 🔴 | vless | 3YED | 1",
+                "🇮🇷IR | 🔴 | vless | 3YED | 2",
+                "🇸🇪SE | 🔴 | vless | 3YED | 3",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "🇬🇧GB | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
@@ -715,7 +717,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "81.28.12.12",
             "server_port": 443,
@@ -746,7 +748,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 0",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 2086,
@@ -760,7 +762,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 2086,
@@ -6553,7 +6555,21 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 0",
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "abdzgg.teemazad.com",
+            "server_port": 37062,
+            "uuid": "b3a0f19f-b0f9-4a96-95de-49c5c5a725e0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "vexo7.cafefart42.ir",
             "server_port": 42542,
@@ -6567,7 +6583,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "htz.safemode2.com",
             "server_port": 2096,
@@ -6591,7 +6607,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 2",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "nim2.therevenant.shop",
             "server_port": 2053,
