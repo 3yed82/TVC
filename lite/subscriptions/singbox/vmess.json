@@ -110,8 +110,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "❔XX | 🟢 | vmess | 3YED | 7",
+                "🇳🇱NL | 🟢 | vmess | 3YED | 8"
             ]
         },
         {
@@ -122,8 +122,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 6"
+                "❔XX | 🟢 | vmess | 3YED | 7",
+                "🇳🇱NL | 🟢 | vmess | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 5",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "162.55.171.226",
-            "server_port": 100,
-            "uuid": "1889d9ef-9d58-4427-bb3e-a08810c214eb",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "uuid": "aaabccb-caba-aacb-abdc-bbbaccacbcaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,11 +255,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
+            "tag": "🇳🇱NL | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abccbaa-baca-cbaa-adcb-bcbacbbcacaa",
+            "server": "152.70.57.182",
+            "server_port": 443,
+            "uuid": "e537f2f5-2a0c-4f59-92c9-832ca6433bf3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -269,6 +269,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "irvideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "irvideo.cfd"
+                }
             }
         }
     ],
