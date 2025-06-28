@@ -16,11 +16,10 @@ DIRECT = direct
 🇩🇪DE | 🟢 | trojan | 3YED | 18 = trojan, 63.177.210.212, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | 3YED | 19 = trojan, 3.75.251.92, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 ❔XX | 🟢 | vmess | 3YED | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | 3YED | 6 = vmess, 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, 443, username = 5f726fe3-d82e-4da5-a711-8af0cbb2b682, ws = true, tls = 1, vmess-aead = false, ws-path = /azumase.ren, ws-headers = Host:"1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 6
-URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 6
-FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4,🇺🇸US | 🟢 | vmess | 3YED | 6
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4
+URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4
+FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,🇩🇪DE | 🟢 | trojan | 3YED | 18,🇩🇪DE | 🟢 | trojan | 3YED | 19,❔XX | 🟢 | vmess | 3YED | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
