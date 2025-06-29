@@ -115,7 +115,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 7",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 9",
-                "🇳🇱NL | 🔴 | vless | 3YED | 10",
+                "🇱🇹LT | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
@@ -132,7 +132,8 @@
                 "🇬🇧GB | 🟢 | vless | 3YED | 109",
                 "🇬🇧GB | 🟢 | vless | 3YED | 110",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇫🇮FI | 🟢 | vless | 3YED | 1",
+                "🇫🇮FI | 🟢 | vless | 3YED | 3",
+                "🇹🇷TR | 🟢 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -164,7 +165,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 7",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
                 "🇳🇱NL | 🔴 | vless | 3YED | 9",
-                "🇳🇱NL | 🔴 | vless | 3YED | 10",
+                "🇱🇹LT | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🟢 | vless | 3YED | 10",
@@ -181,7 +182,8 @@
                 "🇬🇧GB | 🟢 | vless | 3YED | 109",
                 "🇬🇧GB | 🟢 | vless | 3YED | 110",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇫🇮FI | 🟢 | vless | 3YED | 1",
+                "🇫🇮FI | 🟢 | vless | 3YED | 3",
+                "🇹🇷TR | 🟢 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -565,7 +567,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 10",
+            "tag": "🇱🇹LT | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "84.32.103.234",
             "server_port": 443,
@@ -1100,7 +1102,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 1",
+            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 3",
             "type": "vless",
             "server": "37.27.220.157",
             "server_port": 443,
@@ -1125,6 +1127,35 @@
                     "enabled": true,
                     "public_key": "98o3NKmGSULn2eRsvgrWQk9blOwPAQ4Lt4YWu_R-GBk",
                     "short_id": "cbfe"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "45.133.36.230",
+            "server_port": 443,
+            "uuid": "bfff033b-6f6b-4c24-fd6c-5b7d6cf9b3cd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8",
+                    "short_id": ""
                 }
             }
         },
