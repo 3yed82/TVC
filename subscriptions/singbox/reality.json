@@ -139,7 +139,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇬🇧GB | 🟢 | vless | 3YED | 0",
                 "🇫🇮FI | 🟢 | vless | 3YED | 7",
-                "🇹🇷TR | 🟢 | vless | 3YED | 1",
+                "🇹🇷TR | 🟢 | vless | 3YED | 0",
+                "🇹🇷TR | 🟢 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -195,7 +196,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇬🇧GB | 🟢 | vless | 3YED | 0",
                 "🇫🇮FI | 🟢 | vless | 3YED | 7",
-                "🇹🇷TR | 🟢 | vless | 3YED | 1",
+                "🇹🇷TR | 🟢 | vless | 3YED | 0",
+                "🇹🇷TR | 🟢 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -1317,7 +1319,36 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 1",
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "45.133.36.230",
+            "server_port": 443,
+            "uuid": "c5477343-3db8-4486-c60f-3f7d59%65d%6181c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aWkDnGz6ncSTu_pOZggU23ZlBP-nrq65iCo2rSbujG8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "45.133.36.230",
             "server_port": 443,
