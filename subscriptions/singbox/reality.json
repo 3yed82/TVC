@@ -149,7 +149,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇹🇷TR | 🟢 | vless | 3YED | 6",
-                "🇺🇸US | 🟢 | vless | 3YED | 1",
+                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -216,7 +217,8 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇹🇷TR | 🟢 | vless | 3YED | 6",
-                "🇺🇸US | 🟢 | vless | 3YED | 1",
+                "🇳🇱NL | 🔴 | vless | 3YED | 0",
+                "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 7",
                 "❔XX | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 9",
@@ -1629,7 +1631,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 1",
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "5.255.120.217",
+            "server_port": 80,
+            "uuid": "a24481eb-0496-4ab9-9bd0-af1d530df91d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "C4LNbOB3Ar0cntu528Jtn5ivsMZhyk9tkuAlU-jeCio",
+                    "short_id": "8c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "45.82.251.69",
             "server_port": 1001,
