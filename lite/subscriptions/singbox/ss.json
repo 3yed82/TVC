@@ -105,13 +105,16 @@ https://github.com/3yed-61
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇬🇮GI | 🟢 | ss | 3YED | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇬🇮GI | 🟢 | ss | 3YED | 19"
+            ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -131,6 +134,16 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇮GI | 🟢 | ss | 3YED | 19",
+            "type": "shadowsocks",
+            "server": "94.131.21.174",
+            "server_port": 54075,
+            "method": "chacha20-ietf-poly1305",
+            "password": "o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3",
+            "plugin": "",
+            "plugin_opts": ""
         }
     ],
     "route": {
