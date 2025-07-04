@@ -105,18 +105,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | 3YED | 12",
+                "🇬🇧GB | 🟢 | ss | 3YED | 0",
                 "🇬🇧GB | 🟢 | ss | 3YED | 13",
-                "🇬🇧GB | 🟢 | ss | 3YED | 14"
+                "🇬🇧GB | 🟢 | ss | 3YED | 14",
+                "🇬🇧GB | 🟢 | ss | 3YED | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | 3YED | 12",
+                "🇬🇧GB | 🟢 | ss | 3YED | 0",
                 "🇬🇧GB | 🟢 | ss | 3YED | 13",
-                "🇬🇧GB | 🟢 | ss | 3YED | 14"
+                "🇬🇧GB | 🟢 | ss | 3YED | 14",
+                "🇬🇧GB | 🟢 | ss | 3YED | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -139,7 +141,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 12",
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "admin.c1.webramz.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1xO2cqPazqjGfCfd",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 13",
             "type": "shadowsocks",
             "server": "admin.c2.webramz.co",
             "server_port": 443,
@@ -149,7 +161,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 13",
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 14",
             "type": "shadowsocks",
             "server": "admin.c1.webramz.co",
             "server_port": 443,
@@ -159,7 +171,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 14",
+            "tag": "🇬🇧GB | 🟢 | ss | 3YED | 15",
             "type": "shadowsocks",
             "server": "freakconfig13.felafel.org",
             "server_port": 443,
