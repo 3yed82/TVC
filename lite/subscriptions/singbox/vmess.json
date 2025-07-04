@@ -109,8 +109,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 7",
+                "❔XX | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0"
             ]
@@ -122,8 +122,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 7",
+                "❔XX | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0"
             ],
@@ -223,11 +223,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "bbaacca-aabc-acab-badc-bbbabccaacac",
+            "server": "146.19.168.161",
+            "server_port": 443,
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -237,12 +237,29 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "az05.beyondy.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "az05.beyondy.cfd"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "104.21.48.1",
+            "server": "it0.899994.xyz",
             "server_port": 8443,
             "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
             "security": "auto",
@@ -257,7 +274,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "portland.899994.xyz",
+                "server_name": "it0.899994.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -269,7 +286,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/index",
                 "headers": {
-                    "Host": "portland.899994.xyz"
+                    "Host": "it0.899994.xyz"
                 }
             }
         },
