@@ -147,11 +147,12 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
-                "🇨🇾CY | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 71",
                 "🇺🇸US | 🔴 | vless | 3YED | 72",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -163,8 +164,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🇮🇷IR | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇮🇷IR | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -218,11 +219,12 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 43",
                 "🇺🇸US | 🔴 | vless | 3YED | 44",
-                "🇨🇾CY | 🔴 | vless | 3YED | 6",
+                "🇺🇸US | 🔴 | vless | 3YED | 3",
+                "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 2",
                 "❔XX | 🔴 | vless | 3YED | 71",
                 "🇺🇸US | 🔴 | vless | 3YED | 72",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
@@ -234,8 +236,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
+                "🇮🇷IR | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
-                "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇮🇷IR | 🔴 | vless | 3YED | 8",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -1149,11 +1151,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇾CY | 🔴 | vless | 3YED | 6",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 3",
             "type": "vless",
-            "server": "154.92.9.46",
-            "server_port": 443,
-            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
+            "server": "add.ski1plag.ir",
+            "server_port": 80,
+            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1161,21 +1163,32 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "simorgh.hpcode.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/upload",
+                "headers": {
+                    "Host": "add.ski1plag.ir"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "add.ski1plag.ir",
+            "server_port": 80,
+            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Javid-SHAH-KingRezaPahlavi\/?ed=2560",
+                "path": "\/upload",
                 "headers": {
-                    "Host": "simorgh.hpcode.ir"
+                    "Host": "add.ski1plag.ir"
                 }
             }
         },
@@ -1256,7 +1269,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 2",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 2",
             "type": "vless",
             "server": "151.101.61.229",
             "server_port": 80,
@@ -1507,6 +1520,27 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 8",
+            "type": "vless",
+            "server": "ping.amirhossein.info",
+            "server_port": 8443,
+            "uuid": "89938a70-b39b-4255-b436-17e703cf5460",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@Green_WPN@Vijra_dev\/?ed=2560",
+                "headers": {
+                    "Host": "ping.amirhossein.info"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 9",
             "type": "vless",
             "server": "104.18.26.90",
@@ -1524,27 +1558,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "104.18.26.90"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 10",
-            "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "3e0303a5-649f-4987-ab1d-4e334efc35e0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/--@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG---@HqV2rayNG?ed=2560",
-                "headers": {
-                    "Host": "151.101.67.8"
                 }
             }
         },
