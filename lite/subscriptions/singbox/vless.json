@@ -137,8 +137,8 @@ https://github.com/3yed-61
                 "🇮🇹IT | 🔴 | vless | 3YED | 16",
                 "🇮🇷IR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇩🇪DE | 🔴 | vless | 3YED | 119",
-                "🇮🇷IR | 🔴 | vless | 3YED | 120",
+                "🇩🇪DE | 🔴 | vless | 3YED | 122",
+                "🇩🇪DE | 🔴 | vless | 3YED | 123",
                 "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇮🇷IR | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -151,7 +151,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 78",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇫🇮FI | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -203,8 +203,8 @@ https://github.com/3yed-61
                 "🇮🇹IT | 🔴 | vless | 3YED | 16",
                 "🇮🇷IR | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "🇩🇪DE | 🔴 | vless | 3YED | 119",
-                "🇮🇷IR | 🔴 | vless | 3YED | 120",
+                "🇩🇪DE | 🔴 | vless | 3YED | 122",
+                "🇩🇪DE | 🔴 | vless | 3YED | 123",
                 "🇫🇮FI | 🔴 | vless | 3YED | 6",
                 "🇮🇷IR | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
@@ -217,7 +217,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 78",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 6",
+                "🇫🇮FI | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
@@ -932,10 +932,10 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 119",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 122",
             "type": "vless",
-            "server": "91.99.202.155",
-            "server_port": 443,
+            "server": "91.99.80.183",
+            "server_port": 51615,
             "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
             "flow": "",
             "packet_encoding": "xudp",
@@ -946,11 +946,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 120",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 123",
             "type": "vless",
-            "server": "217.114.40.12",
-            "server_port": 80,
-            "uuid": "a9f40576-6321-491f-bb4a-7d8a762eea27",
+            "server": "91.99.198.191",
+            "server_port": 443,
+            "uuid": "2eaef053-5fd6-4def-b234-d760690355ff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1266,23 +1266,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
+            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 4",
             "type": "vless",
-            "server": "add.ski1plag.ir",
-            "server_port": 80,
-            "uuid": "7c9e3c1d-a360-4429-9189-e45a98de7fde",
-            "flow": "",
+            "server": "94.156.116.5",
+            "server_port": 443,
+            "uuid": "7f97131b-0d9d-4be9-b7b4-3fa21403cffa",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/upload",
-                "headers": {
-                    "Host": "add.ski1plag.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b2wRFAmT2Mm6a_EXPfWBu4BYw-wNGlXHWoO3lPqGoXw",
+                    "short_id": "86"
                 }
             }
         },
