@@ -109,8 +109,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "❔XX | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇦🇹AT | 🟢 | vmess | 3YED | 6"
             ]
@@ -122,8 +122,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "❔XX | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇦🇹AT | 🟢 | vmess | 3YED | 6"
             ],
@@ -223,9 +223,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "104.21.64.1",
+            "server": "104.21.32.1",
             "server_port": 8443,
             "uuid": "a0605527-28e4-449c-80ee-5642cc16a8af",
             "security": "auto",
@@ -240,7 +240,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "buffalo.899994.xyz",
+                "server_name": "nl.899994.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -252,16 +252,16 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/index",
                 "headers": {
-                    "Host": "buffalo.899994.xyz"
+                    "Host": "nl.899994.xyz"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
-            "server": "172.67.204.19",
-            "server_port": 443,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcbaaac-abac-aabc-adcb-caabbcbaccba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -271,23 +271,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.67.204.19",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/azumase.ren",
-                "headers": {
-                    "Host": "172.67.204.19"
-                }
             }
         },
         {
