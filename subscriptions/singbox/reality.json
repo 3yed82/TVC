@@ -124,10 +124,11 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 112",
                 "🇩🇪DE | 🟢 | vless | 3YED | 116",
                 "🇩🇪DE | 🟢 | vless | 3YED | 120",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 21",
-                "🇺🇸US | 🟢 | vless | 3YED | 3",
+                "🇺🇸US | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 46",
                 "🇬🇧GB | 🟢 | vless | 3YED | 64",
@@ -181,10 +182,11 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 112",
                 "🇩🇪DE | 🟢 | vless | 3YED | 116",
                 "🇩🇪DE | 🟢 | vless | 3YED | 120",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 21",
-                "🇺🇸US | 🟢 | vless | 3YED | 3",
+                "🇺🇸US | 🟢 | vless | 3YED | 4",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 46",
                 "🇬🇧GB | 🟢 | vless | 3YED | 64",
@@ -863,6 +865,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "poseidex.house0of1nyxora.top",
+            "server_port": 2096,
+            "uuid": "32622124-139e-4eab-8fb8-faaf021acd3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jM7JL3cp1HdLpEuvRDGJlzI-zUXW_6z8FkQBqimt4BE",
+                    "short_id": "88dfa714"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "bmi.raheaiande.ir",
@@ -957,7 +988,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "103.175.79.10",
             "server_port": 443,
