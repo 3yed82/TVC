@@ -185,11 +185,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇫🇮FI | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇫🇮FI | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🟢 | vless | 3YED | 15",
                 "🇳🇱NL | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
@@ -293,11 +294,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇫🇮FI | 🔴 | vless | 3YED | 11",
-                "🇺🇸US | 🔴 | vless | 3YED | 12",
+                "🇫🇮FI | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
+                "🇺🇸US | 🟢 | vmess | 3YED | 1",
+                "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🟢 | vless | 3YED | 15",
                 "🇳🇱NL | 🔴 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
@@ -2180,7 +2182,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 11",
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "Fservice.teampluss.ir",
             "server_port": 2155,
@@ -2194,7 +2196,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 12",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
             "type": "vless",
             "server": "188.114.99.16",
             "server_port": 2053,
@@ -2222,6 +2224,57 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "019309B7.XyZ0.PaGeS.dEV"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "jp.cowvpn.org",
+            "server_port": 443,
+            "uuid": "11a805f2-41a7-4cd8-8406-0470c3cde0d3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp.cowvpn.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cctv13\/vmess_jpcf",
+                "headers": {
+                    "Host": "jp.cowvpn.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "156.251.189.225",
+            "server_port": 30895,
+            "uuid": "5f011b57-a456-45ae-aa2c-f976780e56c3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -2259,37 +2312,6 @@ https://github.com/3yed-61
                 "path": "\/193.123.81.105=443",
                 "headers": {
                     "Host": "104.21.112.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2087,
-            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "smart.v2plusify.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "smart.v2plusify.org"
                 }
             }
         },
