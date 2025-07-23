@@ -118,6 +118,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
@@ -126,7 +127,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇳🇱NL | 🔴 | vless | 3YED | 14",
-                "🇩🇪DE | 🟢 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
@@ -187,6 +188,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 2",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
@@ -195,7 +197,7 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇳🇱NL | 🔴 | vless | 3YED | 14",
-                "🇩🇪DE | 🟢 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
@@ -685,6 +687,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "91.107.174.66",
+            "server_port": 443,
+            "uuid": "61a433e4-45b2-4da9-b0c9-d0dfa2f6cd15",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EB5YUKMnqSSzyLT3xQZXamGwWu62nPqyAnc24uKN1gY",
+                    "short_id": "f54837da4c"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "91.107.254.202",
@@ -938,7 +969,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "5.75.198.47",
             "server_port": 443,
