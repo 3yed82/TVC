@@ -125,6 +125,7 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 109",
                 "🇺🇸US | 🟢 | vless | 3YED | 110",
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
+                "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇳🇱NL | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
@@ -195,6 +196,7 @@
                 "🇫🇮FI | 🟢 | vless | 3YED | 109",
                 "🇺🇸US | 🟢 | vless | 3YED | 110",
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
+                "🇫🇮FI | 🔴 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇳🇱NL | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
@@ -905,6 +907,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@FergalVpnMod",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "freedam.wirecard.store",
+            "server_port": 2053,
+            "uuid": "ce3acfb7-a0e8-4f96-b9ff-75c2657997fa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "freedom.wirecard.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hRwCV7x14uQ7jdsLqsxvklkR4Mtf7kRsZhboIKRbsR4",
+                    "short_id": "c531427f9b41"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "bing",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
