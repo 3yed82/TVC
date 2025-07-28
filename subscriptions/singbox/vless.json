@@ -113,7 +113,7 @@
                 "🚩CF | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🚩CF | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇨🇦CA | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
@@ -129,8 +129,6 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -624,7 +622,7 @@
                 "🚩CF | 🔴 | vless | 3YED | 5",
                 "🇨🇦CA | 🔴 | vless | 3YED | 6",
                 "🚩CF | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇨🇦CA | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 0",
                 "❔XX | 🔴 | vless | 3YED | 1",
                 "🇸🇪SE | 🔴 | vless | 3YED | 3",
@@ -640,8 +638,6 @@
                 "🇸🇪SE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇮🇷IR | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🚩CF | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
@@ -1331,7 +1327,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1581,49 +1577,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 1",
-            "type": "vless",
-            "server": "46.38.143.249",
-            "server_port": 4911,
-            "uuid": "4f92d2a2-d9f3-4e46-abb9-3be3b68fcb95",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 2",
-            "type": "vless",
-            "server": "54.167.27.87",
-            "server_port": 15434,
-            "uuid": "a45e0c2d-388e-4e66-8720-291da22cd7eb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K47eUyJ8fZSVg8DtY50GPcpa8VmSwnH5N3e6SKth0VM",
-                    "short_id": ""
-                }
             }
         },
         {
