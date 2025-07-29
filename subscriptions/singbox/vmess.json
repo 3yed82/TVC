@@ -141,8 +141,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 7",
                 "🇬🇧GB | 🟢 | vmess | 3YED | 8",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 9",
-                "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 11",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
@@ -190,8 +188,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3YED | 7",
                 "🇬🇧GB | 🟢 | vmess | 3YED | 8",
                 "🇨🇦CA | 🟢 | vmess | 3YED | 9",
-                "🚩CF | 🟢 | vmess | 3YED | 10",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 11",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 10",
@@ -1081,74 +1077,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 10",
-            "type": "vmess",
-            "server": "173.245.58.5",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/glweidf.sbs\/linkws",
-                "headers": {
-                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 11",
-            "type": "vmess",
-            "server": "45.80.111.9",
-            "server_port": 443,
-            "uuid": "af6eedf5-f2b4-447f-8b93-5fca33af06f8",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
