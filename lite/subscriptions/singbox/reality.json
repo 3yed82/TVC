@@ -109,8 +109,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🔴 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇩🇪DE | 🟢 | vless | 3YED | 2",
                 "❔XX | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 29",
@@ -130,8 +132,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🔴 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇩🇪DE | 🟢 | vless | 3YED | 2",
                 "❔XX | 🟢 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇨🇿CZ | 🔴 | vless | 3YED | 29",
@@ -265,6 +269,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "5.231.29.29",
+            "server_port": 443,
+            "uuid": "19029831-477f-498e-a280-bd5291e955fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg",
+                    "short_id": "f7f108c"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | 3YED | 0",
             "type": "vless",
             "server": "178.162.240.166",
@@ -319,6 +352,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "i9i0gRbOcihFuDWgbY8fiRO-uYfmkbAixksapkkI_wA",
                     "short_id": "62cce1a746fa"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 2",
+            "type": "vless",
+            "server": "5.231.29.29",
+            "server_port": 443,
+            "uuid": "19029831-477f-498e-a280-bd5291e955fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg",
+                    "short_id": "f7f1058c"
                 }
             }
         },
