@@ -120,10 +120,6 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 127",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 141",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -172,10 +168,6 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 127",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 141",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16",
-                "🇺🇸US | 🟢 | vmess | 3YED | 18",
-                "🇺🇸US | 🟢 | vmess | 3YED | 19",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -487,142 +479,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "v2ray.codefyinc.com",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.codefyinc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmessws",
-                "headers": {
-                    "Host": "v2ray.codefyinc.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": "v2ray.codefyinc.com",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.codefyinc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmessws",
-                "headers": {
-                    "Host": "v2ray.codefyinc.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "vall.codefyinc.com",
-            "server_port": 8443,
-            "uuid": "606ece17-7279-4a43-b879-f8502103de8f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vall.codefyinc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmessws",
-                "headers": {
-                    "Host": "vall.codefyinc.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "vall.codefyinc.com",
-            "server_port": 443,
-            "uuid": "606ece17-7279-4a43-b879-f8502103de8f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vall.codefyinc.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmessws",
-                "headers": {
-                    "Host": "vall.codefyinc.com"
-                }
-            }
-        },
-        {
             "tag": "🇹🇼TW | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -775,6 +631,54 @@
         {
             "tag": "🚩CF | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "104.18.114.148",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.18.114.148"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.26.0.89",
+            "server_port": 8880,
+            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.89"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
             "server": "162.159.45.231",
             "server_port": 2086,
             "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
@@ -797,7 +701,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 1",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "104.26.0.82",
             "server_port": 2095,
@@ -821,7 +725,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 2",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "104.21.238.35",
             "server_port": 2086,
@@ -845,7 +749,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 3",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.21.238.94",
             "server_port": 2082,
@@ -869,7 +773,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "104.26.0.141",
             "server_port": 2082,
@@ -893,7 +797,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 5",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 7",
             "type": "vmess",
             "server": "104.18.114.138",
             "server_port": 8880,
@@ -917,7 +821,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 6",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
             "server": "104.18.114.247",
             "server_port": 2082,
@@ -941,7 +845,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 7",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 9",
             "type": "vmess",
             "server": "104.18.114.90",
             "server_port": 2086,
@@ -965,7 +869,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 8",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "104.21.238.202",
             "server_port": 8880,
@@ -989,7 +893,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 9",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 11",
             "type": "vmess",
             "server": "104.26.0.30",
             "server_port": 8880,
@@ -1013,7 +917,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 10",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 12",
             "type": "vmess",
             "server": "104.21.238.100",
             "server_port": 8880,
@@ -1037,7 +941,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 11",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 13",
             "type": "vmess",
             "server": "104.21.238.242",
             "server_port": 2095,
@@ -1061,7 +965,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 12",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
             "type": "vmess",
             "server": "104.18.114.76",
             "server_port": 2086,
@@ -1085,7 +989,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 13",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 15",
             "type": "vmess",
             "server": "104.26.0.185",
             "server_port": 8880,
@@ -1109,7 +1013,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 14",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 16",
             "type": "vmess",
             "server": "104.21.238.45",
             "server_port": 2086,
@@ -1133,7 +1037,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 15",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 17",
             "type": "vmess",
             "server": "104.26.0.207",
             "server_port": 2082,
@@ -1157,7 +1061,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 16",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
             "type": "vmess",
             "server": "104.26.0.70",
             "server_port": 2086,
@@ -1181,7 +1085,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 17",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
             "server": "104.18.114.12",
             "server_port": 8880,
@@ -1201,54 +1105,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "104.18.114.12"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "104.18.114.155",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.18.114.155"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "104.18.114.190",
-            "server_port": 2086,
-            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.18.114.190"
                 }
             }
         },
