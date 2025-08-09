@@ -176,8 +176,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | trojan | 3YED | 17",
+                "🇳🇱NL | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -193,7 +193,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 63",
                 "🇺🇸US | 🔴 | vless | 3YED | 64",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 22",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -278,8 +278,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 16",
-                "🇺🇸US | 🔴 | trojan | 3YED | 17",
+                "🇳🇱NL | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
@@ -295,7 +295,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 63",
                 "🇺🇸US | 🔴 | vless | 3YED | 64",
-                "🇺🇸US | 🔴 | vless | 3YED | 8",
+                "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 22",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -1908,12 +1908,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 17",
             "type": "vless",
-            "server": "199.232.5.101",
+            "server": "192.142.15.95",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
+            "uuid": "c1d16861-5a8b-46d9-bfd3-032b9abcb68f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1922,28 +1922,28 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mefa.ir",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mefa.ir"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | trojan | 3YED | 17",
-            "type": "trojan",
-            "server": "156.229.48.169",
-            "server_port": 443,
-            "password": "NISHIKUITAN111",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "enthusiastic-century.oneeat.co",
+            "server_port": 80,
+            "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1951,9 +1951,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "za.ylks.xyz"
+                    "Host": "enthusiastic-century.oneeat.co"
                 }
             }
         },
@@ -2295,7 +2295,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 8",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
