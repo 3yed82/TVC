@@ -122,6 +122,8 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 16","type":"trojan","server":"13.37.253.72","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | 3YED | 15","type":"trojan","server":"63.176.11.175","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 16","type":"trojan","server":"13.37.253.72","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | trojan | 3YED | 11","type":"trojan","server":"sky.rethinkdns.com","port":2096,"udp":false,"password":"6285e567-0c25-4ce2-a2fa-80517c1345e1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"1223-9ux.pages.dev"}
+  - {"name":"🇺🇸US | 🔴 | trojan | 3YED | 12","type":"trojan","server":"103.21.244.109","port":443,"udp":false,"password":"blue2024","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hb.lii2010.us.kg"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -132,6 +134,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇩🇪DE | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇺🇸US | 🟢 | trojan | 3YED | 11'
+      - '🇺🇸US | 🔴 | trojan | 3YED | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,6 +146,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇩🇪DE | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇺🇸US | 🟢 | trojan | 3YED | 11'
+      - '🇺🇸US | 🔴 | trojan | 3YED | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -151,6 +157,8 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇩🇪DE | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇺🇸US | 🟢 | trojan | 3YED | 11'
+      - '🇺🇸US | 🔴 | trojan | 3YED | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
