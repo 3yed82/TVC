@@ -174,7 +174,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
@@ -272,7 +272,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
@@ -1858,11 +1858,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "mw.soft98speedtest.ir",
-            "server_port": 2087,
-            "uuid": "30c95522-5915-4eda-ade8-66c011d0f62c",
+            "server": "91.228.10.202",
+            "server_port": 2096,
+            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1870,11 +1870,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "91.228.10.202",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/scer",
+                "path": "\/",
                 "headers": {
-                    "Host": "mw.soft98speedtest.ir"
+                    "Host": "91.228.10.202"
                 }
             }
         },
