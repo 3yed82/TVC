@@ -107,6 +107,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 149",
+                "❔XX | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 16",
@@ -118,6 +120,8 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 149",
+                "❔XX | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 16",
@@ -151,6 +155,40 @@ https://github.com/3yed-61
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 149",
+            "type": "vmess",
+            "server": "159.89.22.229",
+            "server_port": 8080,
+            "uuid": "ff5c50fc-0ca7-53f9-007c-5b3f6511f1e1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -221,7 +259,31 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
             "type": "vmess",
-            "server": "104.21.238.235",
+            "server": "104.26.0.234",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.26.0.234"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": "104.18.114.247",
             "server_port": 2095,
             "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
@@ -238,31 +300,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.21.238.235"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
-            "type": "vmess",
-            "server": "104.26.0.25",
-            "server_port": 2086,
-            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.26.0.25"
+                    "Host": "104.18.114.247"
                 }
             }
         }
