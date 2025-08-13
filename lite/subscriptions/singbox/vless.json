@@ -174,8 +174,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 4",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇳🇱NL | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
@@ -270,8 +269,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 4",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇳🇱NL | 🔴 | vless | 3YED | 14",
-                "🇺🇸US | 🔴 | vless | 3YED | 15",
+                "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
@@ -1841,11 +1839,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 14",
+            "tag": "4Kian-6065&host=vless.cillnet.my.id&encryption=none#🇺🇸US | 🟢 | vless | 3YED | 16",
             "type": "vless",
-            "server": "holanx.blacklike.ir",
-            "server_port": 9008,
-            "uuid": "9b6619f7-269d-4ac7-bd9a-3a3e42aface3",
+            "server": "vless.cillnet.my.id",
+            "server_port": 443,
+            "uuid": "204d108c-a677-4be0-8bed-bba90345f4f1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1853,26 +1851,22 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.cillnet.my.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/sgoracle",
                 "headers": {
-                    "Host": "holanx.blacklike.ir"
+                    "Host": "vless.cillnet.my.id"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "104.16.157.108",
-            "server_port": 8080,
-            "uuid": "c54ba325-c1be-4845-a2e7-922b5cd211c3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
