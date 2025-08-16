@@ -178,7 +178,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇳🇱NL | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🟢 | vmess | 3YED | 4",
@@ -285,7 +286,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
                 "🇺🇸US | 🔴 | vless | 3YED | 4",
-                "❔XX | 🟢 | vmess | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇳🇱NL | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🟢 | vmess | 3YED | 4",
@@ -1925,20 +1927,63 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2053,
+            "uuid": "c752abdc-4cef-42e9-8180-569256930f7d",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dl1-fr1-cdn.easy-upload.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?TELEGRAM_JKVPN_JKVPN_JKVPN_JKVPN_JKVPN",
+                "headers": {
+                    "Host": "dl1-fr1-cdn.easy-upload.org"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "64.188.96.208",
+            "server_port": 34045,
+            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
+                    "short_id": "e8ab71d0"
+                }
             }
         },
         {
@@ -2100,9 +2145,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
             "type": "vmess",
-            "server": "104.18.114.16",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "server": "104.26.0.67",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2117,16 +2162,16 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.18.114.16"
+                    "Host": "104.26.0.67"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
-            "server": "s2.db-link02.top",
+            "server": "104.26.0.134",
             "server_port": 2082,
-            "uuid": "1c713b69-0abe-3a1e-bf70-b0579ea2f772",
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2139,9 +2184,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/dabai.in172.64.25.37",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "s2.db-link02.top"
+                    "Host": "104.26.0.134"
                 }
             }
         },
