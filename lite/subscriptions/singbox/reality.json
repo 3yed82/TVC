@@ -106,11 +106,13 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
-                "🇫🇮FI | 🟢 | vless | 3YED | 149",
+                "🇬🇧GB | 🟢 | vless | 3YED | 142",
+                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -122,11 +124,13 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🔴 | vless | 3YED | 20",
                 "🇺🇸US | 🔴 | vless | 3YED | 7",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
-                "🇫🇮FI | 🟢 | vless | 3YED | 149",
+                "🇬🇧GB | 🟢 | vless | 3YED | 142",
+                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -152,6 +156,35 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 20",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
@@ -284,11 +317,40 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 149",
+            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 142",
             "type": "vless",
-            "server": "direct2.yasharteam.com",
-            "server_port": 443,
-            "uuid": "f4c9e871-3f00-4dd6-9a1a-d785d6c6283b",
+            "server": "primarypin.kimjo.ir",
+            "server_port": 2083,
+            "uuid": "83cb4057-4791-407d-86ba-cf98e1e03094",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B8FswH2bq-Te2rihKSyjn5eda9Z2MLVK6pi5WCF6ZTM",
+                    "short_id": "86dfebd4b5406d7a"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "5.75.194.13",
+            "server_port": 80,
+            "uuid": "50190347-9a85-4386-bd33-98bc5bc238cd",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -307,8 +369,8 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "n0ZEgbjhlEmpHtlX0khZNVZV3qsGYYXwPztkgyG2xAA",
+                    "short_id": "53162280ce86"
                 }
             }
         },
