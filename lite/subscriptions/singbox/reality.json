@@ -112,8 +112,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇬🇧GB | 🟢 | vless | 3YED | 142",
-                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🟢 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -130,8 +130,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇬🇧GB | 🟢 | vless | 3YED | 142",
-                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
+                "🇺🇸US | 🟢 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -346,35 +346,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 19",
-            "type": "vless",
-            "server": "5.75.194.13",
-            "server_port": 80,
-            "uuid": "50190347-9a85-4386-bd33-98bc5bc238cd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "n0ZEgbjhlEmpHtlX0khZNVZV3qsGYYXwPztkgyG2xAA",
-                    "short_id": "53162280ce86"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | 3YED | 12",
             "type": "vless",
             "server": "vip1.proxystore11.news",
@@ -400,6 +371,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk",
                     "short_id": "b373044d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 9",
+            "type": "vless",
+            "server": "5.181.171.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
                 }
             }
         },
