@@ -174,7 +174,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
@@ -271,7 +272,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇳🇱NL | 🔴 | vless | 3YED | 4",
@@ -1812,11 +1814,42 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 80,
-            "uuid": "dcdffdab-5d5c-44e0-951d-01e5550ce2f6",
+            "server": "104.18.12.229",
+            "server_port": 2087,
+            "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vl.hongkong6.qzz.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join---planB_proxy---BIA---planB_proxy---BIA---planB_proxy---BIA---planB_proxy?ed=2560",
+                "headers": {
+                    "Host": "vl.hongkong6.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1826,9 +1859,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/nekoOo?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.24.196.20"
+                    "Host": "104.17.147.22"
                 }
             }
         },
