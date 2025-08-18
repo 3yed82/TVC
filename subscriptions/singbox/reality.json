@@ -151,13 +151,14 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 133",
                 "🇳🇱NL | 🔴 | vless | 3YED | 135",
                 "🇫🇮FI | 🟢 | vless | 3YED | 142",
-                "🇩🇪DE | 🟢 | vless | 3YED | 20",
+                "🇱🇻LV | 🟢 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 26",
                 "❔XX | 🟢 | vless | 3YED | 6",
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 0",
-                "🇬🇧GB | 🟢 | vless | 3YED | 14",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇨🇦CA | 🟢 | vless | 3YED | 6",
+                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇫🇮FI | 🟢 | vless | 3YED | 2",
@@ -245,13 +246,14 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 133",
                 "🇳🇱NL | 🔴 | vless | 3YED | 135",
                 "🇫🇮FI | 🟢 | vless | 3YED | 142",
-                "🇩🇪DE | 🟢 | vless | 3YED | 20",
+                "🇱🇻LV | 🟢 | vless | 3YED | 0",
+                "🇩🇪DE | 🟢 | vless | 3YED | 26",
                 "❔XX | 🟢 | vless | 3YED | 6",
                 "🇫🇮FI | 🔴 | vless | 3YED | 9",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 0",
-                "🇬🇧GB | 🟢 | vless | 3YED | 14",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
-                "🇨🇦CA | 🟢 | vless | 3YED | 6",
+                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇫🇮FI | 🟢 | vless | 3YED | 2",
@@ -1734,7 +1736,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 20",
+            "tag": "🇱🇻LV | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "185.145.245.36",
+            "server_port": 443,
+            "uuid": "id8038365259",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wOSxr467-m4ivlNk1m10wf6k4LDqO2bAkN0SEoC0tCA",
+                    "short_id": "ae3d10ca88c9e052"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 26",
             "type": "vless",
             "server": "real-z3.sdcards1.ir",
             "server_port": 8585,
@@ -1828,7 +1859,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 0",
+            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "83.222.23.81",
             "server_port": 38065,
@@ -1853,35 +1884,6 @@
                     "enabled": true,
                     "public_key": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
                     "short_id": "fa"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "eng13.netliberated.org",
-            "server_port": 443,
-            "uuid": "c40cf4b2-c6c6-4d7d-a385-4d95008c0079",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.halfords.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },
@@ -1922,11 +1924,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | 3YED | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 8",
             "type": "vless",
-            "server": "165.227.47.123",
-            "server_port": 10111,
-            "uuid": "6c55ed54-c18b-4f94-afc2-e977bd6f84c8",
+            "server": "91.99.81.146",
+            "server_port": 8443,
+            "uuid": "decd275b-407b-470a-a95a-d7411348d7f9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1936,17 +1938,53 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-zmK35zG93jnC-XsTg3Tf_OkVmX84G0ysDK74efg5BY",
-                    "short_id": "d3d74a1320acdc3a"
+                    "public_key": "X1ZcgEvOoRWwMQHDd4VOVUsVc0clHdcRKwVgjV9VvWs",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android\/Telegram,@Archive_Android",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "91.99.175.173",
+            "server_port": 1001,
+            "uuid": "57d4fb9d-435a-40b0-951a-c638704ba2e5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PJJAwYggwp2gu5_oXIr_1Q02OM6-DrCCEd0y1NF5vSs",
+                    "short_id": ""
                 }
             }
         },
