@@ -112,7 +112,9 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇭🇺HU | 🟢 | vless | 3YED | 11",
-                "🇫🇮FI | 🟢 | vless | 3YED | 149",
+                "🇷🇺RU | 🟢 | vless | 3YED | 140",
+                "🇩🇪DE | 🟢 | vless | 3YED | 34",
+                "🇩🇪DE | 🟢 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🟢 | vless | 3YED | 18",
@@ -133,7 +135,9 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇭🇺HU | 🟢 | vless | 3YED | 11",
-                "🇫🇮FI | 🟢 | vless | 3YED | 149",
+                "🇷🇺RU | 🟢 | vless | 3YED | 140",
+                "🇩🇪DE | 🟢 | vless | 3YED | 34",
+                "🇩🇪DE | 🟢 | vless | 3YED | 18",
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "🇩🇪DE | 🟢 | vless | 3YED | 18",
@@ -352,11 +356,40 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 149",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 140",
             "type": "vless",
-            "server": "direct2.yasharteam.com",
-            "server_port": 443,
-            "uuid": "ca234cd5-6041-48a8-97d8-2fbeb98f5743",
+            "server": "158.160.131.112",
+            "server_port": 14872,
+            "uuid": "8b79f4a9-468f-46cf-9823-ba6cfe529f75",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6b1pXPB9Wc45eeBQxz1cYefETxE_jx1jlaeFaWS1pTc",
+                    "short_id": "738a824c0bdf"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 34",
+            "type": "vless",
+            "server": "real-z3.sdcards1.ir",
+            "server_port": 8585,
+            "uuid": "19de5ba4-82b2-4a11-898e-ae460d6733fe",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -375,8 +408,37 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
+                    "public_key": "58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg",
+                    "short_id": "ea0e387f2b260e0d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "r.optiping.ir",
+            "server_port": 33450,
+            "uuid": "a4ecf7c5-88a6-4c8a-ad81-b91192644104",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "p.optiping.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y3h3cOAkz3j_CbseRzm3EAkVq9HMkqv-gnwcXI2TI0Q",
+                    "short_id": ""
                 }
             }
         },
