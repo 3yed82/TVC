@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 18",
@@ -120,6 +121,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+                "❔XX | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 18",
@@ -168,6 +170,23 @@ https://github.com/3yed-61
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -240,7 +259,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
             "type": "vmess",
-            "server": "104.18.114.40",
+            "server": "104.18.114.135",
             "server_port": 2095,
             "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
@@ -257,14 +276,14 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.18.114.40"
+                    "Host": "104.18.114.135"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 19",
             "type": "vmess",
-            "server": "104.18.114.18",
+            "server": "104.21.238.109",
             "server_port": 2095,
             "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
@@ -281,7 +300,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.18.114.18"
+                    "Host": "104.21.238.109"
                 }
             }
         }
