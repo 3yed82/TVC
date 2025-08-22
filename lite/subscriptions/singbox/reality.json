@@ -112,9 +112,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇷🇺RU | 🟢 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
-                "🇺🇸US | 🟢 | vless | 3YED | 8",
-                "🇰🇷KR | 🟢 | vless | 3YED | 14",
+                "🇰🇷KR | 🟢 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
+                "🇹🇷TR | 🟢 | vless | 3YED | 14",
+                "🇯🇵JP | 🟢 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -131,9 +132,10 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇷🇺RU | 🟢 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
-                "🇺🇸US | 🟢 | vless | 3YED | 8",
-                "🇰🇷KR | 🟢 | vless | 3YED | 14",
+                "🇰🇷KR | 🟢 | vless | 3YED | 15",
+                "🇺🇸US | 🟢 | vless | 3YED | 10",
+                "🇹🇷TR | 🟢 | vless | 3YED | 14",
+                "🇯🇵JP | 🟢 | vless | 3YED | 15",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -348,11 +350,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 14",
+            "tag": "🇰🇷KR | 🟢 | vless | 3YED | 15",
             "type": "vless",
-            "server": "107.174.79.182",
-            "server_port": 58888,
-            "uuid": "e8cfc69c-f9a4-40ed-b48d-d5da257f5c7c",
+            "server": "amazon-4.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -362,22 +364,22 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "itunes.apple.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "8gkO1l8H5edw64YA3wWQuKS1LXFLWJ-BUX8uD3YM91Y",
-                    "short_id": "d82b9480"
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 8",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 10",
             "type": "vless",
             "server": "89.116.193.40",
             "server_port": 34045,
@@ -406,7 +408,36 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vless | 3YED | 14",
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "45.89.52.228",
+            "server_port": 443,
+            "uuid": "id7195033332",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.trendyol.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oncHA5R446UW_VbO6t2jRllAI4iLFbpvOvi1ndZ-Mys",
+                    "short_id": "d26c3a"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | 🟢 | vless | 3YED | 15",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
