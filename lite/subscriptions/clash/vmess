@@ -119,8 +119,9 @@ dns:
 
 proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | 3YED | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷TR | 🟢 | vmess | 3YED | 13","type":"vmess","server":"tr.snapppro.nikastoring.ir","port":"1616","cipher":"auto","uuid":"e86bcd55-d45e-4388-b19c-d61b648462b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | 3YED | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | 3YED | 8","type":"vmess","server":"45.159.218.131","port":"443","cipher":"auto","uuid":"9b38d152-6b12-4de0-a20d-87a8c9034cc4","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@RaFaV2Bot","headers":{"host":"zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | 3YED | 6","type":"vmess","server":"92.53.191.232","port":"443","cipher":"auto","uuid":"9b38d152-6b12-4de0-a20d-87a8c9034cc4","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@RaFaV2Bot","headers":{"host":"zLMiXBYNAwsZqkpmsdrbgtPRhTQuIcv.roxifa.ir"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,8 +129,9 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇳CN | 🟢 | vmess | 3YED | 17'
+      - '🇹🇷TR | 🟢 | vmess | 3YED | 13'
       - '❔XX | 🟢 | vmess | 3YED | 4'
-      - '🇺🇸US | 🟢 | vmess | 3YED | 8'
+      - '🇺🇸US | 🟢 | vmess | 3YED | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,16 +139,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇳CN | 🟢 | vmess | 3YED | 17'
+      - '🇹🇷TR | 🟢 | vmess | 3YED | 13'
       - '❔XX | 🟢 | vmess | 3YED | 4'
-      - '🇺🇸US | 🟢 | vmess | 3YED | 8'
+      - '🇺🇸US | 🟢 | vmess | 3YED | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇨🇳CN | 🟢 | vmess | 3YED | 17'
+      - '🇹🇷TR | 🟢 | vmess | 3YED | 13'
       - '❔XX | 🟢 | vmess | 3YED | 4'
-      - '🇺🇸US | 🟢 | vmess | 3YED | 8'
+      - '🇺🇸US | 🟢 | vmess | 3YED | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
