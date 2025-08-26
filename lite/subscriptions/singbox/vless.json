@@ -171,8 +171,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇩🇪DE | 🔴 | vless | 3YED | 18",
-                "🇩🇪DE | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -267,8 +267,8 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 3",
-                "🇩🇪DE | 🔴 | vless | 3YED | 18",
-                "🇩🇪DE | 🔴 | vless | 3YED | 19",
+                "🇺🇸US | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
@@ -1850,31 +1850,55 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "91.99.176.24",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "server": "app-stg.gopay.co.id.servpn.my.id",
+            "server_port": 443,
+            "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "app-stg.gopay.co.id.servpn.my.id",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/id5@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "app-stg.gopay.co.id.servpn.my.id"
+                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 19",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "sss52355.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
+            "server": "25.129.199.251",
+            "server_port": 8880,
+            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--- \/?ed=2560",
+                "headers": {
+                    "Host": "25.129.199.251"
+                }
             }
         },
         {
