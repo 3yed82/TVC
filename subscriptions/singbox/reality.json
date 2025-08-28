@@ -127,7 +127,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇮🇪IE | 🔴 | vless | 3YED | 1",
+                "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇮🇸IS | 🟢 | vless | 3YED | 0",
@@ -149,7 +149,11 @@
                 "❔XX | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🟢 | vless | 3YED | 22",
                 "🇩🇪DE | 🟢 | vless | 3YED | 2",
+                "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇰🇷KR | 🔴 | vless | 3YED | 11",
+                "🇹🇼TW | 🔴 | vless | 3YED | 12",
+                "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇵🇱PL | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
@@ -207,7 +211,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
-                "🇮🇪IE | 🔴 | vless | 3YED | 1",
+                "🇨🇦CA | 🔴 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇮🇸IS | 🟢 | vless | 3YED | 0",
@@ -229,7 +233,11 @@
                 "❔XX | 🔴 | vless | 3YED | 147",
                 "🇺🇸US | 🟢 | vless | 3YED | 22",
                 "🇩🇪DE | 🟢 | vless | 3YED | 2",
+                "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
+                "🇰🇷KR | 🔴 | vless | 3YED | 11",
+                "🇹🇼TW | 🔴 | vless | 3YED | 12",
+                "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇵🇱PL | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
@@ -968,7 +976,7 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | 3YED | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "amazon-15.cristiano.name.ng",
             "server_port": 443,
@@ -1627,6 +1635,35 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 0",
+            "type": "vless",
+            "server": "ru.sfasti.ru",
+            "server_port": 443,
+            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🔴 | vless | 3YED | 0",
             "type": "vless",
             "server": "40.233.102.224",
@@ -1652,6 +1689,93 @@
                     "enabled": true,
                     "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
                     "short_id": "f430927d"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "193.122.120.203",
+            "server_port": 443,
+            "uuid": "d9e61826-ac59-470e-ac80-515afa9d557f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.lamer.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8",
+                    "short_id": "d02456fe"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼TW | 🔴 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "kbgs.hinet.tw1.yydjc.top",
+            "server_port": 443,
+            "uuid": "d9e61826-ac59-470e-ac80-515afa9d557f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gopro.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ",
+                    "short_id": "5a337f9f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "130.162.220.137",
+            "server_port": 443,
+            "uuid": "d9e61826-ac59-470e-ac80-515afa9d557f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.lamer.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8",
+                    "short_id": "66ed2fdd"
                 }
             }
         },
