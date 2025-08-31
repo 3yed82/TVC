@@ -107,11 +107,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇰🇷KR | 🟢 | vmess | 3YED | 8",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
@@ -120,11 +119,10 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "🇰🇷KR | 🟢 | vmess | 3YED | 8",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -155,23 +153,6 @@ https://github.com/3yed-61
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 17",
-            "type": "vmess",
-            "server": "51.79.86.182",
-            "server_port": 42610,
-            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
-            "security": "auto",
-            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -240,11 +221,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "38.91.106.227",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "104.22.37.243",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,29 +236,19 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇰🇷KR | 🟢 | vmess | 3YED | 8",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "61.84.74.108",
-            "server_port": 30017,
+            "server": "172.67.175.56",
+            "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
@@ -291,7 +262,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,9 +272,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/obdii.cfd:443\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+                    "Host": "obdii.cfd"
                 }
             }
         },
