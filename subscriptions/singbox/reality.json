@@ -148,12 +148,12 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 144",
                 "🇫🇮FI | 🔴 | vless | 3YED | 146",
                 "🇨🇭CH | 🟢 | vless | 3YED | 0",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 11",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 12",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 13",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 14",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 9",
-                "🇷🇺RU | 🟢 | vless | 3YED | 14",
+                "🇫🇷FR | 🔴 | vless | 3YED | 5",
+                "🇫🇷FR | 🔴 | vless | 3YED | 9",
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇨🇿CZ | 🟢 | vless | 3YED | 3",
@@ -239,12 +239,12 @@
                 "🇳🇱NL | 🟢 | vless | 3YED | 144",
                 "🇫🇮FI | 🔴 | vless | 3YED | 146",
                 "🇨🇭CH | 🟢 | vless | 3YED | 0",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 11",
-                "🇰🇿KZ | 🟢 | vless | 3YED | 12",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 13",
+                "🇰🇿KZ | 🟢 | vless | 3YED | 14",
                 "🇨🇦CA | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 9",
-                "🇷🇺RU | 🟢 | vless | 3YED | 14",
+                "🇫🇷FR | 🔴 | vless | 3YED | 5",
+                "🇫🇷FR | 🔴 | vless | 3YED | 9",
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇨🇿CZ | 🟢 | vless | 3YED | 3",
@@ -1641,7 +1641,36 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 11",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "wa.sfasti.ru",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 13",
             "type": "vless",
             "server": "77.73.232.61",
             "server_port": 19747,
@@ -1670,7 +1699,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 12",
+            "tag": "🇰🇿KZ | 🟢 | vless | 3YED | 14",
             "type": "vless",
             "server": "83.222.23.81",
             "server_port": 38065,
@@ -1728,11 +1757,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 4",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 5",
             "type": "vless",
-            "server": "78.47.216.178",
-            "server_port": 8443,
-            "uuid": "3668c58e-63f9-41d9-af93-ea4eaefde81b",
+            "server": "allll.primenet3.shop",
+            "server_port": 28157,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1742,36 +1771,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 9",
-            "type": "vless",
-            "server": "5.75.193.155",
-            "server_port": 30256,
-            "uuid": "bdf40e36-a0a7-4ecb-9cf1-a055a5b0842b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "www.microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1780,17 +1780,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Cbpe36XAuFNOT1lK0YeFVezU-NkWdB1EcDRo5076sn4",
-                    "short_id": "1b"
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 14",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "wa.sfasti.ru",
-            "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "server": "allll.primenet3.shop",
+            "server_port": 3041,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1800,17 +1800,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wa.sfasti.ru",
+                "server_name": "www.refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
             }
         },
