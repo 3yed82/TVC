@@ -110,7 +110,7 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
@@ -122,7 +122,7 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -223,6 +223,40 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "188.114.96.3",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "188.114.96.3"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "type": "vmess",
             "server": "172.67.220.10",
             "server_port": 443,
             "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
@@ -252,23 +286,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "linja05.hwcar.sbs"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "89.47.197.52",
-            "server_port": 2027,
-            "uuid": "3699d1a1-9786-43b2-b10c-9dce13160b89",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
