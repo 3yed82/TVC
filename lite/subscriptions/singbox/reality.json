@@ -112,8 +112,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 153",
+                "🇹🇷TR | 🟢 | vless | 3YED | 15",
                 "🇷🇺RU | 🟢 | vless | 3YED | 6",
-                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
@@ -131,8 +132,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 153",
+                "🇹🇷TR | 🟢 | vless | 3YED | 15",
                 "🇷🇺RU | 🟢 | vless | 3YED | 6",
-                "🇩🇪DE | 🔴 | vless | 3YED | 7",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
@@ -341,6 +343,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 15",
+            "type": "vless",
+            "server": "tr-node.vipclubiran.ir",
+            "server_port": 47193,
+            "uuid": "12b9f991-3e67-46f5-938f-7430bfb1adc4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pcmag.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Q9KrxctP_L5fT1sL_sQLejDpNn7KdH1b-wZ_GR0UtX4",
+                    "short_id": "f414e49bc35be542"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺RU | 🟢 | vless | 3YED | 6",
             "type": "vless",
             "server": "94.26.228.10",
@@ -370,11 +401,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "91.99.70.212",
+            "server": "159.89.16.59",
             "server_port": 443,
-            "uuid": "a34c2f4c-e027-4df3-b7ad-2bcc4be4187c",
+            "uuid": "8fd45cd2-acd4-465b-bcd2-389c2a63ce9a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -384,7 +415,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cdn77.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -393,16 +424,9 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk",
-                    "short_id": ""
+                    "public_key": "GGbLKidjoVxcbRbnkDybdlb1L0aWsCHGeokh3vH7sg4",
+                    "short_id": "fe88d42b9ab7d9"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
