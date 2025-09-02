@@ -114,6 +114,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 153",
                 "🇷🇺RU | 🟢 | vless | 3YED | 13",
                 "🇷🇺RU | 🟢 | vless | 3YED | 6",
+                "🇷🇺RU | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
@@ -133,6 +135,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 153",
                 "🇷🇺RU | 🟢 | vless | 3YED | 13",
                 "🇷🇺RU | 🟢 | vless | 3YED | 6",
+                "🇷🇺RU | 🔴 | vless | 3YED | 11",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "🇩🇪DE | 🟢 | vless | 3YED | 3",
@@ -395,6 +399,64 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 11",
+            "type": "vless",
+            "server": "ru.sfasti.ru",
+            "server_port": 443,
+            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "5.181.171.2",
+            "server_port": 443,
+            "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
                 }
             }
         },
