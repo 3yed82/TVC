@@ -119,16 +119,18 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 117",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 129",
-                "❔XX | 🟢 | vmess | 3YED | 12",
+                "❔XX | 🟢 | vmess | 3YED | 8",
+                "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 1",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 2",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 3",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 19"
             ]
@@ -151,16 +153,18 @@
                 "🇨🇳CN | 🟢 | vmess | 3YED | 16",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 117",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 129",
-                "❔XX | 🟢 | vmess | 3YED | 12",
+                "❔XX | 🟢 | vmess | 3YED | 8",
+                "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🚩CF | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 0",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 1",
-                "🇯🇵JP | 🟢 | vmess | 3YED | 2",
-                "🚩CF | 🟢 | vmess | 3YED | 3",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 0",
+                "❔XX | 🟢 | vmess | 3YED | 1",
+                "🇮🇷IR | 🟢 | vmess | 3YED | 2",
+                "🇯🇵JP | 🟢 | vmess | 3YED | 3",
+                "🚩CF | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 19"
             ],
@@ -447,11 +451,28 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 12",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
             "type": "vmess",
             "server": null,
             "server_port": 0,
             "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 9",
+            "type": "vmess",
+            "server": "15.204.11.190",
+            "server_port": 15361,
+            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -614,7 +635,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "89.169.55.152",
+            "server_port": 33026,
+            "uuid": "e00f5c12-09e3-490c-b702-29155b6dcc50",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "socks5tobefree.ydns.eu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/dangerzone",
+                "headers": {
+                    "Host": "socks5tobefree.ydns.eu"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -631,7 +686,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 1",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
             "server": "46.38.147.138",
             "server_port": 6060,
@@ -648,7 +703,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 2",
+            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "138.2.36.157",
             "server_port": 8443,
@@ -682,7 +737,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 3",
+            "tag": "🚩CF | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "172.64.167.22",
             "server_port": 2095,
