@@ -153,6 +153,11 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | 3YED | 14","type":"trojan","server":"63.177.223.15","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 15","type":"trojan","server":"15.188.171.132","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 16","type":"trojan","server":"51.44.116.6","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇳IN | 🔴 | trojan | 3YED | 1","type":"trojan","server":"108.165.152.202","port":2083,"udp":false,"password":"Aimer","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"epgb.aimercc.dpdns.org"}
+  - {"name":"🇸🇬SG | 🔴 | trojan | 3YED | 3","type":"trojan","server":"194.53.53.11","port":2096,"udp":false,"password":"d6b8011a-c725-435a-9fec-bf6d3530392c","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"vle.amclubssss.dpdns.org"}
+  - {"name":"🚩CF | 🔴 | trojan | 3YED | 8","type":"trojan","server":"172.67.68.56","port":2096,"udp":false,"password":"Aimer","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"epgb.aimercc.dpdns.org"}
+  - {"name":"🇪🇪EE | 🔴 | trojan | 3YED | 9","type":"trojan","server":"45.80.110.224","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"bpb.my79801.com"}
+  - {"name":"🇭🇺HU | 🔴 | trojan | 3YED | 10","type":"trojan","server":"141.11.203.191","port":8443,"udp":false,"password":"Aimer","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"epgb.aimercc.dpdns.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -192,6 +197,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3YED | 14'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇮🇳IN | 🔴 | trojan | 3YED | 1'
+      - '🇸🇬SG | 🔴 | trojan | 3YED | 3'
+      - '🚩CF | 🔴 | trojan | 3YED | 8'
+      - '🇪🇪EE | 🔴 | trojan | 3YED | 9'
+      - '🇭🇺HU | 🔴 | trojan | 3YED | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -231,6 +241,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3YED | 14'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇮🇳IN | 🔴 | trojan | 3YED | 1'
+      - '🇸🇬SG | 🔴 | trojan | 3YED | 3'
+      - '🚩CF | 🔴 | trojan | 3YED | 8'
+      - '🇪🇪EE | 🔴 | trojan | 3YED | 9'
+      - '🇭🇺HU | 🔴 | trojan | 3YED | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -269,6 +284,11 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3YED | 14'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 15'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
+      - '🇮🇳IN | 🔴 | trojan | 3YED | 1'
+      - '🇸🇬SG | 🔴 | trojan | 3YED | 3'
+      - '🚩CF | 🔴 | trojan | 3YED | 8'
+      - '🇪🇪EE | 🔴 | trojan | 3YED | 9'
+      - '🇭🇺HU | 🔴 | trojan | 3YED | 10'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
