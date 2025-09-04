@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 21",
+                "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
@@ -126,6 +127,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 21",
+                "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
@@ -212,6 +214,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | 3YED | 4",
+            "type": "vless",
+            "server": "ger.afterhav.ir",
+            "server_port": 8880,
+            "uuid": "de30882a-e276-443c-9abb-09142d1650a7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com.cn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "i9i0gRbOcihFuDWgbY8fiRO-uYfmkbAixksapkkI_wA",
+                    "short_id": "62cce1a746fa"
                 }
             }
         },
