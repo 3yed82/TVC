@@ -122,7 +122,8 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 125",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 137",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 18",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -172,7 +173,8 @@
                 "🇫🇷FR | 🟢 | vmess | 3YED | 125",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 137",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 5",
-                "🇸🇬SG | 🟢 | vmess | 3YED | 18",
+                "❔XX | 🟢 | vmess | 3YED | 0",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 2",
                 "🇹🇼TW | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -575,11 +577,28 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vmess | 3YED | 18",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "singapore2.helloshuai.com",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "38.60.134.249",
             "server_port": 443,
-            "uuid": "14a79148-3d75-41d6-a998-2be9edef88cb",
+            "uuid": "beb28159-7f4c-4c09-9313-6283515f150b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -592,19 +611,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "singapore2.helloshuai.com",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/39cb4\/",
-                "headers": {
-                    "Host": "singapore2.helloshuai.com"
                 }
             }
         },

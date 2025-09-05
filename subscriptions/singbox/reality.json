@@ -155,7 +155,9 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇬🇧GB | 🔴 | vless | 3YED | 10",
+                "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🟢 | vless | 3YED | 4",
@@ -243,7 +245,9 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 6",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 7",
+                "🇬🇧GB | 🔴 | vless | 3YED | 10",
+                "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "🇳🇱NL | 🟢 | vless | 3YED | 0",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🟢 | vless | 3YED | 4",
@@ -1845,11 +1849,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 7",
             "type": "vless",
-            "server": "185.143.223.174",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
+            "server": "rep.usa.spouver.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1859,18 +1863,97 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "rep.en.xpnvip.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "rep.neth.electroluxxv.ir",
+            "server_port": 2689,
+            "uuid": "9f8a9503-562a-4c09-87e5-e90c9599e852",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
