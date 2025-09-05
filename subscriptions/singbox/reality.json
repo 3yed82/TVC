@@ -155,6 +155,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇫🇮FI | 🟢 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇳🇱NL | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 7",
@@ -242,6 +243,7 @@
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇫🇮FI | 🟢 | vless | 3YED | 2",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇩🇪DE | 🟢 | vless | 3YED | 0",
                 "🇳🇱NL | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 7",
@@ -1832,6 +1834,35 @@
                     "enabled": true,
                     "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
                     "short_id": "f430927d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "212.41.8.198",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
