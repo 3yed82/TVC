@@ -107,11 +107,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇲🇾MY | 🟢 | vmess | 3YED | 18",
+                "🇳🇱NL | 🟢 | vmess | 3YED | 145",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
@@ -120,11 +120,11 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇲🇾MY | 🟢 | vmess | 3YED | 18",
+                "🇳🇱NL | 🟢 | vmess | 3YED | 145",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 13",
                 "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 15",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,11 +165,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3YED | 18",
+            "tag": "🇳🇱NL | 🟢 | vmess | 3YED | 145",
             "type": "vmess",
-            "server": "45.128.54.84",
-            "server_port": 37313,
-            "uuid": "72feb833-4196-4a70-a3f5-aeb011f7d534",
+            "server": "92.112.126.22",
+            "server_port": 8443,
+            "uuid": "39372035-3320-4537-a031-303120313030",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -179,6 +179,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl-2.stunnel.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "nl-2.stunnel.cc"
+                }
             }
         },
         {
@@ -240,7 +257,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
+            "type": "vmess",
+            "server": "162.159.140.77",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 15",
             "type": "vmess",
             "server": "188.114.99.134",
             "server_port": 443,
@@ -270,30 +311,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "162.159.140.89",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip3.6929198.xyz"
                 }
             }
         },
