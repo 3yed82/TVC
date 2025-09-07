@@ -114,10 +114,10 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🟢 | vless | 3YED | 146",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇫🇮FI | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -138,10 +138,10 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🟢 | vless | 3YED | 146",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇫🇮FI | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 20",
@@ -416,35 +416,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 14",
-            "type": "vless",
-            "server": "161.35.184.205",
-            "server_port": 2053,
-            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.openstreetmap.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
-                    "short_id": "d7"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺RU | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "185.200.240.134",
@@ -528,6 +499,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
                     "short_id": "f430927d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "62.60.176.164",
+            "server_port": 443,
+            "uuid": "1ab44c12-1462-422e-aeab-aaa025636f61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lIziyIMqT_eVG87EqNB97p9SPiDW4DXIFMm-J0SbAWY",
+                    "short_id": "ed"
                 }
             }
         },
