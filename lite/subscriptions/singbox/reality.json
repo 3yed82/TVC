@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | 🟢 | vless | 3YED | 0",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 4",
@@ -114,12 +114,13 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🟢 | vless | 3YED | 146",
+                "🇷🇺RU | 🟢 | vless | 3YED | 12",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇫🇮FI | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 16",
-                "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇳🇱NL | 🟢 | vless | 3YED | 7",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -130,7 +131,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | 🟢 | vless | 3YED | 0",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇩🇪DE | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 0",
                 "❔XX | 🟢 | vless | 3YED | 4",
@@ -138,12 +139,13 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇩🇪DE | 🟢 | vless | 3YED | 146",
+                "🇷🇺RU | 🟢 | vless | 3YED | 12",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇫🇮FI | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
-                "🇺🇸US | 🟢 | vless | 3YED | 16",
-                "🇳🇱NL | 🟢 | vless | 3YED | 7",
                 "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇳🇱NL | 🟢 | vless | 3YED | 7",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
                 "❔XX | 🔴 | vless | 3YED | 6",
@@ -170,7 +172,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 0",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "212.41.11.152",
             "server_port": 443,
@@ -416,6 +418,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 12",
+            "type": "vless",
+            "server": "217.198.12.224",
+            "server_port": 443,
+            "uuid": "1ab44c12-1462-422e-aeab-aaa025636f61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cBJsDdArckzyAvjzcqF_cK9Rpts2Lxq1oqj-b9_HeQ8",
+                    "short_id": "46fe77b51a66"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺RU | 🟢 | vless | 3YED | 2",
             "type": "vless",
             "server": "185.200.240.134",
@@ -503,11 +534,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 17",
             "type": "vless",
-            "server": "62.60.176.164",
-            "server_port": 443,
-            "uuid": "1ab44c12-1462-422e-aeab-aaa025636f61",
+            "server": "185.236.232.136",
+            "server_port": 1001,
+            "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -517,7 +548,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "telewebion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -526,8 +557,8 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lIziyIMqT_eVG87EqNB97p9SPiDW4DXIFMm-J0SbAWY",
-                    "short_id": "ed"
+                    "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+                    "short_id": "5fab0deb"
                 }
             }
         },
@@ -561,11 +592,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
             "type": "vless",
-            "server": "5.181.171.2",
+            "server": "146.19.90.2",
             "server_port": 443,
-            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "uuid": "33bdc1f3-a2ce-6a15-c286-d602b373063d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -580,11 +611,11 @@ https://github.com/3yed-61
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko",
                     "short_id": ""
                 }
             }
