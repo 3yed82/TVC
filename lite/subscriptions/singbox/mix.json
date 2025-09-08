@@ -168,11 +168,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 13",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 11",
+                "❔XX | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
@@ -260,11 +261,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 1",
                 "🇮🇷IR | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🟢 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 13",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 11",
+                "❔XX | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
@@ -1780,12 +1782,33 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "103.175.79.2",
+            "server": "informed-location.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "5c929ec5-5b1e-447a-950c-354c5d1ba1de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/??ed\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net\/",
+                "headers": {
+                    "Host": "informed-location.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
+            "type": "vless",
+            "server": "212.95.34.18",
             "server_port": 443,
-            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
-            "flow": "xtls-rprx-vision",
+            "uuid": "784646e5-8e84-4672-8670-efc9cafcd2cc",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1794,17 +1817,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speed.cloudflare.com",
+                "server_name": "212.95.34.18",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
-                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "212.95.34.18"
                 }
             }
         },
@@ -1867,11 +1892,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 11",
             "type": "vmess",
-            "server": "gzog.runjustfast.com",
-            "server_port": 35004,
-            "uuid": "58bb35bc-8c58-4065-8c5f-9eeedb237eb1",
+            "server": "104.26.5.113",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1882,30 +1907,20 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gzog.runjustfast.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/31k64xkea01x",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "gzog.runjustfast.com"
+                    "Host": "ip18.6929198.xyz"
                 }
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 14",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 12",
             "type": "vmess",
-            "server": "gzog.runjustfast.com",
-            "server_port": 30003,
-            "uuid": "58bb35bc-8c58-4065-8c5f-9eeedb237eb1",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "babcaac-caba-acab-dabc-abcbaacbcbca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1915,23 +1930,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gzog.runjustfast.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/t1a64wdea01c",
-                "headers": {
-                    "Host": "gzog.runjustfast.com"
-                }
             }
         },
         {
