@@ -154,6 +154,9 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇷🇺RU | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
@@ -238,6 +241,9 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 0",
                 "🇷🇺RU | 🟢 | vless | 3YED | 3",
                 "🇨🇦CA | 🔴 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 8",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
+                "🇺🇸US | 🟢 | vless | 3YED | 16",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 4",
@@ -1790,6 +1796,93 @@
                     "enabled": true,
                     "public_key": "LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo",
                     "short_id": "f430927d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 8",
+            "type": "vless",
+            "server": "wa.sfasti.ru",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "188.245.67.23",
+            "server_port": 4884,
+            "uuid": "ea060684-ec6c-422d-bac3-e2f11dc68680",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "business.stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3TrvJr0BfbCPdv-e4LZcUBotYcuifQZH3YER8FIZcS4",
+                    "short_id": "6d256a141a9ccb53"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "5.181.171.2",
+            "server_port": 443,
+            "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
                 }
             }
         },

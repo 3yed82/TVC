@@ -122,7 +122,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 135",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 140",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 152",
-                "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -138,9 +137,6 @@
                 "❔XX | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 9",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
@@ -165,7 +161,6 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 135",
                 "🇫🇷FR | 🟢 | vmess | 3YED | 140",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 152",
-                "❔XX | 🟢 | vmess | 3YED | 0",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -181,9 +176,6 @@
                 "❔XX | 🟢 | vmess | 3YED | 7",
                 "🇺🇸US | 🟢 | vmess | 3YED | 8",
                 "❔XX | 🟢 | vmess | 3YED | 9",
-                "🇨🇳CN | 🟢 | vmess | 3YED | 10",
-                "🚩CF | 🟢 | vmess | 3YED | 11",
-                "❔XX | 🟢 | vmess | 3YED | 12",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -541,23 +533,6 @@
                 "headers": {
                     "Host": "nl-2.stunnel.cc"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 0",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -975,81 +950,6 @@
             "server": "127.0.0.1",
             "server_port": 1080,
             "uuid": "acaabbc-baca-baac-cbad-ccabacabbacb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 10",
-            "type": "vmess",
-            "server": "gzo.runjustfast.com",
-            "server_port": 30001,
-            "uuid": "d6917779-3141-403c-81b7-3e1d3a5b27b6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gzo.runjustfast.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/21a64xdea04c",
-                "headers": {
-                    "Host": "gzo.runjustfast.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 11",
-            "type": "vmess",
-            "server": "104.26.5.113",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "ip18.6929198.xyz"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 12",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "babcaac-caba-acab-dabc-abcbaacbcbca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
