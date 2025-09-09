@@ -146,9 +146,10 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 16",
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
-                "🇫🇮FI | 🟢 | vless | 3YED | 4",
+                "🇫🇮FI | 🟢 | vless | 3YED | 5",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
-                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 4",
+                "🇺🇸US | 🟢 | vless | 3YED | 13",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
@@ -225,9 +226,10 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 16",
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 6",
-                "🇫🇮FI | 🟢 | vless | 3YED | 4",
+                "🇫🇮FI | 🟢 | vless | 3YED | 5",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
-                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇷🇺RU | 🟢 | vless | 3YED | 4",
+                "🇺🇸US | 🟢 | vless | 3YED | 13",
                 "🇷🇺RU | 🟢 | vless | 3YED | 2",
                 "🇺🇸US | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🟢 | vless | 3YED | 6",
@@ -1538,7 +1540,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 4",
+            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 5",
             "type": "vless",
             "server": "185.200.190.159",
             "server_port": 34045,
@@ -1596,7 +1598,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 1",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "ru.sfasti.ru",
             "server_port": 443,
@@ -1621,6 +1623,35 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "103.175.79.2",
+            "server_port": 443,
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
                 }
             }
         },
