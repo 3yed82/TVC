@@ -150,7 +150,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 2",
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
-                "🇵🇱PL | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🟢 | vless | 3YED | 4",
                 "🇫🇮FI | 🟢 | vless | 3YED | 8",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -235,7 +235,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 1",
                 "🇳🇱NL | 🟢 | vless | 3YED | 2",
                 "🇷🇺RU | 🟢 | vless | 3YED | 1",
-                "🇵🇱PL | 🟢 | vless | 3YED | 6",
+                "🇬🇧GB | 🟢 | vless | 3YED | 4",
                 "🇫🇮FI | 🟢 | vless | 3YED | 8",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
@@ -1659,11 +1659,40 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | 3YED | 6",
+            "tag": "🇬🇧GB | 🟢 | vless | 3YED | 4",
             "type": "vless",
-            "server": "pl.panelmarzban.com",
-            "server_port": 3038,
-            "uuid": "08016b13-fb33-4b61-9608-cf79d5e27414",
+            "server": "eng14.netliberated.org",
+            "server_port": 443,
+            "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.halfords.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 8",
+            "type": "vless",
+            "server": "46.62.128.241",
+            "server_port": 8443,
+            "uuid": "9e30c25c-2142-4080-8604-738db4650459",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1682,37 +1711,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "5.181.168.10",
-            "server_port": 1443,
-            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pFIyqIJ6RKofhtXRZJ0kcxPIolBHtDIcDYd5KvttUSY",
-                    "short_id": ""
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
