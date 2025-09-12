@@ -124,7 +124,6 @@ proxies:
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 17","type":"trojan","server":"13.37.56.104","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 16","type":"trojan","server":"51.44.37.164","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3YED | 17","type":"trojan","server":"13.37.56.104","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3YED | 14","type":"trojan","server":"172.67.209.80","port":443,"udp":false,"password":"bpb-trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"403b3611-99Bc-43b7-88D7-26ED5d0825a9-3.pAgeS.Dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +134,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
-      - '🇺🇸US | 🔴 | trojan | 3YED | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,7 +144,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
-      - '🇺🇸US | 🔴 | trojan | 3YED | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -156,7 +153,6 @@ proxy-groups:
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 16'
       - '🇫🇷FR | 🟢 | trojan | 3YED | 17'
-      - '🇺🇸US | 🔴 | trojan | 3YED | 14'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
