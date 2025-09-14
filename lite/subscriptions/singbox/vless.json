@@ -160,7 +160,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "🇬🇧GB | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -243,7 +244,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
+                "🇩🇪DE | 🔴 | vless | 3YED | 18",
+                "🇬🇧GB | 🔴 | vless | 3YED | 19",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇮🇷IR | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -1465,11 +1467,40 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8880,
-            "uuid": "d447f445-8ac8-46ad-8f93-474a8c57c738",
+            "server": "89.23.108.188",
+            "server_port": 443,
+            "uuid": "fe1888f8-2361-11f0-9970-45e1d80c4039",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "images.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo",
+                    "short_id": "7fd4"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "167.99.195.231",
+            "server_port": 46054,
+            "uuid": "34772e33-4f67-4ca3-9214-b8050ecaea49",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1479,9 +1510,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420----@EXPRESSVPN_420",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.40.99"
+                    "Host": "167.99.195.231"
                 }
             }
         },
