@@ -107,11 +107,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ]
         },
@@ -120,11 +121,12 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇮🇷IR | 🟢 | vmess | 3YED | 18",
+                "🇺🇸US | 🟢 | vmess | 3YED | 17",
+                "🇺🇸US | 🟢 | vmess | 3YED | 18",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 7",
-                "❔XX | 🟢 | vmess | 3YED | 8",
+                "❔XX | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 6",
                 "🇺🇸US | 🟢 | vmess | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,11 +167,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3YED | 18",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 17",
             "type": "vmess",
-            "server": "2.188.219.43",
-            "server_port": 8443,
-            "uuid": "b2e38621-035b-43f8-84a5-e92160762fc3",
+            "server": "b47c127d-bec2-6281-8d44-63d0c17d7a4a.freevpnatm2025.dpdns.org",
+            "server_port": 80,
+            "uuid": "34a7da0c-a43a-49b8-a8d0-64b43100090e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -182,7 +184,31 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/e7JS5ETJeA85VyjPCYXwETL",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "cc889ca0-cd29-2728-dadf-753fb6f18502.freevpnatm2025.dpdns.org",
+            "server_port": 80,
+            "uuid": "34a7da0c-a43a-49b8-a8d0-64b43100090e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/e7JS5ETJeA85VyjPCYXwETL",
                 "headers": {
                     "Host": ""
                 }
@@ -247,11 +273,28 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 7",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "104.16.68.38",
-            "server_port": 2095,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "baabcac-abac-acab-dbac-aabccabcabbc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 6",
+            "type": "vmess",
+            "server": "dkzbofzkop.com",
+            "server_port": 443,
+            "uuid": "fa1897db-1925-4c86-a495-939a959af900",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,27 +307,10 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "path": "\/rbqqvws",
                 "headers": {
-                    "Host": "104.16.68.38"
+                    "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "aababcc-acba-aacb-bdca-cbcacbabcaba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
