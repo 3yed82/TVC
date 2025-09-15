@@ -114,7 +114,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 59",
+                "🇨🇦CA | 🔴 | vless | 3YED | 59",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -158,7 +158,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇬🇪GE | 🔴 | vless | 3YED | 19",
+                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
@@ -195,7 +195,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇺🇸US | 🔴 | vless | 3YED | 59",
+                "🇨🇦CA | 🔴 | vless | 3YED | 59",
                 "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
@@ -239,7 +239,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 1",
                 "🇺🇸US | 🔴 | vless | 3YED | 2",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
-                "🇬🇪GE | 🔴 | vless | 3YED | 19",
+                "🇩🇪DE | 🟢 | vless | 3YED | 19",
                 "🇷🇺RU | 🟢 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
@@ -514,7 +514,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 59",
+            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 59",
             "type": "vless",
             "server": "chat.deepseek.com",
             "server_port": 80,
@@ -1448,23 +1448,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇪GE | 🔴 | vless | 3YED | 19",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 19",
             "type": "vless",
-            "server": "194.135.119.162",
-            "server_port": 34909,
-            "uuid": "8e3c6679-5955-4e18-b25b-c29c718190a4",
-            "flow": "",
+            "server": "91.99.92.127",
+            "server_port": 8880,
+            "uuid": "44a6fabd-afbc-4150-a696-58eac865c578",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/اینستا",
-                "headers": {
-                    "Host": "194.135.119.162"
+            "tls": {
+                "enabled": true,
+                "server_name": "cp.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pNtsKb6dyTS0BnkfswffcWGi-oGDxJVPWZLkeDyLGwg",
+                    "short_id": "66d4e033f43b27"
                 }
             }
         },
