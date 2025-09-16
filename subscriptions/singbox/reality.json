@@ -149,8 +149,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
-                "🇫🇮FI | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
+                "🇫🇮FI | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🟢 | vless | 3YED | 13",
+                "🇭🇰HK | 🟢 | vless | 3YED | 16",
                 "🇷🇺RU | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -227,8 +228,9 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🟢 | vless | 3YED | 1",
-                "🇫🇮FI | 🔴 | vless | 3YED | 7",
-                "🇺🇸US | 🟢 | vless | 3YED | 14",
+                "🇫🇮FI | 🔴 | vless | 3YED | 10",
+                "🇺🇸US | 🟢 | vless | 3YED | 13",
+                "🇭🇰HK | 🟢 | vless | 3YED | 16",
                 "🇷🇺RU | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 0",
                 "🇳🇱NL | 🔴 | vless | 3YED | 8",
@@ -1602,7 +1604,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 7",
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 10",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -1631,11 +1633,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 14",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 13",
             "type": "vless",
-            "server": "35.94.137.174",
+            "server": "193.56.20.10",
             "server_port": 443,
-            "uuid": "100a18b8-bab3-4c42-96ec-6b96691d6a0f",
+            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1645,7 +1647,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1654,7 +1656,36 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "CgiGam2CJMM33Tb7ZEBHt52pztMD7SQ9sqdfDZro-0Y",
+                    "public_key": "wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | 🟢 | vless | 3YED | 16",
+            "type": "vless",
+            "server": "156.225.23.208",
+            "server_port": 40429,
+            "uuid": "13e0940a-5234-4702-b610-037b1bca9809",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KkVrTtjrIuF8vXrXAQ-g8I25Fzih4QILMB05ObSnvRo",
                     "short_id": ""
                 }
             }
