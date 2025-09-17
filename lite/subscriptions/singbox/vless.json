@@ -115,7 +115,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇨🇦CA | 🔴 | vless | 3YED | 63",
+                "🇺🇸US | 🔴 | vless | 3YED | 63",
                 "🇺🇸US | 🔴 | vless | 3YED | 64",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
@@ -161,8 +161,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -195,7 +194,7 @@ https://github.com/3yed-61
                 "🇮🇷IR | 🔴 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
-                "🇨🇦CA | 🔴 | vless | 3YED | 63",
+                "🇺🇸US | 🔴 | vless | 3YED | 63",
                 "🇺🇸US | 🔴 | vless | 3YED | 64",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
@@ -241,8 +240,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🔴 | vless | 3YED | 0",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 6",
-                "🇺🇸US | 🔴 | vless | 3YED | 17",
-                "🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇺🇸US | 🟢 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 5",
                 "🇺🇸US | 🔴 | vless | 3YED | 8",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -526,7 +524,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 63",
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 63",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1535,43 +1533,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 17",
+            "tag": "🇺🇸US | 🟢 | vless | 3YED | 18",
             "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 8443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "YjF03nNq0B.sOlEnTrAa.InFo",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "YjF03nNq0B.sOlEnTrAa.InFo"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "104.18.35.85",
+            "server": "147.78.180.10",
             "server_port": 443,
-            "uuid": "060a8fe8-7175-4ded-94a5-d9808bc645b6",
-            "flow": "",
+            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1580,19 +1547,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cf.vless.sandesh.fr",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cf.vless.sandesh.fr"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0",
+                    "short_id": ""
                 }
             }
         },
