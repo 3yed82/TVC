@@ -111,7 +111,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 16",
+                "🇰🇷KR | 🟢 | vmess | 3YED | 16",
                 "❔XX | 🟢 | vmess | 3YED | 17"
             ]
         },
@@ -124,7 +124,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "❔XX | 🟢 | vmess | 3YED | 16",
+                "🇰🇷KR | 🟢 | vmess | 3YED | 16",
                 "❔XX | 🟢 | vmess | 3YED | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -284,7 +284,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 16",
+            "tag": "🇰🇷KR | 🟢 | vmess | 3YED | 16",
+            "type": "vmess",
+            "server": "158.180.91.206",
+            "server_port": 46271,
+            "uuid": "f99bfe05-e351-47df-e752-ac0aaea976dc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 17",
             "type": "vmess",
             "server": "an.hkddisney.org",
             "server_port": 443,
@@ -312,30 +336,6 @@ https://github.com/3yed-61
             "transport": {
                 "type": "ws",
                 "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 17",
-            "type": "vmess",
-            "server": "go.alipay.ovh",
-            "server_port": 80,
-            "uuid": "a94171be-b387-4f02-a5ef-a1b4b7a26c04",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries",
                 "headers": {
                     "Host": ""
                 }
