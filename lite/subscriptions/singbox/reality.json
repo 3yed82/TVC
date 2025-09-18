@@ -111,11 +111,12 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇫🇮FI | 🟢 | vless | 3YED | 4",
                 "🇱🇻LV | 🟢 | vless | 3YED | 5",
                 "🇷🇺RU | 🟢 | vless | 3YED | 34",
-                "🇷🇺RU | 🟢 | vless | 3YED | 12",
-                "🇷🇺RU | 🔴 | vless | 3YED | 18",
+                "🇷🇺RU | 🟢 | vless | 3YED | 13",
+                "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇫🇮FI | 🔴 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -132,11 +133,12 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
+                "🇺🇸US | 🔴 | vless | 3YED | 13",
                 "🇫🇮FI | 🟢 | vless | 3YED | 4",
                 "🇱🇻LV | 🟢 | vless | 3YED | 5",
                 "🇷🇺RU | 🟢 | vless | 3YED | 34",
-                "🇷🇺RU | 🟢 | vless | 3YED | 12",
-                "🇷🇺RU | 🔴 | vless | 3YED | 18",
+                "🇷🇺RU | 🟢 | vless | 3YED | 13",
+                "🇩🇪DE | 🔴 | vless | 3YED | 4",
                 "🇫🇮FI | 🔴 | vless | 3YED | 17",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -316,6 +318,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3YED | 13",
+            "type": "vless",
+            "server": "amazon-4.cristiano.name.ng",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "46.62.152.219",
@@ -403,7 +434,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 12",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 13",
             "type": "vless",
             "server": "80.249.131.7",
             "server_port": 443,
@@ -432,11 +463,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 4",
             "type": "vless",
-            "server": "138.124.186.202",
+            "server": "91.98.89.62",
             "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "uuid": "60f5612f-4861-4162-eaba-fd1c178437e0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -446,7 +477,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.bing.com",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -455,7 +486,7 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "public_key": "NRYJKm0tRL9L2JLo070iTZg-SU6DT318gVLsm5tJUWw",
                     "short_id": ""
                 }
             }
