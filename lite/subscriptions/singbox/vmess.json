@@ -111,8 +111,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 15",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16"
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 15"
             ]
         },
         {
@@ -124,8 +124,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3YED | 4",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 15",
-                "🇺🇸US | 🟢 | vmess | 3YED | 16"
+                "🇺🇸US | 🟢 | vmess | 3YED | 14",
+                "🇺🇸US | 🟢 | vmess | 3YED | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -284,6 +284,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
+            "type": "vmess",
+            "server": "216.24.57.171",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/obdii.cfd:443\/linkws",
+                "headers": {
+                    "Host": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3YED | 15",
             "type": "vmess",
             "server": "172.67.71.160",
@@ -314,40 +348,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": "104.21.77.29",
-            "server_port": 443,
-            "uuid": "8d90c129-4156-4d6c-9115-24df25f26a02",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
