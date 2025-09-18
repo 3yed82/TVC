@@ -137,7 +137,6 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 131",
                 "🇫🇷FR | 🟢 | vless | 3YED | 138",
-                "🇹🇷TR | 🟢 | vless | 3YED | 156",
                 "🇷🇺RU | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "❔XX | 🟢 | vless | 3YED | 22",
@@ -147,13 +146,13 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 34",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
-                "🇫🇷FR | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 11",
-                "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🟢 | vless | 3YED | 6",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🟢 | vless | 3YED | 18",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇫🇷FR | 🟢 | vless | 3YED | 6",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇫🇮FI | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
@@ -214,7 +213,6 @@
                 "❔XX | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🟢 | vless | 3YED | 131",
                 "🇫🇷FR | 🟢 | vless | 3YED | 138",
-                "🇹🇷TR | 🟢 | vless | 3YED | 156",
                 "🇷🇺RU | 🟢 | vless | 3YED | 4",
                 "🇳🇱NL | 🔴 | vless | 3YED | 13",
                 "❔XX | 🟢 | vless | 3YED | 22",
@@ -224,13 +222,13 @@
                 "🇷🇺RU | 🟢 | vless | 3YED | 34",
                 "🇺🇸US | 🟢 | vless | 3YED | 1",
                 "🇺🇸US | 🟢 | vless | 3YED | 2",
-                "🇫🇷FR | 🟢 | vless | 3YED | 4",
-                "🇩🇪DE | 🟢 | vless | 3YED | 11",
-                "🇩🇪DE | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🟢 | vless | 3YED | 6",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
-                "🇺🇸US | 🟢 | vless | 3YED | 18",
+                "🇷🇺RU | 🟢 | vless | 3YED | 1",
+                "🇫🇷FR | 🟢 | vless | 3YED | 6",
+                "🇩🇪DE | 🟢 | vless | 3YED | 13",
+                "🇩🇪DE | 🔴 | vless | 3YED | 1",
+                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇫🇮FI | 🔴 | vless | 3YED | 2",
+                "🇩🇪DE | 🟢 | vless | 3YED | 3",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
@@ -1252,35 +1250,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 156",
-            "type": "vless",
-            "server": "45.89.52.228",
-            "server_port": 443,
-            "uuid": "id7195033332",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.trendyol.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oncHA5R446UW_VbO6t2jRllAI4iLFbpvOvi1ndZ-Mys",
-                    "short_id": "d26c3a"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺RU | 🟢 | vless | 3YED | 4",
             "type": "vless",
             "server": "ru.sfasti.ru",
@@ -1542,7 +1511,36 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | 3YED | 4",
+            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 1",
+            "type": "vless",
+            "server": "80.249.131.7",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | 3YED | 6",
             "type": "vless",
             "server": "fdns.amirconfigpaanelllll.com",
             "server_port": 2589,
@@ -1571,7 +1569,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 11",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 13",
             "type": "vless",
             "server": "194.87.29.240",
             "server_port": 443,
@@ -1600,7 +1598,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 1",
             "type": "vless",
             "server": "hyperspeed.miniproxy.sbs",
             "server_port": 57554,
@@ -1629,7 +1627,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 5",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "91.98.89.62",
             "server_port": 443,
@@ -1658,11 +1656,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 6",
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 2",
             "type": "vless",
-            "server": "194.87.29.240",
-            "server_port": 443,
-            "uuid": "1a714fa1-247b-4755-87d0-32c46d3fdc14",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1672,7 +1670,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdnjs.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1681,17 +1679,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
-                    "short_id": "bc97736f81817c41"
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 3",
             "type": "vless",
-            "server": "89.23.108.188",
+            "server": "deu246.bypassall.org",
             "server_port": 443,
-            "uuid": "fe1888f8-2361-11f0-9970-45e1d80c4039",
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1701,7 +1699,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "images.apple.com",
+                "server_name": "www.bing.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1710,36 +1708,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo",
-                    "short_id": "7fd4"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 18",
-            "type": "vless",
-            "server": "147.78.180.10",
-            "server_port": 443,
-            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0",
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
                 }
             }
