@@ -121,6 +121,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 145",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 11",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -138,9 +139,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 11",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🚩CF | 🟢 | vmess | 3YED | 13",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14"
+                "🚩CF | 🟢 | vmess | 3YED | 12"
             ]
         },
         {
@@ -163,6 +162,7 @@
                 "🇩🇪DE | 🟢 | vmess | 3YED | 145",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "❔XX | 🟢 | vmess | 3YED | 11",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -180,9 +180,7 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
                 "🇸🇪SE | 🟢 | vmess | 3YED | 10",
                 "🚩CF | 🟢 | vmess | 3YED | 11",
-                "🚩CF | 🟢 | vmess | 3YED | 12",
-                "🚩CF | 🟢 | vmess | 3YED | 13",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14"
+                "🚩CF | 🟢 | vmess | 3YED | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -525,6 +523,23 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 11",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1106,64 +1121,6 @@
                 "path": "\/glweidf.sbs\/linkws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | 3YED | 13",
-            "type": "vmess",
-            "server": "104.18.24.92",
-            "server_port": 2052,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/afrhms16v.bestxray.buzz\/linkws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "www.baldengineer.com",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yen63jj36j3jfflan.thelastronin.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws\/afrhms16v.bestxray.buzz",
-                "headers": {
-                    "Host": "yen63jj36j3jfflan.thelastronin.cloudns.org"
                 }
             }
         }
