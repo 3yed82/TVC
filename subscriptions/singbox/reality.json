@@ -151,7 +151,8 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🟢 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇨🇭CH | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
@@ -226,7 +227,8 @@
                 "🇩🇪DE | 🟢 | vless | 3YED | 9",
                 "🇩🇪DE | 🔴 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 5",
-                "🇩🇪DE | 🟢 | vless | 3YED | 9",
+                "🇩🇪DE | 🟢 | vless | 3YED | 1",
+                "🇨🇭CH | 🔴 | vless | 3YED | 15",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
                 "🇩🇪DE | 🔴 | vless | 3YED | 7",
@@ -1654,7 +1656,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 1",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -1679,6 +1681,35 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | 🔴 | vless | 3YED | 15",
+            "type": "vless",
+            "server": "5.182.36.251",
+            "server_port": 16331,
+            "uuid": "d7dbeb1e-268c-465c-8f59-489f14703efd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
+                    "short_id": "910aab"
                 }
             }
         },
