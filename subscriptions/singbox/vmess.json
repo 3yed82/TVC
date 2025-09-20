@@ -120,7 +120,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 117",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 152",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 4",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 16",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -153,7 +154,8 @@
                 "🇺🇸US | 🟢 | vmess | 3YED | 117",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 152",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 4",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 16",
                 "🇳🇱NL | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 2",
                 "❔XX | 🟢 | vmess | 3YED | 3",
@@ -483,7 +485,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "kampong.org",
             "server_port": 443,
@@ -513,6 +515,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 16",
+            "type": "vmess",
+            "server": "91.134.8.102",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "serkat.org"
                 }
             }
         },
