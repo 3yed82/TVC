@@ -164,7 +164,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=khtls.armin-website.com&fp=chrome&type=ws&sni=khtls.armin-website.com#🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇵🇱PL | 🔴 | vless | 3YED | 18",
+                "🇫🇮FI | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
@@ -244,7 +245,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=khtls.armin-website.com&fp=chrome&type=ws&sni=khtls.armin-website.com#🇺🇸US | 🔴 | vless | 3YED | 18",
+                "🇵🇱PL | 🔴 | vless | 3YED | 18",
+                "🇫🇮FI | 🔴 | vless | 3YED | 19",
                 "🇩🇪DE | 🔴 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 16",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
@@ -1571,17 +1573,46 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=khtls.armin-website.com&fp=chrome&type=ws&sni=khtls.armin-website.com#🇺🇸US | 🔴 | vless | 3YED | 18",
+            "tag": "🇵🇱PL | 🔴 | vless | 3YED | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2083,
-            "uuid": "a61a9487-7d9e-4f77-f35a-284acc0c1925",
+            "server": "m23a.vip784.com",
+            "server_port": 33801,
+            "uuid": "c9b0100b-01b9-4167-b9e2-a0a8cad1e32b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 19",
+            "type": "vless",
+            "server": "v2ngfaet.heloisfood.ir",
+            "server_port": 1146,
+            "uuid": "c90132d0-61b4-44e7-b70a-273afc0016c0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
             }
         },
         {
