@@ -144,8 +144,9 @@
                 "🇹🇷TR | 🟢 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
-                "🇷🇺RU | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇷🇺RU | 🔴 | vless | 3YED | 1",
+                "🇱🇻LV | 🔴 | vless | 3YED | 7",
+                "🇷🇺RU | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -211,8 +212,9 @@
                 "🇹🇷TR | 🟢 | vless | 3YED | 4",
                 "🇩🇪DE | 🔴 | vless | 3YED | 2",
                 "🇩🇪DE | 🔴 | vless | 3YED | 3",
-                "🇷🇺RU | 🔴 | vless | 3YED | 0",
-                "🇩🇪DE | 🔴 | vless | 3YED | 6",
+                "🇷🇺RU | 🔴 | vless | 3YED | 1",
+                "🇱🇻LV | 🔴 | vless | 3YED | 7",
+                "🇷🇺RU | 🔴 | vless | 3YED | 10",
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
                 "❔XX | 🔴 | vless | 3YED | 7",
@@ -1421,9 +1423,67 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 0",
+            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 1",
             "type": "vless",
-            "server": "94.26.228.10",
+            "server": "212.41.8.198",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻LV | 🔴 | vless | 3YED | 7",
+            "type": "vless",
+            "server": "94.131.104.178",
+            "server_port": 443,
+            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "latvia6.clearorbitllc.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
+                    "short_id": "81e0b568"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | 3YED | 10",
+            "type": "vless",
+            "server": "82.148.21.174",
             "server_port": 443,
             "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
             "flow": "xtls-rprx-vision",
@@ -1440,41 +1500,12 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 6",
-            "type": "vless",
-            "server": "91.98.139.247",
-            "server_port": 39626,
-            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.steampowered.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
-                    "short_id": "85"
                 }
             }
         },
