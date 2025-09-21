@@ -110,8 +110,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
-                "❔XX | 🟢 | vmess | 3YED | 13",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14"
+                "🇯🇵JP | 🟢 | vmess | 3YED | 14",
+                "❔XX | 🟢 | vmess | 3YED | 15"
             ]
         },
         {
@@ -122,8 +122,8 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
-                "❔XX | 🟢 | vmess | 3YED | 13",
-                "🇺🇸US | 🟢 | vmess | 3YED | 14"
+                "🇯🇵JP | 🟢 | vmess | 3YED | 14",
+                "❔XX | 🟢 | vmess | 3YED | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -255,7 +255,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3YED | 13",
+            "tag": "🇯🇵JP | 🟢 | vmess | 3YED | 14",
+            "type": "vmess",
+            "server": "47.74.8.202",
+            "server_port": 23468,
+            "uuid": "9f563bc7-0481-41d2-f8fd-a4736ded9bc0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3YED | 15",
             "type": "vmess",
             "server": "d.lammaland.org",
             "server_port": 443,
@@ -286,23 +303,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "d.lammaland.org"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 14",
-            "type": "vmess",
-            "server": "23.154.136.47",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
