@@ -160,7 +160,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇨🇦CA | 🔴 | vless | 3YED | 19",
+                "🇮🇷IR | 🔴 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
@@ -236,7 +236,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇨🇦CA | 🔴 | vless | 3YED | 19",
+                "🇮🇷IR | 🔴 | vless | 3YED | 16",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
                 "🇳🇱NL | 🔴 | vless | 3YED | 11",
@@ -1495,17 +1495,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3YED | 19",
+            "tag": "🇮🇷IR | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "m15a.vip784.com",
-            "server_port": 33801,
-            "uuid": "a0c968aa-6723-404e-93e2-5987593a7f19",
+            "server": "62.60.192.209",
+            "server_port": 80,
+            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "62.60.192.209"
+                }
             }
         },
         {
