@@ -107,14 +107,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇵🇱PL | 🟢 | vmess | 3YED | 10",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 10",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 6"
             ]
         },
         {
@@ -122,14 +121,13 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 3",
                 "🇺🇸US | 🟢 | vmess | 3YED | 6",
-                "🇫🇷FR | 🟢 | vmess | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
-                "🇵🇱PL | 🟢 | vmess | 3YED | 10",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 10",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 5",
-                "🇺🇸US | 🟢 | vmess | 3YED | 6"
+                "🇨🇳CN | 🟢 | vmess | 3YED | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,7 +167,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 2",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
             "server": "lammaland.org",
             "server_port": 443,
@@ -226,40 +224,6 @@ https://github.com/3yed-61
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 17",
-            "type": "vmess",
-            "server": "141.94.155.228",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kampong.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kampong.org"
                 }
             }
         },
@@ -322,7 +286,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vmess | 3YED | 10",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 10",
             "type": "vmess",
             "server": "kampong.org",
             "server_port": 443,
@@ -358,8 +322,8 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "183.236.48.163",
-            "server_port": 40002,
+            "server": "120.232.153.27",
+            "server_port": 58002,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
@@ -373,13 +337,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "104.17.237.149",
-            "server_port": 80,
-            "uuid": "c169bbd5-db15-40db-ba8f-490ebbb76492",
+            "server": "183.236.48.163",
+            "server_port": 40002,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -387,13 +351,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
-                "headers": {
-                    "Host": ""
-                }
             }
         }
     ],
