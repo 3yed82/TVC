@@ -107,13 +107,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 1",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 7",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 6"
             ]
         },
         {
@@ -121,13 +121,13 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
-                "🇨🇦CA | 🟢 | vmess | 3YED | 1",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 1",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 9",
-                "🇬🇧GB | 🟢 | vmess | 3YED | 7",
-                "🇳🇱NL | 🟢 | vmess | 3YED | 8"
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇨🇦CA | 🟢 | vmess | 3YED | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -167,7 +167,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 1",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 1",
             "type": "vmess",
             "server": "lammaland.org",
             "server_port": 443,
@@ -320,13 +320,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vmess | 3YED | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
-            "server": "masjide.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "104.17.237.149",
+            "server_port": 80,
+            "uuid": "c169bbd5-db15-40db-ba8f-490ebbb76492",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -335,30 +335,20 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "masjide.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
                 "headers": {
-                    "Host": "masjide.org"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | 3YED | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
-            "server": "45.149.12.84",
+            "server": "23.162.200.94",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -381,7 +371,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws#",
+                "path": "\/linkvws",
                 "headers": {
                     "Host": ""
                 }
