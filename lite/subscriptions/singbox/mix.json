@@ -166,8 +166,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇫🇮FI | 🔴 | vless | 3YED | 15",
-                "🇫🇮FI | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
@@ -179,8 +179,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 24",
                 "🇳🇱NL | 🟢 | ss | 3YED | 25",
-                "🇫🇷FR | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
+                "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -256,8 +256,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
-                "🇫🇮FI | 🔴 | vless | 3YED | 15",
-                "🇫🇮FI | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 16",
+                "🇬🇧GB | 🔴 | vless | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
@@ -269,8 +269,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 24",
                 "🇳🇱NL | 🟢 | ss | 3YED | 25",
-                "🇫🇷FR | 🔴 | vless | 3YED | 8",
                 "🇸🇪SE | 🔴 | vless | 3YED | 9",
+                "🇩🇪DE | 🔴 | vless | 3YED | 10",
                 "🇺🇸US | 🔴 | vless | 3YED | 18",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -1596,45 +1596,61 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 15",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 16",
             "type": "vless",
-            "server": "157.180.81.19",
-            "server_port": 8080,
-            "uuid": "e46eaad2-7b77-415f-8e5f-6e69d671e614",
-            "flow": "",
+            "server": "v2ngfaet.xero-network.ir",
+            "server_port": 1146,
+            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew",
+                    "short_id": "077dc29a23d311f2"
+                }
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | 3YED | 16",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "157.180.81.19",
-            "server_port": 8080,
-            "uuid": "bc5ce0b3-87d2-4879-a3c9-e4c06bde72c9",
-            "flow": "",
+            "server": "v2ngnet.xero-network.ir",
+            "server_port": 4455,
+            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
             }
         },
         {
@@ -1889,11 +1905,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 8",
+            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 9",
             "type": "vless",
-            "server": "51.91.141.226",
-            "server_port": 24830,
-            "uuid": "ec6ecb01-c532-4926-81dc-31592ba50c72",
+            "server": "141.227.160.228",
+            "server_port": 31846,
+            "uuid": "d4163749-abe1-4f84-a8c9-4972795892f2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1910,11 +1926,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3YED | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 10",
             "type": "vless",
-            "server": "141.227.160.228",
-            "server_port": 31846,
-            "uuid": "d4163749-abe1-4f84-a8c9-4972795892f2",
+            "server": "51.89.118.126",
+            "server_port": 25369,
+            "uuid": "5fda29b6-0688-44e3-afdf-df533c800109",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1924,7 +1940,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
