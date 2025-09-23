@@ -109,11 +109,13 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 18",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 19",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5"
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ]
         },
         {
@@ -123,11 +125,13 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3YED | 17",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 0",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 8",
+                "🇫🇷FR | 🟢 | vmess | 3YED | 18",
+                "🇩🇪DE | 🟢 | vmess | 3YED | 19",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇺🇸US | 🟢 | vmess | 3YED | 9",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
-                "🇺🇸US | 🟢 | vmess | 3YED | 5"
+                "❔XX | 🟢 | vmess | 3YED | 2",
+                "🇺🇸US | 🟢 | vmess | 3YED | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -235,6 +239,74 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇫🇷FR | 🟢 | vmess | 3YED | 18",
+            "type": "vmess",
+            "server": "91.134.8.92",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yichueng.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "yichueng.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3YED | 19",
+            "type": "vmess",
+            "server": "57.129.28.64",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "serkat.org"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | 3YED | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -320,11 +392,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "tag": "❔XX | 🟢 | vmess | 3YED | 2",
             "type": "vmess",
-            "server": "141.11.251.231",
-            "server_port": 52728,
-            "uuid": "d5e16b83-7b5c-45ea-d749-d6f6ad214447",
+            "server": "v037.emovpn.xyz",
+            "server_port": 8443,
+            "uuid": "774e6b6e-54e4-43bf-b246-43d93db5b6e0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -334,12 +406,29 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v037.emovpn.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "v037.emovpn.xyz"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
             "type": "vmess",
-            "server": "fbi.gov",
+            "server": "ip.sb",
             "server_port": 2082,
             "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
@@ -356,7 +445,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "fbi.gov"
+                    "Host": "ip.sb"
                 }
             }
         }
