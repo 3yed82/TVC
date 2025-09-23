@@ -109,7 +109,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🟢 | vless | 3YED | 3",
+                "❔XX | 🟢 | vless | 3YED | 3",
                 "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "❔XX | 🟢 | vless | 3YED | 0",
@@ -136,10 +136,9 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 31",
                 "🇷🇺RU | 🟢 | vless | 3YED | 37",
                 "🇷🇺RU | 🟢 | vless | 3YED | 39",
-                "🇺🇦UA | 🟢 | vless | 3YED | 11",
-                "🇹🇷TR | 🟢 | vless | 3YED | 0",
-                "🇩🇪DE | 🟢 | vless | 3YED | 3",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "🇺🇦UA | 🟢 | vless | 3YED | 5",
+                "🇺🇦UA | 🟢 | vless | 3YED | 4",
+                "🇩🇪DE | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
@@ -172,7 +171,7 @@
                 "🇩🇪DE | 🔴 | vless | 3YED | 8",
                 "🇩🇪DE | 🔴 | vless | 3YED | 13",
                 "❔XX | 🔴 | vless | 3YED | 0",
-                "🇺🇸US | 🟢 | vless | 3YED | 3",
+                "❔XX | 🟢 | vless | 3YED | 3",
                 "❔XX | 🟢 | vless | 3YED | 4",
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "❔XX | 🟢 | vless | 3YED | 0",
@@ -199,10 +198,9 @@
                 "🇳🇱NL | 🔴 | vless | 3YED | 31",
                 "🇷🇺RU | 🟢 | vless | 3YED | 37",
                 "🇷🇺RU | 🟢 | vless | 3YED | 39",
-                "🇺🇦UA | 🟢 | vless | 3YED | 11",
-                "🇹🇷TR | 🟢 | vless | 3YED | 0",
-                "🇩🇪DE | 🟢 | vless | 3YED | 3",
-                "🇩🇪DE | 🔴 | vless | 3YED | 8",
+                "🇺🇦UA | 🟢 | vless | 3YED | 5",
+                "🇺🇦UA | 🟢 | vless | 3YED | 4",
+                "🇩🇪DE | 🟢 | vless | 3YED | 6",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 12",
@@ -370,7 +368,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3YED | 3",
+            "tag": "❔XX | 🟢 | vless | 3YED | 3",
             "type": "vless",
             "server": "prteam.darkping.net",
             "server_port": 2422,
@@ -1167,7 +1165,7 @@
             }
         },
         {
-            "tag": "🇺🇦UA | 🟢 | vless | 3YED | 11",
+            "tag": "🇺🇦UA | 🟢 | vless | 3YED | 5",
             "type": "vless",
             "server": "185.126.255.180",
             "server_port": 443,
@@ -1196,11 +1194,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3YED | 0",
+            "tag": "🇺🇦UA | 🟢 | vless | 3YED | 4",
             "type": "vless",
-            "server": "tru-server1-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "ee2a2581-ac81-4a3d-9650-c2f03d6cb3ab",
+            "server": "185.126.255.180",
+            "server_port": 443,
+            "uuid": "387d6d9a-5594-4b2a-a60d-5b2cb1f57638",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1210,7 +1208,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 6",
+            "type": "vless",
+            "server": "91.107.133.86",
+            "server_port": 443,
+            "uuid": "00197191-973a-4b98-b369-05bf0f7c88c6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1219,66 +1246,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | 3YED | 3",
-            "type": "vless",
-            "server": "Ger-server3-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "ee2a2581-ac81-4a3d-9650-c2f03d6cb3ab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3YED | 8",
-            "type": "vless",
-            "server": "185.113.10.132",
-            "server_port": 8650,
-            "uuid": "2ec7c638-3143-4b2b-8df2-81230280b07d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
-                    "short_id": "354b9cbe48"
+                    "public_key": "HpkseeBLIDHSe_9Kd_PawJ2YJhL--LPlI5r7C1N8bSs",
+                    "short_id": "e979a6eb"
                 }
             }
         },
