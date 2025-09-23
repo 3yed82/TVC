@@ -111,6 +111,8 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇷🇺RU | 🟢 | vless | 3YED | 39",
+                "🇺🇦UA | 🟢 | vless | 3YED | 14",
+                "🇳🇱NL | 🟢 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -127,6 +129,8 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🔴 | vless | 3YED | 5",
                 "🇩🇪DE | 🔴 | vless | 3YED | 17",
                 "🇷🇺RU | 🟢 | vless | 3YED | 39",
+                "🇺🇦UA | 🟢 | vless | 3YED | 14",
+                "🇳🇱NL | 🟢 | vless | 3YED | 15",
                 "🇩🇪DE | 🔴 | vless | 3YED | 9",
                 "❔XX | 🔴 | vless | 3YED | 20",
                 "❔XX | 🔴 | vless | 3YED | 21",
@@ -302,6 +306,64 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇦UA | 🟢 | vless | 3YED | 14",
+            "type": "vless",
+            "server": "185.126.255.180",
+            "server_port": 443,
+            "uuid": "387d6d9a-5594-4b2a-a60d-5b2cb1f57638",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | 3YED | 15",
+            "type": "vless",
+            "server": "net-server1-panyous.tap30.sbs",
+            "server_port": 2560,
+            "uuid": "ee2a2581-ac81-4a3d-9650-c2f03d6cb3ab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
