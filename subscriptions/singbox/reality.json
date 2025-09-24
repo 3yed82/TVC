@@ -140,10 +140,11 @@
                 "🇬🇧GB | 🟢 | vless | 3YED | 3",
                 "🇮🇹IT | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🟢 | vless | 3YED | 5",
+                "🇬🇧GB | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇺🇦UA | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
-                "🇬🇧GB | 🔴 | vless | 3YED | 7",
-                "❔XX | 🔴 | vless | 3YED | 8",
-                "🇷🇺RU | 🟢 | vless | 3YED | 15",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "🇳🇱NL | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
@@ -207,10 +208,11 @@
                 "🇬🇧GB | 🟢 | vless | 3YED | 3",
                 "🇮🇹IT | 🟢 | vless | 3YED | 11",
                 "🇩🇪DE | 🟢 | vless | 3YED | 5",
+                "🇬🇧GB | 🔴 | vless | 3YED | 2",
+                "🇬🇧GB | 🔴 | vless | 3YED | 3",
+                "🇺🇦UA | 🟢 | vless | 3YED | 5",
                 "🇬🇧GB | 🔴 | vless | 3YED | 6",
-                "🇬🇧GB | 🔴 | vless | 3YED | 7",
-                "❔XX | 🔴 | vless | 3YED | 8",
-                "🇷🇺RU | 🟢 | vless | 3YED | 15",
+                "❔XX | 🔴 | vless | 3YED | 7",
                 "🇳🇱NL | 🔴 | vless | 3YED | 6",
                 "🇺🇸US | 🟢 | vless | 3YED | 0",
                 "🇩🇪DE | 🔴 | vless | 3YED | 14",
@@ -1284,7 +1286,36 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 6",
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 2",
+            "type": "vless",
+            "server": "v2ngfaet.xero-network.ir",
+            "server_port": 1146,
+            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 3",
             "type": "vless",
             "server": "V2rayNGSelllBoT.xero-network.ir",
             "server_port": 2020,
@@ -1313,7 +1344,36 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 7",
+            "tag": "🇺🇦UA | 🟢 | vless | 3YED | 5",
+            "type": "vless",
+            "server": "185.126.255.180",
+            "server_port": 443,
+            "uuid": "387d6d9a-5594-4b2a-a60d-5b2cb1f57638",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 6",
             "type": "vless",
             "server": "v2ngnet.xero-network.ir",
             "server_port": 4455,
@@ -1342,7 +1402,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3YED | 8",
+            "tag": "❔XX | 🔴 | vless | 3YED | 7",
             "type": "vless",
             "server": "masterserver1.heloisfood.ir",
             "server_port": 1331,
@@ -1367,35 +1427,6 @@
                     "enabled": true,
                     "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
                     "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | 3YED | 15",
-            "type": "vless",
-            "server": "80.249.131.7",
-            "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wa.sfasti.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
                 }
             }
         },
