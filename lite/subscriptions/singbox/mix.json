@@ -163,13 +163,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | trojan | 3YED | 4",
-                "🇬🇧GB | 🔴 | vless | 3YED | 5",
+                "🇫🇷FR | 🔴 | vless | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇵🇱PL | 🔴 | vless | 3YED | 12",
                 "🇫🇷FR | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -252,13 +251,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🔴 | vless | 3YED | 18",
                 "🇺🇸US | 🔴 | vless | 3YED | 11",
                 "🇺🇸US | 🔴 | vless | 3YED | 12",
-                "🇺🇸US | 🟢 | trojan | 3YED | 4",
-                "🇬🇧GB | 🔴 | vless | 3YED | 5",
+                "🇫🇷FR | 🔴 | vless | 3YED | 17",
                 "❔XX | 🟢 | vmess | 3YED | 4",
                 "🇺🇸US | 🟢 | vmess | 3YED | 5",
                 "🇩🇪DE | 🟢 | vmess | 3YED | 10",
-                "🇺🇸US | 🟢 | vmess | 3YED | 3",
-                "🇺🇸US | 🟢 | vmess | 3YED | 4",
+                "🇺🇸US | 🟢 | vmess | 3YED | 5",
+                "🇺🇸US | 🟢 | vmess | 3YED | 6",
                 "🇵🇱PL | 🔴 | vless | 3YED | 12",
                 "🇫🇷FR | 🔴 | vless | 3YED | 13",
                 "🇺🇸US | 🔴 | vless | 3YED | 14",
@@ -1535,54 +1533,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | trojan | 3YED | 4",
-            "type": "trojan",
-            "server": "51.81.203.233",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rs4.freeguard.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | 3YED | 5",
+            "tag": "🇫🇷FR | 🔴 | vless | 3YED | 17",
             "type": "vless",
-            "server": "V2rayNGSelllBoT.xero-network.ir",
-            "server_port": 2020,
-            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
-            "flow": "xtls-rprx-vision",
+            "server": "51.178.223.140",
+            "server_port": 19822,
+            "uuid": "c79bbc2d-a020-4a2a-b12d-c288e018d9a0",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "a2SqqE7A-8zwXGi3gAxvKsovLL4mI4E3LORJAU8PZkY",
-                    "short_id": "077dc29a23d311f2"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1678,7 +1646,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 5",
             "type": "vmess",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1712,7 +1680,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3YED | 6",
             "type": "vmess",
             "server": "104.21.8.157",
             "server_port": 2082,
